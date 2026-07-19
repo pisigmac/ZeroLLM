@@ -1,0 +1,304 @@
+[
+  {
+    "id": "groq",
+    "name": "Groq",
+    "slug": "groq",
+    "baseUrl": "https://api.groq.com/openai/v1",
+    "apiKeyUrl": "https://console.groq.com/keys",
+    "docsUrl": "https://console.groq.com/docs/quickstart",
+    "tierType": "permanent",
+    "creditCardRequired": false,
+    "phoneVerificationRequired": false,
+    "capabilities": [
+      "text",
+      "code"
+    ],
+    "freeModelCount": 4,
+    "onlineModelCount": 4,
+    "notes": "Extremely fast inference engine. Free tier has generous rate limits.",
+    "lastSyncedAt": "2026-06-27T18:00:00Z"
+  },
+  {
+    "id": "gemini",
+    "name": "Google Gemini",
+    "slug": "gemini",
+    "baseUrl": "https://generativelanguage.googleapis.com",
+    "apiKeyUrl": "https://aistudio.google.com/",
+    "docsUrl": "https://ai.google.dev/gemini-api/docs",
+    "tierType": "permanent",
+    "creditCardRequired": false,
+    "phoneVerificationRequired": false,
+    "capabilities": [
+      "text",
+      "code",
+      "audio",
+      "video",
+      "image",
+      "pdf"
+    ],
+    "freeModelCount": 3,
+    "onlineModelCount": 3,
+    "notes": "Multimodal input capabilities with massive context windows (up to 2M tokens on Gemini 1.5 Pro).",
+    "lastSyncedAt": "2026-07-06T08:14:54.978Z"
+  },
+  {
+    "id": "openrouter",
+    "name": "OpenRouter",
+    "slug": "openrouter",
+    "baseUrl": "https://openrouter.ai/api/v1",
+    "apiKeyUrl": "https://openrouter.ai/keys",
+    "docsUrl": "https://openrouter.ai/docs",
+    "tierType": "permanent",
+    "creditCardRequired": false,
+    "phoneVerificationRequired": false,
+    "capabilities": [
+      "text",
+      "code",
+      "reasoning"
+    ],
+    "freeModelCount": 8,
+    "onlineModelCount": 8,
+    "notes": "Aggregator offering free access to popular open models like Llama 3.1, Gemma 2, and others.",
+    "lastSyncedAt": "2026-07-06T08:14:55.603Z"
+  },
+  {
+    "id": "github",
+    "name": "GitHub Models",
+    "slug": "github",
+    "baseUrl": "https://models.inference.ai.azure.com",
+    "apiKeyUrl": "https://github.com/settings/tokens",
+    "docsUrl": "https://docs.github.com/en/site-policy/github-terms/github-marketplace-terms-of-service",
+    "tierType": "permanent",
+    "creditCardRequired": false,
+    "phoneVerificationRequired": false,
+    "capabilities": [
+      "text",
+      "code",
+      "reasoning",
+      "pdf"
+    ],
+    "freeModelCount": 10,
+    "onlineModelCount": 10,
+    "notes": "Free playground and API access for GitHub developers. Uses standard Personal Access Tokens.",
+    "lastSyncedAt": "2026-06-27T18:00:00Z"
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral AI",
+    "slug": "mistral",
+    "baseUrl": "https://api.mistral.ai/v1",
+    "apiKeyUrl": "https://console.mistral.ai/api-keys",
+    "docsUrl": "https://docs.mistral.ai/",
+    "tierType": "permanent",
+    "creditCardRequired": false,
+    "phoneVerificationRequired": true,
+    "capabilities": [
+      "text",
+      "code"
+    ],
+    "freeModelCount": 3,
+    "onlineModelCount": 3,
+    "notes": "La Plateforme free tier provides access to Mistral Large, Codestral, and Mistral Nemo.",
+    "lastSyncedAt": "2026-06-27T18:00:00Z"
+  },
+  {
+    "id": "cohere",
+    "name": "Cohere",
+    "slug": "cohere",
+    "baseUrl": "https://api.cohere.com/v1",
+    "apiKeyUrl": "https://dashboard.cohere.com/api-keys",
+    "docsUrl": "https://docs.cohere.com/",
+    "tierType": "permanent",
+    "creditCardRequired": false,
+    "phoneVerificationRequired": false,
+    "capabilities": [
+      "text",
+      "code",
+      "embedding",
+      "rerank"
+    ],
+    "freeModelCount": 4,
+    "onlineModelCount": 4,
+    "notes": "Generous non-production/developer trial keys. Great for search and RAG applications.",
+    "lastSyncedAt": "2026-06-27T18:00:00Z"
+  },
+  {
+    "id": "cerebras",
+    "name": "Cerebras",
+    "slug": "cerebras",
+    "baseUrl": "https://api.cerebras.ai/v1",
+    "apiKeyUrl": "https://cloud.cerebras.ai/",
+    "docsUrl": "https://docs.cerebras.ai/",
+    "tierType": "permanent",
+    "creditCardRequired": false,
+    "phoneVerificationRequired": false,
+    "capabilities": [
+      "text",
+      "code"
+    ],
+    "freeModelCount": 3,
+    "onlineModelCount": 3,
+    "notes": "Llama 3.1 inference running at extreme speeds (up to 2000 tokens/sec) on CS-3 wafer-scale engine.",
+    "lastSyncedAt": "2026-06-27T18:00:00Z"
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA NIM",
+    "slug": "nvidia",
+    "baseUrl": "https://integrate.api.nvidia.com/v1",
+    "apiKeyUrl": "https://build.nvidia.com/",
+    "docsUrl": "https://docs.nvidia.com/nim/",
+    "tierType": "credits",
+    "creditCardRequired": false,
+    "phoneVerificationRequired": true,
+    "capabilities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "freeModelCount": 5,
+    "onlineModelCount": 5,
+    "notes": "Provides 1,000 free API call credits upon registration. Good for testing highly optimized NIM containers.",
+    "lastSyncedAt": "2026-06-27T18:00:00Z"
+  },
+  {
+    "id": "huggingface",
+    "name": "Hugging Face",
+    "slug": "huggingface",
+    "baseUrl": "https://api-inference.huggingface.co/models",
+    "apiKeyUrl": "https://huggingface.co/settings/tokens",
+    "docsUrl": "https://huggingface.co/docs/api-inference/index",
+    "tierType": "permanent",
+    "creditCardRequired": false,
+    "phoneVerificationRequired": false,
+    "capabilities": [
+      "text",
+      "image",
+      "audio",
+      "code",
+      "embedding"
+    ],
+    "freeModelCount": 6,
+    "onlineModelCount": 6,
+    "notes": "Free serverless inference API. Good for hosting-free prototype development.",
+    "lastSyncedAt": "2026-06-27T18:00:00Z"
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI (Direct)",
+    "slug": "openai",
+    "baseUrl": "https://api.openai.com/v1",
+    "apiKeyUrl": "https://platform.openai.com/api-keys",
+    "docsUrl": "https://platform.openai.com/docs/overview",
+    "tierType": "credits",
+    "creditCardRequired": true,
+    "phoneVerificationRequired": true,
+    "capabilities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "freeModelCount": 0,
+    "onlineModelCount": 3,
+    "notes": "Direct OpenAI commercial account usage with standard developer API keys.",
+    "lastSyncedAt": "2026-06-27T18:00:00Z"
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic (Direct)",
+    "slug": "anthropic",
+    "baseUrl": "https://api.anthropic.com",
+    "apiKeyUrl": "https://console.anthropic.com/settings/keys",
+    "docsUrl": "https://docs.anthropic.com/en/api/getting-started",
+    "tierType": "credits",
+    "creditCardRequired": true,
+    "phoneVerificationRequired": true,
+    "capabilities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "freeModelCount": 0,
+    "onlineModelCount": 2,
+    "notes": "Direct Anthropic commercial usage with custom messages payload streaming.",
+    "lastSyncedAt": "2026-06-27T18:00:00Z"
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek (Direct)",
+    "slug": "deepseek",
+    "baseUrl": "https://api.deepseek.com",
+    "apiKeyUrl": "https://platform.deepseek.com/api_keys",
+    "docsUrl": "https://api-docs.deepseek.com/",
+    "tierType": "credits",
+    "creditCardRequired": true,
+    "phoneVerificationRequired": false,
+    "capabilities": [
+      "text",
+      "code",
+      "reasoning"
+    ],
+    "freeModelCount": 0,
+    "onlineModelCount": 2,
+    "notes": "Direct DeepSeek developer account interface.",
+    "lastSyncedAt": "2026-06-27T18:00:00Z"
+  },
+  {
+    "id": "kimi",
+    "name": "Moonshot Kimi (Direct)",
+    "slug": "kimi",
+    "baseUrl": "https://api.moonshot.cn/v1",
+    "apiKeyUrl": "https://platform.moonshot.cn/console/api-keys",
+    "docsUrl": "https://platform.moonshot.cn/docs/guide/quick-start",
+    "tierType": "credits",
+    "creditCardRequired": true,
+    "phoneVerificationRequired": true,
+    "capabilities": [
+      "text",
+      "code"
+    ],
+    "freeModelCount": 0,
+    "onlineModelCount": 2,
+    "notes": "Direct Moonshot AI (Kimi) developer portal interface.",
+    "lastSyncedAt": "2026-06-27T18:00:00Z"
+  },
+  {
+    "id": "zhipu",
+    "name": "Zhipu GLM (Direct)",
+    "slug": "zhipu",
+    "baseUrl": "https://open.bigmodel.cn/api/paas/v4",
+    "apiKeyUrl": "https://open.bigmodel.cn/user-center/apikeys",
+    "docsUrl": "https://open.bigmodel.cn/dev/api",
+    "tierType": "credits",
+    "creditCardRequired": false,
+    "phoneVerificationRequired": true,
+    "capabilities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "freeModelCount": 1,
+    "onlineModelCount": 6,
+    "notes": "Direct Zhipu AI GLM model access with standard developer API keys.",
+    "lastSyncedAt": "2026-06-27T18:00:00Z"
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama (Local)",
+    "slug": "ollama",
+    "baseUrl": "http://localhost:11434/v1",
+    "apiKeyUrl": "",
+    "docsUrl": "https://github.com/ollama/ollama",
+    "tierType": "permanent",
+    "creditCardRequired": false,
+    "phoneVerificationRequired": false,
+    "capabilities": [
+      "text",
+      "code"
+    ],
+    "freeModelCount": 3,
+    "onlineModelCount": 3,
+    "notes": "Local offline LLM execution framework.",
+    "lastSyncedAt": "2026-06-27T18:00:00Z"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "name": "free_model",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:all": "concurrently \"npm run dev\" \"bash scripts/start-orchestrator.sh\"",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "sync": "tsx scripts/sync.ts",
+    "verify": "tsx scripts/verify.ts"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^17.4.2",
+    "fuse.js": "^7.4.2",
+    "lucide-react": "^1.21.0",
+    "next": "16.2.9",
+    "next-auth": "5.0.0-beta.31",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "tailwind-merge": "^3.6.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "concurrently": "^8.2.2",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.9",
+    "tailwindcss": "^4",
+    "tsx": "^4.22.4",
+    "typescript": "^5"
+  }
+}
