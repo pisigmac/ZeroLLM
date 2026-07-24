@@ -189,12 +189,13 @@
     ],
     "rateLimit": "15 RPM, 150 RPD",
     "score": 94,
-    "status": "online",
-    "verified": true,
+    "status": "offline",
+    "verified": false,
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-06-27T18:00:00Z"
+    "lastVerifiedAt": "2026-07-24T17:34:37.295Z",
+    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
     "id": "github/gpt-4o-mini",
@@ -211,12 +212,13 @@
     ],
     "rateLimit": "15 RPM, 150 RPD",
     "score": 90,
-    "status": "online",
-    "verified": true,
+    "status": "offline",
+    "verified": false,
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-06-27T18:00:00Z"
+    "lastVerifiedAt": "2026-07-24T17:34:38.383Z",
+    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
     "id": "github/meta-llama-3.1-70b-instruct",
@@ -231,12 +233,13 @@
     ],
     "rateLimit": "15 RPM, 150 RPD",
     "score": 88,
-    "status": "online",
-    "verified": true,
+    "status": "offline",
+    "verified": false,
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-06-27T18:00:00Z"
+    "lastVerifiedAt": "2026-07-24T17:34:39.390Z",
+    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
     "id": "mistral/mistral-large-latest",
@@ -572,7 +575,7 @@
     "providerId": "openrouter",
     "name": "NVIDIA: Nemotron 3 Super (free)",
     "modelId": "nvidia/nemotron-3-super-120b-a12b:free",
-    "contextWindow": 1000000,
+    "contextWindow": 262144,
     "maxOutputTokens": 4096,
     "modalities": [
       "text",
@@ -582,7 +585,7 @@
     "verified": false,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 100,
+    "score": 96,
     "releasedAt": "2026-06-27",
     "lastVerifiedAt": "2026-06-27T18:41:44.151Z"
   },
@@ -2084,5 +2087,43 @@
     "score": 96,
     "releasedAt": "2026-07-06",
     "lastVerifiedAt": "2026-07-06T08:14:55.603Z"
+  },
+  {
+    "id": "openrouter/inclusionai/ling-3.0-flash:free",
+    "providerId": "openrouter",
+    "name": "Ling-3.0-flash (free)",
+    "modelId": "inclusionai/ling-3.0-flash:free",
+    "contextWindow": 262144,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": false,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-24",
+    "lastVerifiedAt": "2026-07-24T17:34:36.232Z"
+  },
+  {
+    "id": "openrouter/poolside/laguna-s-2.1:free",
+    "providerId": "openrouter",
+    "name": "Poolside: Laguna S 2.1 (free)",
+    "modelId": "poolside/laguna-s-2.1:free",
+    "contextWindow": 262144,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": false,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-24",
+    "lastVerifiedAt": "2026-07-24T17:34:36.233Z"
   }
 ]
