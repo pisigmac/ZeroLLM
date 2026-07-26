@@ -194,7 +194,7 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-07-25T08:03:58.313Z",
+    "lastVerifiedAt": "2026-07-26T08:23:36.887Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -217,7 +217,7 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-07-25T08:03:59.403Z",
+    "lastVerifiedAt": "2026-07-26T08:23:38.388Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -238,7 +238,7 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-07-25T08:04:00.411Z",
+    "lastVerifiedAt": "2026-07-26T08:23:39.398Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
