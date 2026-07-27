@@ -1,7 +1,8 @@
 {
-  "syncedAt": "2026-07-27T06:20:29.414Z",
-  "totalModels": 550,
-  "onlineModels": 508,
-  "verifiedModels": 508,
-  "providerCount": 15
+  "syncedAt": "2026-07-26T08:23:35.865Z",
+  "totalModels": 101,
+  "onlineModels": 89,
+  "verifiedModels": 60,
+  "providerCount": 15,
+  "verifiedAt": "2026-07-26T08:23:40.409Z"
 }
