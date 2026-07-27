@@ -690,6 +690,17 @@ async function main() {
         const rawLastError = (raw as any).lastError as string | undefined;
         const isOffline = rawStatus === "offline";
 
+        const isExplicitFreeModel =
+          raw.id.endsWith(":free") ||
+          raw.id.toLowerCase().includes("free") ||
+          (raw.name && raw.name.toLowerCase().includes("free")) ||
+          (raw.name && raw.name.toLowerCase().includes("flash"));
+
+        const isFree =
+          provider.tierType !== "credits" ||
+          !provider.creditCardRequired ||
+          isExplicitFreeModel;
+
         const newModel: Model = {
           id: uniqueId,
           providerId: provider.id,
@@ -700,8 +711,8 @@ async function main() {
           modalities: raw.modalities || ["text", "code"],
           status: isOffline ? "offline" : "online",
           verified: !isOffline,
-          freeTier: provider.tierType !== "credits" || !provider.creditCardRequired,
-          noCreditCard: !provider.creditCardRequired,
+          freeTier: isFree,
+          noCreditCard: !provider.creditCardRequired || isExplicitFreeModel,
           score: 50,
           releasedAt: new Date().toISOString().split("T")[0],
           lastVerifiedAt: new Date().toISOString(),

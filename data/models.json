@@ -10250,8 +10250,8 @@
     ],
     "status": "online",
     "verified": true,
-    "freeTier": false,
-    "noCreditCard": false,
+    "freeTier": true,
+    "noCreditCard": true,
     "score": 89,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:49:51.454Z"
