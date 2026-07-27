@@ -13,10 +13,10 @@
       "text",
       "code"
     ],
-    "freeModelCount": 4,
-    "onlineModelCount": 4,
+    "freeModelCount": 17,
+    "onlineModelCount": 17,
     "notes": "Extremely fast inference engine. Free tier has generous rate limits.",
-    "lastSyncedAt": "2026-06-27T18:00:00Z"
+    "lastSyncedAt": "2026-07-27T06:20:29.408Z"
   },
   {
     "id": "gemini",
@@ -36,10 +36,10 @@
       "image",
       "pdf"
     ],
-    "freeModelCount": 3,
-    "onlineModelCount": 3,
+    "freeModelCount": 40,
+    "onlineModelCount": 34,
     "notes": "Multimodal input capabilities with massive context windows (up to 2M tokens on Gemini 1.5 Pro).",
-    "lastSyncedAt": "2026-07-06T08:14:54.978Z"
+    "lastSyncedAt": "2026-07-27T06:20:29.409Z"
   },
   {
     "id": "openrouter",
@@ -56,10 +56,10 @@
       "code",
       "reasoning"
     ],
-    "freeModelCount": 8,
-    "onlineModelCount": 8,
+    "freeModelCount": 31,
+    "onlineModelCount": 17,
     "notes": "Aggregator offering free access to popular open models like Llama 3.1, Gemma 2, and others.",
-    "lastSyncedAt": "2026-07-06T08:14:55.603Z"
+    "lastSyncedAt": "2026-07-27T06:20:29.409Z"
   },
   {
     "id": "github",
@@ -77,10 +77,10 @@
       "reasoning",
       "pdf"
     ],
-    "freeModelCount": 10,
-    "onlineModelCount": 10,
+    "freeModelCount": 9,
+    "onlineModelCount": 9,
     "notes": "Free playground and API access for GitHub developers. Uses standard Personal Access Tokens.",
-    "lastSyncedAt": "2026-06-27T18:00:00Z"
+    "lastSyncedAt": "2026-07-27T06:20:29.409Z"
   },
   {
     "id": "mistral",
@@ -96,10 +96,10 @@
       "text",
       "code"
     ],
-    "freeModelCount": 3,
-    "onlineModelCount": 3,
+    "freeModelCount": 61,
+    "onlineModelCount": 61,
     "notes": "La Plateforme free tier provides access to Mistral Large, Codestral, and Mistral Nemo.",
-    "lastSyncedAt": "2026-06-27T18:00:00Z"
+    "lastSyncedAt": "2026-07-27T06:20:29.409Z"
   },
   {
     "id": "cohere",
@@ -117,10 +117,10 @@
       "embedding",
       "rerank"
     ],
-    "freeModelCount": 4,
-    "onlineModelCount": 4,
+    "freeModelCount": 1,
+    "onlineModelCount": 1,
     "notes": "Generous non-production/developer trial keys. Great for search and RAG applications.",
-    "lastSyncedAt": "2026-06-27T18:00:00Z"
+    "lastSyncedAt": "2026-07-27T06:20:29.409Z"
   },
   {
     "id": "cerebras",
@@ -136,10 +136,10 @@
       "text",
       "code"
     ],
-    "freeModelCount": 3,
-    "onlineModelCount": 3,
+    "freeModelCount": 1,
+    "onlineModelCount": 1,
     "notes": "Llama 3.1 inference running at extreme speeds (up to 2000 tokens/sec) on CS-3 wafer-scale engine.",
-    "lastSyncedAt": "2026-06-27T18:00:00Z"
+    "lastSyncedAt": "2026-07-27T06:20:29.409Z"
   },
   {
     "id": "nvidia",
@@ -156,10 +156,10 @@
       "code",
       "image"
     ],
-    "freeModelCount": 5,
-    "onlineModelCount": 5,
+    "freeModelCount": 201,
+    "onlineModelCount": 201,
     "notes": "Provides 1,000 free API call credits upon registration. Good for testing highly optimized NIM containers.",
-    "lastSyncedAt": "2026-06-27T18:00:00Z"
+    "lastSyncedAt": "2026-07-27T06:20:29.409Z"
   },
   {
     "id": "huggingface",
@@ -178,10 +178,10 @@
       "code",
       "embedding"
     ],
-    "freeModelCount": 6,
-    "onlineModelCount": 6,
+    "freeModelCount": 26,
+    "onlineModelCount": 26,
     "notes": "Free serverless inference API. Good for hosting-free prototype development.",
-    "lastSyncedAt": "2026-06-27T18:00:00Z"
+    "lastSyncedAt": "2026-07-27T06:20:29.409Z"
   },
   {
     "id": "openai",
@@ -199,9 +199,9 @@
       "image"
     ],
     "freeModelCount": 0,
-    "onlineModelCount": 3,
+    "onlineModelCount": 86,
     "notes": "Direct OpenAI commercial account usage with standard developer API keys.",
-    "lastSyncedAt": "2026-06-27T18:00:00Z"
+    "lastSyncedAt": "2026-07-27T06:20:29.409Z"
   },
   {
     "id": "anthropic",
@@ -219,9 +219,9 @@
       "image"
     ],
     "freeModelCount": 0,
-    "onlineModelCount": 2,
-    "notes": "Direct Anthropic commercial usage with custom messages payload streaming.",
-    "lastSyncedAt": "2026-06-27T18:00:00Z"
+    "onlineModelCount": 11,
+    "notes": "Anthropic Claude flagship AI models including Claude 5 (Fable, Mythos, Opus, Sonnet) and Claude 4.5+ lineup with up to 1M token context windows.",
+    "lastSyncedAt": "2026-07-27T06:20:29.409Z"
   },
   {
     "id": "deepseek",
@@ -239,17 +239,17 @@
       "reasoning"
     ],
     "freeModelCount": 0,
-    "onlineModelCount": 2,
+    "onlineModelCount": 4,
     "notes": "Direct DeepSeek developer account interface.",
-    "lastSyncedAt": "2026-06-27T18:00:00Z"
+    "lastSyncedAt": "2026-07-27T06:20:29.409Z"
   },
   {
     "id": "kimi",
     "name": "Moonshot Kimi (Direct)",
     "slug": "kimi",
-    "baseUrl": "https://api.moonshot.cn/v1",
-    "apiKeyUrl": "https://platform.moonshot.cn/console/api-keys",
-    "docsUrl": "https://platform.moonshot.cn/docs/guide/quick-start",
+    "baseUrl": "https://api.moonshot.ai/v1",
+    "apiKeyUrl": "https://platform.kimi.ai/",
+    "docsUrl": "https://platform.kimi.ai/docs/",
     "tierType": "credits",
     "creditCardRequired": true,
     "phoneVerificationRequired": true,
@@ -258,9 +258,9 @@
       "code"
     ],
     "freeModelCount": 0,
-    "onlineModelCount": 2,
+    "onlineModelCount": 8,
     "notes": "Direct Moonshot AI (Kimi) developer portal interface.",
-    "lastSyncedAt": "2026-06-27T18:00:00Z"
+    "lastSyncedAt": "2026-07-27T06:20:29.409Z"
   },
   {
     "id": "zhipu",
@@ -277,10 +277,10 @@
       "code",
       "image"
     ],
-    "freeModelCount": 1,
-    "onlineModelCount": 6,
+    "freeModelCount": 22,
+    "onlineModelCount": 25,
     "notes": "Direct Zhipu AI GLM model access with standard developer API keys.",
-    "lastSyncedAt": "2026-06-27T18:00:00Z"
+    "lastSyncedAt": "2026-07-27T06:20:29.409Z"
   },
   {
     "id": "ollama",
@@ -296,9 +296,9 @@
       "text",
       "code"
     ],
-    "freeModelCount": 3,
-    "onlineModelCount": 3,
+    "freeModelCount": 7,
+    "onlineModelCount": 7,
     "notes": "Local offline LLM execution framework.",
-    "lastSyncedAt": "2026-06-27T18:00:00Z"
+    "lastSyncedAt": "2026-07-27T06:20:29.409Z"
   }
 ]

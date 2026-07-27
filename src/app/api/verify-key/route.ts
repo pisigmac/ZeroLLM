@@ -32,7 +32,11 @@ export async function POST(req: NextRequest) {
         headers["Authorization"] = `Bearer ${apiKey}`;
         break;
       case "kimi":
-        url = "https://api.moonshot.cn/v1/models";
+        url = "https://api.moonshot.ai/v1/models";
+        headers["Authorization"] = `Bearer ${apiKey}`;
+        break;
+      case "nvidia":
+        url = "https://integrate.api.nvidia.com/v1/models";
         headers["Authorization"] = `Bearer ${apiKey}`;
         break;
       case "zhipu":

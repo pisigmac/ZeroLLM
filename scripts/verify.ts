@@ -33,6 +33,8 @@ async function main() {
     nvidia: process.env.NVIDIA_API_KEY,
     github: process.env.GITHUB_TOKEN || process.env.GITHUB_API_KEY,
     huggingface: process.env.HUGGINGFACE_API_KEY,
+    openai: process.env.OPENAI_API_KEY || process.env.OPEN_AI_API_KEY,
+    kimi: process.env.MOONSHOT_API_KEY || process.env.KIMI_API_KEY,
   };
 
   let verifiedCount = 0;

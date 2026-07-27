@@ -37,8 +37,12 @@ export async function POST(req: NextRequest) {
       targetUrl = "https://api.deepseek.com/chat/completions";
       headers["Authorization"] = `Bearer ${apiKey}`;
     } else if (providerId === "kimi") {
-      targetUrl = "https://api.moonshot.cn/v1/chat/completions";
+      targetUrl = "https://api.moonshot.ai/v1/chat/completions";
       headers["Authorization"] = `Bearer ${apiKey}`;
+    } else if (providerId === "nvidia") {
+      targetUrl = "https://integrate.api.nvidia.com/v1/chat/completions";
+      headers["Authorization"] = `Bearer ${apiKey}`;
+      headers["Accept"] = stream ? "text/event-stream" : "application/json";
     } else if (providerId === "gemini") {
       // Gemini OpenAI-compatible path
       targetUrl = `${provider.baseUrl}/v1beta/openai/chat/completions`;
