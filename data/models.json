@@ -2,9 +2,9 @@
   {
     "id": "groq/llama-3.3-70b-versatile",
     "providerId": "groq",
-    "name": "llama-3.3-70b-versatile",
+    "name": "Llama 3.3 70B Versatile",
     "modelId": "llama-3.3-70b-versatile",
-    "contextWindow": 131072,
+    "contextWindow": 128000,
     "maxOutputTokens": 4096,
     "modalities": [
       "text",
@@ -22,27 +22,27 @@
   {
     "id": "groq/gemma2-9b-it",
     "providerId": "groq",
-    "name": "Gemma 2 9B IT",
+    "name": "Gemma 2 9B",
     "modelId": "gemma2-9b-it",
     "contextWindow": 8192,
-    "maxOutputTokens": 8192,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code"
     ],
-    "rateLimit": "30 RPM, 14,400 RPD",
-    "score": 85,
     "status": "online",
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
+    "score": 86,
     "releasedAt": "2024-06-27",
-    "lastVerifiedAt": "2026-06-27T18:00:00Z"
+    "lastVerifiedAt": "2026-06-27T18:00:00Z",
+    "rateLimit": "30 RPM, 14,400 RPD"
   },
   {
     "id": "groq/mixtral-8x7b-32768",
     "providerId": "groq",
-    "name": "Mixtral 8x7B Instruct",
+    "name": "Mixtral 8x7B",
     "modelId": "mixtral-8x7b-32768",
     "contextWindow": 32768,
     "maxOutputTokens": 4096,
@@ -50,64 +50,62 @@
       "text",
       "code"
     ],
-    "rateLimit": "30 RPM, 14,400 RPD",
-    "score": 82,
     "status": "online",
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
+    "score": 91,
     "releasedAt": "2023-12-11",
-    "lastVerifiedAt": "2026-06-27T18:00:00Z"
+    "lastVerifiedAt": "2026-06-27T18:00:00Z",
+    "rateLimit": "30 RPM, 14,400 RPD"
   },
   {
     "id": "gemini/gemini-1.5-flash",
     "providerId": "gemini",
     "name": "Gemini 1.5 Flash",
     "modelId": "gemini-1.5-flash",
-    "contextWindow": 1048576,
+    "contextWindow": 1000000,
     "maxOutputTokens": 8192,
     "modalities": [
       "text",
       "code",
-      "audio",
-      "video",
       "image",
+      "video",
       "pdf"
     ],
-    "rateLimit": "15 RPM, 1,500 RPD",
-    "score": 96,
     "status": "offline",
     "verified": false,
     "freeTier": true,
     "noCreditCard": true,
+    "score": 100,
     "releasedAt": "2024-05-14",
     "lastVerifiedAt": "2026-07-06T08:15:05.686Z",
-    "lastError": "HTTP 404: [{\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1main, or is not supported for generateContent. Call ModelService.ListModels to see the list of a"
+    "lastError": "HTTP 404: [{\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1main, or is not supported for generateContent. Call ModelService.ListModels to see the list of a",
+    "rateLimit": "15 RPM, 1,500 RPD"
   },
   {
     "id": "gemini/gemini-1.5-pro",
     "providerId": "gemini",
     "name": "Gemini 1.5 Pro",
     "modelId": "gemini-1.5-pro",
-    "contextWindow": 2097152,
+    "contextWindow": 2000000,
     "maxOutputTokens": 8192,
     "modalities": [
       "text",
       "code",
-      "audio",
-      "video",
       "image",
+      "video",
       "pdf"
     ],
-    "rateLimit": "2 RPM, 50 RPD",
-    "score": 95,
     "status": "offline",
     "verified": false,
     "freeTier": true,
     "noCreditCard": true,
+    "score": 100,
     "releasedAt": "2024-05-14",
     "lastVerifiedAt": "2026-07-06T08:15:06.853Z",
-    "lastError": "HTTP 503: [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"The service is currently unavailable.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]"
+    "lastError": "HTTP 503: [{\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"The service is currently unavailable.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n]",
+    "rateLimit": "2 RPM, 50 RPD"
   },
   {
     "id": "gemini/gemini-2.0-flash-exp",
@@ -191,7 +189,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-07-26T08:23:36.887Z",
+    "lastVerifiedAt": "2026-07-27T09:48:38.036Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -212,7 +210,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-07-26T08:23:38.388Z",
+    "lastVerifiedAt": "2026-07-27T09:48:39.227Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -234,15 +232,15 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-07-26T08:23:39.398Z",
+    "lastVerifiedAt": "2026-07-27T09:48:40.234Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
     "id": "mistral/mistral-large-latest",
     "providerId": "mistral",
-    "name": "mistral-large-2512",
+    "name": "Mistral Large",
     "modelId": "mistral-large-latest",
-    "contextWindow": 262144,
+    "contextWindow": 128000,
     "maxOutputTokens": 4096,
     "modalities": [
       "text",
@@ -260,19 +258,18 @@
   {
     "id": "mistral/codestral-latest",
     "providerId": "mistral",
-    "name": "codestral-2508",
+    "name": "Codestral",
     "modelId": "codestral-latest",
-    "contextWindow": 256000,
+    "contextWindow": 32768,
     "maxOutputTokens": 4096,
     "modalities": [
-      "text",
       "code"
     ],
     "status": "online",
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 96,
+    "score": 88,
     "releasedAt": "2024-05-29",
     "lastVerifiedAt": "2026-06-27T18:00:00Z",
     "rateLimit": "1 req/sec"
@@ -904,15 +901,14 @@
     "providerId": "gemini",
     "name": "Gemini 2.5 Pro",
     "modelId": "gemini-2.5-pro",
-    "contextWindow": 1048576,
-    "maxOutputTokens": 65536,
+    "contextWindow": 2000000,
+    "maxOutputTokens": 8192,
     "modalities": [
       "text",
       "code",
-      "pdf",
       "image",
       "video",
-      "audio"
+      "pdf"
     ],
     "status": "online",
     "verified": true,
@@ -1223,15 +1219,14 @@
     "providerId": "gemini",
     "name": "Gemini 2.5 Flash",
     "modelId": "gemini-2.5-flash",
-    "contextWindow": 1048576,
-    "maxOutputTokens": 65536,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 8192,
     "modalities": [
       "text",
       "code",
-      "pdf",
       "image",
       "video",
-      "audio"
+      "pdf"
     ],
     "status": "online",
     "verified": true,
@@ -2193,9 +2188,9 @@
   {
     "id": "groq/llama-3.1-8b-instant",
     "providerId": "groq",
-    "name": "llama-3.1-8b-instant",
+    "name": "Llama 3.1 8B Instant",
     "modelId": "llama-3.1-8b-instant",
-    "contextWindow": 131072,
+    "contextWindow": 128000,
     "maxOutputTokens": 4096,
     "modalities": [
       "text",
@@ -2455,13 +2450,14 @@
     "modalities": [
       "embedding"
     ],
-    "status": "online",
-    "verified": true,
+    "status": "offline",
+    "verified": false,
     "freeTier": true,
     "noCreditCard": true,
     "score": 93,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-27T06:49:45.409Z"
+    "lastVerifiedAt": "2026-07-27T09:48:41.243Z",
+    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
     "id": "github/Cohere-embed-v3-multilingual",
@@ -2473,13 +2469,14 @@
     "modalities": [
       "embedding"
     ],
-    "status": "online",
-    "verified": true,
+    "status": "offline",
+    "verified": false,
     "freeTier": true,
     "noCreditCard": true,
     "score": 93,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-27T06:49:45.409Z"
+    "lastVerifiedAt": "2026-07-27T09:48:42.250Z",
+    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
     "id": "github/Meta-Llama-3.1-405B-Instruct",
@@ -2492,13 +2489,14 @@
       "text",
       "code"
     ],
-    "status": "online",
-    "verified": true,
+    "status": "offline",
+    "verified": false,
     "freeTier": true,
     "noCreditCard": true,
     "score": 96,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-27T06:49:45.410Z"
+    "lastVerifiedAt": "2026-07-27T09:48:43.258Z",
+    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
     "id": "github/Meta-Llama-3.1-8B-Instruct",
@@ -2511,13 +2509,14 @@
       "text",
       "code"
     ],
-    "status": "online",
-    "verified": true,
+    "status": "offline",
+    "verified": false,
     "freeTier": true,
     "noCreditCard": true,
     "score": 96,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-27T06:49:45.410Z"
+    "lastVerifiedAt": "2026-07-27T09:48:44.266Z",
+    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
     "id": "github/text-embedding-3-large",
@@ -2529,13 +2528,14 @@
     "modalities": [
       "embedding"
     ],
-    "status": "online",
-    "verified": true,
+    "status": "offline",
+    "verified": false,
     "freeTier": true,
     "noCreditCard": true,
     "score": 93,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-27T06:49:45.410Z"
+    "lastVerifiedAt": "2026-07-27T09:48:45.274Z",
+    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
     "id": "github/text-embedding-3-small",
@@ -2547,13 +2547,14 @@
     "modalities": [
       "embedding"
     ],
-    "status": "online",
-    "verified": true,
+    "status": "offline",
+    "verified": false,
     "freeTier": true,
     "noCreditCard": true,
     "score": 93,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-27T06:49:45.410Z"
+    "lastVerifiedAt": "2026-07-27T09:48:46.282Z",
+    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
     "id": "mistral/mistral-medium-2505",
@@ -2824,9 +2825,9 @@
   {
     "id": "mistral/mistral-small-latest",
     "providerId": "mistral",
-    "name": "mistral-small-2603",
+    "name": "Mistral Small",
     "modelId": "mistral-small-latest",
-    "contextWindow": 262144,
+    "contextWindow": 32768,
     "maxOutputTokens": 4096,
     "modalities": [
       "text",
@@ -2836,7 +2837,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 96,
+    "score": 91,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:49:46.024Z"
   },
@@ -12464,7 +12465,7 @@
     "name": "Google: Gemma 4 26B A4B ",
     "modelId": "google/gemma-4-26b-a4b-it",
     "contextWindow": 262144,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code",
@@ -17454,5 +17455,101 @@
     "score": 96,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:56:28.006Z"
+  },
+  {
+    "id": "groq/llama3-70b-8192",
+    "providerId": "groq",
+    "name": "Llama 3 70B",
+    "modelId": "llama3-70b-8192",
+    "contextWindow": 8192,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 86,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T09:48:30.504Z"
+  },
+  {
+    "id": "groq/llama3-8b-8192",
+    "providerId": "groq",
+    "name": "Llama 3 8B",
+    "modelId": "llama3-8b-8192",
+    "contextWindow": 8192,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 86,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T09:48:30.504Z"
+  },
+  {
+    "id": "groq/deepseek-r1-distill-llama-70b",
+    "providerId": "groq",
+    "name": "DeepSeek R1 Distill Llama 70B",
+    "modelId": "deepseek-r1-distill-llama-70b",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T09:48:30.504Z"
+  },
+  {
+    "id": "mistral/open-mistral-7b",
+    "providerId": "mistral",
+    "name": "Mistral 7B",
+    "modelId": "open-mistral-7b",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T09:48:30.685Z"
+  },
+  {
+    "id": "mistral/open-mixtral-8x7b",
+    "providerId": "mistral",
+    "name": "Mixtral 8x7B",
+    "modelId": "open-mixtral-8x7b",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T09:48:30.685Z"
   }
 ]
