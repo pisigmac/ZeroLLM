@@ -31,55 +31,67 @@ function calculateScore(model: Model, provider: Provider): number {
 }
 
 // Fetchers for each provider API
-async function fetchGroq(apiKey: string): Promise<RawModel[]> {
-  const res = await fetch("https://api.groq.com/openai/v1/models", {
-    headers: { Authorization: `Bearer ${apiKey}` },
-  });
-  if (!res.ok) throw new Error(`Groq returned ${res.status}`);
-  const data = await res.json();
-  
-  interface GroqModelRaw {
-    id: string;
-    context_window?: number;
+async function fetchGroq(apiKey: string, baseUrl = "https://api.groq.com/openai/v1"): Promise<RawModel[]> {
+  if (apiKey && apiKey !== "public") {
+    try {
+      const url = `${baseUrl.replace(/\/+$/, "")}/models`;
+      const res = await fetch(url, {
+        headers: { Authorization: `Bearer ${apiKey}` },
+      });
+      if (res.ok) {
+        const data = await res.json();
+        interface GroqModelRaw {
+          id: string;
+          context_window?: number;
+        }
+
+        return ((data.data as GroqModelRaw[]) || []).map((m) => ({
+          id: m.id,
+          name: m.id,
+          contextWindow: m.context_window || 8192,
+          modalities: ["text", "code"] as Modality[],
+        }));
+      }
+    } catch (err) {
+      console.warn("Groq API query failed, using catalog seeds:", err);
+    }
   }
 
-  return (data.data as GroqModelRaw[] || []).map((m) => ({
-    id: m.id,
-    name: m.id.split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" "),
-    contextWindow: m.context_window || 8192,
-    modalities: ["text", "code"] as Modality[],
-  }));
+  return [
+    { id: "llama-3.3-70b-versatile", name: "Llama 3.3 70B Versatile", contextWindow: 128000, modalities: ["text", "code"] as Modality[] },
+    { id: "llama-3.1-8b-instant", name: "Llama 3.1 8B Instant", contextWindow: 128000, modalities: ["text", "code"] as Modality[] },
+    { id: "llama3-70b-8192", name: "Llama 3 70B", contextWindow: 8192, modalities: ["text", "code"] as Modality[] },
+    { id: "llama3-8b-8192", name: "Llama 3 8B", contextWindow: 8192, modalities: ["text", "code"] as Modality[] },
+    { id: "mixtral-8x7b-32768", name: "Mixtral 8x7B", contextWindow: 32768, modalities: ["text", "code"] as Modality[] },
+    { id: "gemma2-9b-it", name: "Gemma 2 9B", contextWindow: 8192, modalities: ["text", "code"] as Modality[] },
+    { id: "deepseek-r1-distill-llama-70b", name: "DeepSeek R1 Distill Llama 70B", contextWindow: 128000, modalities: ["text", "code", "reasoning"] as Modality[] },
+  ];
 }
 
-async function fetchOpenRouter(apiKey?: string): Promise<RawModel[]> {
+async function fetchOpenRouter(apiKey?: string, baseUrl = "https://openrouter.ai/api/v1"): Promise<RawModel[]> {
   const headers: Record<string, string> = {};
   if (apiKey && apiKey !== "public") headers["Authorization"] = `Bearer ${apiKey}`;
-  const res = await fetch("https://openrouter.ai/api/v1/models", { headers });
+  const url = `${baseUrl.replace(/\/+$/, "")}/models`;
+  const res = await fetch(url, { headers });
   if (!res.ok) throw new Error(`OpenRouter returned ${res.status}`);
   const data = await res.json();
   
-  interface OpenRouterRaw {
+  interface OpenRouterModelRaw {
     id: string;
-    name: string;
+    name?: string;
     context_length?: number;
     top_provider?: { max_completion_tokens?: number };
-    architecture?: { input_modalities?: string[] };
-    pricing?: { prompt: string };
+    architecture?: { modality?: string; input_modalities?: string[] };
   }
 
-  // Filter only free models
-  const freeModels = (data.data as OpenRouterRaw[] || []).filter(
-    (m) => m.pricing?.prompt === "0" || m.id.endsWith(":free")
-  );
-  
-  return freeModels.map((m) => {
+  return ((data.data as OpenRouterModelRaw[]) || []).map((m) => {
     const modalities: Modality[] = ["text", "code"];
-    if (m.architecture?.input_modalities?.includes("image")) modalities.push("image");
-    if (m.architecture?.input_modalities?.includes("audio")) modalities.push("audio");
-
+    if (m.architecture?.input_modalities?.includes("image") || m.architecture?.modality?.includes("text->image")) {
+      modalities.push("image");
+    }
     return {
       id: m.id,
-      name: m.name,
+      name: m.name || m.id,
       contextWindow: m.context_length || 4096,
       maxOutputTokens: m.top_provider?.max_completion_tokens || 4096,
       modalities,
@@ -87,89 +99,163 @@ async function fetchOpenRouter(apiKey?: string): Promise<RawModel[]> {
   });
 }
 
-async function fetchMistral(apiKey: string): Promise<RawModel[]> {
-  const res = await fetch("https://api.mistral.ai/v1/models", {
-    headers: { Authorization: `Bearer ${apiKey}` },
-  });
-  if (!res.ok) throw new Error(`Mistral returned ${res.status}`);
-  const data = await res.json();
-
-  interface MistralModelRaw {
-    id: string;
-    name?: string;
-    max_context_length?: number;
+async function fetchCohere(apiKey?: string, baseUrl = "https://api.cohere.com/v1"): Promise<RawModel[]> {
+  if (apiKey && apiKey !== "public") {
+    try {
+      const url = `${baseUrl.replace(/\/+$/, "")}/models`;
+      const res = await fetch(url, {
+        headers: { Authorization: `Bearer ${apiKey}` },
+      });
+      if (res.ok) {
+        const data = await res.json();
+        interface CohereModelRaw {
+          name: string;
+          context_length?: number;
+        }
+        return ((data.models as CohereModelRaw[]) || []).map((m) => ({
+          id: m.name,
+          name: m.name,
+          contextWindow: m.context_length || 128000,
+          modalities: ["text", "code"] as Modality[],
+        }));
+      }
+    } catch (err) {
+      console.warn("Cohere API query failed, using catalog seeds:", err);
+    }
   }
 
-  return (data.data as MistralModelRaw[] || []).map((m) => ({
-    id: m.id,
-    name: m.name || m.id,
-    contextWindow: m.max_context_length || 32768,
-    modalities: ["text", "code"] as Modality[],
-  }));
+  return [
+    { id: "command-r-plus", name: "Command R+", contextWindow: 128000, modalities: ["text", "code"] as Modality[] },
+    { id: "command-r", name: "Command R", contextWindow: 128000, modalities: ["text", "code"] as Modality[] },
+  ];
 }
 
-async function fetchCerebras(apiKey: string): Promise<RawModel[]> {
-  const res = await fetch("https://api.cerebras.ai/v1/models", {
-    headers: { Authorization: `Bearer ${apiKey}` },
-  });
-  if (!res.ok) throw new Error(`Cerebras returned ${res.status}`);
-  const data = await res.json();
+async function fetchMistral(apiKey: string, baseUrl = "https://api.mistral.ai/v1"): Promise<RawModel[]> {
+  if (apiKey && apiKey !== "public") {
+    try {
+      const url = `${baseUrl.replace(/\/+$/, "")}/models`;
+      const res = await fetch(url, {
+        headers: { Authorization: `Bearer ${apiKey}` },
+      });
+      if (res.ok) {
+        const data = await res.json();
+        interface MistralModelRaw {
+          id: string;
+          name?: string;
+          max_context_length?: number;
+        }
 
-  interface CerebrasModelRaw {
-    id: string;
-    name?: string;
+        return ((data.data as MistralModelRaw[]) || []).map((m) => ({
+          id: m.id,
+          name: m.name || m.id,
+          contextWindow: m.max_context_length || 32768,
+          modalities: ["text", "code"] as Modality[],
+        }));
+      }
+    } catch (err) {
+      console.warn("Mistral API query failed, using catalog seeds:", err);
+    }
   }
 
-  return (data.data as CerebrasModelRaw[] || []).map((m) => ({
-    id: m.id,
-    name: m.name || m.id,
-    contextWindow: 8192,
-    modalities: ["text", "code"] as Modality[],
-  }));
+  return [
+    { id: "mistral-large-latest", name: "Mistral Large", contextWindow: 128000, modalities: ["text", "code"] as Modality[] },
+    { id: "mistral-small-latest", name: "Mistral Small", contextWindow: 32768, modalities: ["text", "code"] as Modality[] },
+    { id: "codestral-latest", name: "Codestral", contextWindow: 32768, modalities: ["code"] as Modality[] },
+    { id: "open-mistral-7b", name: "Mistral 7B", contextWindow: 32768, modalities: ["text", "code"] as Modality[] },
+    { id: "open-mixtral-8x7b", name: "Mixtral 8x7B", contextWindow: 32768, modalities: ["text", "code"] as Modality[] },
+  ];
 }
 
-async function fetchGemini(apiKey: string): Promise<RawModel[]> {
-  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${apiKey}`);
-  if (!res.ok) throw new Error(`Gemini returned ${res.status}`);
-  const data = await res.json();
-  
-  interface GeminiModelRaw {
-    name: string;
-    displayName?: string;
-    supportedGenerationMethods?: string[];
-    inputTokenLimit?: number;
-    outputTokenLimit?: number;
+async function fetchCerebras(apiKey: string, baseUrl = "https://api.cerebras.ai/v1"): Promise<RawModel[]> {
+  if (apiKey && apiKey !== "public") {
+    try {
+      const url = `${baseUrl.replace(/\/+$/, "")}/models`;
+      const res = await fetch(url, {
+        headers: { Authorization: `Bearer ${apiKey}` },
+      });
+      if (res.ok) {
+        const data = await res.json();
+        interface CerebrasModelRaw {
+          id: string;
+          name?: string;
+        }
+
+        return ((data.data as CerebrasModelRaw[]) || []).map((m) => ({
+          id: m.id,
+          name: m.name || m.id,
+          contextWindow: 8192,
+          modalities: ["text", "code"] as Modality[],
+        }));
+      }
+    } catch (err) {
+      console.warn("Cerebras API query failed, using catalog seeds:", err);
+    }
   }
 
-  const models = (data.models as GeminiModelRaw[] || []).filter(
-    (m) =>
-      m.supportedGenerationMethods?.includes("generateContent") &&
-      !m.name.toLowerCase().includes("deep-research") &&
-      !m.name.toLowerCase().includes("antigravity") &&
-      !m.name.toLowerCase().includes("tts") &&
-      !m.name.toLowerCase().includes("stt")
-  );
-
-  return models.map((m) => {
-    const cleanId = m.name.replace("models/", "");
-    const modalities: Modality[] = ["text", "code"];
-    if (m.inputTokenLimit && m.inputTokenLimit > 100000) modalities.push("pdf");
-    modalities.push("image", "video", "audio");
-
-    return {
-      id: cleanId,
-      name: m.displayName || cleanId,
-      contextWindow: m.inputTokenLimit || 32768,
-      maxOutputTokens: m.outputTokenLimit || 8192,
-      modalities,
-    };
-  });
+  return [
+    { id: "llama3.1-70b", name: "Cerebras Llama 3.1 70B", contextWindow: 8192, modalities: ["text", "code"] as Modality[] },
+    { id: "llama3.1-8b", name: "Cerebras Llama 3.1 8B", contextWindow: 8192, modalities: ["text", "code"] as Modality[] },
+  ];
 }
 
-async function fetchGitHub(apiKey?: string): Promise<RawModel[]> {
+async function fetchGemini(apiKey: string, baseUrl = "https://generativelanguage.googleapis.com"): Promise<RawModel[]> {
+  if (apiKey && apiKey !== "public") {
+    try {
+      const cleanBase = baseUrl.replace(/\/+$/, "");
+      const url = `${cleanBase}/v1beta/models?key=${apiKey}`;
+      const res = await fetch(url);
+      if (res.ok) {
+        const data = await res.json();
+        interface GeminiModelRaw {
+          name: string;
+          displayName?: string;
+          supportedGenerationMethods?: string[];
+          inputTokenLimit?: number;
+          outputTokenLimit?: number;
+        }
+
+        const models = ((data.models as GeminiModelRaw[]) || []).filter(
+          (m) =>
+            m.supportedGenerationMethods?.includes("generateContent") &&
+            !m.name.toLowerCase().includes("deep-research") &&
+            !m.name.toLowerCase().includes("antigravity") &&
+            !m.name.toLowerCase().includes("tts") &&
+            !m.name.toLowerCase().includes("stt")
+        );
+
+        return models.map((m) => {
+          const cleanId = m.name.replace("models/", "");
+          const modalities: Modality[] = ["text", "code"];
+          if (m.inputTokenLimit && m.inputTokenLimit > 100000) modalities.push("pdf");
+          modalities.push("image", "video", "audio");
+
+          return {
+            id: cleanId,
+            name: m.displayName || cleanId,
+            contextWindow: m.inputTokenLimit || 32768,
+            maxOutputTokens: m.outputTokenLimit || 8192,
+            modalities,
+          };
+        });
+      }
+    } catch (err) {
+      console.warn("Gemini API query failed, using catalog seeds:", err);
+    }
+  }
+
+  return [
+    { id: "gemini-2.5-pro", name: "Gemini 2.5 Pro", contextWindow: 2000000, maxOutputTokens: 8192, modalities: ["text", "code", "image", "video", "pdf"] as Modality[] },
+    { id: "gemini-2.5-flash", name: "Gemini 2.5 Flash", contextWindow: 1000000, maxOutputTokens: 8192, modalities: ["text", "code", "image", "video", "pdf"] as Modality[] },
+    { id: "gemini-1.5-pro", name: "Gemini 1.5 Pro", contextWindow: 2000000, maxOutputTokens: 8192, modalities: ["text", "code", "image", "video", "pdf"] as Modality[] },
+    { id: "gemini-1.5-flash", name: "Gemini 1.5 Flash", contextWindow: 1000000, maxOutputTokens: 8192, modalities: ["text", "code", "image", "video", "pdf"] as Modality[] },
+  ];
+}
+
+async function fetchGitHub(apiKey?: string, baseUrl = "https://models.inference.ai.azure.com"): Promise<RawModel[]> {
   const headers: Record<string, string> = {};
   if (apiKey) headers["Authorization"] = `Bearer ${apiKey}`;
-  const res = await fetch("https://models.inference.ai.azure.com/models", { headers });
+  const url = `${baseUrl.replace(/\/+$/, "")}/models`;
+  const res = await fetch(url, { headers });
   if (!res.ok) throw new Error(`GitHub Models returned ${res.status}`);
   const data = await res.json();
 
@@ -180,7 +266,7 @@ async function fetchGitHub(apiKey?: string): Promise<RawModel[]> {
     task?: string;
   }
 
-  return (data as GitHubModelRaw[] || []).map((m) => ({
+  return ((data as GitHubModelRaw[]) || []).map((m) => ({
     id: m.name || m.id,
     name: m.friendly_name || m.name || m.id,
     contextWindow: 128000,
@@ -188,14 +274,15 @@ async function fetchGitHub(apiKey?: string): Promise<RawModel[]> {
   }));
 }
 
-async function fetchNvidia(apiKey?: string): Promise<RawModel[]> {
+async function fetchNvidia(apiKey?: string, baseUrl = "https://integrate.api.nvidia.com/v1"): Promise<RawModel[]> {
   const modelMap = new Map<string, RawModel>();
 
   // 1. Try fetching from NVIDIA NIM API endpoint
   try {
     const headers: Record<string, string> = {};
     if (apiKey) headers["Authorization"] = `Bearer ${apiKey}`;
-    const res = await fetch("https://integrate.api.nvidia.com/v1/models", { headers });
+    const url = `${baseUrl.replace(/\/+$/, "")}/models`;
+    const res = await fetch(url, { headers });
     if (res.ok) {
       const data = await res.json();
       interface NvidiaModelRaw {
@@ -219,7 +306,7 @@ async function fetchNvidia(apiKey?: string): Promise<RawModel[]> {
     console.warn("NVIDIA NIM API endpoint query skipped/failed:", err);
   }
 
-  // 2. Scrape build.nvidia.com catalog pages (pageSize=96, page=1 & page=2)
+  // 2. Scrape build.nvidia.com catalog pages
   const catalogPages = [
     "https://build.nvidia.com/models?pageSize=96&page=1",
     "https://build.nvidia.com/models?pageSize=96&page=2",
@@ -268,13 +355,13 @@ async function fetchNvidia(apiKey?: string): Promise<RawModel[]> {
   return Array.from(modelMap.values());
 }
 
-async function fetchHuggingFace(apiKey?: string): Promise<RawModel[]> {
-  const headers: Record<string, string> = {};
-  if (apiKey) headers["Authorization"] = `Bearer ${apiKey}`;
-  const res = await fetch(
-    "https://huggingface.co/api/models?pipeline_tag=text-generation&sort=downloads&direction=-1&limit=25",
-    { headers }
-  );
+async function fetchHuggingFace(apiKey?: string, baseUrl = "https://huggingface.co/api/models"): Promise<RawModel[]> {
+  const headers: Record<string, string> = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+  };
+  if (apiKey && apiKey !== "public") headers["Authorization"] = `Bearer ${apiKey}`;
+  const cleanBase = baseUrl.includes("?") ? baseUrl : `${baseUrl}?pipeline_tag=text-generation&sort=downloads&direction=-1&limit=25`;
+  const res = await fetch(cleanBase, { headers });
   if (!res.ok) throw new Error(`HuggingFace returned ${res.status}`);
   const data = await res.json();
 
@@ -282,7 +369,7 @@ async function fetchHuggingFace(apiKey?: string): Promise<RawModel[]> {
     id: string;
   }
 
-  return (data as HFModelRaw[] || []).map((m) => ({
+  return ((data as HFModelRaw[]) || []).map((m) => ({
     id: m.id,
     name: m.id,
     contextWindow: 32768,
@@ -290,8 +377,9 @@ async function fetchHuggingFace(apiKey?: string): Promise<RawModel[]> {
   }));
 }
 
-async function fetchOllama(): Promise<RawModel[]> {
-  const res = await fetch("http://localhost:11434/api/tags");
+async function fetchOllama(baseUrl = "http://localhost:11434"): Promise<RawModel[]> {
+  const cleanBase = baseUrl.replace(/\/v1\/?$/, "").replace(/\/+$/, "");
+  const res = await fetch(`${cleanBase}/api/tags`);
   if (!res.ok) throw new Error(`Ollama returned ${res.status}`);
   const data = await res.json();
 
@@ -299,7 +387,7 @@ async function fetchOllama(): Promise<RawModel[]> {
     name: string;
   }
 
-  return (data.models as OllamaModelRaw[] || []).map((m) => ({
+  return ((data.models as OllamaModelRaw[]) || []).map((m) => ({
     id: m.name,
     name: m.name,
     contextWindow: 32768,
@@ -307,8 +395,9 @@ async function fetchOllama(): Promise<RawModel[]> {
   }));
 }
 
-async function fetchOpenAI(apiKey: string): Promise<RawModel[]> {
-  const res = await fetch("https://api.openai.com/v1/models", {
+async function fetchOpenAI(apiKey: string, baseUrl = "https://api.openai.com/v1"): Promise<RawModel[]> {
+  const url = `${baseUrl.replace(/\/+$/, "")}/models`;
+  const res = await fetch(url, {
     headers: { Authorization: `Bearer ${apiKey}` },
   });
   if (!res.ok) throw new Error(`OpenAI returned ${res.status}`);
@@ -318,9 +407,9 @@ async function fetchOpenAI(apiKey: string): Promise<RawModel[]> {
     id: string;
   }
 
-  const models = (data.data as OpenAIModelRaw[] || []).filter(
+  const models = ((data.data as OpenAIModelRaw[]) || []).filter(
     (m) =>
-      m.id.startsWith("gpt") ||
+      m.id.startsWith("gpt-") ||
       m.id.startsWith("o1") ||
       m.id.startsWith("o3") ||
       m.id.startsWith("chatgpt")
@@ -348,10 +437,9 @@ async function fetchOpenAI(apiKey: string): Promise<RawModel[]> {
   });
 }
 
-async function fetchAnthropic(apiKey?: string): Promise<RawModel[]> {
-  const url = "https://platform.claude.com/docs/en/about-claude/pricing";
+async function fetchAnthropic(apiKey?: string, docsUrl = "https://platform.claude.com/docs/en/about-claude/pricing"): Promise<RawModel[]> {
   try {
-    const res = await fetch(url);
+    const res = await fetch(docsUrl);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const html = await res.text();
 
@@ -399,7 +487,7 @@ async function fetchAnthropic(apiKey?: string): Promise<RawModel[]> {
     { id: "claude-mythos-5", name: "Claude Mythos 5", contextWindow: 1000000, maxOutputTokens: 16384, modalities: ["text", "code", "image", "pdf", "reasoning"] as Modality[] },
     { id: "claude-opus-5", name: "Claude Opus 5", contextWindow: 1000000, maxOutputTokens: 16384, modalities: ["text", "code", "image", "pdf", "reasoning"] as Modality[] },
     { id: "claude-opus-4.8", name: "Claude Opus 4.8", contextWindow: 1000000, maxOutputTokens: 16384, modalities: ["text", "code", "image", "pdf", "reasoning"] as Modality[] },
-    { id: "claude-opus-4.7", name: "Claude Opus 4.7", contextWindow: 1000000, maxOutputTokens: 16384, modalities: ["text", "code", "image", "pdf"] as Modality[] },
+    { id: "claude-opus-4.7", name: "Claude Opus 4.7", contextWindow: 1000000, maxOutputTokens: 16384, modalities: ["text", "code", "image", "pdf", "reasoning"] as Modality[] },
     { id: "claude-opus-4.6", name: "Claude Opus 4.6", contextWindow: 1000000, maxOutputTokens: 16384, modalities: ["text", "code", "image", "pdf"] as Modality[] },
     { id: "claude-opus-4.5", name: "Claude Opus 4.5", contextWindow: 1000000, maxOutputTokens: 16384, modalities: ["text", "code", "image", "pdf"] as Modality[] },
     { id: "claude-sonnet-5", name: "Claude Sonnet 5", contextWindow: 1000000, maxOutputTokens: 16384, modalities: ["text", "code", "image", "pdf"] as Modality[] },
@@ -409,8 +497,9 @@ async function fetchAnthropic(apiKey?: string): Promise<RawModel[]> {
   ];
 }
 
-async function fetchKimi(apiKey: string): Promise<RawModel[]> {
-  const endpoints = ["https://api.moonshot.ai/v1/models", "https://api.moonshot.cn/v1/models"];
+async function fetchKimi(apiKey: string, baseUrl = "https://api.moonshot.ai/v1"): Promise<RawModel[]> {
+  const cleanBase = baseUrl.replace(/\/+$/, "");
+  const endpoints = [`${cleanBase}/models`, "https://api.moonshot.cn/v1/models"];
   for (const url of endpoints) {
     try {
       const controller = new AbortController();
@@ -461,10 +550,9 @@ async function fetchKimi(apiKey: string): Promise<RawModel[]> {
   ];
 }
 
-async function fetchDeepSeek(apiKey?: string): Promise<RawModel[]> {
-  const url = "https://api-docs.deepseek.com/quick_start/pricing/";
+async function fetchDeepSeek(apiKey?: string, docsUrl = "https://api-docs.deepseek.com/quick_start/pricing/"): Promise<RawModel[]> {
   try {
-    const res = await fetch(url);
+    const res = await fetch(docsUrl);
     if (res.ok) {
       const html = await res.text();
       const matches = [...html.matchAll(/deepseek-v4-[a-z0-9-]+/gi)].map((m) => m[0].toLowerCase());
@@ -490,10 +578,9 @@ async function fetchDeepSeek(apiKey?: string): Promise<RawModel[]> {
   ];
 }
 
-async function fetchZhipu(apiKey?: string): Promise<RawModel[]> {
-  const url = "https://docs.z.ai/guides/overview/pricing";
+async function fetchZhipu(apiKey?: string, docsUrl = "https://docs.z.ai/guides/overview/pricing"): Promise<RawModel[]> {
   try {
-    const res = await fetch(url, {
+    const res = await fetch(docsUrl, {
       headers: {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
       },
@@ -574,28 +661,25 @@ async function main() {
 
   for (const provider of providers) {
     const apiKey = (configKeys as Record<string, string | undefined>)[provider.id];
-    if (!apiKey) {
-      console.log(`Skipping sync for '${provider.name}': API key not configured in environment.`);
-      continue;
-    }
 
-    console.log(`Syncing models for '${provider.name}'...`);
+    console.log(`Syncing models for '${provider.name}'... (URL: ${provider.baseUrl || provider.docsUrl})`);
     try {
       let rawModels: RawModel[] = [];
-      if (provider.id === "groq" && apiKey !== "public") rawModels = await fetchGroq(apiKey);
-      else if (provider.id === "openrouter") rawModels = await fetchOpenRouter(apiKey);
-      else if (provider.id === "mistral" && apiKey !== "public") rawModels = await fetchMistral(apiKey);
-      else if (provider.id === "cerebras" && apiKey !== "public") rawModels = await fetchCerebras(apiKey);
-      else if (provider.id === "gemini" && apiKey !== "public") rawModels = await fetchGemini(apiKey);
-      else if (provider.id === "github") rawModels = await fetchGitHub(apiKey === "public" ? undefined : apiKey);
-      else if (provider.id === "nvidia") rawModels = await fetchNvidia(apiKey === "public" ? undefined : apiKey);
-      else if (provider.id === "huggingface") rawModels = await fetchHuggingFace(apiKey === "public" ? undefined : apiKey);
-      else if (provider.id === "ollama") rawModels = await fetchOllama();
-      else if (provider.id === "openai" && apiKey !== "public") rawModels = await fetchOpenAI(apiKey);
-      else if (provider.id === "anthropic") rawModels = await fetchAnthropic(apiKey);
-      else if (provider.id === "kimi" && apiKey !== "public") rawModels = await fetchKimi(apiKey);
-      else if (provider.id === "deepseek") rawModels = await fetchDeepSeek(apiKey === "public" ? undefined : apiKey);
-      else if (provider.id === "zhipu") rawModels = await fetchZhipu(apiKey === "public" ? undefined : apiKey);
+      if (provider.id === "groq") rawModels = await fetchGroq(apiKey || "public", provider.baseUrl);
+      else if (provider.id === "openrouter") rawModels = await fetchOpenRouter(apiKey, provider.baseUrl);
+      else if (provider.id === "mistral") rawModels = await fetchMistral(apiKey || "public", provider.baseUrl);
+      else if (provider.id === "cohere") rawModels = await fetchCohere(apiKey || "public", provider.baseUrl);
+      else if (provider.id === "cerebras") rawModels = await fetchCerebras(apiKey || "public", provider.baseUrl);
+      else if (provider.id === "gemini") rawModels = await fetchGemini(apiKey || "public", provider.baseUrl);
+      else if (provider.id === "github") rawModels = await fetchGitHub(apiKey === "public" ? undefined : apiKey, provider.baseUrl);
+      else if (provider.id === "nvidia") rawModels = await fetchNvidia(apiKey === "public" ? undefined : apiKey, provider.baseUrl);
+      else if (provider.id === "huggingface") rawModels = await fetchHuggingFace(apiKey === "public" ? undefined : apiKey, provider.baseUrl);
+      else if (provider.id === "ollama") rawModels = await fetchOllama(provider.baseUrl);
+      else if (provider.id === "openai") rawModels = await fetchOpenAI(apiKey || "public", provider.baseUrl);
+      else if (provider.id === "anthropic") rawModels = await fetchAnthropic(apiKey, provider.docsUrl);
+      else if (provider.id === "kimi") rawModels = await fetchKimi(apiKey || "public", provider.baseUrl);
+      else if (provider.id === "deepseek") rawModels = await fetchDeepSeek(apiKey === "public" ? undefined : apiKey, provider.docsUrl);
+      else if (provider.id === "zhipu") rawModels = await fetchZhipu(apiKey === "public" ? undefined : apiKey, provider.docsUrl);
 
       console.log(`Found ${rawModels.length} models for ${provider.name}. Merging...`);
 

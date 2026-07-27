@@ -2,7 +2,7 @@
   {
     "id": "groq/llama-3.3-70b-versatile",
     "providerId": "groq",
-    "name": "Llama 3.3 70b Versatile",
+    "name": "llama-3.3-70b-versatile",
     "modelId": "llama-3.3-70b-versatile",
     "contextWindow": 131072,
     "maxOutputTokens": 4096,
@@ -288,34 +288,34 @@
       "text",
       "code"
     ],
-    "rateLimit": "10 RPM, 5000 RPD",
-    "score": 87,
     "status": "online",
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
+    "score": 96,
     "releasedAt": "2024-04-04",
-    "lastVerifiedAt": "2026-06-27T18:00:00Z"
+    "lastVerifiedAt": "2026-06-27T18:00:00Z",
+    "rateLimit": "10 RPM, 5000 RPD"
   },
   {
     "id": "cerebras/llama3.1-70b",
     "providerId": "cerebras",
-    "name": "Llama 3.1 70B (Fast)",
+    "name": "Cerebras Llama 3.1 70B",
     "modelId": "llama3.1-70b",
     "contextWindow": 8192,
-    "maxOutputTokens": 8192,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code"
     ],
-    "rateLimit": "30 RPM",
-    "score": 86,
     "status": "online",
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
+    "score": 86,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-06-27T18:00:00Z"
+    "lastVerifiedAt": "2026-06-27T18:00:00Z",
+    "rateLimit": "30 RPM"
   },
   {
     "id": "nvidia/llama-3.1-nemotron-70b-instruct",
@@ -444,14 +444,13 @@
     "modalities": [
       "text",
       "code",
-      "image",
-      "audio"
+      "image"
     ],
     "status": "online",
     "verified": false,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 100,
+    "score": 99,
     "releasedAt": "2026-06-27",
     "lastVerifiedAt": "2026-06-27T18:41:44.151Z"
   },
@@ -886,7 +885,7 @@
     "name": "OpenAI: GPT-4o",
     "modelId": "openai/gpt-4o",
     "contextWindow": 128000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -894,9 +893,9 @@
     ],
     "status": "online",
     "verified": true,
-    "freeTier": false,
-    "noCreditCard": false,
-    "score": 97,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
     "releasedAt": "2024-05-13",
     "lastVerifiedAt": "2026-06-27T18:00:00Z"
   },
@@ -2137,7 +2136,7 @@
   {
     "id": "groq/whisper-large-v3",
     "providerId": "groq",
-    "name": "Whisper Large V3",
+    "name": "whisper-large-v3",
     "modelId": "whisper-large-v3",
     "contextWindow": 448,
     "maxOutputTokens": 4096,
@@ -2156,7 +2155,7 @@
   {
     "id": "groq/whisper-large-v3-turbo",
     "providerId": "groq",
-    "name": "Whisper Large V3 Turbo",
+    "name": "whisper-large-v3-turbo",
     "modelId": "whisper-large-v3-turbo",
     "contextWindow": 448,
     "maxOutputTokens": 4096,
@@ -2175,7 +2174,7 @@
   {
     "id": "groq/canopylabs/orpheus-arabic-saudi",
     "providerId": "groq",
-    "name": "Canopylabs/orpheus Arabic Saudi",
+    "name": "canopylabs/orpheus-arabic-saudi",
     "modelId": "canopylabs/orpheus-arabic-saudi",
     "contextWindow": 4000,
     "maxOutputTokens": 4096,
@@ -2194,7 +2193,7 @@
   {
     "id": "groq/llama-3.1-8b-instant",
     "providerId": "groq",
-    "name": "Llama 3.1 8b Instant",
+    "name": "llama-3.1-8b-instant",
     "modelId": "llama-3.1-8b-instant",
     "contextWindow": 131072,
     "maxOutputTokens": 4096,
@@ -2213,7 +2212,7 @@
   {
     "id": "groq/openai/gpt-oss-20b",
     "providerId": "groq",
-    "name": "Openai/gpt Oss 20b",
+    "name": "openai/gpt-oss-20b",
     "modelId": "openai/gpt-oss-20b",
     "contextWindow": 131072,
     "maxOutputTokens": 4096,
@@ -2232,7 +2231,7 @@
   {
     "id": "groq/meta-llama/llama-prompt-guard-2-86m",
     "providerId": "groq",
-    "name": "Meta Llama/llama Prompt Guard 2 86m",
+    "name": "meta-llama/llama-prompt-guard-2-86m",
     "modelId": "meta-llama/llama-prompt-guard-2-86m",
     "contextWindow": 512,
     "maxOutputTokens": 4096,
@@ -2251,7 +2250,7 @@
   {
     "id": "groq/groq/compound",
     "providerId": "groq",
-    "name": "Groq/compound",
+    "name": "groq/compound",
     "modelId": "groq/compound",
     "contextWindow": 131072,
     "maxOutputTokens": 4096,
@@ -2270,7 +2269,7 @@
   {
     "id": "groq/groq/compound-mini",
     "providerId": "groq",
-    "name": "Groq/compound Mini",
+    "name": "groq/compound-mini",
     "modelId": "groq/compound-mini",
     "contextWindow": 131072,
     "maxOutputTokens": 4096,
@@ -2289,7 +2288,7 @@
   {
     "id": "groq/meta-llama/llama-prompt-guard-2-22m",
     "providerId": "groq",
-    "name": "Meta Llama/llama Prompt Guard 2 22m",
+    "name": "meta-llama/llama-prompt-guard-2-22m",
     "modelId": "meta-llama/llama-prompt-guard-2-22m",
     "contextWindow": 512,
     "maxOutputTokens": 4096,
@@ -2308,7 +2307,7 @@
   {
     "id": "groq/qwen/qwen3.6-27b",
     "providerId": "groq",
-    "name": "Qwen/qwen3.6 27b",
+    "name": "qwen/qwen3.6-27b",
     "modelId": "qwen/qwen3.6-27b",
     "contextWindow": 131072,
     "maxOutputTokens": 4096,
@@ -2327,7 +2326,7 @@
   {
     "id": "groq/openai/gpt-oss-120b",
     "providerId": "groq",
-    "name": "Openai/gpt Oss 120b",
+    "name": "openai/gpt-oss-120b",
     "modelId": "openai/gpt-oss-120b",
     "contextWindow": 131072,
     "maxOutputTokens": 4096,
@@ -2346,7 +2345,7 @@
   {
     "id": "groq/openai/gpt-oss-safeguard-20b",
     "providerId": "groq",
-    "name": "Openai/gpt Oss Safeguard 20b",
+    "name": "openai/gpt-oss-safeguard-20b",
     "modelId": "openai/gpt-oss-safeguard-20b",
     "contextWindow": 131072,
     "maxOutputTokens": 4096,
@@ -2365,7 +2364,7 @@
   {
     "id": "groq/canopylabs/orpheus-v1-english",
     "providerId": "groq",
-    "name": "Canopylabs/orpheus V1 English",
+    "name": "canopylabs/orpheus-v1-english",
     "modelId": "canopylabs/orpheus-v1-english",
     "contextWindow": 4000,
     "maxOutputTokens": 4096,
@@ -2384,7 +2383,7 @@
   {
     "id": "groq/allam-2-7b",
     "providerId": "groq",
-    "name": "Allam 2 7b",
+    "name": "allam-2-7b",
     "modelId": "allam-2-7b",
     "contextWindow": 4096,
     "maxOutputTokens": 4096,
@@ -10862,5 +10861,6598 @@
     "score": 91,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:49:53.814Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-opus-5-fast",
+    "providerId": "openrouter",
+    "name": "Claude Opus 5 (Fast)",
+    "modelId": "anthropic/claude-opus-5-fast",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-opus-5",
+    "providerId": "openrouter",
+    "name": "Claude Opus 5",
+    "modelId": "anthropic/claude-opus-5",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/poolside/laguna-s-2.1",
+    "providerId": "openrouter",
+    "name": "Poolside: Laguna S 2.1",
+    "modelId": "poolside/laguna-s-2.1",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/google/gemini-3.6-flash",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 3.6 Flash",
+    "modelId": "google/gemini-3.6-flash",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/google/gemini-3.5-flash-lite",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 3.5 Flash Lite",
+    "modelId": "google/gemini-3.5-flash-lite",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/meituan/longcat-2.0",
+    "providerId": "openrouter",
+    "name": "Meituan: LongCat 2.0",
+    "modelId": "meituan/longcat-2.0",
+    "contextWindow": 1048756,
+    "maxOutputTokens": 262144,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/thinkingmachines/inkling",
+    "providerId": "openrouter",
+    "name": "Thinking Machines: Inkling",
+    "modelId": "thinkingmachines/inkling",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/openrouter/auto-beta",
+    "providerId": "openrouter",
+    "name": "Auto Router (Beta)",
+    "modelId": "openrouter/auto-beta",
+    "contextWindow": 2000000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/moonshotai/kimi-k3",
+    "providerId": "openrouter",
+    "name": "MoonshotAI: Kimi K3",
+    "modelId": "moonshotai/kimi-k3",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/meta/muse-spark-1.1",
+    "providerId": "openrouter",
+    "name": "Meta: Muse Spark 1.1",
+    "modelId": "meta/muse-spark-1.1",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/kwaipilot/kat-coder-air-v2.5",
+    "providerId": "openrouter",
+    "name": "Kwaipilot: KAT-Coder-Air V2.5",
+    "modelId": "kwaipilot/kat-coder-air-v2.5",
+    "contextWindow": 256000,
+    "maxOutputTokens": 80000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/kwaipilot/kat-coder-pro-v2.5",
+    "providerId": "openrouter",
+    "name": "Kwaipilot: KAT-Coder-Pro V2.5",
+    "modelId": "kwaipilot/kat-coder-pro-v2.5",
+    "contextWindow": 256000,
+    "maxOutputTokens": 80000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.6-luna-pro",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.6 Luna Pro",
+    "modelId": "openai/gpt-5.6-luna-pro",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.6-luna",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.6 Luna",
+    "modelId": "openai/gpt-5.6-luna",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.6-terra-pro",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.6 Terra Pro",
+    "modelId": "openai/gpt-5.6-terra-pro",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.6-terra",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.6 Terra",
+    "modelId": "openai/gpt-5.6-terra",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.6-sol-pro",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.6 Sol Pro",
+    "modelId": "openai/gpt-5.6-sol-pro",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.6-sol",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.6 Sol",
+    "modelId": "openai/gpt-5.6-sol",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/x-ai/grok-4.5",
+    "providerId": "openrouter",
+    "name": "xAI: Grok 4.5",
+    "modelId": "x-ai/grok-4.5",
+    "contextWindow": 500000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/~x-ai/grok-latest",
+    "providerId": "openrouter",
+    "name": "xAI: Grok Latest",
+    "modelId": "~x-ai/grok-latest",
+    "contextWindow": 500000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/aion-labs/aion-3.0-mini",
+    "providerId": "openrouter",
+    "name": "AionLabs: Aion-3.0-Mini",
+    "modelId": "aion-labs/aion-3.0-mini",
+    "contextWindow": 131072,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/aion-labs/aion-3.0",
+    "providerId": "openrouter",
+    "name": "AionLabs: Aion-3.0",
+    "modelId": "aion-labs/aion-3.0",
+    "contextWindow": 131072,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/tencent/hy3",
+    "providerId": "openrouter",
+    "name": "Tencent: Hy3",
+    "modelId": "tencent/hy3",
+    "contextWindow": 262144,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/poolside/laguna-xs-2.1",
+    "providerId": "openrouter",
+    "name": "Poolside: Laguna XS 2.1",
+    "modelId": "poolside/laguna-xs-2.1",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-sonnet-5",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Sonnet 5",
+    "modelId": "anthropic/claude-sonnet-5",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/google/gemini-3.1-flash-lite-image",
+    "providerId": "openrouter",
+    "name": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
+    "modelId": "google/gemini-3.1-flash-lite-image",
+    "contextWindow": 65536,
+    "maxOutputTokens": 66000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 94,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/nex-agi/nex-n2-mini",
+    "providerId": "openrouter",
+    "name": "Nex AGI: Nex-N2-Mini",
+    "modelId": "nex-agi/nex-n2-mini",
+    "contextWindow": 262144,
+    "maxOutputTokens": 262144,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/sakana/fugu-ultra",
+    "providerId": "openrouter",
+    "name": "Sakana: Fugu Ultra",
+    "modelId": "sakana/fugu-ultra",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/google/gemini-3.1-flash-image",
+    "providerId": "openrouter",
+    "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
+    "modelId": "google/gemini-3.1-flash-image",
+    "contextWindow": 131072,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/google/gemini-3-pro-image",
+    "providerId": "openrouter",
+    "name": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
+    "modelId": "google/gemini-3-pro-image",
+    "contextWindow": 131072,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/z-ai/glm-5.2",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM 5.2",
+    "modelId": "z-ai/glm-5.2",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/openrouter/fusion",
+    "providerId": "openrouter",
+    "name": "OpenRouter: Fusion",
+    "modelId": "openrouter/fusion",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/moonshotai/kimi-k2.7-code",
+    "providerId": "openrouter",
+    "name": "MoonshotAI: Kimi K2.7 Code",
+    "modelId": "moonshotai/kimi-k2.7-code",
+    "contextWindow": 262144,
+    "maxOutputTokens": 262144,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/~anthropic/claude-fable-latest",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Fable Latest",
+    "modelId": "~anthropic/claude-fable-latest",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-fable-5",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Fable 5",
+    "modelId": "anthropic/claude-fable-5",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/nex-agi/nex-n2-pro",
+    "providerId": "openrouter",
+    "name": "Nex AGI: Nex-N2-Pro",
+    "modelId": "nex-agi/nex-n2-pro",
+    "contextWindow": 262144,
+    "maxOutputTokens": 262144,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/nvidia/nemotron-3-ultra-550b-a55b",
+    "providerId": "openrouter",
+    "name": "NVIDIA: Nemotron 3 Ultra",
+    "modelId": "nvidia/nemotron-3-ultra-550b-a55b",
+    "contextWindow": 512288,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.7-plus",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.7 Plus",
+    "modelId": "qwen/qwen3.7-plus",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/minimax/minimax-m3",
+    "providerId": "openrouter",
+    "name": "MiniMax: MiniMax M3",
+    "modelId": "minimax/minimax-m3",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 512000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/stepfun/step-3.7-flash",
+    "providerId": "openrouter",
+    "name": "StepFun: Step 3.7 Flash",
+    "modelId": "stepfun/step-3.7-flash",
+    "contextWindow": 262144,
+    "maxOutputTokens": 256000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-opus-4.8-fast",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Opus 4.8 (Fast)",
+    "modelId": "anthropic/claude-opus-4.8-fast",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-opus-4.8",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Opus 4.8",
+    "modelId": "anthropic/claude-opus-4.8",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.7-max",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.7 Max",
+    "modelId": "qwen/qwen3.7-max",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/x-ai/grok-build-0.1",
+    "providerId": "openrouter",
+    "name": "xAI: Grok Build 0.1",
+    "modelId": "x-ai/grok-build-0.1",
+    "contextWindow": 256000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/google/gemini-3.5-flash",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 3.5 Flash",
+    "modelId": "google/gemini-3.5-flash",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-opus-4.7-fast",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Opus 4.7 (Fast)",
+    "modelId": "anthropic/claude-opus-4.7-fast",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/perceptron/perceptron-mk1",
+    "providerId": "openrouter",
+    "name": "Perceptron: Perceptron Mk1",
+    "modelId": "perceptron/perceptron-mk1",
+    "contextWindow": 32768,
+    "maxOutputTokens": 8192,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 94,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/inclusionai/ring-2.6-1t",
+    "providerId": "openrouter",
+    "name": "inclusionAI: Ring-2.6-1T",
+    "modelId": "inclusionai/ring-2.6-1t",
+    "contextWindow": 262144,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/google/gemini-3.1-flash-lite",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 3.1 Flash Lite",
+    "modelId": "google/gemini-3.1-flash-lite",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-chat-latest",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT Chat Latest",
+    "modelId": "openai/gpt-chat-latest",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/x-ai/grok-4.3",
+    "providerId": "openrouter",
+    "name": "xAI: Grok 4.3",
+    "modelId": "x-ai/grok-4.3",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/ibm-granite/granite-4.1-8b",
+    "providerId": "openrouter",
+    "name": "IBM: Granite 4.1 8B",
+    "modelId": "ibm-granite/granite-4.1-8b",
+    "contextWindow": 131072,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/mistralai/mistral-medium-3-5",
+    "providerId": "openrouter",
+    "name": "Mistral: Mistral Medium 3.5",
+    "modelId": "mistralai/mistral-medium-3-5",
+    "contextWindow": 262144,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/poolside/laguna-m.1",
+    "providerId": "openrouter",
+    "name": "Poolside: Laguna M.1",
+    "modelId": "poolside/laguna-m.1",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/~anthropic/claude-haiku-latest",
+    "providerId": "openrouter",
+    "name": "Anthropic Claude Haiku Latest",
+    "modelId": "~anthropic/claude-haiku-latest",
+    "contextWindow": 200000,
+    "maxOutputTokens": 64000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/~openai/gpt-mini-latest",
+    "providerId": "openrouter",
+    "name": "OpenAI GPT Mini Latest",
+    "modelId": "~openai/gpt-mini-latest",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/~google/gemini-pro-latest",
+    "providerId": "openrouter",
+    "name": "Google Gemini Pro Latest",
+    "modelId": "~google/gemini-pro-latest",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/~moonshotai/kimi-latest",
+    "providerId": "openrouter",
+    "name": "MoonshotAI Kimi Latest",
+    "modelId": "~moonshotai/kimi-latest",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/~google/gemini-flash-latest",
+    "providerId": "openrouter",
+    "name": "Google Gemini Flash Latest",
+    "modelId": "~google/gemini-flash-latest",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
+  },
+  {
+    "id": "openrouter/~anthropic/claude-sonnet-latest",
+    "providerId": "openrouter",
+    "name": "Anthropic Claude Sonnet Latest",
+    "modelId": "~anthropic/claude-sonnet-latest",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/~openai/gpt-latest",
+    "providerId": "openrouter",
+    "name": "OpenAI GPT Latest",
+    "modelId": "~openai/gpt-latest",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.5-plus-20260420",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.5 Plus 2026-04-20",
+    "modelId": "qwen/qwen3.5-plus-20260420",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.6-flash",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.6 Flash",
+    "modelId": "qwen/qwen3.6-flash",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.6-35b-a3b",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.6 35B A3B",
+    "modelId": "qwen/qwen3.6-35b-a3b",
+    "contextWindow": 262144,
+    "maxOutputTokens": 262144,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.6-max-preview",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.6 Max Preview",
+    "modelId": "qwen/qwen3.6-max-preview",
+    "contextWindow": 262144,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.6-27b",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.6 27B",
+    "modelId": "qwen/qwen3.6-27b",
+    "contextWindow": 262144,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.5-pro",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.5 Pro",
+    "modelId": "openai/gpt-5.5-pro",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.5",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.5",
+    "modelId": "openai/gpt-5.5",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v4-pro",
+    "providerId": "openrouter",
+    "name": "DeepSeek: DeepSeek V4 Pro",
+    "modelId": "deepseek/deepseek-v4-pro",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 384000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v4-flash",
+    "providerId": "openrouter",
+    "name": "DeepSeek: DeepSeek V4 Flash",
+    "modelId": "deepseek/deepseek-v4-flash",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 393216,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/inclusionai/ling-2.6-1t",
+    "providerId": "openrouter",
+    "name": "inclusionAI: Ling-2.6-1T",
+    "modelId": "inclusionai/ling-2.6-1t",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/tencent/hy3-preview",
+    "providerId": "openrouter",
+    "name": "Tencent: Hy3 preview",
+    "modelId": "tencent/hy3-preview",
+    "contextWindow": 262144,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/xiaomi/mimo-v2.5-pro",
+    "providerId": "openrouter",
+    "name": "Xiaomi: MiMo-V2.5-Pro",
+    "modelId": "xiaomi/mimo-v2.5-pro",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/xiaomi/mimo-v2.5",
+    "providerId": "openrouter",
+    "name": "Xiaomi: MiMo-V2.5",
+    "modelId": "xiaomi/mimo-v2.5",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.4-image-2",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.4 Image 2",
+    "modelId": "openai/gpt-5.4-image-2",
+    "contextWindow": 272000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/inclusionai/ling-2.6-flash",
+    "providerId": "openrouter",
+    "name": "inclusionAI: Ling-2.6-flash",
+    "modelId": "inclusionai/ling-2.6-flash",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/~anthropic/claude-opus-latest",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Opus Latest",
+    "modelId": "~anthropic/claude-opus-latest",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/openrouter/pareto-code",
+    "providerId": "openrouter",
+    "name": "Pareto Code Router",
+    "modelId": "openrouter/pareto-code",
+    "contextWindow": 2000000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/moonshotai/kimi-k2.6",
+    "providerId": "openrouter",
+    "name": "MoonshotAI: Kimi K2.6",
+    "modelId": "moonshotai/kimi-k2.6",
+    "contextWindow": 262144,
+    "maxOutputTokens": 262144,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-opus-4.7",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Opus 4.7",
+    "modelId": "anthropic/claude-opus-4.7",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/z-ai/glm-5.1",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM 5.1",
+    "modelId": "z-ai/glm-5.1",
+    "contextWindow": 204800,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/google/gemma-4-26b-a4b-it",
+    "providerId": "openrouter",
+    "name": "Google: Gemma 4 26B A4B ",
+    "modelId": "google/gemma-4-26b-a4b-it",
+    "contextWindow": 262144,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/google/gemma-4-31b-it",
+    "providerId": "openrouter",
+    "name": "Google: Gemma 4 31B",
+    "modelId": "google/gemma-4-31b-it",
+    "contextWindow": 262144,
+    "maxOutputTokens": 262144,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.6-plus",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.6 Plus",
+    "modelId": "qwen/qwen3.6-plus",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/z-ai/glm-5v-turbo",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM 5V Turbo",
+    "modelId": "z-ai/glm-5v-turbo",
+    "contextWindow": 202752,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/arcee-ai/trinity-large-thinking",
+    "providerId": "openrouter",
+    "name": "Arcee AI: Trinity Large Thinking",
+    "modelId": "arcee-ai/trinity-large-thinking",
+    "contextWindow": 262144,
+    "maxOutputTokens": 262144,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/x-ai/grok-4.20-multi-agent",
+    "providerId": "openrouter",
+    "name": "xAI: Grok 4.20 Multi-Agent",
+    "modelId": "x-ai/grok-4.20-multi-agent",
+    "contextWindow": 2000000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/x-ai/grok-4.20",
+    "providerId": "openrouter",
+    "name": "xAI: Grok 4.20",
+    "modelId": "x-ai/grok-4.20",
+    "contextWindow": 2000000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/kwaipilot/kat-coder-pro-v2",
+    "providerId": "openrouter",
+    "name": "Kwaipilot: KAT-Coder-Pro V2",
+    "modelId": "kwaipilot/kat-coder-pro-v2",
+    "contextWindow": 262144,
+    "maxOutputTokens": 80000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/rekaai/reka-edge",
+    "providerId": "openrouter",
+    "name": "Reka Edge",
+    "modelId": "rekaai/reka-edge",
+    "contextWindow": 16384,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 89,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/minimax/minimax-m2.7",
+    "providerId": "openrouter",
+    "name": "MiniMax: MiniMax M2.7",
+    "modelId": "minimax/minimax-m2.7",
+    "contextWindow": 204800,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.4-nano",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.4 Nano",
+    "modelId": "openai/gpt-5.4-nano",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.4-mini",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.4 Mini",
+    "modelId": "openai/gpt-5.4-mini",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/mistralai/mistral-small-2603",
+    "providerId": "openrouter",
+    "name": "Mistral: Mistral Small 4",
+    "modelId": "mistralai/mistral-small-2603",
+    "contextWindow": 262144,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/z-ai/glm-5-turbo",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM 5 Turbo",
+    "modelId": "z-ai/glm-5-turbo",
+    "contextWindow": 202752,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/nvidia/nemotron-3-super-120b-a12b",
+    "providerId": "openrouter",
+    "name": "NVIDIA: Nemotron 3 Super",
+    "modelId": "nvidia/nemotron-3-super-120b-a12b",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/bytedance-seed/seed-2.0-lite",
+    "providerId": "openrouter",
+    "name": "ByteDance Seed: Seed-2.0-Lite",
+    "modelId": "bytedance-seed/seed-2.0-lite",
+    "contextWindow": 262144,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.5-9b",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.5-9B",
+    "modelId": "qwen/qwen3.5-9b",
+    "contextWindow": 262144,
+    "maxOutputTokens": 262144,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.4-pro",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.4 Pro",
+    "modelId": "openai/gpt-5.4-pro",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.4",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.4",
+    "modelId": "openai/gpt-5.4",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/inception/mercury-2",
+    "providerId": "openrouter",
+    "name": "Inception: Mercury 2",
+    "modelId": "inception/mercury-2",
+    "contextWindow": 128000,
+    "maxOutputTokens": 50000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.3-chat",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.3 Chat",
+    "modelId": "openai/gpt-5.3-chat",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/google/gemini-3.1-flash-lite-preview",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 3.1 Flash Lite Preview",
+    "modelId": "google/gemini-3.1-flash-lite-preview",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/bytedance-seed/seed-2.0-mini",
+    "providerId": "openrouter",
+    "name": "ByteDance Seed: Seed-2.0-Mini",
+    "modelId": "bytedance-seed/seed-2.0-mini",
+    "contextWindow": 262144,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/google/gemini-3.1-flash-image-preview",
+    "providerId": "openrouter",
+    "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+    "modelId": "google/gemini-3.1-flash-image-preview",
+    "contextWindow": 65536,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 94,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.5-35b-a3b",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.5-35B-A3B",
+    "modelId": "qwen/qwen3.5-35b-a3b",
+    "contextWindow": 262144,
+    "maxOutputTokens": 262144,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.5-27b",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.5-27B",
+    "modelId": "qwen/qwen3.5-27b",
+    "contextWindow": 262144,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.5-122b-a10b",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.5-122B-A10B",
+    "modelId": "qwen/qwen3.5-122b-a10b",
+    "contextWindow": 262144,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.5-flash-02-23",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.5-Flash",
+    "modelId": "qwen/qwen3.5-flash-02-23",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/google/gemini-3.1-pro-preview-customtools",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 3.1 Pro Preview Custom Tools",
+    "modelId": "google/gemini-3.1-pro-preview-customtools",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.3-codex",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.3-Codex",
+    "modelId": "openai/gpt-5.3-codex",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/aion-labs/aion-2.0",
+    "providerId": "openrouter",
+    "name": "AionLabs: Aion-2.0",
+    "modelId": "aion-labs/aion-2.0",
+    "contextWindow": 131072,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/google/gemini-3.1-pro-preview",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 3.1 Pro Preview",
+    "modelId": "google/gemini-3.1-pro-preview",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-sonnet-4.6",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Sonnet 4.6",
+    "modelId": "anthropic/claude-sonnet-4.6",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.5-plus-02-15",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.5 Plus 2026-02-15",
+    "modelId": "qwen/qwen3.5-plus-02-15",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.5-397b-a17b",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.5 397B A17B",
+    "modelId": "qwen/qwen3.5-397b-a17b",
+    "contextWindow": 262144,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/minimax/minimax-m2.5",
+    "providerId": "openrouter",
+    "name": "MiniMax: MiniMax M2.5",
+    "modelId": "minimax/minimax-m2.5",
+    "contextWindow": 204800,
+    "maxOutputTokens": 196608,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/z-ai/glm-5",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM 5",
+    "modelId": "z-ai/glm-5",
+    "contextWindow": 204800,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-max-thinking",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 Max Thinking",
+    "modelId": "qwen/qwen3-max-thinking",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-opus-4.6",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Opus 4.6",
+    "modelId": "anthropic/claude-opus-4.6",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-coder-next",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 Coder Next",
+    "modelId": "qwen/qwen3-coder-next",
+    "contextWindow": 262144,
+    "maxOutputTokens": 262144,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/stepfun/step-3.5-flash",
+    "providerId": "openrouter",
+    "name": "StepFun: Step 3.5 Flash",
+    "modelId": "stepfun/step-3.5-flash",
+    "contextWindow": 262144,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/moonshotai/kimi-k2.5",
+    "providerId": "openrouter",
+    "name": "MoonshotAI: Kimi K2.5",
+    "modelId": "moonshotai/kimi-k2.5",
+    "contextWindow": 262144,
+    "maxOutputTokens": 262144,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/upstage/solar-pro-3",
+    "providerId": "openrouter",
+    "name": "Upstage: Solar Pro 3",
+    "modelId": "upstage/solar-pro-3",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/minimax/minimax-m2-her",
+    "providerId": "openrouter",
+    "name": "MiniMax: MiniMax M2-her",
+    "modelId": "minimax/minimax-m2-her",
+    "contextWindow": 65536,
+    "maxOutputTokens": 2048,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/writer/palmyra-x5",
+    "providerId": "openrouter",
+    "name": "Writer: Palmyra X5",
+    "modelId": "writer/palmyra-x5",
+    "contextWindow": 1040000,
+    "maxOutputTokens": 8192,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-audio",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT Audio",
+    "modelId": "openai/gpt-audio",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-audio-mini",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT Audio Mini",
+    "modelId": "openai/gpt-audio-mini",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/z-ai/glm-4.7-flash",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM 4.7 Flash",
+    "modelId": "z-ai/glm-4.7-flash",
+    "contextWindow": 202752,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.2-codex",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.2-Codex",
+    "modelId": "openai/gpt-5.2-codex",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/bytedance-seed/seed-1.6-flash",
+    "providerId": "openrouter",
+    "name": "ByteDance Seed: Seed 1.6 Flash",
+    "modelId": "bytedance-seed/seed-1.6-flash",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/bytedance-seed/seed-1.6",
+    "providerId": "openrouter",
+    "name": "ByteDance Seed: Seed 1.6",
+    "modelId": "bytedance-seed/seed-1.6",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/minimax/minimax-m2.1",
+    "providerId": "openrouter",
+    "name": "MiniMax: MiniMax M2.1",
+    "modelId": "minimax/minimax-m2.1",
+    "contextWindow": 204800,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/z-ai/glm-4.7",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM 4.7",
+    "modelId": "z-ai/glm-4.7",
+    "contextWindow": 204800,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/google/gemini-3-flash-preview",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 3 Flash Preview",
+    "modelId": "google/gemini-3-flash-preview",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65535,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/nvidia/nemotron-3-nano-30b-a3b",
+    "providerId": "openrouter",
+    "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
+    "modelId": "nvidia/nemotron-3-nano-30b-a3b",
+    "contextWindow": 262144,
+    "maxOutputTokens": 228000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.2-chat",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.2 Chat",
+    "modelId": "openai/gpt-5.2-chat",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.2-pro",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.2 Pro",
+    "modelId": "openai/gpt-5.2-pro",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.2",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.2",
+    "modelId": "openai/gpt-5.2",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/mistralai/devstral-2512",
+    "providerId": "openrouter",
+    "name": "Mistral: Devstral 2 2512",
+    "modelId": "mistralai/devstral-2512",
+    "contextWindow": 262144,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/relace/relace-search",
+    "providerId": "openrouter",
+    "name": "Relace: Relace Search",
+    "modelId": "relace/relace-search",
+    "contextWindow": 256000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/z-ai/glm-4.6v",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM 4.6V",
+    "modelId": "z-ai/glm-4.6v",
+    "contextWindow": 131072,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openrouter/bodybuilder",
+    "providerId": "openrouter",
+    "name": "Body Builder (beta)",
+    "modelId": "openrouter/bodybuilder",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.1-codex-max",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.1-Codex-Max",
+    "modelId": "openai/gpt-5.1-codex-max",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/amazon/nova-2-lite-v1",
+    "providerId": "openrouter",
+    "name": "Amazon: Nova 2 Lite",
+    "modelId": "amazon/nova-2-lite-v1",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 65535,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/mistralai/ministral-14b-2512",
+    "providerId": "openrouter",
+    "name": "Mistral: Ministral 3 14B 2512",
+    "modelId": "mistralai/ministral-14b-2512",
+    "contextWindow": 262144,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/mistralai/ministral-8b-2512",
+    "providerId": "openrouter",
+    "name": "Mistral: Ministral 3 8B 2512",
+    "modelId": "mistralai/ministral-8b-2512",
+    "contextWindow": 262144,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/mistralai/ministral-3b-2512",
+    "providerId": "openrouter",
+    "name": "Mistral: Ministral 3 3B 2512",
+    "modelId": "mistralai/ministral-3b-2512",
+    "contextWindow": 131072,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/mistralai/mistral-large-2512",
+    "providerId": "openrouter",
+    "name": "Mistral: Mistral Large 3 2512",
+    "modelId": "mistralai/mistral-large-2512",
+    "contextWindow": 262144,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v3.2",
+    "providerId": "openrouter",
+    "name": "DeepSeek: DeepSeek V3.2",
+    "modelId": "deepseek/deepseek-v3.2",
+    "contextWindow": 163840,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-opus-4.5",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Opus 4.5",
+    "modelId": "anthropic/claude-opus-4.5",
+    "contextWindow": 200000,
+    "maxOutputTokens": 64000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/allenai/olmo-3-32b-think",
+    "providerId": "openrouter",
+    "name": "AllenAI: Olmo 3 32B Think",
+    "modelId": "allenai/olmo-3-32b-think",
+    "contextWindow": 65536,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/google/gemini-3-pro-image-preview",
+    "providerId": "openrouter",
+    "name": "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)",
+    "modelId": "google/gemini-3-pro-image-preview",
+    "contextWindow": 65536,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 94,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/deepcogito/cogito-v2.1-671b",
+    "providerId": "openrouter",
+    "name": "Deep Cogito: Cogito v2.1 671B",
+    "modelId": "deepcogito/cogito-v2.1-671b",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.1",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.1",
+    "modelId": "openai/gpt-5.1",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.1-chat",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.1 Chat",
+    "modelId": "openai/gpt-5.1-chat",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.1-codex",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.1-Codex",
+    "modelId": "openai/gpt-5.1-codex",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.1-codex-mini",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.1-Codex-Mini",
+    "modelId": "openai/gpt-5.1-codex-mini",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/moonshotai/kimi-k2-thinking",
+    "providerId": "openrouter",
+    "name": "MoonshotAI: Kimi K2 Thinking",
+    "modelId": "moonshotai/kimi-k2-thinking",
+    "contextWindow": 262144,
+    "maxOutputTokens": 100352,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/amazon/nova-premier-v1",
+    "providerId": "openrouter",
+    "name": "Amazon: Nova Premier 1.0",
+    "modelId": "amazon/nova-premier-v1",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 32000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/perplexity/sonar-pro-search",
+    "providerId": "openrouter",
+    "name": "Perplexity: Sonar Pro Search",
+    "modelId": "perplexity/sonar-pro-search",
+    "contextWindow": 200000,
+    "maxOutputTokens": 8000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/mistralai/voxtral-small-24b-2507",
+    "providerId": "openrouter",
+    "name": "Mistral: Voxtral Small 24B 2507",
+    "modelId": "mistralai/voxtral-small-24b-2507",
+    "contextWindow": 32000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-oss-safeguard-20b",
+    "providerId": "openrouter",
+    "name": "OpenAI: gpt-oss-safeguard-20b",
+    "modelId": "openai/gpt-oss-safeguard-20b",
+    "contextWindow": 131072,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/minimax/minimax-m2",
+    "providerId": "openrouter",
+    "name": "MiniMax: MiniMax M2",
+    "modelId": "minimax/minimax-m2",
+    "contextWindow": 204800,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-vl-32b-instruct",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 VL 32B Instruct",
+    "modelId": "qwen/qwen3-vl-32b-instruct",
+    "contextWindow": 131072,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/ibm-granite/granite-4.0-h-micro",
+    "providerId": "openrouter",
+    "name": "IBM: Granite 4.0 Micro",
+    "modelId": "ibm-granite/granite-4.0-h-micro",
+    "contextWindow": 131000,
+    "maxOutputTokens": 131000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5-image-mini",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5 Image Mini",
+    "modelId": "openai/gpt-5-image-mini",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-haiku-4.5",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Haiku 4.5",
+    "modelId": "anthropic/claude-haiku-4.5",
+    "contextWindow": 200000,
+    "maxOutputTokens": 64000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-vl-8b-thinking",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 VL 8B Thinking",
+    "modelId": "qwen/qwen3-vl-8b-thinking",
+    "contextWindow": 131072,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-vl-8b-instruct",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 VL 8B Instruct",
+    "modelId": "qwen/qwen3-vl-8b-instruct",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5-image",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5 Image",
+    "modelId": "openai/gpt-5-image",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/o3-deep-research",
+    "providerId": "openrouter",
+    "name": "OpenAI: o3 Deep Research",
+    "modelId": "openai/o3-deep-research",
+    "contextWindow": 200000,
+    "maxOutputTokens": 100000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/o4-mini-deep-research",
+    "providerId": "openrouter",
+    "name": "OpenAI: o4 Mini Deep Research",
+    "modelId": "openai/o4-mini-deep-research",
+    "contextWindow": 200000,
+    "maxOutputTokens": 100000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/google/gemini-2.5-flash-image",
+    "providerId": "openrouter",
+    "name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
+    "modelId": "google/gemini-2.5-flash-image",
+    "contextWindow": 32768,
+    "maxOutputTokens": 8192,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 94,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-vl-30b-a3b-thinking",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 VL 30B A3B Thinking",
+    "modelId": "qwen/qwen3-vl-30b-a3b-thinking",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-vl-30b-a3b-instruct",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+    "modelId": "qwen/qwen3-vl-30b-a3b-instruct",
+    "contextWindow": 262144,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5-pro",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5 Pro",
+    "modelId": "openai/gpt-5-pro",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/z-ai/glm-4.6",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM 4.6",
+    "modelId": "z-ai/glm-4.6",
+    "contextWindow": 204800,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-sonnet-4.5",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Sonnet 4.5",
+    "modelId": "anthropic/claude-sonnet-4.5",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v3.2-exp",
+    "providerId": "openrouter",
+    "name": "DeepSeek: DeepSeek V3.2 Exp",
+    "modelId": "deepseek/deepseek-v3.2-exp",
+    "contextWindow": 163840,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/thedrummer/cydonia-24b-v4.1",
+    "providerId": "openrouter",
+    "name": "TheDrummer: Cydonia 24B V4.1",
+    "modelId": "thedrummer/cydonia-24b-v4.1",
+    "contextWindow": 131072,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/relace/relace-apply-3",
+    "providerId": "openrouter",
+    "name": "Relace: Relace Apply 3",
+    "modelId": "relace/relace-apply-3",
+    "contextWindow": 256000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-vl-235b-a22b-thinking",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 VL 235B A22B Thinking",
+    "modelId": "qwen/qwen3-vl-235b-a22b-thinking",
+    "contextWindow": 131072,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-vl-235b-a22b-instruct",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 VL 235B A22B Instruct",
+    "modelId": "qwen/qwen3-vl-235b-a22b-instruct",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-max",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 Max",
+    "modelId": "qwen/qwen3-max",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-coder-plus",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 Coder Plus",
+    "modelId": "qwen/qwen3-coder-plus",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5-codex",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5 Codex",
+    "modelId": "openai/gpt-5-codex",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v3.1-terminus",
+    "providerId": "openrouter",
+    "name": "DeepSeek: DeepSeek V3.1 Terminus",
+    "modelId": "deepseek/deepseek-v3.1-terminus",
+    "contextWindow": 163840,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-coder-flash",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 Coder Flash",
+    "modelId": "qwen/qwen3-coder-flash",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-next-80b-a3b-thinking",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 Next 80B A3B Thinking",
+    "modelId": "qwen/qwen3-next-80b-a3b-thinking",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-next-80b-a3b-instruct",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+    "modelId": "qwen/qwen3-next-80b-a3b-instruct",
+    "contextWindow": 262144,
+    "maxOutputTokens": 262144,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen-plus-2025-07-28",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen Plus 0728",
+    "modelId": "qwen/qwen-plus-2025-07-28",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen-plus-2025-07-28:thinking",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen Plus 0728 (thinking)",
+    "modelId": "qwen/qwen-plus-2025-07-28:thinking",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/moonshotai/kimi-k2-0905",
+    "providerId": "openrouter",
+    "name": "MoonshotAI: Kimi K2 0905",
+    "modelId": "moonshotai/kimi-k2-0905",
+    "contextWindow": 262144,
+    "maxOutputTokens": 100352,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-30b-a3b-thinking-2507",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 30B A3B Thinking 2507",
+    "modelId": "qwen/qwen3-30b-a3b-thinking-2507",
+    "contextWindow": 81920,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/nousresearch/hermes-4-70b",
+    "providerId": "openrouter",
+    "name": "Nous: Hermes 4 70B",
+    "modelId": "nousresearch/hermes-4-70b",
+    "contextWindow": 131072,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/nousresearch/hermes-4-405b",
+    "providerId": "openrouter",
+    "name": "Nous: Hermes 4 405B",
+    "modelId": "nousresearch/hermes-4-405b",
+    "contextWindow": 131072,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-chat-v3.1",
+    "providerId": "openrouter",
+    "name": "DeepSeek: DeepSeek V3.1",
+    "modelId": "deepseek/deepseek-chat-v3.1",
+    "contextWindow": 163840,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/mistralai/mistral-medium-3.1",
+    "providerId": "openrouter",
+    "name": "Mistral: Mistral Medium 3.1",
+    "modelId": "mistralai/mistral-medium-3.1",
+    "contextWindow": 131072,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/z-ai/glm-4.5v",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM 4.5V",
+    "modelId": "z-ai/glm-4.5v",
+    "contextWindow": 65536,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 94,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/ai21/jamba-large-1.7",
+    "providerId": "openrouter",
+    "name": "AI21: Jamba Large 1.7",
+    "modelId": "ai21/jamba-large-1.7",
+    "contextWindow": 256000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5-chat",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5 Chat",
+    "modelId": "openai/gpt-5-chat",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5",
+    "modelId": "openai/gpt-5",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5-mini",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5 Mini",
+    "modelId": "openai/gpt-5-mini",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5-nano",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5 Nano",
+    "modelId": "openai/gpt-5-nano",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-oss-120b",
+    "providerId": "openrouter",
+    "name": "OpenAI: gpt-oss-120b",
+    "modelId": "openai/gpt-oss-120b",
+    "contextWindow": 131072,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-oss-20b",
+    "providerId": "openrouter",
+    "name": "OpenAI: gpt-oss-20b",
+    "modelId": "openai/gpt-oss-20b",
+    "contextWindow": 131072,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-opus-4.1",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Opus 4.1",
+    "modelId": "anthropic/claude-opus-4.1",
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/mistralai/codestral-2508",
+    "providerId": "openrouter",
+    "name": "Mistral: Codestral 2508",
+    "modelId": "mistralai/codestral-2508",
+    "contextWindow": 256000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-coder-30b-a3b-instruct",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
+    "modelId": "qwen/qwen3-coder-30b-a3b-instruct",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-30b-a3b-instruct-2507",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+    "modelId": "qwen/qwen3-30b-a3b-instruct-2507",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/z-ai/glm-4.5",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM 4.5",
+    "modelId": "z-ai/glm-4.5",
+    "contextWindow": 131072,
+    "maxOutputTokens": 98304,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/z-ai/glm-4.5-air",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM 4.5 Air",
+    "modelId": "z-ai/glm-4.5-air",
+    "contextWindow": 131072,
+    "maxOutputTokens": 98304,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-235b-a22b-thinking-2507",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+    "modelId": "qwen/qwen3-235b-a22b-thinking-2507",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-coder",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 Coder 480B A35B",
+    "modelId": "qwen/qwen3-coder",
+    "contextWindow": 262144,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/bytedance/ui-tars-1.5-7b",
+    "providerId": "openrouter",
+    "name": "ByteDance: UI-TARS 7B ",
+    "modelId": "bytedance/ui-tars-1.5-7b",
+    "contextWindow": 128000,
+    "maxOutputTokens": 2048,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/google/gemini-2.5-flash-lite",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 2.5 Flash Lite",
+    "modelId": "google/gemini-2.5-flash-lite",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65535,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-235b-a22b-2507",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+    "modelId": "qwen/qwen3-235b-a22b-2507",
+    "contextWindow": 262144,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/moonshotai/kimi-k2",
+    "providerId": "openrouter",
+    "name": "MoonshotAI: Kimi K2 0711",
+    "modelId": "moonshotai/kimi-k2",
+    "contextWindow": 131072,
+    "maxOutputTokens": 100352,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/cognitivecomputations/dolphin-mistral-24b-venice-edition",
+    "providerId": "openrouter",
+    "name": "Venice: Uncensored",
+    "modelId": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+    "contextWindow": 128000,
+    "maxOutputTokens": 8192,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/tencent/hunyuan-a13b-instruct",
+    "providerId": "openrouter",
+    "name": "Tencent: Hunyuan A13B Instruct",
+    "modelId": "tencent/hunyuan-a13b-instruct",
+    "contextWindow": 131072,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/morph/morph-v3-large",
+    "providerId": "openrouter",
+    "name": "Morph: Morph V3 Large",
+    "modelId": "morph/morph-v3-large",
+    "contextWindow": 262144,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/morph/morph-v3-fast",
+    "providerId": "openrouter",
+    "name": "Morph: Morph V3 Fast",
+    "modelId": "morph/morph-v3-fast",
+    "contextWindow": 81920,
+    "maxOutputTokens": 38000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/baidu/ernie-4.5-vl-424b-a47b",
+    "providerId": "openrouter",
+    "name": "Baidu: ERNIE 4.5 VL 424B A47B ",
+    "modelId": "baidu/ernie-4.5-vl-424b-a47b",
+    "contextWindow": 123000,
+    "maxOutputTokens": 16000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 94,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+    "providerId": "openrouter",
+    "name": "Mistral: Mistral Small 3.2 24B",
+    "modelId": "mistralai/mistral-small-3.2-24b-instruct",
+    "contextWindow": 256000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/minimax/minimax-m1",
+    "providerId": "openrouter",
+    "name": "MiniMax: MiniMax M1",
+    "modelId": "minimax/minimax-m1",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 40000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/google/gemini-2.5-flash",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 2.5 Flash",
+    "modelId": "google/gemini-2.5-flash",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65535,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/google/gemini-2.5-pro",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 2.5 Pro",
+    "modelId": "google/gemini-2.5-pro",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/openai/o3-pro",
+    "providerId": "openrouter",
+    "name": "OpenAI: o3 Pro",
+    "modelId": "openai/o3-pro",
+    "contextWindow": 200000,
+    "maxOutputTokens": 100000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/google/gemini-2.5-pro-preview",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 2.5 Pro Preview 06-05",
+    "modelId": "google/gemini-2.5-pro-preview",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-r1-0528",
+    "providerId": "openrouter",
+    "name": "DeepSeek: R1 0528",
+    "modelId": "deepseek/deepseek-r1-0528",
+    "contextWindow": 163840,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-opus-4",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Opus 4",
+    "modelId": "anthropic/claude-opus-4",
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-sonnet-4",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Sonnet 4",
+    "modelId": "anthropic/claude-sonnet-4",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/google/gemma-3n-e4b-it",
+    "providerId": "openrouter",
+    "name": "Google: Gemma 3n 4B",
+    "modelId": "google/gemma-3n-e4b-it",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/mistralai/mistral-medium-3",
+    "providerId": "openrouter",
+    "name": "Mistral: Mistral Medium 3",
+    "modelId": "mistralai/mistral-medium-3",
+    "contextWindow": 131072,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/google/gemini-2.5-pro-preview-05-06",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 2.5 Pro Preview 05-06",
+    "modelId": "google/gemini-2.5-pro-preview-05-06",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65535,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
+  },
+  {
+    "id": "openrouter/arcee-ai/virtuoso-large",
+    "providerId": "openrouter",
+    "name": "Arcee AI: Virtuoso Large",
+    "modelId": "arcee-ai/virtuoso-large",
+    "contextWindow": 131072,
+    "maxOutputTokens": 64000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/meta-llama/llama-guard-4-12b",
+    "providerId": "openrouter",
+    "name": "Meta: Llama Guard 4 12B",
+    "modelId": "meta-llama/llama-guard-4-12b",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-30b-a3b",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 30B A3B",
+    "modelId": "qwen/qwen3-30b-a3b",
+    "contextWindow": 131072,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-8b",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 8B",
+    "modelId": "qwen/qwen3-8b",
+    "contextWindow": 131072,
+    "maxOutputTokens": 8192,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-14b",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 14B",
+    "modelId": "qwen/qwen3-14b",
+    "contextWindow": 131072,
+    "maxOutputTokens": 8192,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-32b",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 32B",
+    "modelId": "qwen/qwen3-32b",
+    "contextWindow": 131072,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3-235b-a22b",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3 235B A22B",
+    "modelId": "qwen/qwen3-235b-a22b",
+    "contextWindow": 131072,
+    "maxOutputTokens": 8192,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/o4-mini-high",
+    "providerId": "openrouter",
+    "name": "OpenAI: o4 Mini High",
+    "modelId": "openai/o4-mini-high",
+    "contextWindow": 200000,
+    "maxOutputTokens": 100000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/o3",
+    "providerId": "openrouter",
+    "name": "OpenAI: o3",
+    "modelId": "openai/o3",
+    "contextWindow": 200000,
+    "maxOutputTokens": 100000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/o4-mini",
+    "providerId": "openrouter",
+    "name": "OpenAI: o4 Mini",
+    "modelId": "openai/o4-mini",
+    "contextWindow": 200000,
+    "maxOutputTokens": 100000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-4.1",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-4.1",
+    "modelId": "openai/gpt-4.1",
+    "contextWindow": 1047576,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-4.1-mini",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-4.1 Mini",
+    "modelId": "openai/gpt-4.1-mini",
+    "contextWindow": 1047576,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-4.1-nano",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-4.1 Nano",
+    "modelId": "openai/gpt-4.1-nano",
+    "contextWindow": 1047576,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/meta-llama/llama-4-maverick",
+    "providerId": "openrouter",
+    "name": "Meta: Llama 4 Maverick",
+    "modelId": "meta-llama/llama-4-maverick",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/meta-llama/llama-4-scout",
+    "providerId": "openrouter",
+    "name": "Meta: Llama 4 Scout",
+    "modelId": "meta-llama/llama-4-scout",
+    "contextWindow": 1310720,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-chat-v3-0324",
+    "providerId": "openrouter",
+    "name": "DeepSeek: DeepSeek V3 0324",
+    "modelId": "deepseek/deepseek-chat-v3-0324",
+    "contextWindow": 163840,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/o1-pro",
+    "providerId": "openrouter",
+    "name": "OpenAI: o1-pro",
+    "modelId": "openai/o1-pro",
+    "contextWindow": 200000,
+    "maxOutputTokens": 100000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/mistralai/mistral-small-3.1-24b-instruct",
+    "providerId": "openrouter",
+    "name": "Mistral: Mistral Small 3.1 24B",
+    "modelId": "mistralai/mistral-small-3.1-24b-instruct",
+    "contextWindow": 128000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/google/gemma-3-4b-it",
+    "providerId": "openrouter",
+    "name": "Google: Gemma 3 4B",
+    "modelId": "google/gemma-3-4b-it",
+    "contextWindow": 131072,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/google/gemma-3-12b-it",
+    "providerId": "openrouter",
+    "name": "Google: Gemma 3 12B",
+    "modelId": "google/gemma-3-12b-it",
+    "contextWindow": 131072,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/cohere/command-a",
+    "providerId": "openrouter",
+    "name": "Cohere: Command A",
+    "modelId": "cohere/command-a",
+    "contextWindow": 256000,
+    "maxOutputTokens": 8192,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-4o-search-preview",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-4o Search Preview",
+    "modelId": "openai/gpt-4o-search-preview",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/rekaai/reka-flash-3",
+    "providerId": "openrouter",
+    "name": "Reka Flash 3",
+    "modelId": "rekaai/reka-flash-3",
+    "contextWindow": 65536,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/google/gemma-3-27b-it",
+    "providerId": "openrouter",
+    "name": "Google: Gemma 3 27B",
+    "modelId": "google/gemma-3-27b-it",
+    "contextWindow": 262144,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/thedrummer/skyfall-36b-v2",
+    "providerId": "openrouter",
+    "name": "TheDrummer: Skyfall 36B V2",
+    "modelId": "thedrummer/skyfall-36b-v2",
+    "contextWindow": 32768,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/perplexity/sonar-reasoning-pro",
+    "providerId": "openrouter",
+    "name": "Perplexity: Sonar Reasoning Pro",
+    "modelId": "perplexity/sonar-reasoning-pro",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/perplexity/sonar-pro",
+    "providerId": "openrouter",
+    "name": "Perplexity: Sonar Pro",
+    "modelId": "perplexity/sonar-pro",
+    "contextWindow": 200000,
+    "maxOutputTokens": 8000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/perplexity/sonar-deep-research",
+    "providerId": "openrouter",
+    "name": "Perplexity: Sonar Deep Research",
+    "modelId": "perplexity/sonar-deep-research",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/mistralai/mistral-saba",
+    "providerId": "openrouter",
+    "name": "Mistral: Saba",
+    "modelId": "mistralai/mistral-saba",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/o3-mini-high",
+    "providerId": "openrouter",
+    "name": "OpenAI: o3 Mini High",
+    "modelId": "openai/o3-mini-high",
+    "contextWindow": 200000,
+    "maxOutputTokens": 100000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/aion-labs/aion-rp-llama-3.1-8b",
+    "providerId": "openrouter",
+    "name": "AionLabs: Aion-RP 1.0 (8B)",
+    "modelId": "aion-labs/aion-rp-llama-3.1-8b",
+    "contextWindow": 32768,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen2.5-vl-72b-instruct",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen2.5 VL 72B Instruct",
+    "modelId": "qwen/qwen2.5-vl-72b-instruct",
+    "contextWindow": 128000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen-plus",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen-Plus",
+    "modelId": "qwen/qwen-plus",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/o3-mini",
+    "providerId": "openrouter",
+    "name": "OpenAI: o3 Mini",
+    "modelId": "openai/o3-mini",
+    "contextWindow": 200000,
+    "maxOutputTokens": 100000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/mistralai/mistral-small-24b-instruct-2501",
+    "providerId": "openrouter",
+    "name": "Mistral: Mistral Small 3",
+    "modelId": "mistralai/mistral-small-24b-instruct-2501",
+    "contextWindow": 32768,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/perplexity/sonar",
+    "providerId": "openrouter",
+    "name": "Perplexity: Sonar",
+    "modelId": "perplexity/sonar",
+    "contextWindow": 127072,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 94,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-r1-distill-llama-70b",
+    "providerId": "openrouter",
+    "name": "DeepSeek: R1 Distill Llama 70B",
+    "modelId": "deepseek/deepseek-r1-distill-llama-70b",
+    "contextWindow": 8192,
+    "maxOutputTokens": 8192,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 86,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-r1",
+    "providerId": "openrouter",
+    "name": "DeepSeek: R1",
+    "modelId": "deepseek/deepseek-r1",
+    "contextWindow": 163840,
+    "maxOutputTokens": 16000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/minimax/minimax-01",
+    "providerId": "openrouter",
+    "name": "MiniMax: MiniMax-01",
+    "modelId": "minimax/minimax-01",
+    "contextWindow": 1000192,
+    "maxOutputTokens": 1000192,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/microsoft/phi-4",
+    "providerId": "openrouter",
+    "name": "Microsoft: Phi 4",
+    "modelId": "microsoft/phi-4",
+    "contextWindow": 16384,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 86,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-chat",
+    "providerId": "openrouter",
+    "name": "DeepSeek: DeepSeek V3",
+    "modelId": "deepseek/deepseek-chat",
+    "contextWindow": 163840,
+    "maxOutputTokens": 16000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/sao10k/l3.3-euryale-70b",
+    "providerId": "openrouter",
+    "name": "Sao10K: Llama 3.3 Euryale 70B",
+    "modelId": "sao10k/l3.3-euryale-70b",
+    "contextWindow": 131072,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/o1",
+    "providerId": "openrouter",
+    "name": "OpenAI: o1",
+    "modelId": "openai/o1",
+    "contextWindow": 200000,
+    "maxOutputTokens": 100000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/cohere/command-r7b-12-2024",
+    "providerId": "openrouter",
+    "name": "Cohere: Command R7B (12-2024)",
+    "modelId": "cohere/command-r7b-12-2024",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/meta-llama/llama-3.3-70b-instruct",
+    "providerId": "openrouter",
+    "name": "Meta: Llama 3.3 70B Instruct",
+    "modelId": "meta-llama/llama-3.3-70b-instruct",
+    "contextWindow": 131072,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/amazon/nova-lite-v1",
+    "providerId": "openrouter",
+    "name": "Amazon: Nova Lite 1.0",
+    "modelId": "amazon/nova-lite-v1",
+    "contextWindow": 300000,
+    "maxOutputTokens": 5120,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/amazon/nova-micro-v1",
+    "providerId": "openrouter",
+    "name": "Amazon: Nova Micro 1.0",
+    "modelId": "amazon/nova-micro-v1",
+    "contextWindow": 128000,
+    "maxOutputTokens": 5120,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/amazon/nova-pro-v1",
+    "providerId": "openrouter",
+    "name": "Amazon: Nova Pro 1.0",
+    "modelId": "amazon/nova-pro-v1",
+    "contextWindow": 300000,
+    "maxOutputTokens": 5120,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-4o-2024-11-20",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-4o (2024-11-20)",
+    "modelId": "openai/gpt-4o-2024-11-20",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/mistralai/mistral-large-2407",
+    "providerId": "openrouter",
+    "name": "Mistral Large 2407",
+    "modelId": "mistralai/mistral-large-2407",
+    "contextWindow": 131072,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen-2.5-coder-32b-instruct",
+    "providerId": "openrouter",
+    "name": "Qwen2.5 Coder 32B Instruct",
+    "modelId": "qwen/qwen-2.5-coder-32b-instruct",
+    "contextWindow": 32768,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/thedrummer/unslopnemo-12b",
+    "providerId": "openrouter",
+    "name": "TheDrummer: UnslopNemo 12B",
+    "modelId": "thedrummer/unslopnemo-12b",
+    "contextWindow": 32768,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/anthracite-org/magnum-v4-72b",
+    "providerId": "openrouter",
+    "name": "Magnum v4 72B",
+    "modelId": "anthracite-org/magnum-v4-72b",
+    "contextWindow": 16384,
+    "maxOutputTokens": 2048,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 86,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen-2.5-7b-instruct",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen2.5 7B Instruct",
+    "modelId": "qwen/qwen-2.5-7b-instruct",
+    "contextWindow": 32768,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/thedrummer/rocinante-12b",
+    "providerId": "openrouter",
+    "name": "TheDrummer: Rocinante 12B",
+    "modelId": "thedrummer/rocinante-12b",
+    "contextWindow": 65536,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/meta-llama/llama-3.2-1b-instruct",
+    "providerId": "openrouter",
+    "name": "Meta: Llama 3.2 1B Instruct",
+    "modelId": "meta-llama/llama-3.2-1b-instruct",
+    "contextWindow": 60000,
+    "maxOutputTokens": 60000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/meta-llama/llama-3.2-3b-instruct",
+    "providerId": "openrouter",
+    "name": "Meta: Llama 3.2 3B Instruct",
+    "modelId": "meta-llama/llama-3.2-3b-instruct",
+    "contextWindow": 131072,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen-2.5-72b-instruct",
+    "providerId": "openrouter",
+    "name": "Qwen2.5 72B Instruct",
+    "modelId": "qwen/qwen-2.5-72b-instruct",
+    "contextWindow": 32768,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/cohere/command-r-08-2024",
+    "providerId": "openrouter",
+    "name": "Cohere: Command R (08-2024)",
+    "modelId": "cohere/command-r-08-2024",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/cohere/command-r-plus-08-2024",
+    "providerId": "openrouter",
+    "name": "Cohere: Command R+ (08-2024)",
+    "modelId": "cohere/command-r-plus-08-2024",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/sao10k/l3.1-euryale-70b",
+    "providerId": "openrouter",
+    "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
+    "modelId": "sao10k/l3.1-euryale-70b",
+    "contextWindow": 131072,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/nousresearch/hermes-3-llama-3.1-70b",
+    "providerId": "openrouter",
+    "name": "Nous: Hermes 3 70B Instruct",
+    "modelId": "nousresearch/hermes-3-llama-3.1-70b",
+    "contextWindow": 131072,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/nousresearch/hermes-3-llama-3.1-405b",
+    "providerId": "openrouter",
+    "name": "Nous: Hermes 3 405B Instruct",
+    "modelId": "nousresearch/hermes-3-llama-3.1-405b",
+    "contextWindow": 131072,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/sao10k/l3-lunaris-8b",
+    "providerId": "openrouter",
+    "name": "Sao10K: Llama 3 8B Lunaris",
+    "modelId": "sao10k/l3-lunaris-8b",
+    "contextWindow": 8192,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 86,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-4o-2024-08-06",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-4o (2024-08-06)",
+    "modelId": "openai/gpt-4o-2024-08-06",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/meta-llama/llama-3.1-70b-instruct",
+    "providerId": "openrouter",
+    "name": "Meta: Llama 3.1 70B Instruct",
+    "modelId": "meta-llama/llama-3.1-70b-instruct",
+    "contextWindow": 131072,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/meta-llama/llama-3.1-8b-instruct",
+    "providerId": "openrouter",
+    "name": "Meta: Llama 3.1 8B Instruct",
+    "modelId": "meta-llama/llama-3.1-8b-instruct",
+    "contextWindow": 131072,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/mistralai/mistral-nemo",
+    "providerId": "openrouter",
+    "name": "Mistral: Mistral Nemo",
+    "modelId": "mistralai/mistral-nemo",
+    "contextWindow": 131072,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-4o-mini",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-4o-mini",
+    "modelId": "openai/gpt-4o-mini",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-4o-mini-2024-07-18",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+    "modelId": "openai/gpt-4o-mini-2024-07-18",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/google/gemma-2-27b-it",
+    "providerId": "openrouter",
+    "name": "Google: Gemma 2 27B",
+    "modelId": "google/gemma-2-27b-it",
+    "contextWindow": 8192,
+    "maxOutputTokens": 2048,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 86,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-4o-2024-05-13",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-4o (2024-05-13)",
+    "modelId": "openai/gpt-4o-2024-05-13",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/mistralai/mixtral-8x22b-instruct",
+    "providerId": "openrouter",
+    "name": "Mistral: Mixtral 8x22B Instruct",
+    "modelId": "mistralai/mixtral-8x22b-instruct",
+    "contextWindow": 65536,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/microsoft/wizardlm-2-8x22b",
+    "providerId": "openrouter",
+    "name": "WizardLM-2 8x22B",
+    "modelId": "microsoft/wizardlm-2-8x22b",
+    "contextWindow": 65535,
+    "maxOutputTokens": 8000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-4-turbo",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-4 Turbo",
+    "modelId": "openai/gpt-4-turbo",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-3-haiku",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude 3 Haiku",
+    "modelId": "anthropic/claude-3-haiku",
+    "contextWindow": 200000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/mistralai/mistral-large",
+    "providerId": "openrouter",
+    "name": "Mistral Large",
+    "modelId": "mistralai/mistral-large",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-3.5-turbo-0613",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+    "modelId": "openai/gpt-3.5-turbo-0613",
+    "contextWindow": 4095,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 81,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-4-turbo-preview",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-4 Turbo Preview",
+    "modelId": "openai/gpt-4-turbo-preview",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openrouter/auto",
+    "providerId": "openrouter",
+    "name": "Auto Router",
+    "modelId": "openrouter/auto",
+    "contextWindow": 2000000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-3.5-turbo-instruct",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-3.5 Turbo Instruct",
+    "modelId": "openai/gpt-3.5-turbo-instruct",
+    "contextWindow": 4095,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 81,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-3.5-turbo-16k",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-3.5 Turbo 16k",
+    "modelId": "openai/gpt-3.5-turbo-16k",
+    "contextWindow": 16385,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 86,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/mancer/weaver",
+    "providerId": "openrouter",
+    "name": "Mancer: Weaver (alpha)",
+    "modelId": "mancer/weaver",
+    "contextWindow": 8000,
+    "maxOutputTokens": 2000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 86,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/undi95/remm-slerp-l2-13b",
+    "providerId": "openrouter",
+    "name": "ReMM SLERP 13B",
+    "modelId": "undi95/remm-slerp-l2-13b",
+    "contextWindow": 6144,
+    "maxOutputTokens": 2048,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 81,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/gryphe/mythomax-l2-13b",
+    "providerId": "openrouter",
+    "name": "MythoMax 13B",
+    "modelId": "gryphe/mythomax-l2-13b",
+    "contextWindow": 8192,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 86,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-3.5-turbo",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-3.5 Turbo",
+    "modelId": "openai/gpt-3.5-turbo",
+    "contextWindow": 16385,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 86,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-4",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-4",
+    "modelId": "openai/gpt-4",
+    "contextWindow": 8191,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 86,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
+  },
+  {
+    "id": "zhipu/glm-in-excel",
+    "providerId": "zhipu",
+    "name": "GLM IN-EXCEL",
+    "modelId": "glm-in-excel",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:54.041Z"
+  },
+  {
+    "id": "zhipu/glm-0",
+    "providerId": "zhipu",
+    "name": "GLM 0",
+    "modelId": "glm-0",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:54.041Z"
+  },
+  {
+    "id": "zhipu/glm-phone",
+    "providerId": "zhipu",
+    "name": "GLM PHONE",
+    "modelId": "glm-phone",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:54.041Z"
+  },
+  {
+    "id": "zhipu/glm-4.1v-thinking",
+    "providerId": "zhipu",
+    "name": "GLM 4.1V-THINKING",
+    "modelId": "glm-4.1v-thinking",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:54.041Z"
+  },
+  {
+    "id": "zhipu/glm-tts",
+    "providerId": "zhipu",
+    "name": "GLM TTS",
+    "modelId": "glm-tts",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:54.041Z"
+  },
+  {
+    "id": "zhipu/glm-tts-clone",
+    "providerId": "zhipu",
+    "name": "GLM TTS-CLONE",
+    "modelId": "glm-tts-clone",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:54.041Z"
+  },
+  {
+    "id": "zhipu/glm-realtime",
+    "providerId": "zhipu",
+    "name": "GLM REALTIME",
+    "modelId": "glm-realtime",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:54.041Z"
+  },
+  {
+    "id": "zhipu/glm-4-voice",
+    "providerId": "zhipu",
+    "name": "GLM 4-VOICE",
+    "modelId": "glm-4-voice",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:54.041Z"
+  },
+  {
+    "id": "zhipu/glm-4",
+    "providerId": "zhipu",
+    "name": "GLM 4",
+    "modelId": "glm-4",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:54.041Z"
+  },
+  {
+    "id": "zhipu/glm-4.1v-thinking-flash",
+    "providerId": "zhipu",
+    "name": "GLM 4.1V-THINKING-FLASH",
+    "modelId": "glm-4.1v-thinking-flash",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:54.041Z"
+  },
+  {
+    "id": "zhipu/glm-4-flash-250414",
+    "providerId": "zhipu",
+    "name": "GLM 4-FLASH-250414",
+    "modelId": "glm-4-flash-250414",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:54.041Z"
+  },
+  {
+    "id": "zhipu/glm-4v-flash",
+    "providerId": "zhipu",
+    "name": "GLM 4V-FLASH",
+    "modelId": "glm-4v-flash",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:52:54.041Z"
+  },
+  {
+    "id": "cerebras/llama3.1-8b",
+    "providerId": "cerebras",
+    "name": "Cerebras Llama 3.1 8B",
+    "modelId": "llama3.1-8b",
+    "contextWindow": 8192,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 86,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:54:54.742Z"
+  },
+  {
+    "id": "cohere/command-r",
+    "providerId": "cohere",
+    "name": "Command R",
+    "modelId": "command-r",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-27",
+    "lastVerifiedAt": "2026-07-27T06:56:28.006Z"
   }
 ]
