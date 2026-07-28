@@ -189,7 +189,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-07-27T09:48:38.036Z",
+    "lastVerifiedAt": "2026-07-28T08:31:10.547Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -210,7 +210,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-07-27T09:48:39.227Z",
+    "lastVerifiedAt": "2026-07-28T08:31:12.058Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -232,7 +232,7 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-07-27T09:48:40.234Z",
+    "lastVerifiedAt": "2026-07-28T08:31:13.066Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -2454,9 +2454,9 @@
     "verified": false,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 93,
+    "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-27T09:48:41.243Z",
+    "lastVerifiedAt": "2026-07-28T08:31:14.075Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -2473,9 +2473,9 @@
     "verified": false,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 93,
+    "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-27T09:48:42.250Z",
+    "lastVerifiedAt": "2026-07-28T08:31:15.081Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -2493,9 +2493,9 @@
     "verified": false,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 96,
+    "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-27T09:48:43.258Z",
+    "lastVerifiedAt": "2026-07-28T08:31:16.088Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -2513,9 +2513,9 @@
     "verified": false,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 96,
+    "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-27T09:48:44.266Z",
+    "lastVerifiedAt": "2026-07-28T08:31:17.096Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -2532,9 +2532,9 @@
     "verified": false,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 93,
+    "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-27T09:48:45.274Z",
+    "lastVerifiedAt": "2026-07-28T08:31:18.103Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -2551,9 +2551,9 @@
     "verified": false,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 93,
+    "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-27T09:48:46.282Z",
+    "lastVerifiedAt": "2026-07-28T08:31:19.112Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -4611,7 +4611,7 @@
   {
     "id": "nvidia/nvidia/ising-calibration-1-35b-a3b",
     "providerId": "nvidia",
-    "name": "Ising Calibration 1 35b A3b",
+    "name": "nvidia/Ising Calibration 1 35b A3b",
     "modelId": "nvidia/ising-calibration-1-35b-a3b",
     "contextWindow": 128000,
     "maxOutputTokens": 4096,
@@ -11579,7 +11579,7 @@
     "name": "NVIDIA: Nemotron 3 Ultra",
     "modelId": "nvidia/nemotron-3-ultra-550b-a55b",
     "contextWindow": 512288,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code"
@@ -11994,7 +11994,7 @@
     "name": "MoonshotAI Kimi Latest",
     "modelId": "~moonshotai/kimi-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code",
@@ -13918,7 +13918,7 @@
     "name": "OpenAI: GPT-5.1 Chat",
     "modelId": "openai/gpt-5.1-chat",
     "contextWindow": 128000,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 32000,
     "modalities": [
       "text",
       "code",
@@ -17551,5 +17551,44 @@
     "score": 91,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T09:48:30.685Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.7-flash",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.7 Flash",
+    "modelId": "qwen/qwen3.7-flash",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-28",
+    "lastVerifiedAt": "2026-07-28T08:31:01.749Z"
+  },
+  {
+    "id": "nvidia/nvidia/riva-translate-4b-instruct-v2",
+    "providerId": "nvidia",
+    "name": "Riva Translate 4b Instruct V2",
+    "modelId": "nvidia/riva-translate-4b-instruct-v2",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-28",
+    "lastVerifiedAt": "2026-07-28T08:31:03.010Z"
   }
 ]
