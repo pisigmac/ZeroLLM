@@ -189,7 +189,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-07-28T08:31:10.547Z",
+    "lastVerifiedAt": "2026-07-29T08:37:48.231Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -210,7 +210,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-07-28T08:31:12.058Z",
+    "lastVerifiedAt": "2026-07-29T08:37:49.352Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -232,7 +232,7 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-07-28T08:31:13.066Z",
+    "lastVerifiedAt": "2026-07-29T08:37:50.360Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -2456,7 +2456,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-28T08:31:14.075Z",
+    "lastVerifiedAt": "2026-07-29T08:37:51.369Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -2475,7 +2475,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-28T08:31:15.081Z",
+    "lastVerifiedAt": "2026-07-29T08:37:52.388Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -2495,7 +2495,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-28T08:31:16.088Z",
+    "lastVerifiedAt": "2026-07-29T08:37:53.397Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -2515,7 +2515,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-28T08:31:17.096Z",
+    "lastVerifiedAt": "2026-07-29T08:37:54.405Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -2534,7 +2534,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-28T08:31:18.103Z",
+    "lastVerifiedAt": "2026-07-29T08:37:55.411Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -2553,7 +2553,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-28T08:31:19.112Z",
+    "lastVerifiedAt": "2026-07-29T08:37:56.422Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -11579,7 +11579,7 @@
     "name": "NVIDIA: Nemotron 3 Ultra",
     "modelId": "nvidia/nemotron-3-ultra-550b-a55b",
     "contextWindow": 512288,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -11994,7 +11994,7 @@
     "name": "MoonshotAI Kimi Latest",
     "modelId": "~moonshotai/kimi-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code",
@@ -12465,7 +12465,7 @@
     "name": "Google: Gemma 4 26B A4B ",
     "modelId": "google/gemma-4-26b-a4b-it",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -13196,7 +13196,7 @@
     "name": "Qwen: Qwen3 Max Thinking",
     "modelId": "qwen/qwen3-max-thinking",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code"
@@ -13235,7 +13235,7 @@
     "name": "Qwen: Qwen3 Coder Next",
     "modelId": "qwen/qwen3-coder-next",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 64000,
     "modalities": [
       "text",
       "code"
@@ -14313,7 +14313,7 @@
     "name": "Qwen: Qwen3 VL 30B A3B Instruct",
     "modelId": "qwen/qwen3-vl-30b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code",
@@ -14489,7 +14489,7 @@
     "name": "Qwen: Qwen3 Max",
     "modelId": "qwen/qwen3-max",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code"
@@ -17590,5 +17590,603 @@
     "score": 96,
     "releasedAt": "2026-07-28",
     "lastVerifiedAt": "2026-07-28T08:31:03.010Z"
+  },
+  {
+    "id": "openrouter/google/gemini-3.6-flash:batch",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 3.6 Flash (batch)",
+    "modelId": "google/gemini-3.6-flash:batch",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.006Z"
+  },
+  {
+    "id": "openrouter/google/gemini-3.5-flash-lite:batch",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 3.5 Flash Lite (batch)",
+    "modelId": "google/gemini-3.5-flash-lite:batch",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.006Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-sonnet-5:batch",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Sonnet 5 (batch)",
+    "modelId": "anthropic/claude-sonnet-5:batch",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.007Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-fable-5:batch",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Fable 5 (batch)",
+    "modelId": "anthropic/claude-fable-5:batch",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.008Z"
+  },
+  {
+    "id": "openrouter/minimax/minimax-m3:batch",
+    "providerId": "openrouter",
+    "name": "MiniMax: MiniMax M3 (batch)",
+    "modelId": "minimax/minimax-m3:batch",
+    "contextWindow": 524288,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.008Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-opus-4.8:batch",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Opus 4.8 (batch)",
+    "modelId": "anthropic/claude-opus-4.8:batch",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.008Z"
+  },
+  {
+    "id": "openrouter/google/gemini-3.5-flash:batch",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 3.5 Flash (batch)",
+    "modelId": "google/gemini-3.5-flash:batch",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.008Z"
+  },
+  {
+    "id": "openrouter/google/gemini-3.1-flash-lite:batch",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 3.1 Flash Lite (batch)",
+    "modelId": "google/gemini-3.1-flash-lite:batch",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.008Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.5:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.5 (batch)",
+    "modelId": "openai/gpt-5.5:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.008Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-opus-4.7:batch",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Opus 4.7 (batch)",
+    "modelId": "anthropic/claude-opus-4.7:batch",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.009Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.4-nano:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.4 Nano (batch)",
+    "modelId": "openai/gpt-5.4-nano:batch",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.009Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.4-mini:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.4 Mini (batch)",
+    "modelId": "openai/gpt-5.4-mini:batch",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.009Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.4:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.4 (batch)",
+    "modelId": "openai/gpt-5.4:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.009Z"
+  },
+  {
+    "id": "openrouter/google/gemini-3.1-pro-preview:batch",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 3.1 Pro Preview (batch)",
+    "modelId": "google/gemini-3.1-pro-preview:batch",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.009Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-opus-4.6:batch",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Opus 4.6 (batch)",
+    "modelId": "anthropic/claude-opus-4.6:batch",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.010Z"
+  },
+  {
+    "id": "openrouter/google/gemini-3-flash-preview:batch",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 3 Flash Preview (batch)",
+    "modelId": "google/gemini-3-flash-preview:batch",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65535,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.010Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.2:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.2 (batch)",
+    "modelId": "openai/gpt-5.2:batch",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.010Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-opus-4.5:batch",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Opus 4.5 (batch)",
+    "modelId": "anthropic/claude-opus-4.5:batch",
+    "contextWindow": 200000,
+    "maxOutputTokens": 64000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.010Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.1:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.1 (batch)",
+    "modelId": "openai/gpt-5.1:batch",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.011Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-haiku-4.5:batch",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Haiku 4.5 (batch)",
+    "modelId": "anthropic/claude-haiku-4.5:batch",
+    "contextWindow": 200000,
+    "maxOutputTokens": 64000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.011Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-sonnet-4.5:batch",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Sonnet 4.5 (batch)",
+    "modelId": "anthropic/claude-sonnet-4.5:batch",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.011Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5 (batch)",
+    "modelId": "openai/gpt-5:batch",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.012Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5-mini:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5 Mini (batch)",
+    "modelId": "openai/gpt-5-mini:batch",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.012Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5-nano:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5 Nano (batch)",
+    "modelId": "openai/gpt-5-nano:batch",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.012Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-opus-4.1:batch",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Opus 4.1 (batch)",
+    "modelId": "anthropic/claude-opus-4.1:batch",
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.012Z"
+  },
+  {
+    "id": "openrouter/google/gemini-2.5-flash-lite:batch",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 2.5 Flash Lite (batch)",
+    "modelId": "google/gemini-2.5-flash-lite:batch",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65535,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.012Z"
+  },
+  {
+    "id": "openrouter/google/gemini-2.5-flash:batch",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 2.5 Flash (batch)",
+    "modelId": "google/gemini-2.5-flash:batch",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65535,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.012Z"
+  },
+  {
+    "id": "openrouter/google/gemini-2.5-pro:batch",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 2.5 Pro (batch)",
+    "modelId": "google/gemini-2.5-pro:batch",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:40.012Z"
+  },
+  {
+    "id": "nvidia/arc/evo2-40b-forward",
+    "providerId": "nvidia",
+    "name": "arc/Evo2 40b Forward",
+    "modelId": "arc/evo2-40b-forward",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:41.344Z"
+  },
+  {
+    "id": "nvidia/arc/evo2-7b-forward",
+    "providerId": "nvidia",
+    "name": "arc/Evo2 7b Forward",
+    "modelId": "arc/evo2-7b-forward",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-07-29",
+    "lastVerifiedAt": "2026-07-29T08:37:41.344Z"
   }
 ]
