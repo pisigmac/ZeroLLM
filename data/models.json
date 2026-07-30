@@ -189,7 +189,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-07-29T08:37:48.231Z",
+    "lastVerifiedAt": "2026-07-30T08:23:26.723Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -210,7 +210,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-07-29T08:37:49.352Z",
+    "lastVerifiedAt": "2026-07-30T08:23:27.735Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -232,7 +232,7 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-07-29T08:37:50.360Z",
+    "lastVerifiedAt": "2026-07-30T08:23:28.897Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -2456,7 +2456,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-29T08:37:51.369Z",
+    "lastVerifiedAt": "2026-07-30T08:23:29.907Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -2475,7 +2475,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-29T08:37:52.388Z",
+    "lastVerifiedAt": "2026-07-30T08:23:30.916Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -2495,7 +2495,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-29T08:37:53.397Z",
+    "lastVerifiedAt": "2026-07-30T08:23:31.926Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -2515,7 +2515,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-29T08:37:54.405Z",
+    "lastVerifiedAt": "2026-07-30T08:23:32.937Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -2534,7 +2534,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-29T08:37:55.411Z",
+    "lastVerifiedAt": "2026-07-30T08:23:33.945Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -2553,7 +2553,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-29T08:37:56.422Z",
+    "lastVerifiedAt": "2026-07-30T08:23:34.955Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
   },
   {
@@ -11361,7 +11361,7 @@
     "name": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
     "modelId": "google/gemini-3.1-flash-lite-image",
     "contextWindow": 65536,
-    "maxOutputTokens": 66000,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -11461,7 +11461,7 @@
     "name": "Z.ai: GLM 5.2",
     "modelId": "z-ai/glm-5.2",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code"
@@ -11994,7 +11994,7 @@
     "name": "MoonshotAI Kimi Latest",
     "modelId": "~moonshotai/kimi-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 1048576,
     "modalities": [
       "text",
       "code",
@@ -13235,7 +13235,7 @@
     "name": "Qwen: Qwen3 Coder Next",
     "modelId": "qwen/qwen3-coder-next",
     "contextWindow": 262144,
-    "maxOutputTokens": 64000,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code"
@@ -14313,7 +14313,7 @@
     "name": "Qwen: Qwen3 VL 30B A3B Instruct",
     "modelId": "qwen/qwen3-vl-30b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -18188,5 +18188,24 @@
     "score": 96,
     "releasedAt": "2026-07-29",
     "lastVerifiedAt": "2026-07-29T08:37:41.344Z"
+  },
+  {
+    "id": "huggingface/google/gemma-3-1b-it",
+    "providerId": "huggingface",
+    "name": "google/gemma-3-1b-it",
+    "modelId": "google/gemma-3-1b-it",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-07-30",
+    "lastVerifiedAt": "2026-07-30T08:23:20.094Z"
   }
 ]
