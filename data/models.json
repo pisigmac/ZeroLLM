@@ -189,8 +189,8 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-07-30T08:23:26.723Z",
-    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}",
+    "lastVerifiedAt": "2026-07-31T08:47:11.213Z",
+    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}",
     "rateLimit": "15 RPM, 150 RPD"
   },
   {
@@ -210,8 +210,8 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-07-30T08:23:27.735Z",
-    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}",
+    "lastVerifiedAt": "2026-07-31T08:47:12.327Z",
+    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}",
     "rateLimit": "15 RPM, 150 RPD"
   },
   {
@@ -232,8 +232,8 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-07-30T08:23:28.897Z",
-    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
+    "lastVerifiedAt": "2026-07-31T08:47:13.339Z",
+    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
     "id": "mistral/mistral-large-latest",
@@ -2456,8 +2456,8 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-30T08:23:29.907Z",
-    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
+    "lastVerifiedAt": "2026-07-31T08:47:14.349Z",
+    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
     "id": "github/Cohere-embed-v3-multilingual",
@@ -2475,8 +2475,8 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-30T08:23:30.916Z",
-    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
+    "lastVerifiedAt": "2026-07-31T08:47:15.356Z",
+    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
     "id": "github/Meta-Llama-3.1-405B-Instruct",
@@ -2495,8 +2495,8 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-30T08:23:31.926Z",
-    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
+    "lastVerifiedAt": "2026-07-31T08:47:16.364Z",
+    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
     "id": "github/Meta-Llama-3.1-8B-Instruct",
@@ -2515,8 +2515,8 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-30T08:23:32.937Z",
-    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
+    "lastVerifiedAt": "2026-07-31T08:47:17.376Z",
+    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
     "id": "github/text-embedding-3-large",
@@ -2534,8 +2534,8 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-30T08:23:33.945Z",
-    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
+    "lastVerifiedAt": "2026-07-31T08:47:18.384Z",
+    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
     "id": "github/text-embedding-3-small",
@@ -2553,8 +2553,8 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-30T08:23:34.955Z",
-    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"The `models` permission is required to access this endpoint\",\"details\":\"The `models` permission is required to access this endpoint\"}}"
+    "lastVerifiedAt": "2026-07-31T08:47:19.393Z",
+    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
     "id": "mistral/mistral-medium-2505",
@@ -11579,7 +11579,7 @@
     "name": "NVIDIA: Nemotron 3 Ultra",
     "modelId": "nvidia/nemotron-3-ultra-550b-a55b",
     "contextWindow": 512288,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code"
@@ -11598,7 +11598,7 @@
     "name": "Qwen: Qwen3.7 Plus",
     "modelId": "qwen/qwen3.7-plus",
     "contextWindow": 1000000,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
@@ -11698,7 +11698,7 @@
     "name": "Qwen: Qwen3.7 Max",
     "modelId": "qwen/qwen3.7-max",
     "contextWindow": 1000000,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -13525,7 +13525,7 @@
     "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
     "modelId": "nvidia/nemotron-3-nano-30b-a3b",
     "contextWindow": 262144,
-    "maxOutputTokens": 228000,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code"
@@ -15048,7 +15048,7 @@
     "name": "Qwen: Qwen3 235B A22B Thinking 2507",
     "modelId": "qwen/qwen3-235b-a22b-thinking-2507",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code"
@@ -16488,7 +16488,7 @@
     "providerId": "openrouter",
     "name": "TheDrummer: UnslopNemo 12B",
     "modelId": "thedrummer/unslopnemo-12b",
-    "contextWindow": 32768,
+    "contextWindow": 1024000,
     "maxOutputTokens": 32768,
     "modalities": [
       "text",
@@ -16498,7 +16498,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 91,
+    "score": 100,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
   },
@@ -18207,5 +18207,44 @@
     "score": 91,
     "releasedAt": "2026-07-30",
     "lastVerifiedAt": "2026-07-30T08:23:20.094Z"
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v4-flash-0731",
+    "providerId": "openrouter",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "modelId": "deepseek/deepseek-v4-flash-0731",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 384000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-07-31",
+    "lastVerifiedAt": "2026-07-31T08:47:02.752Z"
+  },
+  {
+    "id": "deepseek/deepseek-v4-flash-0731",
+    "providerId": "deepseek",
+    "name": "deepseek-v4-flash-0731",
+    "modelId": "deepseek-v4-flash-0731",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 393216,
+    "modalities": [
+      "text",
+      "code",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 89,
+    "releasedAt": "2026-07-31",
+    "lastVerifiedAt": "2026-07-31T08:47:05.634Z"
   }
 ]
