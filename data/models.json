@@ -189,7 +189,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-07-31T08:47:11.213Z",
+    "lastVerifiedAt": "2026-08-01T08:17:35.166Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -210,7 +210,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-07-31T08:47:12.327Z",
+    "lastVerifiedAt": "2026-08-01T08:17:36.337Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -232,7 +232,7 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-07-31T08:47:13.339Z",
+    "lastVerifiedAt": "2026-08-01T08:17:37.345Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2456,7 +2456,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-31T08:47:14.349Z",
+    "lastVerifiedAt": "2026-08-01T08:17:38.354Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2475,7 +2475,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-31T08:47:15.356Z",
+    "lastVerifiedAt": "2026-08-01T08:17:39.361Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2495,7 +2495,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-31T08:47:16.364Z",
+    "lastVerifiedAt": "2026-08-01T08:17:40.369Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2515,7 +2515,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-31T08:47:17.376Z",
+    "lastVerifiedAt": "2026-08-01T08:17:41.375Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2534,7 +2534,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-31T08:47:18.384Z",
+    "lastVerifiedAt": "2026-08-01T08:17:42.383Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2553,7 +2553,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-07-31T08:47:19.393Z",
+    "lastVerifiedAt": "2026-08-01T08:17:43.392Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -11579,7 +11579,7 @@
     "name": "NVIDIA: Nemotron 3 Ultra",
     "modelId": "nvidia/nemotron-3-ultra-550b-a55b",
     "contextWindow": 512288,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -14313,7 +14313,7 @@
     "name": "Qwen: Qwen3 VL 30B A3B Instruct",
     "modelId": "qwen/qwen3-vl-30b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code",
@@ -14972,7 +14972,7 @@
     "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
     "modelId": "qwen/qwen3-coder-30b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code"
@@ -15260,7 +15260,7 @@
     "name": "Mistral: Mistral Small 3.2 24B",
     "modelId": "mistralai/mistral-small-3.2-24b-instruct",
     "contextWindow": 256000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -18246,5 +18246,25 @@
     "score": 89,
     "releasedAt": "2026-07-31",
     "lastVerifiedAt": "2026-07-31T08:47:05.634Z"
+  },
+  {
+    "id": "openrouter/thinkingmachines/inkling-small",
+    "providerId": "openrouter",
+    "name": "Thinking Machines: Inkling Small",
+    "modelId": "thinkingmachines/inkling-small",
+    "contextWindow": 524288,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-01",
+    "lastVerifiedAt": "2026-08-01T08:17:27.862Z"
   }
 ]
