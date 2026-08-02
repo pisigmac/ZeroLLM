@@ -189,7 +189,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-08-01T08:17:35.166Z",
+    "lastVerifiedAt": "2026-08-02T08:21:38.325Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -210,7 +210,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-08-01T08:17:36.337Z",
+    "lastVerifiedAt": "2026-08-02T08:21:39.455Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -232,7 +232,7 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-08-01T08:17:37.345Z",
+    "lastVerifiedAt": "2026-08-02T08:21:40.462Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2456,7 +2456,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-01T08:17:38.354Z",
+    "lastVerifiedAt": "2026-08-02T08:21:41.471Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2475,7 +2475,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-01T08:17:39.361Z",
+    "lastVerifiedAt": "2026-08-02T08:21:42.477Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2495,7 +2495,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-01T08:17:40.369Z",
+    "lastVerifiedAt": "2026-08-02T08:21:43.484Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2515,7 +2515,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-01T08:17:41.375Z",
+    "lastVerifiedAt": "2026-08-02T08:21:44.492Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2534,7 +2534,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-01T08:17:42.383Z",
+    "lastVerifiedAt": "2026-08-02T08:21:45.498Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2553,7 +2553,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-01T08:17:43.392Z",
+    "lastVerifiedAt": "2026-08-02T08:21:46.507Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -11461,7 +11461,7 @@
     "name": "Z.ai: GLM 5.2",
     "modelId": "z-ai/glm-5.2",
     "contextWindow": 1048576,
-    "maxOutputTokens": 128000,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -11579,7 +11579,7 @@
     "name": "NVIDIA: Nemotron 3 Ultra",
     "modelId": "nvidia/nemotron-3-ultra-550b-a55b",
     "contextWindow": 512288,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code"
@@ -18214,7 +18214,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "modelId": "deepseek/deepseek-v4-flash-0731",
     "contextWindow": 1048576,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code"
@@ -18266,5 +18266,24 @@
     "score": 99,
     "releasedAt": "2026-08-01",
     "lastVerifiedAt": "2026-08-01T08:17:27.862Z"
+  },
+  {
+    "id": "openrouter/~deepseek/deepseek-v4-flash-latest",
+    "providerId": "openrouter",
+    "name": "DeepSeek V4 Flash Latest",
+    "modelId": "~deepseek/deepseek-v4-flash-latest",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-02",
+    "lastVerifiedAt": "2026-08-02T08:21:31.044Z"
   }
 ]
