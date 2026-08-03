@@ -189,7 +189,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-08-02T08:21:38.325Z",
+    "lastVerifiedAt": "2026-08-03T09:40:28.987Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -210,7 +210,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-08-02T08:21:39.455Z",
+    "lastVerifiedAt": "2026-08-03T09:40:30.184Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -232,7 +232,7 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-08-02T08:21:40.462Z",
+    "lastVerifiedAt": "2026-08-03T09:40:31.193Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2456,7 +2456,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-02T08:21:41.471Z",
+    "lastVerifiedAt": "2026-08-03T09:40:32.202Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2475,7 +2475,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-02T08:21:42.477Z",
+    "lastVerifiedAt": "2026-08-03T09:40:33.210Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2495,7 +2495,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-02T08:21:43.484Z",
+    "lastVerifiedAt": "2026-08-03T09:40:34.219Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2515,7 +2515,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-02T08:21:44.492Z",
+    "lastVerifiedAt": "2026-08-03T09:40:35.227Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2534,7 +2534,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-02T08:21:45.498Z",
+    "lastVerifiedAt": "2026-08-03T09:40:36.234Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2553,7 +2553,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-02T08:21:46.507Z",
+    "lastVerifiedAt": "2026-08-03T09:40:37.243Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -11461,7 +11461,7 @@
     "name": "Z.ai: GLM 5.2",
     "modelId": "z-ai/glm-5.2",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code"
@@ -15126,7 +15126,7 @@
     "name": "Qwen: Qwen3 235B A22B Instruct 2507",
     "modelId": "qwen/qwen3-235b-a22b-2507",
     "contextWindow": 262144,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -16489,7 +16489,7 @@
     "name": "TheDrummer: UnslopNemo 12B",
     "modelId": "thedrummer/unslopnemo-12b",
     "contextWindow": 1024000,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 1024000,
     "modalities": [
       "text",
       "code"
@@ -18285,5 +18285,24 @@
     "score": 100,
     "releasedAt": "2026-08-02",
     "lastVerifiedAt": "2026-08-02T08:21:31.044Z"
+  },
+  {
+    "id": "huggingface/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
+    "providerId": "huggingface",
+    "name": "unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
+    "modelId": "unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-08-03",
+    "lastVerifiedAt": "2026-08-03T09:40:22.749Z"
   }
 ]
