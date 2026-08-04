@@ -189,7 +189,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-08-03T09:40:28.987Z",
+    "lastVerifiedAt": "2026-08-04T08:33:59.396Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -210,7 +210,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-08-03T09:40:30.184Z",
+    "lastVerifiedAt": "2026-08-04T08:34:00.559Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -232,7 +232,7 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-08-03T09:40:31.193Z",
+    "lastVerifiedAt": "2026-08-04T08:34:01.567Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2456,7 +2456,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-03T09:40:32.202Z",
+    "lastVerifiedAt": "2026-08-04T08:34:02.578Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2475,7 +2475,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-03T09:40:33.210Z",
+    "lastVerifiedAt": "2026-08-04T08:34:03.585Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2495,7 +2495,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-03T09:40:34.219Z",
+    "lastVerifiedAt": "2026-08-04T08:34:04.593Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2515,7 +2515,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-03T09:40:35.227Z",
+    "lastVerifiedAt": "2026-08-04T08:34:05.600Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2534,7 +2534,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-03T09:40:36.234Z",
+    "lastVerifiedAt": "2026-08-04T08:34:06.606Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2553,7 +2553,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-03T09:40:37.243Z",
+    "lastVerifiedAt": "2026-08-04T08:34:07.614Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -12153,7 +12153,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "modelId": "qwen/qwen3.6-27b",
     "contextWindow": 262144,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
@@ -12229,7 +12229,7 @@
   {
     "id": "openrouter/deepseek/deepseek-v4-flash",
     "providerId": "openrouter",
-    "name": "DeepSeek: DeepSeek V4 Flash",
+    "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "modelId": "deepseek/deepseek-v4-flash",
     "contextWindow": 1048576,
     "maxOutputTokens": 393216,
@@ -14313,7 +14313,7 @@
     "name": "Qwen: Qwen3 VL 30B A3B Instruct",
     "modelId": "qwen/qwen3-vl-30b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -14585,7 +14585,7 @@
     "name": "Qwen: Qwen3 Next 80B A3B Thinking",
     "modelId": "qwen/qwen3-next-80b-a3b-thinking",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code"
@@ -14604,7 +14604,7 @@
     "name": "Qwen: Qwen3 Next 80B A3B Instruct",
     "modelId": "qwen/qwen3-next-80b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -14972,7 +14972,7 @@
     "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
     "modelId": "qwen/qwen3-coder-30b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -16102,7 +16102,7 @@
     "name": "Qwen: Qwen2.5 VL 72B Instruct",
     "modelId": "qwen/qwen2.5-vl-72b-instruct",
     "contextWindow": 128000,
-    "maxOutputTokens": 128000,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code",
@@ -16353,7 +16353,7 @@
     "name": "Meta: Llama 3.3 70B Instruct",
     "modelId": "meta-llama/llama-3.3-70b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 128000,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -18304,5 +18304,25 @@
     "score": 91,
     "releasedAt": "2026-08-03",
     "lastVerifiedAt": "2026-08-03T09:40:22.749Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.8-max",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.8 Max",
+    "modelId": "qwen/qwen3.8-max",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-04",
+    "lastVerifiedAt": "2026-08-04T08:33:51.347Z"
   }
 ]
