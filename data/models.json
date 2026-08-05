@@ -189,7 +189,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-08-04T08:33:59.396Z",
+    "lastVerifiedAt": "2026-08-05T08:32:46.371Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -210,7 +210,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-08-04T08:34:00.559Z",
+    "lastVerifiedAt": "2026-08-05T08:32:47.471Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -232,7 +232,7 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-08-04T08:34:01.567Z",
+    "lastVerifiedAt": "2026-08-05T08:32:48.480Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2456,7 +2456,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-04T08:34:02.578Z",
+    "lastVerifiedAt": "2026-08-05T08:32:49.489Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2475,7 +2475,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-04T08:34:03.585Z",
+    "lastVerifiedAt": "2026-08-05T08:32:50.499Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2495,7 +2495,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-04T08:34:04.593Z",
+    "lastVerifiedAt": "2026-08-05T08:32:51.510Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2515,7 +2515,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-04T08:34:05.600Z",
+    "lastVerifiedAt": "2026-08-05T08:32:52.527Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2534,7 +2534,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-04T08:34:06.606Z",
+    "lastVerifiedAt": "2026-08-05T08:32:53.537Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -2553,7 +2553,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-04T08:34:07.614Z",
+    "lastVerifiedAt": "2026-08-05T08:32:54.546Z",
     "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
   },
   {
@@ -11222,7 +11222,7 @@
   {
     "id": "openrouter/x-ai/grok-4.5",
     "providerId": "openrouter",
-    "name": "xAI: Grok 4.5",
+    "name": "SpaceXAI: Grok 4.5",
     "modelId": "x-ai/grok-4.5",
     "contextWindow": 500000,
     "maxOutputTokens": 4096,
@@ -11714,7 +11714,7 @@
   {
     "id": "openrouter/x-ai/grok-build-0.1",
     "providerId": "openrouter",
-    "name": "xAI: Grok Build 0.1",
+    "name": "SpaceXAI: Grok Build 0.1",
     "modelId": "x-ai/grok-build-0.1",
     "contextWindow": 256000,
     "maxOutputTokens": 4096,
@@ -11853,7 +11853,7 @@
   {
     "id": "openrouter/x-ai/grok-4.3",
     "providerId": "openrouter",
-    "name": "xAI: Grok 4.3",
+    "name": "SpaceXAI: Grok 4.3",
     "modelId": "x-ai/grok-4.3",
     "contextWindow": 1000000,
     "maxOutputTokens": 4096,
@@ -12561,7 +12561,7 @@
   {
     "id": "openrouter/x-ai/grok-4.20-multi-agent",
     "providerId": "openrouter",
-    "name": "xAI: Grok 4.20 Multi-Agent",
+    "name": "SpaceXAI: Grok 4.20 Multi-Agent",
     "modelId": "x-ai/grok-4.20-multi-agent",
     "contextWindow": 2000000,
     "maxOutputTokens": 4096,
@@ -12581,7 +12581,7 @@
   {
     "id": "openrouter/x-ai/grok-4.20",
     "providerId": "openrouter",
-    "name": "xAI: Grok 4.20",
+    "name": "SpaceXAI: Grok 4.20",
     "modelId": "x-ai/grok-4.20",
     "contextWindow": 2000000,
     "maxOutputTokens": 4096,
@@ -18324,5 +18324,43 @@
     "score": 100,
     "releasedAt": "2026-08-04",
     "lastVerifiedAt": "2026-08-04T08:33:51.347Z"
+  },
+  {
+    "id": "nvidia/nvidia/nemotron3-ultra-genrm",
+    "providerId": "nvidia",
+    "name": "Nemotron3 Ultra Genrm",
+    "modelId": "nvidia/nemotron3-ultra-genrm",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-08-05",
+    "lastVerifiedAt": "2026-08-05T08:32:39.916Z"
+  },
+  {
+    "id": "huggingface/ornith-ai/Ornith-1.0-9B-GGUF",
+    "providerId": "huggingface",
+    "name": "ornith-ai/Ornith-1.0-9B-GGUF",
+    "modelId": "ornith-ai/Ornith-1.0-9B-GGUF",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-08-05",
+    "lastVerifiedAt": "2026-08-05T08:32:40.017Z"
   }
 ]
