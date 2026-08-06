@@ -189,8 +189,8 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-08-05T08:32:46.371Z",
-    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}",
+    "lastVerifiedAt": "2026-08-06T08:32:57.355Z",
+    "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
   {
@@ -210,8 +210,8 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-08-05T08:32:47.471Z",
-    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}",
+    "lastVerifiedAt": "2026-08-06T08:32:58.364Z",
+    "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
   {
@@ -232,8 +232,8 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-08-05T08:32:48.480Z",
-    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
+    "lastVerifiedAt": "2026-08-06T08:32:59.371Z",
+    "lastError": "HTTP 404: "
   },
   {
     "id": "mistral/mistral-large-latest",
@@ -2456,8 +2456,8 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-05T08:32:49.489Z",
-    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
+    "lastVerifiedAt": "2026-08-06T08:33:00.380Z",
+    "lastError": "HTTP 404: "
   },
   {
     "id": "github/Cohere-embed-v3-multilingual",
@@ -2475,8 +2475,8 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-05T08:32:50.499Z",
-    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
+    "lastVerifiedAt": "2026-08-06T08:33:01.386Z",
+    "lastError": "HTTP 404: "
   },
   {
     "id": "github/Meta-Llama-3.1-405B-Instruct",
@@ -2495,8 +2495,8 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-05T08:32:51.510Z",
-    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
+    "lastVerifiedAt": "2026-08-06T08:33:02.392Z",
+    "lastError": "HTTP 404: "
   },
   {
     "id": "github/Meta-Llama-3.1-8B-Instruct",
@@ -2515,8 +2515,8 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-05T08:32:52.527Z",
-    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
+    "lastVerifiedAt": "2026-08-06T08:33:03.398Z",
+    "lastError": "HTTP 404: "
   },
   {
     "id": "github/text-embedding-3-large",
@@ -2534,8 +2534,8 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-05T08:32:53.537Z",
-    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
+    "lastVerifiedAt": "2026-08-06T08:33:04.405Z",
+    "lastError": "HTTP 404: "
   },
   {
     "id": "github/text-embedding-3-small",
@@ -2553,8 +2553,8 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-05T08:32:54.546Z",
-    "lastError": "HTTP 401: {\"error\":{\"code\":\"unauthorized\",\"message\":\"Server Error\",\"details\":\"Server Error\"}}"
+    "lastVerifiedAt": "2026-08-06T08:33:05.413Z",
+    "lastError": "HTTP 404: "
   },
   {
     "id": "mistral/mistral-medium-2505",
@@ -12153,7 +12153,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "modelId": "qwen/qwen3.6-27b",
     "contextWindow": 262144,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code",
@@ -12232,7 +12232,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "modelId": "deepseek/deepseek-v4-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -12446,7 +12446,7 @@
     "name": "Z.ai: GLM 5.1",
     "modelId": "z-ai/glm-5.1",
     "contextWindow": 204800,
-    "maxOutputTokens": 128000,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -13292,8 +13292,8 @@
     "providerId": "openrouter",
     "name": "Upstage: Solar Pro 3",
     "modelId": "upstage/solar-pro-3",
-    "contextWindow": 128000,
-    "maxOutputTokens": 4096,
+    "contextWindow": 131072,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -15126,7 +15126,7 @@
     "name": "Qwen: Qwen3 235B A22B Instruct 2507",
     "modelId": "qwen/qwen3-235b-a22b-2507",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -18362,5 +18362,44 @@
     "score": 91,
     "releasedAt": "2026-08-05",
     "lastVerifiedAt": "2026-08-05T08:32:40.017Z"
+  },
+  {
+    "id": "openrouter/meta/muse-spark-1.2",
+    "providerId": "openrouter",
+    "name": "Meta: Muse Spark 1.2",
+    "modelId": "meta/muse-spark-1.2",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-06",
+    "lastVerifiedAt": "2026-08-06T08:32:49.818Z"
+  },
+  {
+    "id": "openrouter/inclusionai/ling-3.0-flash",
+    "providerId": "openrouter",
+    "name": "Ling-3.0-flash",
+    "modelId": "inclusionai/ling-3.0-flash",
+    "contextWindow": 131072,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-08-06",
+    "lastVerifiedAt": "2026-08-06T08:32:49.818Z"
   }
 ]
