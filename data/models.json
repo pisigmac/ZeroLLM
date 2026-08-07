@@ -189,7 +189,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-08-06T08:32:57.355Z",
+    "lastVerifiedAt": "2026-08-07T07:12:15.201Z",
     "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -210,7 +210,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-08-06T08:32:58.364Z",
+    "lastVerifiedAt": "2026-08-07T07:12:16.210Z",
     "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -232,7 +232,7 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-08-06T08:32:59.371Z",
+    "lastVerifiedAt": "2026-08-07T07:12:17.216Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2456,7 +2456,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-06T08:33:00.380Z",
+    "lastVerifiedAt": "2026-08-07T07:12:18.223Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2475,7 +2475,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-06T08:33:01.386Z",
+    "lastVerifiedAt": "2026-08-07T07:12:19.231Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2495,7 +2495,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-06T08:33:02.392Z",
+    "lastVerifiedAt": "2026-08-07T07:12:20.238Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2515,7 +2515,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-06T08:33:03.398Z",
+    "lastVerifiedAt": "2026-08-07T07:12:21.243Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2534,7 +2534,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-06T08:33:04.405Z",
+    "lastVerifiedAt": "2026-08-07T07:12:22.248Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2553,7 +2553,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-06T08:33:05.413Z",
+    "lastVerifiedAt": "2026-08-07T07:12:23.255Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -11461,7 +11461,7 @@
     "name": "Z.ai: GLM 5.2",
     "modelId": "z-ai/glm-5.2",
     "contextWindow": 1048576,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -12741,7 +12741,7 @@
     "name": "NVIDIA: Nemotron 3 Super",
     "modelId": "nvidia/nemotron-3-super-120b-a12b",
     "contextWindow": 1000000,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code"
@@ -12979,7 +12979,7 @@
     "name": "Qwen: Qwen3.5-122B-A10B",
     "modelId": "qwen/qwen3.5-122b-a10b",
     "contextWindow": 262144,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 81920,
     "modalities": [
       "text",
       "code",
@@ -13505,7 +13505,7 @@
     "name": "Google: Gemini 3 Flash Preview",
     "modelId": "google/gemini-3-flash-preview",
     "contextWindow": 1048576,
-    "maxOutputTokens": 65535,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -17897,7 +17897,7 @@
     "name": "Google: Gemini 3 Flash Preview (batch)",
     "modelId": "google/gemini-3-flash-preview:batch",
     "contextWindow": 1048576,
-    "maxOutputTokens": 65535,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -18253,7 +18253,7 @@
     "name": "Thinking Machines: Inkling Small",
     "modelId": "thinkingmachines/inkling-small",
     "contextWindow": 524288,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code",
@@ -18388,8 +18388,8 @@
     "providerId": "openrouter",
     "name": "Ling-3.0-flash",
     "modelId": "inclusionai/ling-3.0-flash",
-    "contextWindow": 131072,
-    "maxOutputTokens": 16384,
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -18401,5 +18401,659 @@
     "score": 96,
     "releasedAt": "2026-08-06",
     "lastVerifiedAt": "2026-08-06T08:32:49.818Z"
+  },
+  {
+    "id": "openrouter/inclusionai/ling-3.0-tiny:free",
+    "providerId": "openrouter",
+    "name": "inclusionAI: Ling 3.0 Tiny (free)",
+    "modelId": "inclusionai/ling-3.0-tiny:free",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.762Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-opus-5:batch",
+    "providerId": "openrouter",
+    "name": "Claude Opus 5 (batch)",
+    "modelId": "anthropic/claude-opus-5:batch",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.762Z"
+  },
+  {
+    "id": "openrouter/thinkingmachines/inkling:batch",
+    "providerId": "openrouter",
+    "name": "Thinking Machines: Inkling (batch)",
+    "modelId": "thinkingmachines/inkling:batch",
+    "contextWindow": 524288,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.763Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.6-luna-pro:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.6 Luna Pro (batch)",
+    "modelId": "openai/gpt-5.6-luna-pro:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.763Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.6-luna:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.6 Luna (batch)",
+    "modelId": "openai/gpt-5.6-luna:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.763Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.6-terra-pro:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.6 Terra Pro (batch)",
+    "modelId": "openai/gpt-5.6-terra-pro:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.763Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.6-terra:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.6 Terra (batch)",
+    "modelId": "openai/gpt-5.6-terra:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.763Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.6-sol-pro:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.6 Sol Pro (batch)",
+    "modelId": "openai/gpt-5.6-sol-pro:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.763Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.6-sol:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.6 Sol (batch)",
+    "modelId": "openai/gpt-5.6-sol:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.763Z"
+  },
+  {
+    "id": "openrouter/z-ai/glm-5.2:batch",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM 5.2 (batch)",
+    "modelId": "z-ai/glm-5.2:batch",
+    "contextWindow": 512000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.763Z"
+  },
+  {
+    "id": "openrouter/moonshotai/kimi-k2.7-code:batch",
+    "providerId": "openrouter",
+    "name": "MoonshotAI: Kimi K2.7 Code (batch)",
+    "modelId": "moonshotai/kimi-k2.7-code:batch",
+    "contextWindow": 262144,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.763Z"
+  },
+  {
+    "id": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:batch",
+    "providerId": "openrouter",
+    "name": "NVIDIA: Nemotron 3 Ultra (batch)",
+    "modelId": "nvidia/nemotron-3-ultra-550b-a55b:batch",
+    "contextWindow": 512288,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.764Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.5-pro:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.5 Pro (batch)",
+    "modelId": "openai/gpt-5.5-pro:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.764Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.4-pro:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.4 Pro (batch)",
+    "modelId": "openai/gpt-5.4-pro:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.765Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-sonnet-4.6:batch",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Sonnet 4.6 (batch)",
+    "modelId": "anthropic/claude-sonnet-4.6:batch",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.765Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5.2-pro:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5.2 Pro (batch)",
+    "modelId": "openai/gpt-5.2-pro:batch",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.765Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5-pro:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5 Pro (batch)",
+    "modelId": "openai/gpt-5-pro:batch",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.766Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-5-codex:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-5 Codex (batch)",
+    "modelId": "openai/gpt-5-codex:batch",
+    "contextWindow": 400000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.766Z"
+  },
+  {
+    "id": "openrouter/openai/o3-pro:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: o3 Pro (batch)",
+    "modelId": "openai/o3-pro:batch",
+    "contextWindow": 200000,
+    "maxOutputTokens": 100000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.767Z"
+  },
+  {
+    "id": "openrouter/openai/o4-mini-high:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: o4 Mini High (batch)",
+    "modelId": "openai/o4-mini-high:batch",
+    "contextWindow": 200000,
+    "maxOutputTokens": 100000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.767Z"
+  },
+  {
+    "id": "openrouter/openai/o3:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: o3 (batch)",
+    "modelId": "openai/o3:batch",
+    "contextWindow": 200000,
+    "maxOutputTokens": 100000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.767Z"
+  },
+  {
+    "id": "openrouter/openai/o4-mini:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: o4 Mini (batch)",
+    "modelId": "openai/o4-mini:batch",
+    "contextWindow": 200000,
+    "maxOutputTokens": 100000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.767Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-4.1:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-4.1 (batch)",
+    "modelId": "openai/gpt-4.1:batch",
+    "contextWindow": 1047576,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.770Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-4.1-mini:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-4.1 Mini (batch)",
+    "modelId": "openai/gpt-4.1-mini:batch",
+    "contextWindow": 1047576,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.770Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-4.1-nano:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-4.1 Nano (batch)",
+    "modelId": "openai/gpt-4.1-nano:batch",
+    "contextWindow": 1047576,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.770Z"
+  },
+  {
+    "id": "openrouter/openai/o1-pro:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: o1-pro (batch)",
+    "modelId": "openai/o1-pro:batch",
+    "contextWindow": 200000,
+    "maxOutputTokens": 100000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.770Z"
+  },
+  {
+    "id": "openrouter/openai/o3-mini-high:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: o3 Mini High (batch)",
+    "modelId": "openai/o3-mini-high:batch",
+    "contextWindow": 200000,
+    "maxOutputTokens": 100000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.770Z"
+  },
+  {
+    "id": "openrouter/openai/o3-mini:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: o3 Mini (batch)",
+    "modelId": "openai/o3-mini:batch",
+    "contextWindow": 200000,
+    "maxOutputTokens": 100000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.770Z"
+  },
+  {
+    "id": "openrouter/openai/o1:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: o1 (batch)",
+    "modelId": "openai/o1:batch",
+    "contextWindow": 200000,
+    "maxOutputTokens": 100000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.771Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-4o-mini:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-4o-mini (batch)",
+    "modelId": "openai/gpt-4o-mini:batch",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.771Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-4o:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-4o (batch)",
+    "modelId": "openai/gpt-4o:batch",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.771Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-4-turbo:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-4 Turbo (batch)",
+    "modelId": "openai/gpt-4-turbo:batch",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.772Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-3.5-turbo:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-3.5 Turbo (batch)",
+    "modelId": "openai/gpt-3.5-turbo:batch",
+    "contextWindow": 16385,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 86,
+    "releasedAt": "2026-08-07",
+    "lastVerifiedAt": "2026-08-07T07:12:07.772Z"
   }
 ]
