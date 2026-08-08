@@ -189,7 +189,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-08-07T07:12:15.201Z",
+    "lastVerifiedAt": "2026-08-08T06:49:22.791Z",
     "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -210,7 +210,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-08-07T07:12:16.210Z",
+    "lastVerifiedAt": "2026-08-08T06:49:23.800Z",
     "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -232,7 +232,7 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-08-07T07:12:17.216Z",
+    "lastVerifiedAt": "2026-08-08T06:49:24.809Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2456,7 +2456,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-07T07:12:18.223Z",
+    "lastVerifiedAt": "2026-08-08T06:49:25.822Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2475,7 +2475,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-07T07:12:19.231Z",
+    "lastVerifiedAt": "2026-08-08T06:49:26.838Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2495,7 +2495,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-07T07:12:20.238Z",
+    "lastVerifiedAt": "2026-08-08T06:49:27.847Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2515,7 +2515,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-07T07:12:21.243Z",
+    "lastVerifiedAt": "2026-08-08T06:49:28.855Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2534,7 +2534,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-07T07:12:22.248Z",
+    "lastVerifiedAt": "2026-08-08T06:49:29.864Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2553,7 +2553,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-07T07:12:23.255Z",
+    "lastVerifiedAt": "2026-08-08T06:49:30.876Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -10987,7 +10987,7 @@
     "name": "Thinking Machines: Inkling",
     "modelId": "thinkingmachines/inkling",
     "contextWindow": 1048576,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code",
@@ -11461,7 +11461,7 @@
     "name": "Z.ai: GLM 5.2",
     "modelId": "z-ai/glm-5.2",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code"
@@ -12232,7 +12232,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "modelId": "deepseek/deepseek-v4-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code"
@@ -12741,7 +12741,7 @@
     "name": "NVIDIA: Nemotron 3 Super",
     "modelId": "nvidia/nemotron-3-super-120b-a12b",
     "contextWindow": 1000000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -13801,7 +13801,7 @@
     "name": "DeepSeek: DeepSeek V3.2",
     "modelId": "deepseek/deepseek-v3.2",
     "contextWindow": 163840,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 163840,
     "modalities": [
       "text",
       "code"
@@ -14585,7 +14585,7 @@
     "name": "Qwen: Qwen3 Next 80B A3B Thinking",
     "modelId": "qwen/qwen3-next-80b-a3b-thinking",
     "contextWindow": 262144,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code"
@@ -17085,7 +17085,7 @@
     "name": "Mancer: Weaver (alpha)",
     "modelId": "mancer/weaver",
     "contextWindow": 8000,
-    "maxOutputTokens": 2000,
+    "maxOutputTokens": 6000,
     "modalities": [
       "text",
       "code"
@@ -17104,7 +17104,7 @@
     "name": "ReMM SLERP 13B",
     "modelId": "undi95/remm-slerp-l2-13b",
     "contextWindow": 6144,
-    "maxOutputTokens": 2048,
+    "maxOutputTokens": 6144,
     "modalities": [
       "text",
       "code"
@@ -18214,7 +18214,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "modelId": "deepseek/deepseek-v4-flash-0731",
     "contextWindow": 1048576,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code"
@@ -18273,7 +18273,7 @@
     "name": "DeepSeek V4 Flash Latest",
     "modelId": "~deepseek/deepseek-v4-flash-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code"
@@ -19055,5 +19055,24 @@
     "score": 86,
     "releasedAt": "2026-08-07",
     "lastVerifiedAt": "2026-08-07T07:12:07.772Z"
+  },
+  {
+    "id": "nvidia/deepseek-ai/deepseek-v4-flash-0731",
+    "providerId": "nvidia",
+    "name": "Deepseek V4 Flash 0731",
+    "modelId": "deepseek-ai/deepseek-v4-flash-0731",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-08-08",
+    "lastVerifiedAt": "2026-08-08T06:49:15.890Z"
   }
 ]
