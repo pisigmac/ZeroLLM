@@ -189,7 +189,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-08-10T07:28:39.058Z",
+    "lastVerifiedAt": "2026-08-11T07:03:47.658Z",
     "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -210,7 +210,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-08-10T07:28:40.076Z",
+    "lastVerifiedAt": "2026-08-11T07:03:48.667Z",
     "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -232,7 +232,7 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-08-10T07:28:41.084Z",
+    "lastVerifiedAt": "2026-08-11T07:03:49.674Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2456,7 +2456,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-10T07:28:42.092Z",
+    "lastVerifiedAt": "2026-08-11T07:03:50.682Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2475,7 +2475,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-10T07:28:43.101Z",
+    "lastVerifiedAt": "2026-08-11T07:03:51.688Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2495,7 +2495,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-10T07:28:44.108Z",
+    "lastVerifiedAt": "2026-08-11T07:03:52.693Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2515,7 +2515,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-10T07:28:45.115Z",
+    "lastVerifiedAt": "2026-08-11T07:03:53.698Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2534,7 +2534,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-10T07:28:46.129Z",
+    "lastVerifiedAt": "2026-08-11T07:03:54.702Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2553,7 +2553,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-10T07:28:47.137Z",
+    "lastVerifiedAt": "2026-08-11T07:03:55.708Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -12213,7 +12213,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro",
     "modelId": "deepseek/deepseek-v4-pro",
     "contextWindow": 1048576,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code"
@@ -13138,7 +13138,7 @@
     "name": "Qwen: Qwen3.5 397B A17B",
     "modelId": "qwen/qwen3.5-397b-a17b",
     "contextWindow": 262144,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code",
@@ -13544,7 +13544,7 @@
     "name": "OpenAI: GPT-5.2 Chat",
     "modelId": "openai/gpt-5.2-chat",
     "contextWindow": 128000,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 32000,
     "modalities": [
       "text",
       "code",
@@ -14585,7 +14585,7 @@
     "name": "Qwen: Qwen3 Next 80B A3B Thinking",
     "modelId": "qwen/qwen3-next-80b-a3b-thinking",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code"
@@ -14972,7 +14972,7 @@
     "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
     "modelId": "qwen/qwen3-coder-30b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code"
@@ -19074,5 +19074,102 @@
     "score": 96,
     "releasedAt": "2026-08-08",
     "lastVerifiedAt": "2026-08-08T06:49:15.890Z"
+  },
+  {
+    "id": "openrouter/sakana/sakana-namazu",
+    "providerId": "openrouter",
+    "name": "Sakana: Sakana Namazu",
+    "modelId": "sakana/sakana-namazu",
+    "contextWindow": 262144,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-11",
+    "lastVerifiedAt": "2026-08-11T07:03:20.538Z"
+  },
+  {
+    "id": "openrouter/upstage/solar-pro4",
+    "providerId": "openrouter",
+    "name": "Upstage: Solar Pro 4",
+    "modelId": "upstage/solar-pro4",
+    "contextWindow": 524288,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-08-11",
+    "lastVerifiedAt": "2026-08-11T07:03:20.538Z"
+  },
+  {
+    "id": "openrouter/meta/muse-glimmer-30b",
+    "providerId": "openrouter",
+    "name": "Meta: Muse Glimmer 30B",
+    "modelId": "meta/muse-glimmer-30b",
+    "contextWindow": 131072,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-11",
+    "lastVerifiedAt": "2026-08-11T07:03:20.539Z"
+  },
+  {
+    "id": "nvidia/meta/muse-glimmer-30b",
+    "providerId": "nvidia",
+    "name": "Muse Glimmer 30b",
+    "modelId": "meta/muse-glimmer-30b",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-08-11",
+    "lastVerifiedAt": "2026-08-11T07:03:21.004Z"
+  },
+  {
+    "id": "huggingface/farbodtavakkoli/OTel-2.0-LLM-31B-IT",
+    "providerId": "huggingface",
+    "name": "farbodtavakkoli/OTel-2.0-LLM-31B-IT",
+    "modelId": "farbodtavakkoli/OTel-2.0-LLM-31B-IT",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-08-11",
+    "lastVerifiedAt": "2026-08-11T07:03:21.111Z"
   }
 ]
