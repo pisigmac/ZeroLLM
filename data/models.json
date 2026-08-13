@@ -189,7 +189,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-08-12T07:21:19.336Z",
+    "lastVerifiedAt": "2026-08-13T07:23:54.364Z",
     "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -210,7 +210,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-08-12T07:21:20.349Z",
+    "lastVerifiedAt": "2026-08-13T07:23:55.372Z",
     "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -232,7 +232,7 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-08-12T07:21:21.357Z",
+    "lastVerifiedAt": "2026-08-13T07:23:56.379Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2456,7 +2456,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-12T07:21:22.366Z",
+    "lastVerifiedAt": "2026-08-13T07:23:57.386Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2475,7 +2475,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-12T07:21:23.373Z",
+    "lastVerifiedAt": "2026-08-13T07:23:58.393Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2495,7 +2495,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-12T07:21:24.380Z",
+    "lastVerifiedAt": "2026-08-13T07:23:59.399Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2515,7 +2515,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-12T07:21:25.388Z",
+    "lastVerifiedAt": "2026-08-13T07:24:00.405Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2534,7 +2534,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-12T07:21:26.398Z",
+    "lastVerifiedAt": "2026-08-13T07:24:01.410Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2553,7 +2553,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-12T07:21:27.412Z",
+    "lastVerifiedAt": "2026-08-13T07:24:02.417Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -16507,8 +16507,8 @@
     "providerId": "openrouter",
     "name": "Magnum v4 72B",
     "modelId": "anthracite-org/magnum-v4-72b",
-    "contextWindow": 16384,
-    "maxOutputTokens": 2048,
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code"
@@ -16517,7 +16517,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 86,
+    "score": 91,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
   },
@@ -19196,7 +19196,7 @@
     "providerId": "openrouter",
     "name": "NVIDIA: Nemotron 3.5 Lightning",
     "modelId": "nvidia/nemotron-3.5-lightning",
-    "contextWindow": 262144,
+    "contextWindow": 1048576,
     "maxOutputTokens": 262144,
     "modalities": [
       "text",
@@ -19206,7 +19206,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 96,
+    "score": 100,
     "releasedAt": "2026-08-12",
     "lastVerifiedAt": "2026-08-12T07:21:12.103Z"
   },
@@ -19267,5 +19267,103 @@
     "score": 96,
     "releasedAt": "2026-08-12",
     "lastVerifiedAt": "2026-08-12T07:21:12.426Z"
+  },
+  {
+    "id": "openrouter/bytedance-seed/seed-2-1-turbo",
+    "providerId": "openrouter",
+    "name": "ByteDance Seed: Seed 2.1 Turbo",
+    "modelId": "bytedance-seed/seed-2-1-turbo",
+    "contextWindow": 262144,
+    "maxOutputTokens": 262144,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-13",
+    "lastVerifiedAt": "2026-08-13T07:23:47.405Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.8-2.4t-a95b",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.8 2.4T A95B",
+    "modelId": "qwen/qwen3.8-2.4t-a95b",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 52429,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-13",
+    "lastVerifiedAt": "2026-08-13T07:23:47.405Z"
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v4-pro-0813",
+    "providerId": "openrouter",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "modelId": "deepseek/deepseek-v4-pro-0813",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 384000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-13",
+    "lastVerifiedAt": "2026-08-13T07:23:47.405Z"
+  },
+  {
+    "id": "openrouter/x-ai/grok-4.6",
+    "providerId": "openrouter",
+    "name": "SpaceXAI: Grok 4.6",
+    "modelId": "x-ai/grok-4.6",
+    "contextWindow": 500000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-13",
+    "lastVerifiedAt": "2026-08-13T07:23:47.405Z"
+  },
+  {
+    "id": "deepseek/deepseek-v4-pro-0813",
+    "providerId": "deepseek",
+    "name": "deepseek-v4-pro-0813",
+    "modelId": "deepseek-v4-pro-0813",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 393216,
+    "modalities": [
+      "text",
+      "code",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": false,
+    "noCreditCard": false,
+    "score": 89,
+    "releasedAt": "2026-08-13",
+    "lastVerifiedAt": "2026-08-13T07:23:49.078Z"
   }
 ]
