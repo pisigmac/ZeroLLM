@@ -189,7 +189,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-08-14T07:21:17.341Z",
+    "lastVerifiedAt": "2026-08-15T06:34:30.884Z",
     "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -210,7 +210,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-08-14T07:21:18.350Z",
+    "lastVerifiedAt": "2026-08-15T06:34:31.893Z",
     "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -232,7 +232,7 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-08-14T07:21:19.356Z",
+    "lastVerifiedAt": "2026-08-15T06:34:32.904Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2456,7 +2456,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-14T07:21:20.364Z",
+    "lastVerifiedAt": "2026-08-15T06:34:33.912Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2475,7 +2475,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-14T07:21:21.371Z",
+    "lastVerifiedAt": "2026-08-15T06:34:34.920Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2495,7 +2495,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-14T07:21:22.379Z",
+    "lastVerifiedAt": "2026-08-15T06:34:35.935Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2515,7 +2515,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-14T07:21:23.386Z",
+    "lastVerifiedAt": "2026-08-15T06:34:36.956Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2534,7 +2534,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-14T07:21:24.391Z",
+    "lastVerifiedAt": "2026-08-15T06:34:37.976Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2553,7 +2553,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-14T07:21:25.401Z",
+    "lastVerifiedAt": "2026-08-15T06:34:38.984Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -11461,7 +11461,7 @@
     "name": "Z.ai: GLM 5.2",
     "modelId": "z-ai/glm-5.2",
     "contextWindow": 1048576,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -12232,7 +12232,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "modelId": "deepseek/deepseek-v4-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code"
@@ -12446,7 +12446,7 @@
     "name": "Z.ai: GLM 5.1",
     "modelId": "z-ai/glm-5.1",
     "contextWindow": 204800,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code"
@@ -12939,7 +12939,7 @@
     "name": "Qwen: Qwen3.5-35B-A3B",
     "modelId": "qwen/qwen3.5-35b-a3b",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -13138,7 +13138,7 @@
     "name": "Qwen: Qwen3.5 397B A17B",
     "modelId": "qwen/qwen3.5-397b-a17b",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -13177,7 +13177,7 @@
     "name": "Z.ai: GLM 5",
     "modelId": "z-ai/glm-5",
     "contextWindow": 204800,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code"
@@ -15751,7 +15751,7 @@
     "name": "Meta: Llama 4 Maverick",
     "modelId": "meta-llama/llama-4-maverick",
     "contextWindow": 1048576,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -18273,7 +18273,7 @@
     "name": "DeepSeek V4 Flash Latest",
     "modelId": "~deepseek/deepseek-v4-flash-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code"
@@ -19293,7 +19293,7 @@
     "providerId": "openrouter",
     "name": "Qwen: Qwen3.8 2.4T A95B",
     "modelId": "qwen/qwen3.8-2.4t-a95b",
-    "contextWindow": 1010000,
+    "contextWindow": 1048576,
     "maxOutputTokens": 262144,
     "modalities": [
       "text",
@@ -19425,5 +19425,45 @@
     "score": 99,
     "releasedAt": "2026-08-14",
     "lastVerifiedAt": "2026-08-14T07:21:16.499Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.8-27b",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.8 27B",
+    "modelId": "qwen/qwen3.8-27b",
+    "contextWindow": 262144,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-15",
+    "lastVerifiedAt": "2026-08-15T06:34:23.493Z"
+  },
+  {
+    "id": "openrouter/dots-studio/dots-3-note-preview:free",
+    "providerId": "openrouter",
+    "name": "Dots Studio: Dots3-Note Preview (free)",
+    "modelId": "dots-studio/dots-3-note-preview:free",
+    "contextWindow": 512000,
+    "maxOutputTokens": 512000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-15",
+    "lastVerifiedAt": "2026-08-15T06:34:23.494Z"
   }
 ]
