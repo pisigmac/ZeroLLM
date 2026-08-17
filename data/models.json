@@ -189,7 +189,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-08-16T06:36:06.650Z",
+    "lastVerifiedAt": "2026-08-17T06:50:50.436Z",
     "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -210,7 +210,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-08-16T06:36:07.659Z",
+    "lastVerifiedAt": "2026-08-17T06:50:51.444Z",
     "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -232,7 +232,7 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-08-16T06:36:08.665Z",
+    "lastVerifiedAt": "2026-08-17T06:50:52.451Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2456,7 +2456,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-16T06:36:09.672Z",
+    "lastVerifiedAt": "2026-08-17T06:50:53.458Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2475,7 +2475,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-16T06:36:10.680Z",
+    "lastVerifiedAt": "2026-08-17T06:50:54.463Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2495,7 +2495,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-16T06:36:11.686Z",
+    "lastVerifiedAt": "2026-08-17T06:50:55.469Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2515,7 +2515,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-16T06:36:12.691Z",
+    "lastVerifiedAt": "2026-08-17T06:50:56.475Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2534,7 +2534,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-16T06:36:13.696Z",
+    "lastVerifiedAt": "2026-08-17T06:50:57.480Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2553,7 +2553,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-16T06:36:14.703Z",
+    "lastVerifiedAt": "2026-08-17T06:50:58.486Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -11461,7 +11461,7 @@
     "name": "Z.ai: GLM 5.2",
     "modelId": "z-ai/glm-5.2",
     "contextWindow": 1048576,
-    "maxOutputTokens": 128000,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code"
@@ -11994,7 +11994,7 @@
     "name": "MoonshotAI Kimi Latest",
     "modelId": "~moonshotai/kimi-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 1048576,
+    "maxOutputTokens": 974842,
     "modalities": [
       "text",
       "code",
@@ -12210,10 +12210,10 @@
   {
     "id": "openrouter/deepseek/deepseek-v4-pro",
     "providerId": "openrouter",
-    "name": "DeepSeek: DeepSeek V4 Pro",
+    "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "modelId": "deepseek/deepseek-v4-pro",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code"
@@ -12465,7 +12465,7 @@
     "name": "Google: Gemma 4 26B A4B ",
     "modelId": "google/gemma-4-26b-a4b-it",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -13525,7 +13525,7 @@
     "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
     "modelId": "nvidia/nemotron-3-nano-30b-a3b",
     "contextWindow": 262144,
-    "maxOutputTokens": 228000,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code"
@@ -16102,7 +16102,7 @@
     "name": "Qwen: Qwen2.5 VL 72B Instruct",
     "modelId": "qwen/qwen2.5-vl-72b-instruct",
     "contextWindow": 128000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code",
@@ -18213,7 +18213,7 @@
     "providerId": "openrouter",
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "modelId": "deepseek/deepseek-v4-flash-0731",
-    "contextWindow": 1048576,
+    "contextWindow": 1310720,
     "maxOutputTokens": 393216,
     "modalities": [
       "text",
@@ -18272,8 +18272,8 @@
     "providerId": "openrouter",
     "name": "DeepSeek V4 Flash Latest",
     "modelId": "~deepseek/deepseek-v4-flash-latest",
-    "contextWindow": 1048576,
-    "maxOutputTokens": 384000,
+    "contextWindow": 1310720,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code"
@@ -19197,7 +19197,7 @@
     "name": "NVIDIA: Nemotron 3.5 Lightning",
     "modelId": "nvidia/nemotron-3.5-lightning",
     "contextWindow": 1000000,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -19465,5 +19465,43 @@
     "score": 99,
     "releasedAt": "2026-08-15",
     "lastVerifiedAt": "2026-08-15T06:34:23.494Z"
+  },
+  {
+    "id": "openrouter/z-ai/glm-5.2:free",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM 5.2 (free)",
+    "modelId": "z-ai/glm-5.2:free",
+    "contextWindow": 128000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-08-17",
+    "lastVerifiedAt": "2026-08-17T06:50:42.781Z"
+  },
+  {
+    "id": "huggingface/ornith-ai/Ornith-1.0-35B-GGUF",
+    "providerId": "huggingface",
+    "name": "ornith-ai/Ornith-1.0-35B-GGUF",
+    "modelId": "ornith-ai/Ornith-1.0-35B-GGUF",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-08-17",
+    "lastVerifiedAt": "2026-08-17T06:50:43.656Z"
   }
 ]

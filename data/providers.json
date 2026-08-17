@@ -16,7 +16,7 @@
     "freeModelCount": 20,
     "onlineModelCount": 20,
     "notes": "Extremely fast inference engine. Free tier has generous rate limits.",
-    "lastSyncedAt": "2026-08-16T06:36:05.787Z"
+    "lastSyncedAt": "2026-08-17T06:50:49.586Z"
   },
   {
     "id": "gemini",
@@ -39,7 +39,7 @@
     "freeModelCount": 40,
     "onlineModelCount": 31,
     "notes": "Multimodal input capabilities with massive context windows (up to 2M tokens on Gemini 1.5 Pro).",
-    "lastSyncedAt": "2026-08-16T06:36:05.787Z"
+    "lastSyncedAt": "2026-08-17T06:50:49.586Z"
   },
   {
     "id": "openrouter",
@@ -56,10 +56,10 @@
       "code",
       "reasoning"
     ],
-    "freeModelCount": 438,
-    "onlineModelCount": 439,
+    "freeModelCount": 439,
+    "onlineModelCount": 440,
     "notes": "Aggregator offering free access to popular open models like Llama 3.1, Gemma 2, and others.",
-    "lastSyncedAt": "2026-08-16T06:36:05.787Z"
+    "lastSyncedAt": "2026-08-17T06:50:49.586Z"
   },
   {
     "id": "github",
@@ -80,7 +80,7 @@
     "freeModelCount": 9,
     "onlineModelCount": 0,
     "notes": "Free playground and API access for GitHub developers. Uses standard Personal Access Tokens.",
-    "lastSyncedAt": "2026-08-16T06:36:05.787Z"
+    "lastSyncedAt": "2026-08-17T06:50:49.587Z"
   },
   {
     "id": "mistral",
@@ -99,7 +99,7 @@
     "freeModelCount": 63,
     "onlineModelCount": 63,
     "notes": "La Plateforme free tier provides access to Mistral Large, Codestral, and Mistral Nemo.",
-    "lastSyncedAt": "2026-08-16T06:36:05.787Z"
+    "lastSyncedAt": "2026-08-17T06:50:49.587Z"
   },
   {
     "id": "cohere",
@@ -120,7 +120,7 @@
     "freeModelCount": 2,
     "onlineModelCount": 2,
     "notes": "Generous non-production/developer trial keys. Great for search and RAG applications.",
-    "lastSyncedAt": "2026-08-16T06:36:05.787Z"
+    "lastSyncedAt": "2026-08-17T06:50:49.587Z"
   },
   {
     "id": "cerebras",
@@ -139,7 +139,7 @@
     "freeModelCount": 2,
     "onlineModelCount": 2,
     "notes": "Llama 3.1 inference running at extreme speeds (up to 2000 tokens/sec) on CS-3 wafer-scale engine.",
-    "lastSyncedAt": "2026-08-16T06:36:05.787Z"
+    "lastSyncedAt": "2026-08-17T06:50:49.587Z"
   },
   {
     "id": "nvidia",
@@ -159,7 +159,7 @@
     "freeModelCount": 208,
     "onlineModelCount": 208,
     "notes": "Provides 1,000 free API call credits upon registration. Good for testing highly optimized NIM containers.",
-    "lastSyncedAt": "2026-08-16T06:36:05.787Z"
+    "lastSyncedAt": "2026-08-17T06:50:49.587Z"
   },
   {
     "id": "huggingface",
@@ -178,10 +178,10 @@
       "code",
       "embedding"
     ],
-    "freeModelCount": 30,
-    "onlineModelCount": 30,
+    "freeModelCount": 31,
+    "onlineModelCount": 31,
     "notes": "Free serverless inference API. Good for hosting-free prototype development.",
-    "lastSyncedAt": "2026-08-16T06:36:05.787Z"
+    "lastSyncedAt": "2026-08-17T06:50:49.587Z"
   },
   {
     "id": "openai",
@@ -201,7 +201,7 @@
     "freeModelCount": 0,
     "onlineModelCount": 100,
     "notes": "Direct OpenAI commercial account usage with standard developer API keys.",
-    "lastSyncedAt": "2026-08-16T06:36:05.787Z"
+    "lastSyncedAt": "2026-08-17T06:50:49.587Z"
   },
   {
     "id": "anthropic",
@@ -221,7 +221,7 @@
     "freeModelCount": 0,
     "onlineModelCount": 12,
     "notes": "Direct Anthropic commercial usage with custom messages payload streaming.",
-    "lastSyncedAt": "2026-08-16T06:36:05.787Z"
+    "lastSyncedAt": "2026-08-17T06:50:49.587Z"
   },
   {
     "id": "deepseek",
@@ -241,7 +241,7 @@
     "freeModelCount": 2,
     "onlineModelCount": 6,
     "notes": "Direct DeepSeek developer account interface.",
-    "lastSyncedAt": "2026-08-16T06:36:05.787Z"
+    "lastSyncedAt": "2026-08-17T06:50:49.587Z"
   },
   {
     "id": "kimi",
@@ -260,7 +260,7 @@
     "freeModelCount": 0,
     "onlineModelCount": 8,
     "notes": "Direct Moonshot AI (Kimi) developer portal interface.",
-    "lastSyncedAt": "2026-08-16T06:36:05.787Z"
+    "lastSyncedAt": "2026-08-17T06:50:49.587Z"
   },
   {
     "id": "zhipu",
@@ -280,7 +280,7 @@
     "freeModelCount": 35,
     "onlineModelCount": 38,
     "notes": "Direct Zhipu AI GLM model access with standard developer API keys.",
-    "lastSyncedAt": "2026-08-16T06:36:05.788Z"
+    "lastSyncedAt": "2026-08-17T06:50:49.587Z"
   },
   {
     "id": "ollama",
@@ -299,6 +299,6 @@
     "freeModelCount": 7,
     "onlineModelCount": 7,
     "notes": "Local offline LLM execution framework.",
-    "lastSyncedAt": "2026-08-16T06:36:05.788Z"
+    "lastSyncedAt": "2026-08-17T06:50:49.587Z"
   }
 ]
