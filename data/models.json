@@ -189,7 +189,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-08-17T06:50:50.436Z",
+    "lastVerifiedAt": "2026-08-18T06:39:34.801Z",
     "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -210,7 +210,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-08-17T06:50:51.444Z",
+    "lastVerifiedAt": "2026-08-18T06:39:35.808Z",
     "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -232,7 +232,7 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-08-17T06:50:52.451Z",
+    "lastVerifiedAt": "2026-08-18T06:39:36.815Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2456,7 +2456,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-17T06:50:53.458Z",
+    "lastVerifiedAt": "2026-08-18T06:39:37.823Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2475,7 +2475,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-17T06:50:54.463Z",
+    "lastVerifiedAt": "2026-08-18T06:39:38.829Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2495,7 +2495,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-17T06:50:55.469Z",
+    "lastVerifiedAt": "2026-08-18T06:39:39.835Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2515,7 +2515,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-17T06:50:56.475Z",
+    "lastVerifiedAt": "2026-08-18T06:39:40.840Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2534,7 +2534,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-17T06:50:57.480Z",
+    "lastVerifiedAt": "2026-08-18T06:39:41.845Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2553,7 +2553,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-17T06:50:58.486Z",
+    "lastVerifiedAt": "2026-08-18T06:39:42.851Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -11461,7 +11461,7 @@
     "name": "Z.ai: GLM 5.2",
     "modelId": "z-ai/glm-5.2",
     "contextWindow": 1048576,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -12153,7 +12153,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "modelId": "qwen/qwen3.6-27b",
     "contextWindow": 262144,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code",
@@ -14547,7 +14547,7 @@
     "name": "DeepSeek: DeepSeek V3.1 Terminus",
     "modelId": "deepseek/deepseek-v3.1-terminus",
     "contextWindow": 163840,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 163840,
     "modalities": [
       "text",
       "code"
@@ -18273,7 +18273,7 @@
     "name": "DeepSeek V4 Flash Latest",
     "modelId": "~deepseek/deepseek-v4-flash-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code"
