@@ -189,7 +189,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-08-18T06:39:34.801Z",
+    "lastVerifiedAt": "2026-08-19T06:40:07.677Z",
     "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -210,7 +210,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-08-18T06:39:35.808Z",
+    "lastVerifiedAt": "2026-08-19T06:40:08.685Z",
     "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -232,7 +232,7 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-08-18T06:39:36.815Z",
+    "lastVerifiedAt": "2026-08-19T06:40:09.694Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2456,7 +2456,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-18T06:39:37.823Z",
+    "lastVerifiedAt": "2026-08-19T06:40:10.705Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2475,7 +2475,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-18T06:39:38.829Z",
+    "lastVerifiedAt": "2026-08-19T06:40:11.710Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2495,7 +2495,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-18T06:39:39.835Z",
+    "lastVerifiedAt": "2026-08-19T06:40:12.717Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2515,7 +2515,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-18T06:39:40.840Z",
+    "lastVerifiedAt": "2026-08-19T06:40:13.721Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2534,7 +2534,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-18T06:39:41.845Z",
+    "lastVerifiedAt": "2026-08-19T06:40:14.732Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2553,7 +2553,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-18T06:39:42.851Z",
+    "lastVerifiedAt": "2026-08-19T06:40:15.740Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -12153,7 +12153,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "modelId": "qwen/qwen3.6-27b",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -12485,7 +12485,7 @@
     "name": "Google: Gemma 4 31B",
     "modelId": "google/gemma-4-31b-it",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -12979,7 +12979,7 @@
     "name": "Qwen: Qwen3.5-122B-A10B",
     "modelId": "qwen/qwen3.5-122b-a10b",
     "contextWindow": 262144,
-    "maxOutputTokens": 81920,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code",
@@ -14604,7 +14604,7 @@
     "name": "Qwen: Qwen3 Next 80B A3B Instruct",
     "modelId": "qwen/qwen3-next-80b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -18273,7 +18273,7 @@
     "name": "DeepSeek V4 Flash Latest",
     "modelId": "~deepseek/deepseek-v4-flash-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code"
@@ -19471,8 +19471,8 @@
     "providerId": "openrouter",
     "name": "Z.ai: GLM 5.2 (free)",
     "modelId": "z-ai/glm-5.2:free",
-    "contextWindow": 128000,
-    "maxOutputTokens": 128000,
+    "contextWindow": 256000,
+    "maxOutputTokens": 256000,
     "modalities": [
       "text",
       "code"
@@ -19503,5 +19503,24 @@
     "score": 91,
     "releasedAt": "2026-08-17",
     "lastVerifiedAt": "2026-08-17T06:50:43.656Z"
+  },
+  {
+    "id": "openrouter/z-ai/glm-5.3",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM 5.3",
+    "modelId": "z-ai/glm-5.3",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-19",
+    "lastVerifiedAt": "2026-08-19T06:40:00.998Z"
   }
 ]
