@@ -189,7 +189,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-08-19T06:40:07.677Z",
+    "lastVerifiedAt": "2026-08-20T06:41:19.317Z",
     "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -210,7 +210,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-08-19T06:40:08.685Z",
+    "lastVerifiedAt": "2026-08-20T06:41:20.324Z",
     "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -232,7 +232,7 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-08-19T06:40:09.694Z",
+    "lastVerifiedAt": "2026-08-20T06:41:21.330Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2456,7 +2456,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-19T06:40:10.705Z",
+    "lastVerifiedAt": "2026-08-20T06:41:22.337Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2475,7 +2475,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-19T06:40:11.710Z",
+    "lastVerifiedAt": "2026-08-20T06:41:23.341Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2495,7 +2495,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-19T06:40:12.717Z",
+    "lastVerifiedAt": "2026-08-20T06:41:24.347Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2515,7 +2515,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-19T06:40:13.721Z",
+    "lastVerifiedAt": "2026-08-20T06:41:25.353Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2534,7 +2534,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-19T06:40:14.732Z",
+    "lastVerifiedAt": "2026-08-20T06:41:26.357Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2553,7 +2553,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-19T06:40:15.740Z",
+    "lastVerifiedAt": "2026-08-20T06:41:27.364Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -11361,7 +11361,7 @@
     "name": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
     "modelId": "google/gemini-3.1-flash-lite-image",
     "contextWindow": 65536,
-    "maxOutputTokens": 66000,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -12153,7 +12153,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "modelId": "qwen/qwen3.6-27b",
     "contextWindow": 262144,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code",
@@ -12213,7 +12213,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "modelId": "deepseek/deepseek-v4-pro",
     "contextWindow": 1048576,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code"
@@ -12939,7 +12939,7 @@
     "name": "Qwen: Qwen3.5-35B-A3B",
     "modelId": "qwen/qwen3.5-35b-a3b",
     "contextWindow": 262144,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code",
@@ -13158,7 +13158,7 @@
     "name": "MiniMax: MiniMax M2.5",
     "modelId": "minimax/minimax-m2.5",
     "contextWindow": 204800,
-    "maxOutputTokens": 196608,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code"
@@ -15791,7 +15791,7 @@
     "name": "DeepSeek: DeepSeek V3 0324",
     "modelId": "deepseek/deepseek-chat-v3-0324",
     "contextWindow": 163840,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 163840,
     "modalities": [
       "text",
       "code"
@@ -19313,7 +19313,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro 0813",
     "modelId": "deepseek/deepseek-v4-pro-0813",
     "contextWindow": 1048576,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code"
@@ -19431,7 +19431,7 @@
     "providerId": "openrouter",
     "name": "Qwen: Qwen3.8 27B",
     "modelId": "qwen/qwen3.8-27b",
-    "contextWindow": 262144,
+    "contextWindow": 1000000,
     "maxOutputTokens": 131072,
     "modalities": [
       "text",
@@ -19442,7 +19442,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 99,
+    "score": 100,
     "releasedAt": "2026-08-15",
     "lastVerifiedAt": "2026-08-15T06:34:23.493Z"
   },
@@ -19522,5 +19522,24 @@
     "score": 100,
     "releasedAt": "2026-08-19",
     "lastVerifiedAt": "2026-08-19T06:40:00.998Z"
+  },
+  {
+    "id": "openrouter/~z-ai/glm-latest",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM Latest",
+    "modelId": "~z-ai/glm-latest",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-20",
+    "lastVerifiedAt": "2026-08-20T06:41:12.654Z"
   }
 ]
