@@ -189,7 +189,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-05-13",
-    "lastVerifiedAt": "2026-08-20T06:41:19.317Z",
+    "lastVerifiedAt": "2026-08-21T06:42:10.147Z",
     "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -210,7 +210,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2024-07-18",
-    "lastVerifiedAt": "2026-08-20T06:41:20.324Z",
+    "lastVerifiedAt": "2026-08-21T06:42:11.159Z",
     "lastError": "HTTP 404: ",
     "rateLimit": "15 RPM, 150 RPD"
   },
@@ -232,7 +232,7 @@
     "freeTier": true,
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
-    "lastVerifiedAt": "2026-08-20T06:41:21.330Z",
+    "lastVerifiedAt": "2026-08-21T06:42:12.165Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2456,7 +2456,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-20T06:41:22.337Z",
+    "lastVerifiedAt": "2026-08-21T06:42:13.174Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2475,7 +2475,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-20T06:41:23.341Z",
+    "lastVerifiedAt": "2026-08-21T06:42:14.180Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2495,7 +2495,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-20T06:41:24.347Z",
+    "lastVerifiedAt": "2026-08-21T06:42:15.187Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2515,7 +2515,7 @@
     "noCreditCard": true,
     "score": 86,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-20T06:41:25.353Z",
+    "lastVerifiedAt": "2026-08-21T06:42:16.200Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2534,7 +2534,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-20T06:41:26.357Z",
+    "lastVerifiedAt": "2026-08-21T06:42:17.206Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -2553,7 +2553,7 @@
     "noCreditCard": true,
     "score": 83,
     "releasedAt": "2026-07-27",
-    "lastVerifiedAt": "2026-08-20T06:41:27.364Z",
+    "lastVerifiedAt": "2026-08-21T06:42:18.215Z",
     "lastError": "HTTP 404: "
   },
   {
@@ -12485,7 +12485,7 @@
     "name": "Google: Gemma 4 31B",
     "modelId": "google/gemma-4-31b-it",
     "contextWindow": 262144,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code",
@@ -12979,7 +12979,7 @@
     "name": "Qwen: Qwen3.5-122B-A10B",
     "modelId": "qwen/qwen3.5-122b-a10b",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -13158,7 +13158,7 @@
     "name": "MiniMax: MiniMax M2.5",
     "modelId": "minimax/minimax-m2.5",
     "contextWindow": 204800,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -14547,7 +14547,7 @@
     "name": "DeepSeek: DeepSeek V3.1 Terminus",
     "modelId": "deepseek/deepseek-v3.1-terminus",
     "contextWindow": 163840,
-    "maxOutputTokens": 163840,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -15574,7 +15574,7 @@
     "name": "Qwen: Qwen3 14B",
     "modelId": "qwen/qwen3-14b",
     "contextWindow": 131072,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 8192,
     "modalities": [
       "text",
       "code"
@@ -18252,7 +18252,7 @@
     "providerId": "openrouter",
     "name": "Thinking Machines: Inkling Small",
     "modelId": "thinkingmachines/inkling-small",
-    "contextWindow": 524288,
+    "contextWindow": 1048576,
     "maxOutputTokens": 262144,
     "modalities": [
       "text",
@@ -18263,7 +18263,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 99,
+    "score": 100,
     "releasedAt": "2026-08-01",
     "lastVerifiedAt": "2026-08-01T08:17:27.862Z"
   },
@@ -18273,7 +18273,7 @@
     "name": "DeepSeek V4 Flash Latest",
     "modelId": "~deepseek/deepseek-v4-flash-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 1048576,
     "modalities": [
       "text",
       "code"
@@ -18586,7 +18586,7 @@
     "providerId": "openrouter",
     "name": "Z.ai: GLM 5.2 (batch)",
     "modelId": "z-ai/glm-5.2:batch",
-    "contextWindow": 512000,
+    "contextWindow": 1048575,
     "maxOutputTokens": 4096,
     "modalities": [
       "text",
@@ -18596,7 +18596,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 96,
+    "score": 100,
     "releasedAt": "2026-08-07",
     "lastVerifiedAt": "2026-08-07T07:12:07.763Z"
   },
@@ -19120,7 +19120,7 @@
     "name": "Meta: Muse Glimmer 30B",
     "modelId": "meta/muse-glimmer-30b",
     "contextWindow": 131072,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
@@ -19177,7 +19177,7 @@
     "providerId": "openrouter",
     "name": "LiquidAI: LFM2.5-2.6B (free)",
     "modelId": "liquid/lfm-2.5-2.6b:free",
-    "contextWindow": 128000,
+    "contextWindow": 65536,
     "maxOutputTokens": 8192,
     "modalities": [
       "text",
@@ -19187,7 +19187,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 96,
+    "score": 91,
     "releasedAt": "2026-08-12",
     "lastVerifiedAt": "2026-08-12T07:21:12.103Z"
   },
@@ -19196,7 +19196,7 @@
     "providerId": "openrouter",
     "name": "NVIDIA: Nemotron 3.5 Lightning",
     "modelId": "nvidia/nemotron-3.5-lightning",
-    "contextWindow": 1000000,
+    "contextWindow": 262144,
     "maxOutputTokens": 131072,
     "modalities": [
       "text",
@@ -19206,7 +19206,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 100,
+    "score": 96,
     "releasedAt": "2026-08-12",
     "lastVerifiedAt": "2026-08-12T07:21:12.103Z"
   },
@@ -19541,5 +19541,101 @@
     "score": 100,
     "releasedAt": "2026-08-20",
     "lastVerifiedAt": "2026-08-20T06:41:12.654Z"
+  },
+  {
+    "id": "openrouter/stealth/ox-alpha",
+    "providerId": "openrouter",
+    "name": "Ox Alpha",
+    "modelId": "stealth/ox-alpha",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-21",
+    "lastVerifiedAt": "2026-08-21T06:42:01.423Z"
+  },
+  {
+    "id": "openrouter/tencent/hy-mt2-1.8b",
+    "providerId": "openrouter",
+    "name": "Tencent: Hy-MT2-1.8B",
+    "modelId": "tencent/hy-mt2-1.8b",
+    "contextWindow": 8192,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 86,
+    "releasedAt": "2026-08-21",
+    "lastVerifiedAt": "2026-08-21T06:42:01.423Z"
+  },
+  {
+    "id": "openrouter/tencent/hy-mt2-30b-a3b",
+    "providerId": "openrouter",
+    "name": "Tencent: Hy-MT2-30B-A3B",
+    "modelId": "tencent/hy-mt2-30b-a3b",
+    "contextWindow": 8192,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 86,
+    "releasedAt": "2026-08-21",
+    "lastVerifiedAt": "2026-08-21T06:42:01.423Z"
+  },
+  {
+    "id": "openrouter/mistralai/ministral-8b",
+    "providerId": "openrouter",
+    "name": "Mistral: Ministral 8B",
+    "modelId": "mistralai/ministral-8b",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-08-21",
+    "lastVerifiedAt": "2026-08-21T06:42:01.431Z"
+  },
+  {
+    "id": "nvidia/moonshotai/kimi-k3",
+    "providerId": "nvidia",
+    "name": "Kimi K3",
+    "modelId": "moonshotai/kimi-k3",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-08-21",
+    "lastVerifiedAt": "2026-08-21T06:42:01.954Z"
   }
 ]
