@@ -190,7 +190,7 @@
     "score": 86,
     "releasedAt": "2024-05-13",
     "lastVerifiedAt": "2026-08-21T06:42:10.147Z",
-    "lastError": "HTTP 404: ",
+    "lastError": "Network connection failure: fetch failed",
     "rateLimit": "15 RPM, 150 RPD"
   },
   {
@@ -211,7 +211,7 @@
     "score": 86,
     "releasedAt": "2024-07-18",
     "lastVerifiedAt": "2026-08-21T06:42:11.159Z",
-    "lastError": "HTTP 404: ",
+    "lastError": "Network connection failure: fetch failed",
     "rateLimit": "15 RPM, 150 RPD"
   },
   {
@@ -233,7 +233,7 @@
     "noCreditCard": true,
     "releasedAt": "2024-07-23",
     "lastVerifiedAt": "2026-08-21T06:42:12.165Z",
-    "lastError": "HTTP 404: "
+    "lastError": "Network connection failure: fetch failed"
   },
   {
     "id": "mistral/mistral-large-latest",
@@ -2457,7 +2457,7 @@
     "score": 83,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-08-21T06:42:13.174Z",
-    "lastError": "HTTP 404: "
+    "lastError": "Network connection failure: fetch failed"
   },
   {
     "id": "github/Cohere-embed-v3-multilingual",
@@ -2476,7 +2476,7 @@
     "score": 83,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-08-21T06:42:14.180Z",
-    "lastError": "HTTP 404: "
+    "lastError": "Network connection failure: fetch failed"
   },
   {
     "id": "github/Meta-Llama-3.1-405B-Instruct",
@@ -2496,7 +2496,7 @@
     "score": 86,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-08-21T06:42:15.187Z",
-    "lastError": "HTTP 404: "
+    "lastError": "Network connection failure: fetch failed"
   },
   {
     "id": "github/Meta-Llama-3.1-8B-Instruct",
@@ -2516,7 +2516,7 @@
     "score": 86,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-08-21T06:42:16.200Z",
-    "lastError": "HTTP 404: "
+    "lastError": "Network connection failure: fetch failed"
   },
   {
     "id": "github/text-embedding-3-large",
@@ -2535,7 +2535,7 @@
     "score": 83,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-08-21T06:42:17.206Z",
-    "lastError": "HTTP 404: "
+    "lastError": "Network connection failure: fetch failed"
   },
   {
     "id": "github/text-embedding-3-small",
@@ -2554,7 +2554,7 @@
     "score": 83,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-08-21T06:42:18.215Z",
-    "lastError": "HTTP 404: "
+    "lastError": "Network connection failure: fetch failed"
   },
   {
     "id": "mistral/mistral-medium-2505",
@@ -12213,7 +12213,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "modelId": "deepseek/deepseek-v4-pro",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code"
@@ -13158,7 +13158,7 @@
     "name": "MiniMax: MiniMax M2.5",
     "modelId": "minimax/minimax-m2.5",
     "contextWindow": 204800,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code"
@@ -13801,7 +13801,7 @@
     "name": "DeepSeek: DeepSeek V3.2",
     "modelId": "deepseek/deepseek-v3.2",
     "contextWindow": 163840,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 163840,
     "modalities": [
       "text",
       "code"
@@ -14604,7 +14604,7 @@
     "name": "Qwen: Qwen3 Next 80B A3B Instruct",
     "modelId": "qwen/qwen3-next-80b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code"
@@ -14737,7 +14737,7 @@
     "name": "DeepSeek: DeepSeek V3.1",
     "modelId": "deepseek/deepseek-chat-v3.1",
     "contextWindow": 163840,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 161000,
     "modalities": [
       "text",
       "code"
@@ -15259,7 +15259,7 @@
     "providerId": "openrouter",
     "name": "Mistral: Mistral Small 3.2 24B",
     "modelId": "mistralai/mistral-small-3.2-24b-instruct",
-    "contextWindow": 256000,
+    "contextWindow": 131072,
     "maxOutputTokens": 16384,
     "modalities": [
       "text",
@@ -15574,7 +15574,7 @@
     "name": "Qwen: Qwen3 14B",
     "modelId": "qwen/qwen3-14b",
     "contextWindow": 131072,
-    "maxOutputTokens": 8192,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -18214,7 +18214,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "modelId": "deepseek/deepseek-v4-flash-0731",
     "contextWindow": 1310720,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code"
@@ -19294,7 +19294,7 @@
     "name": "Qwen: Qwen3.8 2.4T A95B",
     "modelId": "qwen/qwen3.8-2.4t-a95b",
     "contextWindow": 1048576,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -19637,5 +19637,124 @@
     "score": 96,
     "releasedAt": "2026-08-21",
     "lastVerifiedAt": "2026-08-21T06:42:01.954Z"
+  },
+  {
+    "id": "openrouter/meta/muse-spark-1.2-contributor",
+    "providerId": "openrouter",
+    "name": "Meta: Muse Spark 1.2 Contributor",
+    "modelId": "meta/muse-spark-1.2-contributor",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-22",
+    "lastVerifiedAt": "2026-08-22T06:35:58.684Z"
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v4-flash-vision-exp",
+    "providerId": "openrouter",
+    "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+    "modelId": "deepseek/deepseek-v4-flash-vision-exp",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 384000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-22",
+    "lastVerifiedAt": "2026-08-22T06:35:58.684Z"
+  },
+  {
+    "id": "openrouter/thinkingmachines/inkling-small:free",
+    "providerId": "openrouter",
+    "name": "Thinking Machines: Inkling Small (free)",
+    "modelId": "thinkingmachines/inkling-small:free",
+    "contextWindow": 262144,
+    "maxOutputTokens": 262144,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-22",
+    "lastVerifiedAt": "2026-08-22T06:35:58.686Z"
+  },
+  {
+    "id": "openrouter/thinkingmachines/inkling:free",
+    "providerId": "openrouter",
+    "name": "Thinking Machines: Inkling (free)",
+    "modelId": "thinkingmachines/inkling:free",
+    "contextWindow": 262144,
+    "maxOutputTokens": 262144,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-22",
+    "lastVerifiedAt": "2026-08-22T06:35:58.686Z"
+  },
+  {
+    "id": "huggingface/EleutherAI/pythia-160m",
+    "providerId": "huggingface",
+    "name": "EleutherAI/pythia-160m",
+    "modelId": "EleutherAI/pythia-160m",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-08-22",
+    "lastVerifiedAt": "2026-08-22T06:35:59.163Z"
+  },
+  {
+    "id": "deepseek/deepseek-v4-flash-vision-exp",
+    "providerId": "deepseek",
+    "name": "deepseek-v4-flash-vision-exp",
+    "modelId": "deepseek-v4-flash-vision-exp",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 393216,
+    "modalities": [
+      "text",
+      "code",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 89,
+    "releasedAt": "2026-08-22",
+    "lastVerifiedAt": "2026-08-22T06:36:01.394Z"
   }
 ]
