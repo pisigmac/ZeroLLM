@@ -11027,7 +11027,7 @@
     "name": "MoonshotAI: Kimi K3",
     "modelId": "moonshotai/kimi-k3",
     "contextWindow": 1048576,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 1048576,
     "modalities": [
       "text",
       "code",
@@ -12153,7 +12153,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "modelId": "qwen/qwen3.6-27b",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 81920,
     "modalities": [
       "text",
       "code",
@@ -12643,7 +12643,7 @@
     "name": "MiniMax: MiniMax M2.7",
     "modelId": "minimax/minimax-m2.7",
     "contextWindow": 204800,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code"
@@ -13138,7 +13138,7 @@
     "name": "Qwen: Qwen3.5 397B A17B",
     "modelId": "qwen/qwen3.5-397b-a17b",
     "contextWindow": 262144,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code",
@@ -16489,7 +16489,7 @@
     "name": "TheDrummer: UnslopNemo 12B",
     "modelId": "thedrummer/unslopnemo-12b",
     "contextWindow": 1024000,
-    "maxOutputTokens": 1024000,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -17104,7 +17104,7 @@
     "name": "ReMM SLERP 13B",
     "modelId": "undi95/remm-slerp-l2-13b",
     "contextWindow": 6144,
-    "maxOutputTokens": 6144,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code"
@@ -18214,7 +18214,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "modelId": "deepseek/deepseek-v4-flash-0731",
     "contextWindow": 1310720,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
