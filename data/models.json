@@ -10987,7 +10987,7 @@
     "name": "Thinking Machines: Inkling",
     "modelId": "thinkingmachines/inkling",
     "contextWindow": 1048576,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code",
@@ -11461,7 +11461,7 @@
     "name": "Z.ai: GLM 5.2",
     "modelId": "z-ai/glm-5.2",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code"
@@ -11994,7 +11994,7 @@
     "name": "MoonshotAI Kimi Latest",
     "modelId": "~moonshotai/kimi-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 974842,
+    "maxOutputTokens": 1048576,
     "modalities": [
       "text",
       "code",
@@ -12446,7 +12446,7 @@
     "name": "Z.ai: GLM 5.1",
     "modelId": "z-ai/glm-5.1",
     "contextWindow": 204800,
-    "maxOutputTokens": 128000,
+    "maxOutputTokens": 202752,
     "modalities": [
       "text",
       "code"
@@ -13273,7 +13273,7 @@
     "name": "MoonshotAI: Kimi K2.5",
     "modelId": "moonshotai/kimi-k2.5",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code",
@@ -15047,7 +15047,7 @@
     "providerId": "openrouter",
     "name": "Qwen: Qwen3 235B A22B Thinking 2507",
     "modelId": "qwen/qwen3-235b-a22b-thinking-2507",
-    "contextWindow": 262144,
+    "contextWindow": 131072,
     "maxOutputTokens": 4096,
     "modalities": [
       "text",
@@ -19683,7 +19683,7 @@
     "providerId": "openrouter",
     "name": "Thinking Machines: Inkling Small (free)",
     "modelId": "thinkingmachines/inkling-small:free",
-    "contextWindow": 262144,
+    "contextWindow": 1048576,
     "maxOutputTokens": 262144,
     "modalities": [
       "text",
@@ -19694,7 +19694,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 99,
+    "score": 100,
     "releasedAt": "2026-08-22",
     "lastVerifiedAt": "2026-08-22T06:35:58.686Z"
   },
@@ -19703,7 +19703,7 @@
     "providerId": "openrouter",
     "name": "Thinking Machines: Inkling (free)",
     "modelId": "thinkingmachines/inkling:free",
-    "contextWindow": 262144,
+    "contextWindow": 1048576,
     "maxOutputTokens": 262144,
     "modalities": [
       "text",
@@ -19714,7 +19714,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 99,
+    "score": 100,
     "releasedAt": "2026-08-22",
     "lastVerifiedAt": "2026-08-22T06:35:58.686Z"
   },
@@ -19775,5 +19775,129 @@
     "score": 86,
     "releasedAt": "2026-08-23",
     "lastVerifiedAt": "2026-08-23T06:36:58.963Z"
+  },
+  {
+    "id": "openrouter/minimax/minimax-m3:free",
+    "providerId": "openrouter",
+    "name": "MiniMax: MiniMax M3 (free)",
+    "modelId": "minimax/minimax-m3:free",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-25",
+    "lastVerifiedAt": "2026-08-25T06:42:04.286Z"
+  },
+  {
+    "id": "openrouter/minimax/minimax-m2.7:free",
+    "providerId": "openrouter",
+    "name": "MiniMax: MiniMax M2.7 (free)",
+    "modelId": "minimax/minimax-m2.7:free",
+    "contextWindow": 196608,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-08-25",
+    "lastVerifiedAt": "2026-08-25T06:42:04.288Z"
+  },
+  {
+    "id": "anthropic/claude-sonnet-3.7",
+    "providerId": "anthropic",
+    "name": "Claude Sonnet 3.7",
+    "modelId": "claude-sonnet-3.7",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "pdf"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": false,
+    "noCreditCard": false,
+    "score": 92,
+    "releasedAt": "2026-08-25",
+    "lastVerifiedAt": "2026-08-25T06:42:05.864Z"
+  },
+  {
+    "id": "anthropic/claude-sonnet-3.5",
+    "providerId": "anthropic",
+    "name": "Claude Sonnet 3.5",
+    "modelId": "claude-sonnet-3.5",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "pdf"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": false,
+    "noCreditCard": false,
+    "score": 92,
+    "releasedAt": "2026-08-25",
+    "lastVerifiedAt": "2026-08-25T06:42:05.864Z"
+  },
+  {
+    "id": "anthropic/claude-opus-3",
+    "providerId": "anthropic",
+    "name": "Claude Opus 3",
+    "modelId": "claude-opus-3",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "pdf",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": false,
+    "noCreditCard": false,
+    "score": 95,
+    "releasedAt": "2026-08-25",
+    "lastVerifiedAt": "2026-08-25T06:42:05.864Z"
+  },
+  {
+    "id": "anthropic/claude-haiku-3",
+    "providerId": "anthropic",
+    "name": "Claude Haiku 3",
+    "modelId": "claude-haiku-3",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 8192,
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "pdf"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": false,
+    "noCreditCard": false,
+    "score": 92,
+    "releasedAt": "2026-08-25",
+    "lastVerifiedAt": "2026-08-25T06:42:05.864Z"
   }
 ]
