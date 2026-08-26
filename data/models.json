@@ -575,7 +575,7 @@
     "name": "NVIDIA: Nemotron 3 Super (free)",
     "modelId": "nvidia/nemotron-3-super-120b-a12b:free",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -11027,7 +11027,7 @@
     "name": "MoonshotAI: Kimi K3",
     "modelId": "moonshotai/kimi-k3",
     "contextWindow": 1048576,
-    "maxOutputTokens": 1048576,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -11047,7 +11047,7 @@
     "name": "Meta: Muse Spark 1.1",
     "modelId": "meta/muse-spark-1.1",
     "contextWindow": 1048576,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -11225,7 +11225,7 @@
     "name": "SpaceXAI: Grok 4.5",
     "modelId": "x-ai/grok-4.5",
     "contextWindow": 500000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 450000,
     "modalities": [
       "text",
       "code",
@@ -11245,7 +11245,7 @@
     "name": "xAI: Grok Latest",
     "modelId": "~x-ai/grok-latest",
     "contextWindow": 500000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 450000,
     "modalities": [
       "text",
       "code",
@@ -11361,7 +11361,7 @@
     "name": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
     "modelId": "google/gemini-3.1-flash-lite-image",
     "contextWindow": 65536,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 58982,
     "modalities": [
       "text",
       "code",
@@ -11381,7 +11381,7 @@
     "name": "Nex AGI: Nex-N2-Mini",
     "modelId": "nex-agi/nex-n2-mini",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -11499,7 +11499,7 @@
     "name": "MoonshotAI: Kimi K2.7 Code",
     "modelId": "moonshotai/kimi-k2.7-code",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -11559,7 +11559,7 @@
     "name": "Nex AGI: Nex-N2-Pro",
     "modelId": "nex-agi/nex-n2-pro",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -11579,7 +11579,7 @@
     "name": "NVIDIA: Nemotron 3 Ultra",
     "modelId": "nvidia/nemotron-3-ultra-550b-a55b",
     "contextWindow": 512288,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 461059,
     "modalities": [
       "text",
       "code"
@@ -11638,7 +11638,7 @@
     "name": "StepFun: Step 3.7 Flash",
     "modelId": "stepfun/step-3.7-flash",
     "contextWindow": 262144,
-    "maxOutputTokens": 256000,
+    "maxOutputTokens": 230400,
     "modalities": [
       "text",
       "code",
@@ -11717,7 +11717,7 @@
     "name": "SpaceXAI: Grok Build 0.1",
     "modelId": "x-ai/grok-build-0.1",
     "contextWindow": 256000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 230400,
     "modalities": [
       "text",
       "code",
@@ -11856,7 +11856,7 @@
     "name": "SpaceXAI: Grok 4.3",
     "modelId": "x-ai/grok-4.3",
     "contextWindow": 1000000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 900000,
     "modalities": [
       "text",
       "code",
@@ -11876,7 +11876,7 @@
     "name": "IBM: Granite 4.1 8B",
     "modelId": "ibm-granite/granite-4.1-8b",
     "contextWindow": 131072,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -11895,7 +11895,7 @@
     "name": "Mistral: Mistral Medium 3.5",
     "modelId": "mistralai/mistral-medium-3-5",
     "contextWindow": 262144,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 209715,
     "modalities": [
       "text",
       "code",
@@ -11994,7 +11994,7 @@
     "name": "MoonshotAI Kimi Latest",
     "modelId": "~moonshotai/kimi-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 1048576,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -12114,7 +12114,7 @@
     "name": "Qwen: Qwen3.6 35B A3B",
     "modelId": "qwen/qwen3.6-35b-a3b",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -12153,7 +12153,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "modelId": "qwen/qwen3.6-27b",
     "contextWindow": 262144,
-    "maxOutputTokens": 81920,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -12270,7 +12270,7 @@
     "name": "Tencent: Hy3 preview",
     "modelId": "tencent/hy3-preview",
     "contextWindow": 262144,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -12406,7 +12406,7 @@
     "name": "MoonshotAI: Kimi K2.6",
     "modelId": "moonshotai/kimi-k2.6",
     "contextWindow": 262144,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -12446,7 +12446,7 @@
     "name": "Z.ai: GLM 5.1",
     "modelId": "z-ai/glm-5.1",
     "contextWindow": 204800,
-    "maxOutputTokens": 202752,
+    "maxOutputTokens": 182476,
     "modalities": [
       "text",
       "code"
@@ -12485,7 +12485,7 @@
     "name": "Google: Gemma 4 31B",
     "modelId": "google/gemma-4-31b-it",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -12545,7 +12545,7 @@
     "name": "Arcee AI: Trinity Large Thinking",
     "modelId": "arcee-ai/trinity-large-thinking",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -12564,7 +12564,7 @@
     "name": "SpaceXAI: Grok 4.20 Multi-Agent",
     "modelId": "x-ai/grok-4.20-multi-agent",
     "contextWindow": 2000000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 1800000,
     "modalities": [
       "text",
       "code",
@@ -12584,7 +12584,7 @@
     "name": "SpaceXAI: Grok 4.20",
     "modelId": "x-ai/grok-4.20",
     "contextWindow": 2000000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 1800000,
     "modalities": [
       "text",
       "code",
@@ -12623,7 +12623,7 @@
     "name": "Reka Edge",
     "modelId": "rekaai/reka-edge",
     "contextWindow": 16384,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 14745,
     "modalities": [
       "text",
       "code",
@@ -12643,7 +12643,7 @@
     "name": "MiniMax: MiniMax M2.7",
     "modelId": "minimax/minimax-m2.7",
     "contextWindow": 204800,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -12702,7 +12702,7 @@
     "name": "Mistral: Mistral Small 4",
     "modelId": "mistralai/mistral-small-2603",
     "contextWindow": 262144,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 209715,
     "modalities": [
       "text",
       "code",
@@ -12780,7 +12780,7 @@
     "name": "Qwen: Qwen3.5-9B",
     "modelId": "qwen/qwen3.5-9b",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -12919,7 +12919,7 @@
     "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
     "modelId": "google/gemini-3.1-flash-image-preview",
     "contextWindow": 65536,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 58982,
     "modalities": [
       "text",
       "code",
@@ -12939,7 +12939,7 @@
     "name": "Qwen: Qwen3.5-35B-A3B",
     "modelId": "qwen/qwen3.5-35b-a3b",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -12979,7 +12979,7 @@
     "name": "Qwen: Qwen3.5-122B-A10B",
     "modelId": "qwen/qwen3.5-122b-a10b",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -13138,7 +13138,7 @@
     "name": "Qwen: Qwen3.5 397B A17B",
     "modelId": "qwen/qwen3.5-397b-a17b",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -13235,7 +13235,7 @@
     "name": "Qwen: Qwen3 Coder Next",
     "modelId": "qwen/qwen3-coder-next",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -13273,7 +13273,7 @@
     "name": "MoonshotAI: Kimi K2.5",
     "modelId": "moonshotai/kimi-k2.5",
     "contextWindow": 262144,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -13293,7 +13293,7 @@
     "name": "Upstage: Solar Pro 3",
     "modelId": "upstage/solar-pro-3",
     "contextWindow": 131072,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -13525,7 +13525,7 @@
     "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
     "modelId": "nvidia/nemotron-3-nano-30b-a3b",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -13604,7 +13604,7 @@
     "name": "Mistral: Devstral 2 2512",
     "modelId": "mistralai/devstral-2512",
     "contextWindow": 262144,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 209715,
     "modalities": [
       "text",
       "code"
@@ -13721,7 +13721,7 @@
     "name": "Mistral: Ministral 3 14B 2512",
     "modelId": "mistralai/ministral-14b-2512",
     "contextWindow": 262144,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 209715,
     "modalities": [
       "text",
       "code",
@@ -13741,7 +13741,7 @@
     "name": "Mistral: Ministral 3 8B 2512",
     "modelId": "mistralai/ministral-8b-2512",
     "contextWindow": 262144,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 209715,
     "modalities": [
       "text",
       "code",
@@ -13761,7 +13761,7 @@
     "name": "Mistral: Ministral 3 3B 2512",
     "modelId": "mistralai/ministral-3b-2512",
     "contextWindow": 131072,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 104857,
     "modalities": [
       "text",
       "code",
@@ -13781,7 +13781,7 @@
     "name": "Mistral: Mistral Large 3 2512",
     "modelId": "mistralai/mistral-large-2512",
     "contextWindow": 262144,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 209715,
     "modalities": [
       "text",
       "code",
@@ -13801,7 +13801,7 @@
     "name": "DeepSeek: DeepSeek V3.2",
     "modelId": "deepseek/deepseek-v3.2",
     "contextWindow": 163840,
-    "maxOutputTokens": 163840,
+    "maxOutputTokens": 147456,
     "modalities": [
       "text",
       "code"
@@ -13840,7 +13840,7 @@
     "name": "AllenAI: Olmo 3 32B Think",
     "modelId": "allenai/olmo-3-32b-think",
     "contextWindow": 65536,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 58982,
     "modalities": [
       "text",
       "code"
@@ -14037,7 +14037,7 @@
     "name": "Mistral: Voxtral Small 24B 2507",
     "modelId": "mistralai/voxtral-small-24b-2507",
     "contextWindow": 32000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 25600,
     "modalities": [
       "text",
       "code"
@@ -14114,7 +14114,7 @@
     "name": "IBM: Granite 4.0 Micro",
     "modelId": "ibm-granite/granite-4.0-h-micro",
     "contextWindow": 131000,
-    "maxOutputTokens": 131000,
+    "maxOutputTokens": 117900,
     "modalities": [
       "text",
       "code"
@@ -14411,7 +14411,7 @@
     "name": "TheDrummer: Cydonia 24B V4.1",
     "modelId": "thedrummer/cydonia-24b-v4.1",
     "contextWindow": 131072,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -14604,7 +14604,7 @@
     "name": "Qwen: Qwen3 Next 80B A3B Instruct",
     "modelId": "qwen/qwen3-next-80b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -14699,7 +14699,7 @@
     "name": "Nous: Hermes 4 70B",
     "modelId": "nousresearch/hermes-4-70b",
     "contextWindow": 131072,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -14718,7 +14718,7 @@
     "name": "Nous: Hermes 4 405B",
     "modelId": "nousresearch/hermes-4-405b",
     "contextWindow": 131072,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -14737,7 +14737,7 @@
     "name": "DeepSeek: DeepSeek V3.1",
     "modelId": "deepseek/deepseek-chat-v3.1",
     "contextWindow": 163840,
-    "maxOutputTokens": 161000,
+    "maxOutputTokens": 144900,
     "modalities": [
       "text",
       "code"
@@ -14756,7 +14756,7 @@
     "name": "Mistral: Mistral Medium 3.1",
     "modelId": "mistralai/mistral-medium-3.1",
     "contextWindow": 131072,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 104857,
     "modalities": [
       "text",
       "code",
@@ -14895,7 +14895,7 @@
     "name": "OpenAI: gpt-oss-120b",
     "modelId": "openai/gpt-oss-120b",
     "contextWindow": 131072,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -14914,7 +14914,7 @@
     "name": "OpenAI: gpt-oss-20b",
     "modelId": "openai/gpt-oss-20b",
     "contextWindow": 131072,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -14953,7 +14953,7 @@
     "name": "Mistral: Codestral 2508",
     "modelId": "mistralai/codestral-2508",
     "contextWindow": 256000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 204800,
     "modalities": [
       "text",
       "code"
@@ -14972,7 +14972,7 @@
     "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
     "modelId": "qwen/qwen3-coder-30b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -15048,7 +15048,7 @@
     "name": "Qwen: Qwen3 235B A22B Thinking 2507",
     "modelId": "qwen/qwen3-235b-a22b-thinking-2507",
     "contextWindow": 131072,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -15183,7 +15183,7 @@
     "name": "Tencent: Hunyuan A13B Instruct",
     "modelId": "tencent/hunyuan-a13b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -15457,7 +15457,7 @@
     "name": "Mistral: Mistral Medium 3",
     "modelId": "mistralai/mistral-medium-3",
     "contextWindow": 131072,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 104857,
     "modalities": [
       "text",
       "code",
@@ -15515,7 +15515,7 @@
     "providerId": "openrouter",
     "name": "Meta: Llama Guard 4 12B",
     "modelId": "meta-llama/llama-guard-4-12b",
-    "contextWindow": 1048576,
+    "contextWindow": 163840,
     "maxOutputTokens": 16384,
     "modalities": [
       "text",
@@ -15526,7 +15526,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 100,
+    "score": 99,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
   },
@@ -15771,7 +15771,7 @@
     "name": "Meta: Llama 4 Scout",
     "modelId": "meta-llama/llama-4-scout",
     "contextWindow": 1310720,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 8192,
     "modalities": [
       "text",
       "code",
@@ -15791,7 +15791,7 @@
     "name": "DeepSeek: DeepSeek V3 0324",
     "modelId": "deepseek/deepseek-chat-v3-0324",
     "contextWindow": 163840,
-    "maxOutputTokens": 163840,
+    "maxOutputTokens": 147456,
     "modalities": [
       "text",
       "code"
@@ -15830,7 +15830,7 @@
     "name": "Mistral: Mistral Small 3.1 24B",
     "modelId": "mistralai/mistral-small-3.1-24b-instruct",
     "contextWindow": 128000,
-    "maxOutputTokens": 128000,
+    "maxOutputTokens": 102400,
     "modalities": [
       "text",
       "code",
@@ -15928,7 +15928,7 @@
     "name": "Reka Flash 3",
     "modelId": "rekaai/reka-flash-3",
     "contextWindow": 65536,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 58982,
     "modalities": [
       "text",
       "code"
@@ -15947,7 +15947,7 @@
     "name": "Google: Gemma 3 27B",
     "modelId": "google/gemma-3-27b-it",
     "contextWindow": 262144,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code",
@@ -15967,7 +15967,7 @@
     "name": "TheDrummer: Skyfall 36B V2",
     "modelId": "thedrummer/skyfall-36b-v2",
     "contextWindow": 32768,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 29491,
     "modalities": [
       "text",
       "code"
@@ -15986,7 +15986,7 @@
     "name": "Perplexity: Sonar Reasoning Pro",
     "modelId": "perplexity/sonar-reasoning-pro",
     "contextWindow": 128000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 115200,
     "modalities": [
       "text",
       "code",
@@ -16026,7 +16026,7 @@
     "name": "Perplexity: Sonar Deep Research",
     "modelId": "perplexity/sonar-deep-research",
     "contextWindow": 128000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 115200,
     "modalities": [
       "text",
       "code"
@@ -16045,7 +16045,7 @@
     "name": "Mistral: Saba",
     "modelId": "mistralai/mistral-saba",
     "contextWindow": 32768,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 26214,
     "modalities": [
       "text",
       "code"
@@ -16083,7 +16083,7 @@
     "name": "AionLabs: Aion-RP 1.0 (8B)",
     "modelId": "aion-labs/aion-rp-llama-3.1-8b",
     "contextWindow": 32768,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 29491,
     "modalities": [
       "text",
       "code"
@@ -16102,7 +16102,7 @@
     "name": "Qwen: Qwen2.5 VL 72B Instruct",
     "modelId": "qwen/qwen2.5-vl-72b-instruct",
     "contextWindow": 128000,
-    "maxOutputTokens": 128000,
+    "maxOutputTokens": 28800,
     "modalities": [
       "text",
       "code",
@@ -16179,7 +16179,7 @@
     "name": "Perplexity: Sonar",
     "modelId": "perplexity/sonar",
     "contextWindow": 127072,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 114364,
     "modalities": [
       "text",
       "code",
@@ -16199,7 +16199,7 @@
     "name": "DeepSeek: R1 Distill Llama 70B",
     "modelId": "deepseek/deepseek-r1-distill-llama-70b",
     "contextWindow": 8192,
-    "maxOutputTokens": 8192,
+    "maxOutputTokens": 7372,
     "modalities": [
       "text",
       "code"
@@ -16237,7 +16237,7 @@
     "name": "MiniMax: MiniMax-01",
     "modelId": "minimax/minimax-01",
     "contextWindow": 1000192,
-    "maxOutputTokens": 1000192,
+    "maxOutputTokens": 900172,
     "modalities": [
       "text",
       "code",
@@ -16257,7 +16257,7 @@
     "name": "Microsoft: Phi 4",
     "modelId": "microsoft/phi-4",
     "contextWindow": 16384,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 14745,
     "modalities": [
       "text",
       "code"
@@ -16353,7 +16353,7 @@
     "name": "Meta: Llama 3.3 70B Instruct",
     "modelId": "meta-llama/llama-3.3-70b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 115200,
     "modalities": [
       "text",
       "code"
@@ -16451,7 +16451,7 @@
     "name": "Mistral Large 2407",
     "modelId": "mistralai/mistral-large-2407",
     "contextWindow": 131072,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 104857,
     "modalities": [
       "text",
       "code"
@@ -16470,7 +16470,7 @@
     "name": "Qwen2.5 Coder 32B Instruct",
     "modelId": "qwen/qwen-2.5-coder-32b-instruct",
     "contextWindow": 32768,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 29491,
     "modalities": [
       "text",
       "code"
@@ -16489,7 +16489,7 @@
     "name": "TheDrummer: UnslopNemo 12B",
     "modelId": "thedrummer/unslopnemo-12b",
     "contextWindow": 1024000,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 26214,
     "modalities": [
       "text",
       "code"
@@ -16527,7 +16527,7 @@
     "name": "Qwen: Qwen2.5 7B Instruct",
     "modelId": "qwen/qwen-2.5-7b-instruct",
     "contextWindow": 32768,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 29491,
     "modalities": [
       "text",
       "code"
@@ -16546,7 +16546,7 @@
     "name": "TheDrummer: Rocinante 12B",
     "modelId": "thedrummer/rocinante-12b",
     "contextWindow": 65536,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 58982,
     "modalities": [
       "text",
       "code"
@@ -16565,7 +16565,7 @@
     "name": "Meta: Llama 3.2 1B Instruct",
     "modelId": "meta-llama/llama-3.2-1b-instruct",
     "contextWindow": 60000,
-    "maxOutputTokens": 60000,
+    "maxOutputTokens": 54000,
     "modalities": [
       "text",
       "code"
@@ -16584,7 +16584,7 @@
     "name": "Meta: Llama 3.2 3B Instruct",
     "modelId": "meta-llama/llama-3.2-3b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -16717,7 +16717,7 @@
     "name": "Sao10K: Llama 3 8B Lunaris",
     "modelId": "sao10k/l3-lunaris-8b",
     "contextWindow": 8192,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 7372,
     "modalities": [
       "text",
       "code"
@@ -16775,7 +16775,7 @@
     "name": "Meta: Llama 3.1 8B Instruct",
     "modelId": "meta-llama/llama-3.1-8b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -16892,7 +16892,7 @@
     "name": "Mistral: Mixtral 8x22B Instruct",
     "modelId": "mistralai/mixtral-8x22b-instruct",
     "contextWindow": 65536,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 52428,
     "modalities": [
       "text",
       "code"
@@ -16970,7 +16970,7 @@
     "name": "Mistral Large",
     "modelId": "mistralai/mistral-large",
     "contextWindow": 128000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 102400,
     "modalities": [
       "text",
       "code"
@@ -16989,7 +16989,7 @@
     "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
     "modelId": "openai/gpt-3.5-turbo-0613",
     "contextWindow": 4095,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 3685,
     "modalities": [
       "text",
       "code"
@@ -17047,7 +17047,7 @@
     "name": "OpenAI: GPT-3.5 Turbo Instruct",
     "modelId": "openai/gpt-3.5-turbo-instruct",
     "contextWindow": 4095,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 3685,
     "modalities": [
       "text",
       "code"
@@ -17123,7 +17123,7 @@
     "name": "MythoMax 13B",
     "modelId": "gryphe/mythomax-l2-13b",
     "contextWindow": 8192,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 3686,
     "modalities": [
       "text",
       "code"
@@ -17677,7 +17677,7 @@
     "name": "MiniMax: MiniMax M3 (batch)",
     "modelId": "minimax/minimax-m3:batch",
     "contextWindow": 524288,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 471859,
     "modalities": [
       "text",
       "code",
@@ -18214,7 +18214,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "modelId": "deepseek/deepseek-v4-flash-0731",
     "contextWindow": 1310720,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -18273,7 +18273,7 @@
     "name": "DeepSeek V4 Flash Latest",
     "modelId": "~deepseek/deepseek-v4-flash-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 1048576,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -18369,7 +18369,7 @@
     "name": "Meta: Muse Spark 1.2",
     "modelId": "meta/muse-spark-1.2",
     "contextWindow": 1048576,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -18447,7 +18447,7 @@
     "name": "Thinking Machines: Inkling (batch)",
     "modelId": "thinkingmachines/inkling:batch",
     "contextWindow": 524288,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 471859,
     "modalities": [
       "text",
       "code",
@@ -18587,7 +18587,7 @@
     "name": "Z.ai: GLM 5.2 (batch)",
     "modelId": "z-ai/glm-5.2:batch",
     "contextWindow": 1048575,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 943717,
     "modalities": [
       "text",
       "code"
@@ -18606,7 +18606,7 @@
     "name": "MoonshotAI: Kimi K2.7 Code (batch)",
     "modelId": "moonshotai/kimi-k2.7-code:batch",
     "contextWindow": 262144,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -18626,7 +18626,7 @@
     "name": "NVIDIA: Nemotron 3 Ultra (batch)",
     "modelId": "nvidia/nemotron-3-ultra-550b-a55b:batch",
     "contextWindow": 512288,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 461059,
     "modalities": [
       "text",
       "code"
@@ -19120,7 +19120,7 @@
     "name": "Meta: Muse Glimmer 30B",
     "modelId": "meta/muse-glimmer-30b",
     "contextWindow": 131072,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code",
@@ -19274,7 +19274,7 @@
     "name": "ByteDance Seed: Seed 2.1 Turbo",
     "modelId": "bytedance-seed/seed-2-1-turbo",
     "contextWindow": 262144,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -19313,7 +19313,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro 0813",
     "modelId": "deepseek/deepseek-v4-pro-0813",
     "contextWindow": 1048576,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 943717,
     "modalities": [
       "text",
       "code"
@@ -19332,7 +19332,7 @@
     "name": "SpaceXAI: Grok 4.6",
     "modelId": "x-ai/grok-4.6",
     "contextWindow": 500000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 450000,
     "modalities": [
       "text",
       "code",
@@ -19452,7 +19452,7 @@
     "name": "Dots Studio: Dots3-Note Preview (free)",
     "modelId": "dots-studio/dots-3-note-preview:free",
     "contextWindow": 512000,
-    "maxOutputTokens": 512000,
+    "maxOutputTokens": 460800,
     "modalities": [
       "text",
       "code",
@@ -19472,7 +19472,7 @@
     "name": "Z.ai: GLM 5.2 (free)",
     "modelId": "z-ai/glm-5.2:free",
     "contextWindow": 256000,
-    "maxOutputTokens": 256000,
+    "maxOutputTokens": 230400,
     "modalities": [
       "text",
       "code"
@@ -19606,7 +19606,7 @@
     "name": "Mistral: Ministral 8B",
     "modelId": "mistralai/ministral-8b",
     "contextWindow": 128000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 102400,
     "modalities": [
       "text",
       "code"
@@ -19644,7 +19644,7 @@
     "name": "Meta: Muse Spark 1.2 Contributor",
     "modelId": "meta/muse-spark-1.2-contributor",
     "contextWindow": 1048576,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -19782,7 +19782,7 @@
     "name": "MiniMax: MiniMax M3 (free)",
     "modelId": "minimax/minimax-m3:free",
     "contextWindow": 1048576,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -19802,7 +19802,7 @@
     "name": "MiniMax: MiniMax M2.7 (free)",
     "modelId": "minimax/minimax-m2.7:free",
     "contextWindow": 196608,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 176947,
     "modalities": [
       "text",
       "code"
