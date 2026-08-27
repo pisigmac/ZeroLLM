@@ -13525,7 +13525,7 @@
     "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
     "modelId": "nvidia/nemotron-3-nano-30b-a3b",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 228000,
     "modalities": [
       "text",
       "code"
@@ -14353,7 +14353,7 @@
     "name": "Z.ai: GLM 4.6",
     "modelId": "z-ai/glm-4.6",
     "contextWindow": 204800,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -15126,7 +15126,7 @@
     "name": "Qwen: Qwen3 235B A22B Instruct 2507",
     "modelId": "qwen/qwen3-235b-a22b-2507",
     "contextWindow": 262144,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -19899,5 +19899,122 @@
     "score": 92,
     "releasedAt": "2026-08-25",
     "lastVerifiedAt": "2026-08-25T06:42:05.864Z"
+  },
+  {
+    "id": "openrouter/inclusionai/ling-3.0-flash-fin:free",
+    "providerId": "openrouter",
+    "name": "Ling 3.0 Flash Fin (free)",
+    "modelId": "inclusionai/ling-3.0-flash-fin:free",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-08-27",
+    "lastVerifiedAt": "2026-08-27T17:19:44.704Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.8-flash",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.8 Flash",
+    "modelId": "qwen/qwen3.8-flash",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-27",
+    "lastVerifiedAt": "2026-08-27T17:19:44.704Z"
+  },
+  {
+    "id": "openrouter/z-ai/glm-5.3-flash",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM 5.3 Flash",
+    "modelId": "z-ai/glm-5.3-flash",
+    "contextWindow": 1310720,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-27",
+    "lastVerifiedAt": "2026-08-27T17:19:44.704Z"
+  },
+  {
+    "id": "nvidia/deepseek-ai/deepseek-v4-pro-0813",
+    "providerId": "nvidia",
+    "name": "Deepseek V4 Pro 0813",
+    "modelId": "deepseek-ai/deepseek-v4-pro-0813",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-08-27",
+    "lastVerifiedAt": "2026-08-27T17:19:45.337Z"
+  },
+  {
+    "id": "huggingface/deepseek-ai/DeepSeek-V4-Flash-0731",
+    "providerId": "huggingface",
+    "name": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "modelId": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-08-27",
+    "lastVerifiedAt": "2026-08-27T17:19:45.494Z"
+  },
+  {
+    "id": "zhipu/glm-5.3-flash",
+    "providerId": "zhipu",
+    "name": "GLM 5.3-FLASH",
+    "modelId": "glm-5.3-flash",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-27",
+    "lastVerifiedAt": "2026-08-27T17:19:52.993Z"
   }
 ]
