@@ -11085,7 +11085,7 @@
     "providerId": "openrouter",
     "name": "Kwaipilot: KAT-Coder-Pro V2.5",
     "modelId": "kwaipilot/kat-coder-pro-v2.5",
-    "contextWindow": 256000,
+    "contextWindow": 262144,
     "maxOutputTokens": 80000,
     "modalities": [
       "text",
@@ -11578,8 +11578,8 @@
     "providerId": "openrouter",
     "name": "NVIDIA: Nemotron 3 Ultra",
     "modelId": "nvidia/nemotron-3-ultra-550b-a55b",
-    "contextWindow": 512288,
-    "maxOutputTokens": 461059,
+    "contextWindow": 262144,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -12979,7 +12979,7 @@
     "name": "Qwen: Qwen3.5-122B-A10B",
     "modelId": "qwen/qwen3.5-122b-a10b",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 81920,
     "modalities": [
       "text",
       "code",
@@ -13801,7 +13801,7 @@
     "name": "DeepSeek: DeepSeek V3.2",
     "modelId": "deepseek/deepseek-v3.2",
     "contextWindow": 163840,
-    "maxOutputTokens": 147456,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code"
@@ -14036,8 +14036,8 @@
     "providerId": "openrouter",
     "name": "Mistral: Voxtral Small 24B 2507",
     "modelId": "mistralai/voxtral-small-24b-2507",
-    "contextWindow": 32000,
-    "maxOutputTokens": 25600,
+    "contextWindow": 32768,
+    "maxOutputTokens": 26214,
     "modalities": [
       "text",
       "code"
@@ -15731,7 +15731,7 @@
     "name": "OpenAI: GPT-4.1 Nano",
     "modelId": "openai/gpt-4.1-nano",
     "contextWindow": 1047576,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 942818,
     "modalities": [
       "text",
       "code",
@@ -15946,7 +15946,7 @@
     "providerId": "openrouter",
     "name": "Google: Gemma 3 27B",
     "modelId": "google/gemma-3-27b-it",
-    "contextWindow": 262144,
+    "contextWindow": 131072,
     "maxOutputTokens": 117964,
     "modalities": [
       "text",
@@ -19313,7 +19313,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro 0813",
     "modelId": "deepseek/deepseek-v4-pro-0813",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943717,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code"
@@ -19509,7 +19509,7 @@
     "providerId": "openrouter",
     "name": "Z.ai: GLM 5.3",
     "modelId": "z-ai/glm-5.3",
-    "contextWindow": 1048576,
+    "contextWindow": 1310720,
     "maxOutputTokens": 131072,
     "modalities": [
       "text",
@@ -19528,7 +19528,7 @@
     "providerId": "openrouter",
     "name": "Z.ai: GLM Latest",
     "modelId": "~z-ai/glm-latest",
-    "contextWindow": 1048576,
+    "contextWindow": 1310720,
     "maxOutputTokens": 131072,
     "modalities": [
       "text",
@@ -20016,5 +20016,162 @@
     "score": 99,
     "releasedAt": "2026-08-27",
     "lastVerifiedAt": "2026-08-27T17:19:52.993Z"
+  },
+  {
+    "id": "openrouter/tencent/hy4-preview",
+    "providerId": "openrouter",
+    "name": "Tencent: Hy4 preview",
+    "modelId": "tencent/hy4-preview",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 64000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-28",
+    "lastVerifiedAt": "2026-08-28T18:12:10.681Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.8-2.4t-a95b:batch",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.8 2.4T A95B (batch)",
+    "modelId": "qwen/qwen3.8-2.4t-a95b:batch",
+    "contextWindow": 1010000,
+    "maxOutputTokens": 909000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-28",
+    "lastVerifiedAt": "2026-08-28T18:12:10.682Z"
+  },
+  {
+    "id": "openrouter/mistralai/mistral-medium-3-5:batch",
+    "providerId": "openrouter",
+    "name": "Mistral: Mistral Medium 3.5 (batch)",
+    "modelId": "mistralai/mistral-medium-3-5:batch",
+    "contextWindow": 262144,
+    "maxOutputTokens": 209715,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-28",
+    "lastVerifiedAt": "2026-08-28T18:12:10.684Z"
+  },
+  {
+    "id": "openrouter/mistralai/mistral-small-2603:batch",
+    "providerId": "openrouter",
+    "name": "Mistral: Mistral Small 4 (batch)",
+    "modelId": "mistralai/mistral-small-2603:batch",
+    "contextWindow": 262144,
+    "maxOutputTokens": 209715,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-28",
+    "lastVerifiedAt": "2026-08-28T18:12:10.684Z"
+  },
+  {
+    "id": "openrouter/mistralai/ministral-8b-2512:batch",
+    "providerId": "openrouter",
+    "name": "Mistral: Ministral 3 8B 2512 (batch)",
+    "modelId": "mistralai/ministral-8b-2512:batch",
+    "contextWindow": 262144,
+    "maxOutputTokens": 209715,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-28",
+    "lastVerifiedAt": "2026-08-28T18:12:10.685Z"
+  },
+  {
+    "id": "openrouter/mistralai/mistral-large-2512:batch",
+    "providerId": "openrouter",
+    "name": "Mistral: Mistral Large 3 2512 (batch)",
+    "modelId": "mistralai/mistral-large-2512:batch",
+    "contextWindow": 262144,
+    "maxOutputTokens": 209715,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-28",
+    "lastVerifiedAt": "2026-08-28T18:12:10.685Z"
+  },
+  {
+    "id": "openrouter/mistralai/mistral-medium-3.1:batch",
+    "providerId": "openrouter",
+    "name": "Mistral: Mistral Medium 3.1 (batch)",
+    "modelId": "mistralai/mistral-medium-3.1:batch",
+    "contextWindow": 131072,
+    "maxOutputTokens": 104857,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-28",
+    "lastVerifiedAt": "2026-08-28T18:12:10.687Z"
+  },
+  {
+    "id": "openrouter/mistralai/codestral-2508:batch",
+    "providerId": "openrouter",
+    "name": "Mistral: Codestral 2508 (batch)",
+    "modelId": "mistralai/codestral-2508:batch",
+    "contextWindow": 256000,
+    "maxOutputTokens": 204800,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-08-28",
+    "lastVerifiedAt": "2026-08-28T18:12:10.687Z"
   }
 ]
