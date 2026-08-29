@@ -14313,7 +14313,7 @@
     "name": "Qwen: Qwen3 VL 30B A3B Instruct",
     "modelId": "qwen/qwen3-vl-30b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -19120,7 +19120,7 @@
     "name": "Meta: Muse Glimmer 30B",
     "modelId": "meta/muse-glimmer-30b",
     "contextWindow": 131072,
-    "maxOutputTokens": 117964,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -19294,7 +19294,7 @@
     "name": "Qwen: Qwen3.8 2.4T A95B",
     "modelId": "qwen/qwen3.8-2.4t-a95b",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code"
@@ -20173,5 +20173,201 @@
     "score": 96,
     "releasedAt": "2026-08-28",
     "lastVerifiedAt": "2026-08-28T18:12:10.687Z"
+  },
+  {
+    "id": "openrouter/z-ai/glm-5.3-flash:batch",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM 5.3 Flash (batch)",
+    "modelId": "z-ai/glm-5.3-flash:batch",
+    "contextWindow": 1048575,
+    "maxOutputTokens": 943717,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-29",
+    "lastVerifiedAt": "2026-08-29T12:17:49.252Z"
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v4-pro-0813:batch",
+    "providerId": "openrouter",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
+    "modelId": "deepseek/deepseek-v4-pro-0813:batch",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-29",
+    "lastVerifiedAt": "2026-08-29T12:17:49.252Z"
+  },
+  {
+    "id": "openrouter/meta/muse-glimmer-30b:batch",
+    "providerId": "openrouter",
+    "name": "Meta: Muse Glimmer 30B (batch)",
+    "modelId": "meta/muse-glimmer-30b:batch",
+    "contextWindow": 131072,
+    "maxOutputTokens": 117964,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-29",
+    "lastVerifiedAt": "2026-08-29T12:17:49.253Z"
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v4-flash-0731:batch",
+    "providerId": "openrouter",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
+    "modelId": "deepseek/deepseek-v4-flash-0731:batch",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-29",
+    "lastVerifiedAt": "2026-08-29T12:17:49.253Z"
+  },
+  {
+    "id": "openrouter/thinkingmachines/inkling-small:batch",
+    "providerId": "openrouter",
+    "name": "Thinking Machines: Inkling Small (batch)",
+    "modelId": "thinkingmachines/inkling-small:batch",
+    "contextWindow": 524288,
+    "maxOutputTokens": 471859,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-29",
+    "lastVerifiedAt": "2026-08-29T12:17:49.253Z"
+  },
+  {
+    "id": "openrouter/moonshotai/kimi-k3:batch",
+    "providerId": "openrouter",
+    "name": "MoonshotAI: Kimi K3 (batch)",
+    "modelId": "moonshotai/kimi-k3:batch",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-08-29",
+    "lastVerifiedAt": "2026-08-29T12:17:49.253Z"
+  },
+  {
+    "id": "openrouter/google/gemma-4-31b-it:batch",
+    "providerId": "openrouter",
+    "name": "Google: Gemma 4 31B (batch)",
+    "modelId": "google/gemma-4-31b-it:batch",
+    "contextWindow": 262144,
+    "maxOutputTokens": 235929,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-29",
+    "lastVerifiedAt": "2026-08-29T12:17:49.255Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.5-9b:batch",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.5-9B (batch)",
+    "modelId": "qwen/qwen3.5-9b:batch",
+    "contextWindow": 262144,
+    "maxOutputTokens": 235929,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-08-29",
+    "lastVerifiedAt": "2026-08-29T12:17:49.255Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-oss-120b:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: gpt-oss-120b (batch)",
+    "modelId": "openai/gpt-oss-120b:batch",
+    "contextWindow": 131072,
+    "maxOutputTokens": 117964,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-08-29",
+    "lastVerifiedAt": "2026-08-29T12:17:49.260Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-oss-20b:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: gpt-oss-20b (batch)",
+    "modelId": "openai/gpt-oss-20b:batch",
+    "contextWindow": 131072,
+    "maxOutputTokens": 117964,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-08-29",
+    "lastVerifiedAt": "2026-08-29T12:17:49.260Z"
   }
 ]
