@@ -10987,7 +10987,7 @@
     "name": "Thinking Machines: Inkling",
     "modelId": "thinkingmachines/inkling",
     "contextWindow": 1048576,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 471859,
     "modalities": [
       "text",
       "code",
@@ -12446,7 +12446,7 @@
     "name": "Z.ai: GLM 5.1",
     "modelId": "z-ai/glm-5.1",
     "contextWindow": 204800,
-    "maxOutputTokens": 182476,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code"
@@ -12545,7 +12545,7 @@
     "name": "Arcee AI: Trinity Large Thinking",
     "modelId": "arcee-ai/trinity-large-thinking",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 80000,
     "modalities": [
       "text",
       "code"
@@ -14604,7 +14604,7 @@
     "name": "Qwen: Qwen3 Next 80B A3B Instruct",
     "modelId": "qwen/qwen3-next-80b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -18273,7 +18273,7 @@
     "name": "DeepSeek V4 Flash Latest",
     "modelId": "~deepseek/deepseek-v4-flash-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code"
