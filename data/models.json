@@ -12604,7 +12604,7 @@
     "name": "Kwaipilot: KAT-Coder-Pro V2",
     "modelId": "kwaipilot/kat-coder-pro-v2",
     "contextWindow": 262144,
-    "maxOutputTokens": 80000,
+    "maxOutputTokens": 144000,
     "modalities": [
       "text",
       "code"
@@ -15731,7 +15731,7 @@
     "name": "OpenAI: GPT-4.1 Nano",
     "modelId": "openai/gpt-4.1-nano",
     "contextWindow": 1047576,
-    "maxOutputTokens": 942818,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code",
@@ -15751,7 +15751,7 @@
     "name": "Meta: Llama 4 Maverick",
     "modelId": "meta-llama/llama-4-maverick",
     "contextWindow": 1048576,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 115200,
     "modalities": [
       "text",
       "code",
