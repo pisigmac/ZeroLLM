@@ -11086,7 +11086,7 @@
     "name": "Kwaipilot: KAT-Coder-Pro V2.5",
     "modelId": "kwaipilot/kat-coder-pro-v2.5",
     "contextWindow": 262144,
-    "maxOutputTokens": 80000,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -12213,7 +12213,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "modelId": "deepseek/deepseek-v4-pro",
     "contextWindow": 1048576,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code"
@@ -14604,7 +14604,7 @@
     "name": "Qwen: Qwen3 Next 80B A3B Instruct",
     "modelId": "qwen/qwen3-next-80b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -15771,7 +15771,7 @@
     "name": "Meta: Llama 4 Scout",
     "modelId": "meta-llama/llama-4-scout",
     "contextWindow": 1310720,
-    "maxOutputTokens": 8192,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -19529,7 +19529,7 @@
     "name": "Z.ai: GLM Latest",
     "modelId": "~z-ai/glm-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -20369,5 +20369,24 @@
     "score": 96,
     "releasedAt": "2026-08-29",
     "lastVerifiedAt": "2026-08-29T12:17:49.260Z"
+  },
+  {
+    "id": "openrouter/ibm-granite/granite-4.2-8b",
+    "providerId": "openrouter",
+    "name": "IBM: Granite 4.2 8B",
+    "modelId": "ibm-granite/granite-4.2-8b",
+    "contextWindow": 131072,
+    "maxOutputTokens": 117964,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-09-01",
+    "lastVerifiedAt": "2026-09-01T11:06:47.863Z"
   }
 ]
