@@ -11461,7 +11461,7 @@
     "name": "Z.ai: GLM 5.2",
     "modelId": "z-ai/glm-5.2",
     "contextWindow": 1048576,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -11579,7 +11579,7 @@
     "name": "NVIDIA: Nemotron 3 Ultra",
     "modelId": "nvidia/nemotron-3-ultra-550b-a55b",
     "contextWindow": 262144,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -12213,7 +12213,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "modelId": "deepseek/deepseek-v4-pro",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code"
@@ -14737,7 +14737,7 @@
     "name": "DeepSeek: DeepSeek V3.1",
     "modelId": "deepseek/deepseek-chat-v3.1",
     "contextWindow": 163840,
-    "maxOutputTokens": 144900,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -19294,7 +19294,7 @@
     "name": "Qwen: Qwen3.8 2.4T A95B",
     "modelId": "qwen/qwen3.8-2.4t-a95b",
     "contextWindow": 1048576,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -20388,5 +20388,127 @@
     "score": 96,
     "releasedAt": "2026-09-01",
     "lastVerifiedAt": "2026-09-01T11:06:47.863Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-fable-5.1",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Fable 5.1",
+    "modelId": "anthropic/claude-fable-5.1",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-02T10:39:02.591Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-fable-5.1:batch",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Fable 5.1 (batch)",
+    "modelId": "anthropic/claude-fable-5.1:batch",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-02T10:39:02.591Z"
+  },
+  {
+    "id": "openrouter/inception/mercury-2.5-preview",
+    "providerId": "openrouter",
+    "name": "Inception: Mercury 2.5 Preview",
+    "modelId": "inception/mercury-2.5-preview",
+    "contextWindow": 260000,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-02T10:39:02.591Z"
+  },
+  {
+    "id": "openrouter/~z-ai/glm-flash-latest",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM Flash Latest",
+    "modelId": "~z-ai/glm-flash-latest",
+    "contextWindow": 1310720,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-02T10:39:02.591Z"
+  },
+  {
+    "id": "anthropic/claude-fable-5.1",
+    "providerId": "anthropic",
+    "name": "Claude Fable 5.1",
+    "modelId": "claude-fable-5.1",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "pdf"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": false,
+    "noCreditCard": false,
+    "score": 92,
+    "releasedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-02T10:39:03.704Z"
+  },
+  {
+    "id": "anthropic/claude-mythos-5.1",
+    "providerId": "anthropic",
+    "name": "Claude Mythos 5.1",
+    "modelId": "claude-mythos-5.1",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "pdf",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": false,
+    "noCreditCard": false,
+    "score": 95,
+    "releasedAt": "2026-09-02",
+    "lastVerifiedAt": "2026-09-02T10:39:03.704Z"
   }
 ]
