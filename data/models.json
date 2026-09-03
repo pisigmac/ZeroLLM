@@ -11579,7 +11579,7 @@
     "name": "NVIDIA: Nemotron 3 Ultra",
     "modelId": "nvidia/nemotron-3-ultra-550b-a55b",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 182520,
     "modalities": [
       "text",
       "code"
@@ -13138,7 +13138,7 @@
     "name": "Qwen: Qwen3.5 397B A17B",
     "modelId": "qwen/qwen3.5-397b-a17b",
     "contextWindow": 262144,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -13525,7 +13525,7 @@
     "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
     "modelId": "nvidia/nemotron-3-nano-30b-a3b",
     "contextWindow": 262144,
-    "maxOutputTokens": 228000,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -14353,7 +14353,7 @@
     "name": "Z.ai: GLM 4.6",
     "modelId": "z-ai/glm-4.6",
     "contextWindow": 204800,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -16276,7 +16276,7 @@
     "name": "DeepSeek: DeepSeek V3",
     "modelId": "deepseek/deepseek-chat",
     "contextWindow": 163840,
-    "maxOutputTokens": 16000,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -16353,7 +16353,7 @@
     "name": "Meta: Llama 3.3 70B Instruct",
     "modelId": "meta-llama/llama-3.3-70b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 115200,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -19120,7 +19120,7 @@
     "name": "Meta: Muse Glimmer 30B",
     "modelId": "meta/muse-glimmer-30b",
     "contextWindow": 131072,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code",
@@ -19294,7 +19294,7 @@
     "name": "Qwen: Qwen3.8 2.4T A95B",
     "modelId": "qwen/qwen3.8-2.4t-a95b",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code"
@@ -19510,7 +19510,7 @@
     "name": "Z.ai: GLM 5.3",
     "modelId": "z-ai/glm-5.3",
     "contextWindow": 1310720,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code"
@@ -20454,7 +20454,7 @@
     "name": "Z.ai: GLM Flash Latest",
     "modelId": "~z-ai/glm-flash-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -20510,5 +20510,85 @@
     "score": 95,
     "releasedAt": "2026-09-02",
     "lastVerifiedAt": "2026-09-02T10:39:03.704Z"
+  },
+  {
+    "id": "openrouter/meta/muse-spark-1.3-contributor",
+    "providerId": "openrouter",
+    "name": "Meta: Muse Spark 1.3 Contributor",
+    "modelId": "meta/muse-spark-1.3-contributor",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-03",
+    "lastVerifiedAt": "2026-09-03T10:40:39.544Z"
+  },
+  {
+    "id": "openrouter/meta/muse-spark-1.3",
+    "providerId": "openrouter",
+    "name": "Meta: Muse Spark 1.3",
+    "modelId": "meta/muse-spark-1.3",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-03",
+    "lastVerifiedAt": "2026-09-03T10:40:39.544Z"
+  },
+  {
+    "id": "openrouter/google/gemini-3.8-flash",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 3.8 Flash",
+    "modelId": "google/gemini-3.8-flash",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-03",
+    "lastVerifiedAt": "2026-09-03T10:40:39.544Z"
+  },
+  {
+    "id": "openrouter/google/gemini-3.8-flash:batch",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 3.8 Flash (batch)",
+    "modelId": "google/gemini-3.8-flash:batch",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-03",
+    "lastVerifiedAt": "2026-09-03T10:40:39.544Z"
   }
 ]
