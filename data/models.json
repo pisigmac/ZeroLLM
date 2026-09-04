@@ -11579,7 +11579,7 @@
     "name": "NVIDIA: Nemotron 3 Ultra",
     "modelId": "nvidia/nemotron-3-ultra-550b-a55b",
     "contextWindow": 262144,
-    "maxOutputTokens": 182520,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -14737,7 +14737,7 @@
     "name": "DeepSeek: DeepSeek V3.1",
     "modelId": "deepseek/deepseek-chat-v3.1",
     "contextWindow": 163840,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 144900,
     "modalities": [
       "text",
       "code"
@@ -16102,7 +16102,7 @@
     "name": "Qwen: Qwen2.5 VL 72B Instruct",
     "modelId": "qwen/qwen2.5-vl-72b-instruct",
     "contextWindow": 128000,
-    "maxOutputTokens": 28800,
+    "maxOutputTokens": 115200,
     "modalities": [
       "text",
       "code",
@@ -17104,7 +17104,7 @@
     "name": "ReMM SLERP 13B",
     "modelId": "undi95/remm-slerp-l2-13b",
     "contextWindow": 6144,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 5529,
     "modalities": [
       "text",
       "code"
@@ -19529,7 +19529,7 @@
     "name": "Z.ai: GLM Latest",
     "modelId": "~z-ai/glm-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -20060,8 +20060,8 @@
     "providerId": "openrouter",
     "name": "Mistral: Mistral Medium 3.5 (batch)",
     "modelId": "mistralai/mistral-medium-3-5:batch",
-    "contextWindow": 262144,
-    "maxOutputTokens": 209715,
+    "contextWindow": 32768,
+    "maxOutputTokens": 26214,
     "modalities": [
       "text",
       "code",
@@ -20071,7 +20071,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 99,
+    "score": 94,
     "releasedAt": "2026-08-28",
     "lastVerifiedAt": "2026-08-28T18:12:10.684Z"
   },
@@ -20590,5 +20590,83 @@
     "score": 100,
     "releasedAt": "2026-09-03",
     "lastVerifiedAt": "2026-09-03T10:40:39.544Z"
+  },
+  {
+    "id": "openrouter/inclusionai/ling-3.0-flash-fin",
+    "providerId": "openrouter",
+    "name": "Ling 3.0 Flash Fin",
+    "modelId": "inclusionai/ling-3.0-flash-fin",
+    "contextWindow": 262144,
+    "maxOutputTokens": 235929,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-09-04",
+    "lastVerifiedAt": "2026-09-04T10:36:29.091Z"
+  },
+  {
+    "id": "openrouter/nvidia/nemotron-3.5-content-safety",
+    "providerId": "openrouter",
+    "name": "NVIDIA: Nemotron 3.5 Content Safety",
+    "modelId": "nvidia/nemotron-3.5-content-safety",
+    "contextWindow": 131072,
+    "maxOutputTokens": 117964,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-09-04",
+    "lastVerifiedAt": "2026-09-04T10:36:29.094Z"
+  },
+  {
+    "id": "openrouter/x-ai/grok-4.3:batch",
+    "providerId": "openrouter",
+    "name": "SpaceXAI: Grok 4.3 (batch)",
+    "modelId": "x-ai/grok-4.3:batch",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 900000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-04",
+    "lastVerifiedAt": "2026-09-04T10:36:29.094Z"
+  },
+  {
+    "id": "huggingface/Qwen/Qwen-72B",
+    "providerId": "huggingface",
+    "name": "Qwen/Qwen-72B",
+    "modelId": "Qwen/Qwen-72B",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-09-04",
+    "lastVerifiedAt": "2026-09-04T10:36:29.591Z"
   }
 ]
