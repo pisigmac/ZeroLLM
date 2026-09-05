@@ -12153,7 +12153,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "modelId": "qwen/qwen3.6-27b",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -12939,7 +12939,7 @@
     "name": "Qwen: Qwen3.5-35B-A3B",
     "modelId": "qwen/qwen3.5-35b-a3b",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -15126,7 +15126,7 @@
     "name": "Qwen: Qwen3 235B A22B Instruct 2507",
     "modelId": "qwen/qwen3-235b-a22b-2507",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -18273,7 +18273,7 @@
     "name": "DeepSeek V4 Flash Latest",
     "modelId": "~deepseek/deepseek-v4-flash-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -18386,7 +18386,7 @@
   {
     "id": "openrouter/inclusionai/ling-3.0-flash",
     "providerId": "openrouter",
-    "name": "Ling-3.0-flash",
+    "name": "inclusionAI: Ling 3.0 Flash",
     "modelId": "inclusionai/ling-3.0-flash",
     "contextWindow": 262144,
     "maxOutputTokens": 32768,
@@ -19903,7 +19903,7 @@
   {
     "id": "openrouter/inclusionai/ling-3.0-flash-fin:free",
     "providerId": "openrouter",
-    "name": "Ling 3.0 Flash Fin (free)",
+    "name": "inclusionAI: Ling 3.0 Flash Fin (free)",
     "modelId": "inclusionai/ling-3.0-flash-fin:free",
     "contextWindow": 262144,
     "maxOutputTokens": 32768,
@@ -20594,7 +20594,7 @@
   {
     "id": "openrouter/inclusionai/ling-3.0-flash-fin",
     "providerId": "openrouter",
-    "name": "Ling 3.0 Flash Fin",
+    "name": "inclusionAI: Ling 3.0 Flash Fin",
     "modelId": "inclusionai/ling-3.0-flash-fin",
     "contextWindow": 262144,
     "maxOutputTokens": 235929,
@@ -20668,5 +20668,124 @@
     "score": 91,
     "releasedAt": "2026-09-04",
     "lastVerifiedAt": "2026-09-04T10:36:29.591Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6-astra",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6 Astra",
+    "modelId": "openai/gpt-6-astra",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-05",
+    "lastVerifiedAt": "2026-09-05T09:57:45.242Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6-astra:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6 Astra (batch)",
+    "modelId": "openai/gpt-6-astra:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-05",
+    "lastVerifiedAt": "2026-09-05T09:57:45.242Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6-astra-pro",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6 Astra Pro",
+    "modelId": "openai/gpt-6-astra-pro",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-05",
+    "lastVerifiedAt": "2026-09-05T09:57:45.243Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6-astra-pro:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6 Astra Pro (batch)",
+    "modelId": "openai/gpt-6-astra-pro:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-05",
+    "lastVerifiedAt": "2026-09-05T09:57:45.243Z"
+  },
+  {
+    "id": "openrouter/inclusionai/ling-3.0-flash-sante:free",
+    "providerId": "openrouter",
+    "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
+    "modelId": "inclusionai/ling-3.0-flash-sante:free",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-09-05",
+    "lastVerifiedAt": "2026-09-05T09:57:45.243Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.8-max-0902",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.8 Max (0902)",
+    "modelId": "qwen/qwen3.8-max-0902",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-05",
+    "lastVerifiedAt": "2026-09-05T09:57:45.243Z"
   }
 ]
