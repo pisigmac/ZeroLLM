@@ -16489,7 +16489,7 @@
     "name": "TheDrummer: UnslopNemo 12B",
     "modelId": "thedrummer/unslopnemo-12b",
     "contextWindow": 1024000,
-    "maxOutputTokens": 26214,
+    "maxOutputTokens": 819200,
     "modalities": [
       "text",
       "code"
@@ -18214,7 +18214,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "modelId": "deepseek/deepseek-v4-flash-0731",
     "contextWindow": 1310720,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -18273,7 +18273,7 @@
     "name": "DeepSeek V4 Flash Latest",
     "modelId": "~deepseek/deepseek-v4-flash-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -20787,5 +20787,24 @@
     "score": 100,
     "releasedAt": "2026-09-05",
     "lastVerifiedAt": "2026-09-05T09:57:45.243Z"
+  },
+  {
+    "id": "huggingface/ornith-ai/Ornith-1.5-9B-GGUF",
+    "providerId": "huggingface",
+    "name": "ornith-ai/Ornith-1.5-9B-GGUF",
+    "modelId": "ornith-ai/Ornith-1.5-9B-GGUF",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-09-06",
+    "lastVerifiedAt": "2026-09-06T10:16:21.092Z"
   }
 ]
