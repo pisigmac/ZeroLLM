@@ -13138,7 +13138,7 @@
     "name": "Qwen: Qwen3.5 397B A17B",
     "modelId": "qwen/qwen3.5-397b-a17b",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -14353,7 +14353,7 @@
     "name": "Z.ai: GLM 4.6",
     "modelId": "z-ai/glm-4.6",
     "contextWindow": 204800,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -14585,7 +14585,7 @@
     "name": "Qwen: Qwen3 Next 80B A3B Thinking",
     "modelId": "qwen/qwen3-next-80b-a3b-thinking",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -18273,7 +18273,7 @@
     "name": "DeepSeek V4 Flash Latest",
     "modelId": "~deepseek/deepseek-v4-flash-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code"
@@ -19510,7 +19510,7 @@
     "name": "Z.ai: GLM 5.3",
     "modelId": "z-ai/glm-5.3",
     "contextWindow": 1310720,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -19529,7 +19529,7 @@
     "name": "Z.ai: GLM Latest",
     "modelId": "~z-ai/glm-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -20454,7 +20454,7 @@
     "name": "Z.ai: GLM Flash Latest",
     "modelId": "~z-ai/glm-flash-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
