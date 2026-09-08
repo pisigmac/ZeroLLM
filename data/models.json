@@ -13388,7 +13388,7 @@
     "name": "Z.ai: GLM 4.7 Flash",
     "modelId": "z-ai/glm-4.7-flash",
     "contextWindow": 202752,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -13978,7 +13978,7 @@
     "name": "MoonshotAI: Kimi K2 Thinking",
     "modelId": "moonshotai/kimi-k2-thinking",
     "contextWindow": 262144,
-    "maxOutputTokens": 100352,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -14353,7 +14353,7 @@
     "name": "Z.ai: GLM 4.6",
     "modelId": "z-ai/glm-4.6",
     "contextWindow": 204800,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -14737,7 +14737,7 @@
     "name": "DeepSeek: DeepSeek V3.1",
     "modelId": "deepseek/deepseek-chat-v3.1",
     "contextWindow": 163840,
-    "maxOutputTokens": 144900,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -15574,7 +15574,7 @@
     "name": "Qwen: Qwen3 14B",
     "modelId": "qwen/qwen3-14b",
     "contextWindow": 131072,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 8192,
     "modalities": [
       "text",
       "code"
@@ -18214,7 +18214,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "modelId": "deepseek/deepseek-v4-flash-0731",
     "contextWindow": 1310720,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -20060,8 +20060,8 @@
     "providerId": "openrouter",
     "name": "Mistral: Mistral Medium 3.5 (batch)",
     "modelId": "mistralai/mistral-medium-3-5:batch",
-    "contextWindow": 32768,
-    "maxOutputTokens": 26214,
+    "contextWindow": 262144,
+    "maxOutputTokens": 209715,
     "modalities": [
       "text",
       "code",
@@ -20071,7 +20071,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 94,
+    "score": 99,
     "releasedAt": "2026-08-28",
     "lastVerifiedAt": "2026-08-28T18:12:10.684Z"
   },
