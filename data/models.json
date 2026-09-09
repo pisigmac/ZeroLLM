@@ -1177,10 +1177,10 @@
   {
     "id": "zhipu/glm-5.2",
     "providerId": "zhipu",
-    "name": "GLM 5.2",
+    "name": "GLM 5.2 Flagship",
     "modelId": "glm-5.2",
     "contextWindow": 256000,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code",
@@ -10408,7 +10408,7 @@
     "name": "GLM 5.1",
     "modelId": "glm-5.1",
     "contextWindow": 128000,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code",
@@ -10445,10 +10445,10 @@
   {
     "id": "zhipu/glm-5-turbo",
     "providerId": "zhipu",
-    "name": "GLM 5-TURBO",
+    "name": "GLM 5 Turbo",
     "modelId": "glm-5-turbo",
     "contextWindow": 128000,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code",
@@ -10468,7 +10468,7 @@
     "name": "GLM 4.7",
     "modelId": "glm-4.7",
     "contextWindow": 128000,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code",
@@ -10525,10 +10525,10 @@
   {
     "id": "zhipu/glm-5v-turbo",
     "providerId": "zhipu",
-    "name": "GLM 5V-TURBO",
+    "name": "GLM 5V Turbo (Vision)",
     "modelId": "glm-5v-turbo",
     "contextWindow": 128000,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code",
@@ -10546,21 +10546,20 @@
   {
     "id": "zhipu/glm-4.6v",
     "providerId": "zhipu",
-    "name": "GLM 4.6V",
+    "name": "GLM 4.6V (Vision)",
     "modelId": "glm-4.6v",
     "contextWindow": 128000,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code",
-      "image",
-      "reasoning"
+      "image"
     ],
     "status": "online",
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 100,
+    "score": 99,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:49:53.795Z"
   },
@@ -10628,20 +10627,19 @@
   {
     "id": "zhipu/glm-4.7-flashx",
     "providerId": "zhipu",
-    "name": "GLM 4.7-FLASHX",
+    "name": "GLM 4.7 FlashX",
     "modelId": "glm-4.7-flashx",
     "contextWindow": 128000,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
-      "code",
-      "reasoning"
+      "code"
     ],
     "status": "online",
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 99,
+    "score": 96,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:49:53.795Z"
   },
@@ -10708,20 +10706,19 @@
   {
     "id": "zhipu/glm-4.7-flash",
     "providerId": "zhipu",
-    "name": "GLM 4.7-FLASH",
+    "name": "GLM 4.7 Flash (Free)",
     "modelId": "glm-4.7-flash",
     "contextWindow": 128000,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
-      "code",
-      "reasoning"
+      "code"
     ],
     "status": "online",
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 99,
+    "score": 96,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:49:53.795Z"
   },
@@ -10769,21 +10766,20 @@
   {
     "id": "zhipu/glm-4.6v-flash",
     "providerId": "zhipu",
-    "name": "GLM 4.6V-FLASH",
+    "name": "GLM 4.6V Flash (Free Vision)",
     "modelId": "glm-4.6v-flash",
     "contextWindow": 128000,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code",
-      "image",
-      "reasoning"
+      "image"
     ],
     "status": "online",
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 100,
+    "score": 99,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:49:53.795Z"
   },
@@ -12740,7 +12736,7 @@
     "providerId": "openrouter",
     "name": "NVIDIA: Nemotron 3 Super",
     "modelId": "nvidia/nemotron-3-super-120b-a12b",
-    "contextWindow": 1000000,
+    "contextWindow": 262144,
     "maxOutputTokens": 16384,
     "modalities": [
       "text",
@@ -12750,7 +12746,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 100,
+    "score": 96,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
   },
@@ -13138,7 +13134,7 @@
     "name": "Qwen: Qwen3.5 397B A17B",
     "modelId": "qwen/qwen3.5-397b-a17b",
     "contextWindow": 262144,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -14353,7 +14349,7 @@
     "name": "Z.ai: GLM 4.6",
     "modelId": "z-ai/glm-4.6",
     "contextWindow": 204800,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -14604,7 +14600,7 @@
     "name": "Qwen: Qwen3 Next 80B A3B Instruct",
     "modelId": "qwen/qwen3-next-80b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -18586,8 +18582,8 @@
     "providerId": "openrouter",
     "name": "Z.ai: GLM 5.2 (batch)",
     "modelId": "z-ai/glm-5.2:batch",
-    "contextWindow": 1048575,
-    "maxOutputTokens": 943717,
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -19294,7 +19290,7 @@
     "name": "Qwen: Qwen3.8 2.4T A95B",
     "modelId": "qwen/qwen3.8-2.4t-a95b",
     "contextWindow": 1048576,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -19529,7 +19525,7 @@
     "name": "Z.ai: GLM Latest",
     "modelId": "~z-ai/glm-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code"
@@ -19664,7 +19660,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
     "modelId": "deepseek/deepseek-v4-flash-vision-exp",
     "contextWindow": 1048576,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -20179,8 +20175,8 @@
     "providerId": "openrouter",
     "name": "Z.ai: GLM 5.3 Flash (batch)",
     "modelId": "z-ai/glm-5.3-flash:batch",
-    "contextWindow": 1048575,
-    "maxOutputTokens": 943717,
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -20454,7 +20450,7 @@
     "name": "Z.ai: GLM Flash Latest",
     "modelId": "~z-ai/glm-flash-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -20806,5 +20802,102 @@
     "score": 91,
     "releasedAt": "2026-09-06",
     "lastVerifiedAt": "2026-09-06T10:16:21.092Z"
+  },
+  {
+    "id": "openrouter/inception/mercury-2.5",
+    "providerId": "openrouter",
+    "name": "Inception: Mercury 2.5",
+    "modelId": "inception/mercury-2.5",
+    "contextWindow": 260000,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-09-09",
+    "lastVerifiedAt": "2026-09-09T10:46:14.901Z"
+  },
+  {
+    "id": "openrouter/nex-agi/nex-n2.5-mini:free",
+    "providerId": "openrouter",
+    "name": "Nex AGI: Nex-N2.5-Mini (free)",
+    "modelId": "nex-agi/nex-n2.5-mini:free",
+    "contextWindow": 262144,
+    "maxOutputTokens": 235929,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-09-09",
+    "lastVerifiedAt": "2026-09-09T10:46:14.901Z"
+  },
+  {
+    "id": "openrouter/nex-agi/nex-n2.5-pro:free",
+    "providerId": "openrouter",
+    "name": "Nex AGI: Nex-N2.5-Pro (free)",
+    "modelId": "nex-agi/nex-n2.5-pro:free",
+    "contextWindow": 262144,
+    "maxOutputTokens": 235929,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-09-09",
+    "lastVerifiedAt": "2026-09-09T10:46:14.902Z"
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v4-flash-vision-exp:batch",
+    "providerId": "openrouter",
+    "name": "DeepSeek: DeepSeek V4 Flash Vision Exp (batch)",
+    "modelId": "deepseek/deepseek-v4-flash-vision-exp:batch",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-09",
+    "lastVerifiedAt": "2026-09-09T10:46:14.903Z"
+  },
+  {
+    "id": "openrouter/z-ai/glm-5.3:batch",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM 5.3 (batch)",
+    "modelId": "z-ai/glm-5.3:batch",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-09",
+    "lastVerifiedAt": "2026-09-09T10:46:14.903Z"
   }
 ]
