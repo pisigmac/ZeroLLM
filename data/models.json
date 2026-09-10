@@ -1177,10 +1177,10 @@
   {
     "id": "zhipu/glm-5.2",
     "providerId": "zhipu",
-    "name": "GLM 5.2 Flagship",
+    "name": "GLM 5.2",
     "modelId": "glm-5.2",
     "contextWindow": 256000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -10983,7 +10983,7 @@
     "name": "Thinking Machines: Inkling",
     "modelId": "thinkingmachines/inkling",
     "contextWindow": 1048576,
-    "maxOutputTokens": 471859,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code",
@@ -12975,7 +12975,7 @@
     "name": "Qwen: Qwen3.5-122B-A10B",
     "modelId": "qwen/qwen3.5-122b-a10b",
     "contextWindow": 262144,
-    "maxOutputTokens": 81920,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -13154,7 +13154,7 @@
     "name": "MiniMax: MiniMax M2.5",
     "modelId": "minimax/minimax-m2.5",
     "contextWindow": 204800,
-    "maxOutputTokens": 128000,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -13974,7 +13974,7 @@
     "name": "MoonshotAI: Kimi K2 Thinking",
     "modelId": "moonshotai/kimi-k2-thinking",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 100352,
     "modalities": [
       "text",
       "code"
@@ -14987,7 +14987,7 @@
     "name": "Qwen: Qwen3 30B A3B Instruct 2507",
     "modelId": "qwen/qwen3-30b-a3b-instruct-2507",
     "contextWindow": 262144,
-    "maxOutputTokens": 32000,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -16272,7 +16272,7 @@
     "name": "DeepSeek: DeepSeek V3",
     "modelId": "deepseek/deepseek-chat",
     "contextWindow": 163840,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 16000,
     "modalities": [
       "text",
       "code"
@@ -20450,7 +20450,7 @@
     "name": "Z.ai: GLM Flash Latest",
     "modelId": "~z-ai/glm-flash-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
@@ -20831,13 +20831,14 @@
     "maxOutputTokens": 235929,
     "modalities": [
       "text",
-      "code"
+      "code",
+      "image"
     ],
     "status": "online",
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 96,
+    "score": 99,
     "releasedAt": "2026-09-09",
     "lastVerifiedAt": "2026-09-09T10:46:14.901Z"
   },
@@ -20899,5 +20900,25 @@
     "score": 100,
     "releasedAt": "2026-09-09",
     "lastVerifiedAt": "2026-09-09T10:46:14.903Z"
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v4.1-flash",
+    "providerId": "openrouter",
+    "name": "DeepSeek: DeepSeek V4.1 Flash",
+    "modelId": "deepseek/deepseek-v4.1-flash",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 384000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-10",
+    "lastVerifiedAt": "2026-09-10T10:37:53.211Z"
   }
 ]
