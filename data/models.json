@@ -12461,7 +12461,7 @@
     "name": "Google: Gemma 4 26B A4B ",
     "modelId": "google/gemma-4-26b-a4b-it",
     "contextWindow": 262144,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code",
@@ -13383,7 +13383,7 @@
     "providerId": "openrouter",
     "name": "Z.ai: GLM 4.7 Flash",
     "modelId": "z-ai/glm-4.7-flash",
-    "contextWindow": 202752,
+    "contextWindow": 200000,
     "maxOutputTokens": 117964,
     "modalities": [
       "text",
@@ -19309,7 +19309,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro 0813",
     "modelId": "deepseek/deepseek-v4-pro-0813",
     "contextWindow": 1048576,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -19525,7 +19525,7 @@
     "name": "Z.ai: GLM Latest",
     "modelId": "~z-ai/glm-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 128000,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -20920,5 +20920,65 @@
     "score": 100,
     "releasedAt": "2026-09-10",
     "lastVerifiedAt": "2026-09-10T10:37:53.211Z"
+  },
+  {
+    "id": "openrouter/sakana/fugu-ultra-v2",
+    "providerId": "openrouter",
+    "name": "Sakana: Fugu Ultra v2",
+    "modelId": "sakana/fugu-ultra-v2",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-11",
+    "lastVerifiedAt": "2026-09-11T10:37:01.536Z"
+  },
+  {
+    "id": "openrouter/sakana/fugu-max",
+    "providerId": "openrouter",
+    "name": "Sakana: Fugu Max",
+    "modelId": "sakana/fugu-max",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-11",
+    "lastVerifiedAt": "2026-09-11T10:37:01.536Z"
+  },
+  {
+    "id": "openrouter/inclusionai/ling-3.0-flash-vl:free",
+    "providerId": "openrouter",
+    "name": "inclusionAI: Ling 3.0 Flash VL (free)",
+    "modelId": "inclusionai/ling-3.0-flash-vl:free",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-09-11",
+    "lastVerifiedAt": "2026-09-11T10:37:01.536Z"
   }
 ]
