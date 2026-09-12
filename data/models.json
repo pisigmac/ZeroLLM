@@ -10983,7 +10983,7 @@
     "name": "Thinking Machines: Inkling",
     "modelId": "thinkingmachines/inkling",
     "contextWindow": 1048576,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 471859,
     "modalities": [
       "text",
       "code",
@@ -11457,7 +11457,7 @@
     "name": "Z.ai: GLM 5.2",
     "modelId": "z-ai/glm-5.2",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 182476,
     "modalities": [
       "text",
       "code"
@@ -11927,7 +11927,7 @@
   {
     "id": "openrouter/~anthropic/claude-haiku-latest",
     "providerId": "openrouter",
-    "name": "Anthropic Claude Haiku Latest",
+    "name": "Anthropic: Claude Haiku Latest",
     "modelId": "~anthropic/claude-haiku-latest",
     "contextWindow": 200000,
     "maxOutputTokens": 64000,
@@ -11947,7 +11947,7 @@
   {
     "id": "openrouter/~openai/gpt-mini-latest",
     "providerId": "openrouter",
-    "name": "OpenAI GPT Mini Latest",
+    "name": "OpenAI: GPT Mini Latest",
     "modelId": "~openai/gpt-mini-latest",
     "contextWindow": 400000,
     "maxOutputTokens": 128000,
@@ -11967,7 +11967,7 @@
   {
     "id": "openrouter/~google/gemini-pro-latest",
     "providerId": "openrouter",
-    "name": "Google Gemini Pro Latest",
+    "name": "Google: Gemini Pro Latest",
     "modelId": "~google/gemini-pro-latest",
     "contextWindow": 1048576,
     "maxOutputTokens": 65536,
@@ -11987,7 +11987,7 @@
   {
     "id": "openrouter/~moonshotai/kimi-latest",
     "providerId": "openrouter",
-    "name": "MoonshotAI Kimi Latest",
+    "name": "MoonshotAI: Kimi Latest",
     "modelId": "~moonshotai/kimi-latest",
     "contextWindow": 1048576,
     "maxOutputTokens": 943718,
@@ -12007,7 +12007,7 @@
   {
     "id": "openrouter/~google/gemini-flash-latest",
     "providerId": "openrouter",
-    "name": "Google Gemini Flash Latest",
+    "name": "Google: Gemini Flash Latest",
     "modelId": "~google/gemini-flash-latest",
     "contextWindow": 1048576,
     "maxOutputTokens": 65536,
@@ -12027,7 +12027,7 @@
   {
     "id": "openrouter/~anthropic/claude-sonnet-latest",
     "providerId": "openrouter",
-    "name": "Anthropic Claude Sonnet Latest",
+    "name": "Anthropic: Claude Sonnet Latest",
     "modelId": "~anthropic/claude-sonnet-latest",
     "contextWindow": 1000000,
     "maxOutputTokens": 128000,
@@ -13154,7 +13154,7 @@
     "name": "MiniMax: MiniMax M2.5",
     "modelId": "minimax/minimax-m2.5",
     "contextWindow": 204800,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code"
@@ -13974,7 +13974,7 @@
     "name": "MoonshotAI: Kimi K2 Thinking",
     "modelId": "moonshotai/kimi-k2-thinking",
     "contextWindow": 262144,
-    "maxOutputTokens": 100352,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -15122,7 +15122,7 @@
     "name": "Qwen: Qwen3 235B A22B Instruct 2507",
     "modelId": "qwen/qwen3-235b-a22b-2507",
     "contextWindow": 262144,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -15255,7 +15255,7 @@
     "providerId": "openrouter",
     "name": "Mistral: Mistral Small 3.2 24B",
     "modelId": "mistralai/mistral-small-3.2-24b-instruct",
-    "contextWindow": 131072,
+    "contextWindow": 256000,
     "maxOutputTokens": 16384,
     "modalities": [
       "text",
@@ -16752,7 +16752,7 @@
     "name": "Meta: Llama 3.1 70B Instruct",
     "modelId": "meta-llama/llama-3.1-70b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 8192,
     "modalities": [
       "text",
       "code"
@@ -18266,7 +18266,7 @@
   {
     "id": "openrouter/~deepseek/deepseek-v4-flash-latest",
     "providerId": "openrouter",
-    "name": "DeepSeek V4 Flash Latest",
+    "name": "DeepSeek: DeepSeek V4 Flash Latest",
     "modelId": "~deepseek/deepseek-v4-flash-latest",
     "contextWindow": 1310720,
     "maxOutputTokens": 393216,
@@ -19309,7 +19309,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro 0813",
     "modelId": "deepseek/deepseek-v4-pro-0813",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code"
@@ -20980,5 +20980,200 @@
     "score": 99,
     "releasedAt": "2026-09-11",
     "lastVerifiedAt": "2026-09-11T10:37:01.536Z"
+  },
+  {
+    "id": "openrouter/inference-net/schematron-v2-turbo",
+    "providerId": "openrouter",
+    "name": "Inference.net: Schematron V2 Turbo",
+    "modelId": "inference-net/schematron-v2-turbo",
+    "contextWindow": 128000,
+    "maxOutputTokens": 8192,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-09-12",
+    "lastVerifiedAt": "2026-09-12T10:06:47.241Z"
+  },
+  {
+    "id": "openrouter/inference-net/schematron-v2-small",
+    "providerId": "openrouter",
+    "name": "Inference.net: Schematron V2 Small",
+    "modelId": "inference-net/schematron-v2-small",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-09-12",
+    "lastVerifiedAt": "2026-09-12T10:06:47.242Z"
+  },
+  {
+    "id": "openrouter/~openai/gpt-astra-latest",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT Astra Latest",
+    "modelId": "~openai/gpt-astra-latest",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-12",
+    "lastVerifiedAt": "2026-09-12T10:06:47.242Z"
+  },
+  {
+    "id": "openrouter/~openai/gpt-sol-latest",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT Sol Latest",
+    "modelId": "~openai/gpt-sol-latest",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-12",
+    "lastVerifiedAt": "2026-09-12T10:06:47.242Z"
+  },
+  {
+    "id": "openrouter/~openai/gpt-terra-latest",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT Terra Latest",
+    "modelId": "~openai/gpt-terra-latest",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-12",
+    "lastVerifiedAt": "2026-09-12T10:06:47.242Z"
+  },
+  {
+    "id": "openrouter/~openai/gpt-luna-latest",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT Luna Latest",
+    "modelId": "~openai/gpt-luna-latest",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-12",
+    "lastVerifiedAt": "2026-09-12T10:06:47.242Z"
+  },
+  {
+    "id": "openrouter/inclusionai/ling-3.0-flash-vl",
+    "providerId": "openrouter",
+    "name": "inclusionAI: Ling 3.0 Flash VL",
+    "modelId": "inclusionai/ling-3.0-flash-vl",
+    "contextWindow": 131072,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-09-12",
+    "lastVerifiedAt": "2026-09-12T10:06:47.242Z"
+  },
+  {
+    "id": "nvidia/nvidia/nemotron-parse-2.0",
+    "providerId": "nvidia",
+    "name": "Nemotron Parse 2.0",
+    "modelId": "nvidia/nemotron-parse-2.0",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-09-12",
+    "lastVerifiedAt": "2026-09-12T10:06:47.649Z"
+  },
+  {
+    "id": "nvidia/z-ai/glm-5.3-flash",
+    "providerId": "nvidia",
+    "name": "Glm 5.3 Flash",
+    "modelId": "z-ai/glm-5.3-flash",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-09-12",
+    "lastVerifiedAt": "2026-09-12T10:06:47.649Z"
+  },
+  {
+    "id": "huggingface/ornith-ai/Ornith-1.5-35B-A3B-GGUF",
+    "providerId": "huggingface",
+    "name": "ornith-ai/Ornith-1.5-35B-A3B-GGUF",
+    "modelId": "ornith-ai/Ornith-1.5-35B-A3B-GGUF",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-09-12",
+    "lastVerifiedAt": "2026-09-12T10:06:47.782Z"
   }
 ]
