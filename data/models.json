@@ -12209,7 +12209,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "modelId": "deepseek/deepseek-v4-pro",
     "contextWindow": 1048576,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code"
@@ -12461,7 +12461,7 @@
     "name": "Google: Gemma 4 26B A4B ",
     "modelId": "google/gemma-4-26b-a4b-it",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -13974,7 +13974,7 @@
     "name": "MoonshotAI: Kimi K2 Thinking",
     "modelId": "moonshotai/kimi-k2-thinking",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 98304,
     "modalities": [
       "text",
       "code"
@@ -14657,7 +14657,7 @@
     "name": "MoonshotAI: Kimi K2 0905",
     "modelId": "moonshotai/kimi-k2-0905",
     "contextWindow": 262144,
-    "maxOutputTokens": 100352,
+    "maxOutputTokens": 98304,
     "modalities": [
       "text",
       "code"
@@ -14987,7 +14987,7 @@
     "name": "Qwen: Qwen3 30B A3B Instruct 2507",
     "modelId": "qwen/qwen3-30b-a3b-instruct-2507",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 32000,
     "modalities": [
       "text",
       "code"
@@ -15141,7 +15141,7 @@
     "name": "MoonshotAI: Kimi K2 0711",
     "modelId": "moonshotai/kimi-k2",
     "contextWindow": 131072,
-    "maxOutputTokens": 100352,
+    "maxOutputTokens": 98304,
     "modalities": [
       "text",
       "code"
@@ -16752,7 +16752,7 @@
     "name": "Meta: Llama 3.1 70B Instruct",
     "modelId": "meta-llama/llama-3.1-70b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 8192,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -18269,7 +18269,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash Latest",
     "modelId": "~deepseek/deepseek-v4-flash-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -19506,7 +19506,7 @@
     "name": "Z.ai: GLM 5.3",
     "modelId": "z-ai/glm-5.3",
     "contextWindow": 1310720,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -19525,7 +19525,7 @@
     "name": "Z.ai: GLM Latest",
     "modelId": "~z-ai/glm-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
