@@ -11457,7 +11457,7 @@
     "name": "Z.ai: GLM 5.2",
     "modelId": "z-ai/glm-5.2",
     "contextWindow": 1048576,
-    "maxOutputTokens": 182476,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -11575,7 +11575,7 @@
     "name": "NVIDIA: Nemotron 3 Ultra",
     "modelId": "nvidia/nemotron-3-ultra-550b-a55b",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 182520,
     "modalities": [
       "text",
       "code"
@@ -15570,7 +15570,7 @@
     "name": "Qwen: Qwen3 14B",
     "modelId": "qwen/qwen3-14b",
     "contextWindow": 131072,
-    "maxOutputTokens": 8192,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -18269,7 +18269,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash Latest",
     "modelId": "~deepseek/deepseek-v4-flash-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code"
@@ -19309,7 +19309,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro 0813",
     "modelId": "deepseek/deepseek-v4-pro-0813",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code"
@@ -19506,7 +19506,7 @@
     "name": "Z.ai: GLM 5.3",
     "modelId": "z-ai/glm-5.3",
     "contextWindow": 1310720,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943717,
     "modalities": [
       "text",
       "code"
@@ -19525,7 +19525,7 @@
     "name": "Z.ai: GLM Latest",
     "modelId": "~z-ai/glm-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
