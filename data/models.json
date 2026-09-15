@@ -11457,7 +11457,7 @@
     "name": "Z.ai: GLM 5.2",
     "modelId": "z-ai/glm-5.2",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code"
@@ -12737,7 +12737,7 @@
     "name": "NVIDIA: Nemotron 3 Super",
     "modelId": "nvidia/nemotron-3-super-120b-a12b",
     "contextWindow": 262144,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -12935,7 +12935,7 @@
     "name": "Qwen: Qwen3.5-35B-A3B",
     "modelId": "qwen/qwen3.5-35b-a3b",
     "contextWindow": 262144,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -14581,7 +14581,7 @@
     "name": "Qwen: Qwen3 Next 80B A3B Thinking",
     "modelId": "qwen/qwen3-next-80b-a3b-thinking",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -15747,7 +15747,7 @@
     "name": "Meta: Llama 4 Maverick",
     "modelId": "meta-llama/llama-4-maverick",
     "contextWindow": 1048576,
-    "maxOutputTokens": 115200,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -19525,7 +19525,7 @@
     "name": "Z.ai: GLM Latest",
     "modelId": "~z-ai/glm-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -21175,5 +21175,44 @@
     "score": 91,
     "releasedAt": "2026-09-12",
     "lastVerifiedAt": "2026-09-12T10:06:47.782Z"
+  },
+  {
+    "id": "openrouter/~deepseek/deepseek-pro-latest",
+    "providerId": "openrouter",
+    "name": "DeepSeek: DeepSeek Pro Latest",
+    "modelId": "~deepseek/deepseek-pro-latest",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 384000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-15",
+    "lastVerifiedAt": "2026-09-15T11:05:32.791Z"
+  },
+  {
+    "id": "openrouter/~deepseek/deepseek-flash-latest",
+    "providerId": "openrouter",
+    "name": "DeepSeek: DeepSeek Flash Latest",
+    "modelId": "~deepseek/deepseek-flash-latest",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-15",
+    "lastVerifiedAt": "2026-09-15T11:05:32.791Z"
   }
 ]
