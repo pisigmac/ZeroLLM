@@ -10882,7 +10882,7 @@
   {
     "id": "openrouter/anthropic/claude-opus-5",
     "providerId": "openrouter",
-    "name": "Claude Opus 5",
+    "name": "Anthropic: Claude Opus 5",
     "modelId": "anthropic/claude-opus-5",
     "contextWindow": 1000000,
     "maxOutputTokens": 128000,
@@ -11575,7 +11575,7 @@
     "name": "NVIDIA: Nemotron 3 Ultra",
     "modelId": "nvidia/nemotron-3-ultra-550b-a55b",
     "contextWindow": 262144,
-    "maxOutputTokens": 182520,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -18420,7 +18420,7 @@
   {
     "id": "openrouter/anthropic/claude-opus-5:batch",
     "providerId": "openrouter",
-    "name": "Claude Opus 5 (batch)",
+    "name": "Anthropic: Claude Opus 5 (batch)",
     "modelId": "anthropic/claude-opus-5:batch",
     "contextWindow": 1000000,
     "maxOutputTokens": 128000,
@@ -19467,8 +19467,8 @@
     "providerId": "openrouter",
     "name": "Z.ai: GLM 5.2 (free)",
     "modelId": "z-ai/glm-5.2:free",
-    "contextWindow": 256000,
-    "maxOutputTokens": 230400,
+    "contextWindow": 32768,
+    "maxOutputTokens": 29491,
     "modalities": [
       "text",
       "code"
@@ -19477,7 +19477,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 96,
+    "score": 91,
     "releasedAt": "2026-08-17",
     "lastVerifiedAt": "2026-08-17T06:50:42.781Z"
   },
@@ -21214,5 +21214,24 @@
     "score": 100,
     "releasedAt": "2026-09-15",
     "lastVerifiedAt": "2026-09-15T11:05:32.791Z"
+  },
+  {
+    "id": "nvidia/z-ai/glm-5.3",
+    "providerId": "nvidia",
+    "name": "Glm 5.3",
+    "modelId": "z-ai/glm-5.3",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-09-16",
+    "lastVerifiedAt": "2026-09-16T10:52:05.726Z"
   }
 ]
