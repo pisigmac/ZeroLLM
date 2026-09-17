@@ -11457,7 +11457,7 @@
     "name": "Z.ai: GLM 5.2",
     "modelId": "z-ai/glm-5.2",
     "contextWindow": 1048576,
-    "maxOutputTokens": 128000,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -14309,7 +14309,7 @@
     "name": "Qwen: Qwen3 VL 30B A3B Instruct",
     "modelId": "qwen/qwen3-vl-30b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code",
@@ -14349,7 +14349,7 @@
     "name": "Z.ai: GLM 4.6",
     "modelId": "z-ai/glm-4.6",
     "contextWindow": 204800,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -21233,5 +21233,25 @@
     "score": 96,
     "releasedAt": "2026-09-16",
     "lastVerifiedAt": "2026-09-16T10:52:05.726Z"
+  },
+  {
+    "id": "openrouter/stealth/union-alpha",
+    "providerId": "openrouter",
+    "name": "Union Alpha",
+    "modelId": "stealth/union-alpha",
+    "contextWindow": 262144,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-09-17",
+    "lastVerifiedAt": "2026-09-17T10:58:31.899Z"
   }
 ]
