@@ -11457,7 +11457,7 @@
     "name": "Z.ai: GLM 5.2",
     "modelId": "z-ai/glm-5.2",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 163840,
     "modalities": [
       "text",
       "code"
@@ -14349,7 +14349,7 @@
     "name": "Z.ai: GLM 4.6",
     "modelId": "z-ai/glm-4.6",
     "contextWindow": 204800,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -14891,7 +14891,7 @@
     "name": "OpenAI: gpt-oss-120b",
     "modelId": "openai/gpt-oss-120b",
     "contextWindow": 131072,
-    "maxOutputTokens": 117964,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code"
@@ -16272,7 +16272,7 @@
     "name": "DeepSeek: DeepSeek V3",
     "modelId": "deepseek/deepseek-chat",
     "contextWindow": 163840,
-    "maxOutputTokens": 16000,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -18269,7 +18269,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash Latest",
     "modelId": "~deepseek/deepseek-v4-flash-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -19660,7 +19660,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
     "modelId": "deepseek/deepseek-v4-flash-vision-exp",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code",
@@ -21253,5 +21253,159 @@
     "score": 99,
     "releasedAt": "2026-09-17",
     "lastVerifiedAt": "2026-09-17T10:58:31.899Z"
+  },
+  {
+    "id": "openrouter/unbiased/pareto",
+    "providerId": "openrouter",
+    "name": "Pareto",
+    "modelId": "unbiased/pareto",
+    "contextWindow": 262144,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-09-18",
+    "lastVerifiedAt": "2026-09-18T10:35:50.064Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.8-27b:free",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.8 27B (free)",
+    "modelId": "qwen/qwen3.8-27b:free",
+    "contextWindow": 262144,
+    "maxOutputTokens": 235929,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-09-18",
+    "lastVerifiedAt": "2026-09-18T10:35:50.067Z"
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v4-flash-0731:free",
+    "providerId": "openrouter",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731 (free)",
+    "modelId": "deepseek/deepseek-v4-flash-0731:free",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 393216,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-18",
+    "lastVerifiedAt": "2026-09-18T10:35:50.067Z"
+  },
+  {
+    "id": "nvidia/nvidia/kumo-relational",
+    "providerId": "nvidia",
+    "name": "nvidia/Kumo Relational",
+    "modelId": "nvidia/kumo-relational",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-09-18",
+    "lastVerifiedAt": "2026-09-18T10:35:50.736Z"
+  },
+  {
+    "id": "nvidia/z-ai/glm-5-3",
+    "providerId": "nvidia",
+    "name": "z-ai/Glm 5 3",
+    "modelId": "z-ai/glm-5-3",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-09-18",
+    "lastVerifiedAt": "2026-09-18T10:35:50.736Z"
+  },
+  {
+    "id": "nvidia/z-ai/glm-5-3-flash",
+    "providerId": "nvidia",
+    "name": "z-ai/Glm 5 3 Flash",
+    "modelId": "z-ai/glm-5-3-flash",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-09-18",
+    "lastVerifiedAt": "2026-09-18T10:35:50.736Z"
+  },
+  {
+    "id": "nvidia/nvidia/parakeet-tdt-0_6b",
+    "providerId": "nvidia",
+    "name": "nvidia/Parakeet Tdt 0_6b",
+    "modelId": "nvidia/parakeet-tdt-0_6b",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-09-18",
+    "lastVerifiedAt": "2026-09-18T10:35:50.736Z"
+  },
+  {
+    "id": "nvidia/wan-ai/wan2.2-animate-2-14b",
+    "providerId": "nvidia",
+    "name": "wan-ai/Wan2.2 Animate 2 14b",
+    "modelId": "wan-ai/wan2.2-animate-2-14b",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-09-18",
+    "lastVerifiedAt": "2026-09-18T10:35:50.736Z"
   }
 ]
