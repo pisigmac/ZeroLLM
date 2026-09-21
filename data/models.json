@@ -16752,7 +16752,7 @@
     "name": "Meta: Llama 3.1 70B Instruct",
     "modelId": "meta-llama/llama-3.1-70b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 8192,
     "modalities": [
       "text",
       "code"
@@ -19525,7 +19525,7 @@
     "name": "Z.ai: GLM Latest",
     "modelId": "~z-ai/glm-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -19660,7 +19660,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
     "modelId": "deepseek/deepseek-v4-flash-vision-exp",
     "contextWindow": 1048576,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
