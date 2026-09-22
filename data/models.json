@@ -14581,7 +14581,7 @@
     "name": "Qwen: Qwen3 Next 80B A3B Thinking",
     "modelId": "qwen/qwen3-next-80b-a3b-thinking",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -15413,7 +15413,7 @@
     "providerId": "openrouter",
     "name": "Anthropic: Claude Sonnet 4",
     "modelId": "anthropic/claude-sonnet-4",
-    "contextWindow": 1000000,
+    "contextWindow": 200000,
     "maxOutputTokens": 64000,
     "modalities": [
       "text",
@@ -15424,7 +15424,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 100,
+    "score": 99,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
   },
@@ -16752,7 +16752,7 @@
     "name": "Meta: Llama 3.1 70B Instruct",
     "modelId": "meta-llama/llama-3.1-70b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 8192,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -19941,7 +19941,7 @@
     "name": "Z.ai: GLM 5.3 Flash",
     "modelId": "z-ai/glm-5.3-flash",
     "contextWindow": 1310720,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -21182,7 +21182,7 @@
     "name": "DeepSeek: DeepSeek Pro Latest",
     "modelId": "~deepseek/deepseek-pro-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -21466,5 +21466,144 @@
     "score": 91,
     "releasedAt": "2026-09-20",
     "lastVerifiedAt": "2026-09-20T10:38:45.489Z"
+  },
+  {
+    "id": "openrouter/xiaomi/mimo-v2.6-pro-ultraspeed",
+    "providerId": "openrouter",
+    "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
+    "modelId": "xiaomi/mimo-v2.6-pro-ultraspeed",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-22",
+    "lastVerifiedAt": "2026-09-22T10:58:39.293Z"
+  },
+  {
+    "id": "openrouter/xiaomi/mimo-v2.6-flash",
+    "providerId": "openrouter",
+    "name": "Xiaomi: MiMo-V2.6-Flash",
+    "modelId": "xiaomi/mimo-v2.6-flash",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-22",
+    "lastVerifiedAt": "2026-09-22T10:58:39.293Z"
+  },
+  {
+    "id": "openrouter/xiaomi/mimo-v2.6-pro",
+    "providerId": "openrouter",
+    "name": "Xiaomi: MiMo-V2.6-Pro",
+    "modelId": "xiaomi/mimo-v2.6-pro",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-22",
+    "lastVerifiedAt": "2026-09-22T10:58:39.294Z"
+  },
+  {
+    "id": "openrouter/x-ai/grok-4.7",
+    "providerId": "openrouter",
+    "name": "SpaceXAI: Grok 4.7",
+    "modelId": "x-ai/grok-4.7",
+    "contextWindow": 500000,
+    "maxOutputTokens": 450000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-09-22",
+    "lastVerifiedAt": "2026-09-22T10:58:39.294Z"
+  },
+  {
+    "id": "openrouter/nex-agi/nex-n2.5-mini",
+    "providerId": "openrouter",
+    "name": "Nex AGI: Nex-N2.5-Mini",
+    "modelId": "nex-agi/nex-n2.5-mini",
+    "contextWindow": 262144,
+    "maxOutputTokens": 235929,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-09-22",
+    "lastVerifiedAt": "2026-09-22T10:58:39.295Z"
+  },
+  {
+    "id": "openrouter/nex-agi/nex-n2.5-pro",
+    "providerId": "openrouter",
+    "name": "Nex AGI: Nex-N2.5-Pro",
+    "modelId": "nex-agi/nex-n2.5-pro",
+    "contextWindow": 262144,
+    "maxOutputTokens": 235929,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-09-22",
+    "lastVerifiedAt": "2026-09-22T10:58:39.295Z"
+  },
+  {
+    "id": "nvidia/deepseek-ai/deepseek-v4.1-flash",
+    "providerId": "nvidia",
+    "name": "Deepseek V4.1 Flash",
+    "modelId": "deepseek-ai/deepseek-v4.1-flash",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-09-22",
+    "lastVerifiedAt": "2026-09-22T10:58:39.790Z"
   }
 ]
