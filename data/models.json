@@ -12149,7 +12149,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "modelId": "qwen/qwen3.6-27b",
     "contextWindow": 262144,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 262140,
     "modalities": [
       "text",
       "code",
@@ -14910,7 +14910,7 @@
     "name": "OpenAI: gpt-oss-20b",
     "modelId": "openai/gpt-oss-20b",
     "contextWindow": 131072,
-    "maxOutputTokens": 117964,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -19193,7 +19193,7 @@
     "name": "NVIDIA: Nemotron 3.5 Lightning",
     "modelId": "nvidia/nemotron-3.5-lightning",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -19525,7 +19525,7 @@
     "name": "Z.ai: GLM Latest",
     "modelId": "~z-ai/glm-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -20176,7 +20176,7 @@
     "name": "Z.ai: GLM 5.3 Flash (batch)",
     "modelId": "z-ai/glm-5.3-flash:batch",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
@@ -20274,7 +20274,7 @@
     "name": "MoonshotAI: Kimi K3 (batch)",
     "modelId": "moonshotai/kimi-k3:batch",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -20450,7 +20450,7 @@
     "name": "Z.ai: GLM Flash Latest",
     "modelId": "~z-ai/glm-flash-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
@@ -20888,7 +20888,7 @@
     "name": "Z.ai: GLM 5.3 (batch)",
     "modelId": "z-ai/glm-5.3:batch",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -21182,7 +21182,7 @@
     "name": "DeepSeek: DeepSeek Pro Latest",
     "modelId": "~deepseek/deepseek-pro-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code"
@@ -21605,5 +21605,287 @@
     "score": 96,
     "releasedAt": "2026-09-22",
     "lastVerifiedAt": "2026-09-22T10:58:39.790Z"
+  },
+  {
+    "id": "openrouter/cohere/command-a-plus",
+    "providerId": "openrouter",
+    "name": "Cohere: Command A+",
+    "modelId": "cohere/command-a-plus",
+    "contextWindow": 192000,
+    "maxOutputTokens": 64000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-09-23",
+    "lastVerifiedAt": "2026-09-23T10:47:05.526Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6-luna-pro",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6 Luna Pro",
+    "modelId": "openai/gpt-6-luna-pro",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-23",
+    "lastVerifiedAt": "2026-09-23T10:47:05.526Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6-luna-pro:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6 Luna Pro (batch)",
+    "modelId": "openai/gpt-6-luna-pro:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-23",
+    "lastVerifiedAt": "2026-09-23T10:47:05.526Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6-luna",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6 Luna",
+    "modelId": "openai/gpt-6-luna",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-23",
+    "lastVerifiedAt": "2026-09-23T10:47:05.526Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6-luna:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6 Luna (batch)",
+    "modelId": "openai/gpt-6-luna:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-23",
+    "lastVerifiedAt": "2026-09-23T10:47:05.526Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6-sol-pro",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6 Sol Pro",
+    "modelId": "openai/gpt-6-sol-pro",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-23",
+    "lastVerifiedAt": "2026-09-23T10:47:05.526Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6-sol-pro:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6 Sol Pro (batch)",
+    "modelId": "openai/gpt-6-sol-pro:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-23",
+    "lastVerifiedAt": "2026-09-23T10:47:05.526Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6-sol",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6 Sol",
+    "modelId": "openai/gpt-6-sol",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-23",
+    "lastVerifiedAt": "2026-09-23T10:47:05.526Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6-sol:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6 Sol (batch)",
+    "modelId": "openai/gpt-6-sol:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-23",
+    "lastVerifiedAt": "2026-09-23T10:47:05.526Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-opus-5.5",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Opus 5.5",
+    "modelId": "anthropic/claude-opus-5.5",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-23",
+    "lastVerifiedAt": "2026-09-23T10:47:05.526Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-opus-5.5:batch",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Opus 5.5 (batch)",
+    "modelId": "anthropic/claude-opus-5.5:batch",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-23",
+    "lastVerifiedAt": "2026-09-23T10:47:05.526Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.8-omni-flash",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.8 Omni Flash",
+    "modelId": "qwen/qwen3.8-omni-flash",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-23",
+    "lastVerifiedAt": "2026-09-23T10:47:05.527Z"
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v4.1-flash:batch",
+    "providerId": "openrouter",
+    "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
+    "modelId": "deepseek/deepseek-v4.1-flash:batch",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-23",
+    "lastVerifiedAt": "2026-09-23T10:47:05.528Z"
+  },
+  {
+    "id": "anthropic/claude-opus-5.5",
+    "providerId": "anthropic",
+    "name": "Claude Opus 5.5",
+    "modelId": "claude-opus-5.5",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "pdf",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": false,
+    "noCreditCard": false,
+    "score": 95,
+    "releasedAt": "2026-09-23",
+    "lastVerifiedAt": "2026-09-23T10:47:07.135Z"
   }
 ]
