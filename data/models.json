@@ -14071,7 +14071,7 @@
     "name": "MiniMax: MiniMax M2",
     "modelId": "minimax/minimax-m2",
     "contextWindow": 204800,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 176947,
     "modalities": [
       "text",
       "code"
@@ -14600,7 +14600,7 @@
     "name": "Qwen: Qwen3 Next 80B A3B Instruct",
     "modelId": "qwen/qwen3-next-80b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -14987,7 +14987,7 @@
     "name": "Qwen: Qwen3 30B A3B Instruct 2507",
     "modelId": "qwen/qwen3-30b-a3b-instruct-2507",
     "contextWindow": 262144,
-    "maxOutputTokens": 32000,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -20450,7 +20450,7 @@
     "name": "Z.ai: GLM Flash Latest",
     "modelId": "~z-ai/glm-flash-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code",
@@ -20907,7 +20907,7 @@
     "name": "DeepSeek: DeepSeek V4.1 Flash",
     "modelId": "deepseek/deepseek-v4.1-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
@@ -21104,7 +21104,7 @@
     "providerId": "openrouter",
     "name": "inclusionAI: Ling 3.0 Flash VL",
     "modelId": "inclusionai/ling-3.0-flash-vl",
-    "contextWindow": 131072,
+    "contextWindow": 262144,
     "maxOutputTokens": 32768,
     "modalities": [
       "text",
@@ -21182,7 +21182,7 @@
     "name": "DeepSeek: DeepSeek Pro Latest",
     "modelId": "~deepseek/deepseek-pro-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -21887,5 +21887,160 @@
     "score": 95,
     "releasedAt": "2026-09-23",
     "lastVerifiedAt": "2026-09-23T10:47:07.135Z"
+  },
+  {
+    "id": "openrouter/fireworks/ember-1",
+    "providerId": "openrouter",
+    "name": "Fireworks: Ember-1",
+    "modelId": "fireworks/ember-1",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-24",
+    "lastVerifiedAt": "2026-09-24T11:07:24.016Z"
+  },
+  {
+    "id": "openrouter/z-ai/glm-5.3-prime",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM 5.3 Prime",
+    "modelId": "z-ai/glm-5.3-prime",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-24",
+    "lastVerifiedAt": "2026-09-24T11:07:24.016Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.8-max-prime",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.8 Max Prime",
+    "modelId": "qwen/qwen3.8-max-prime",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-24",
+    "lastVerifiedAt": "2026-09-24T11:07:24.017Z"
+  },
+  {
+    "id": "openrouter/stealth/space-bunny-alpha",
+    "providerId": "openrouter",
+    "name": "Space Bunny Alpha",
+    "modelId": "stealth/space-bunny-alpha",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 524288,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-24",
+    "lastVerifiedAt": "2026-09-24T11:07:24.017Z"
+  },
+  {
+    "id": "openrouter/aion-labs/aion-3.5-mini",
+    "providerId": "openrouter",
+    "name": "AionLabs: Aion 3.5 Mini",
+    "modelId": "aion-labs/aion-3.5-mini",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-09-24",
+    "lastVerifiedAt": "2026-09-24T11:07:24.017Z"
+  },
+  {
+    "id": "openrouter/aion-labs/aion-3.5",
+    "providerId": "openrouter",
+    "name": "AionLabs: Aion 3.5",
+    "modelId": "aion-labs/aion-3.5",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-09-24",
+    "lastVerifiedAt": "2026-09-24T11:07:24.017Z"
+  },
+  {
+    "id": "openrouter/upstage/solar-mini4",
+    "providerId": "openrouter",
+    "name": "Upstage: Solar Mini 4",
+    "modelId": "upstage/solar-mini4",
+    "contextWindow": 524288,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-09-24",
+    "lastVerifiedAt": "2026-09-24T11:07:24.017Z"
+  },
+  {
+    "id": "huggingface/nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
+    "providerId": "huggingface",
+    "name": "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
+    "modelId": "nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-09-24",
+    "lastVerifiedAt": "2026-09-24T11:07:24.764Z"
   }
 ]
