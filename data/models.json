@@ -10982,7 +10982,7 @@
     "providerId": "openrouter",
     "name": "Thinking Machines: Inkling",
     "modelId": "thinkingmachines/inkling",
-    "contextWindow": 1048576,
+    "contextWindow": 524288,
     "maxOutputTokens": 471859,
     "modalities": [
       "text",
@@ -10993,7 +10993,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 100,
+    "score": 99,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
   },
@@ -12149,7 +12149,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "modelId": "qwen/qwen3.6-27b",
     "contextWindow": 262144,
-    "maxOutputTokens": 262140,
+    "maxOutputTokens": 81920,
     "modalities": [
       "text",
       "code",
@@ -18248,7 +18248,7 @@
     "providerId": "openrouter",
     "name": "Thinking Machines: Inkling Small",
     "modelId": "thinkingmachines/inkling-small",
-    "contextWindow": 1048576,
+    "contextWindow": 524288,
     "maxOutputTokens": 262144,
     "modalities": [
       "text",
@@ -18259,7 +18259,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 100,
+    "score": 99,
     "releasedAt": "2026-08-01",
     "lastVerifiedAt": "2026-08-01T08:17:27.862Z"
   },
@@ -19192,7 +19192,7 @@
     "providerId": "openrouter",
     "name": "NVIDIA: Nemotron 3.5 Lightning",
     "modelId": "nvidia/nemotron-3.5-lightning",
-    "contextWindow": 262144,
+    "contextWindow": 1000000,
     "maxOutputTokens": 131072,
     "modalities": [
       "text",
@@ -19202,7 +19202,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 96,
+    "score": 100,
     "releasedAt": "2026-08-12",
     "lastVerifiedAt": "2026-08-12T07:21:12.103Z"
   },
@@ -19506,7 +19506,7 @@
     "name": "Z.ai: GLM 5.3",
     "modelId": "z-ai/glm-5.3",
     "contextWindow": 1310720,
-    "maxOutputTokens": 943717,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -19941,7 +19941,7 @@
     "name": "Z.ai: GLM 5.3 Flash",
     "modelId": "z-ai/glm-5.3-flash",
     "contextWindow": 1310720,
-    "maxOutputTokens": 128000,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
@@ -20450,7 +20450,7 @@
     "name": "Z.ai: GLM Flash Latest",
     "modelId": "~z-ai/glm-flash-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 128000,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
@@ -20907,7 +20907,7 @@
     "name": "DeepSeek: DeepSeek V4.1 Flash",
     "modelId": "deepseek/deepseek-v4.1-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -21182,7 +21182,7 @@
     "name": "DeepSeek: DeepSeek Pro Latest",
     "modelId": "~deepseek/deepseek-pro-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code"
@@ -21201,7 +21201,7 @@
     "name": "DeepSeek: DeepSeek Flash Latest",
     "modelId": "~deepseek/deepseek-flash-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code",
@@ -21512,7 +21512,7 @@
     "providerId": "openrouter",
     "name": "Xiaomi: MiMo-V2.6-Pro",
     "modelId": "xiaomi/mimo-v2.6-pro",
-    "contextWindow": 1048576,
+    "contextWindow": 1050000,
     "maxOutputTokens": 131072,
     "modalities": [
       "text",
@@ -22042,5 +22042,45 @@
     "score": 91,
     "releasedAt": "2026-09-24",
     "lastVerifiedAt": "2026-09-24T11:07:24.764Z"
+  },
+  {
+    "id": "openrouter/typesafe/jev-router",
+    "providerId": "openrouter",
+    "name": "TypeSafe: Jev Router",
+    "modelId": "typesafe/jev-router",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-26",
+    "lastVerifiedAt": "2026-09-26T10:49:31.690Z"
+  },
+  {
+    "id": "openrouter/perceptron/perceptron-mk1.5",
+    "providerId": "openrouter",
+    "name": "Perceptron: Perceptron Mk1.5",
+    "modelId": "perceptron/perceptron-mk1.5",
+    "contextWindow": 36864,
+    "maxOutputTokens": 8192,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 94,
+    "releasedAt": "2026-09-26",
+    "lastVerifiedAt": "2026-09-26T10:49:31.690Z"
   }
 ]
