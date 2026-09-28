@@ -4478,7 +4478,7 @@
   {
     "id": "nvidia/mistralai/mistral-nemotron",
     "providerId": "nvidia",
-    "name": "Mistral Nemotron",
+    "name": "mistralai/Mistral Nemotron",
     "modelId": "mistralai/mistral-nemotron",
     "contextWindow": 128000,
     "maxOutputTokens": 4096,
@@ -12639,7 +12639,7 @@
     "name": "MiniMax: MiniMax M2.7",
     "modelId": "minimax/minimax-m2.7",
     "contextWindow": 204800,
-    "maxOutputTokens": 176947,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -12935,7 +12935,7 @@
     "name": "Qwen: Qwen3.5-35B-A3B",
     "modelId": "qwen/qwen3.5-35b-a3b",
     "contextWindow": 262144,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -14071,7 +14071,7 @@
     "name": "MiniMax: MiniMax M2",
     "modelId": "minimax/minimax-m2",
     "contextWindow": 204800,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 176947,
     "modalities": [
       "text",
       "code"
@@ -16272,7 +16272,7 @@
     "name": "DeepSeek: DeepSeek V3",
     "modelId": "deepseek/deepseek-chat",
     "contextWindow": 163840,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 16000,
     "modalities": [
       "text",
       "code"
@@ -19525,7 +19525,7 @@
     "name": "Z.ai: GLM Latest",
     "modelId": "~z-ai/glm-latest",
     "contextWindow": 1310720,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -19660,7 +19660,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
     "modelId": "deepseek/deepseek-v4-flash-vision-exp",
     "contextWindow": 1048576,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 943717,
     "modalities": [
       "text",
       "code",
@@ -19941,7 +19941,7 @@
     "name": "Z.ai: GLM 5.3 Flash",
     "modelId": "z-ai/glm-5.3-flash",
     "contextWindow": 1310720,
-    "maxOutputTokens": 128000,
+    "maxOutputTokens": 943717,
     "modalities": [
       "text",
       "code",
@@ -20907,7 +20907,7 @@
     "name": "DeepSeek: DeepSeek V4.1 Flash",
     "modelId": "deepseek/deepseek-v4.1-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -21182,7 +21182,7 @@
     "name": "DeepSeek: DeepSeek Pro Latest",
     "modelId": "~deepseek/deepseek-pro-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -21201,7 +21201,7 @@
     "name": "DeepSeek: DeepSeek Flash Latest",
     "modelId": "~deepseek/deepseek-flash-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
