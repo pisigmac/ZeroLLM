@@ -15532,7 +15532,7 @@
     "name": "Qwen: Qwen3 30B A3B",
     "modelId": "qwen/qwen3-30b-a3b",
     "contextWindow": 131072,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 8192,
     "modalities": [
       "text",
       "code"
@@ -18209,7 +18209,7 @@
     "providerId": "openrouter",
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "modelId": "deepseek/deepseek-v4-flash-0731",
-    "contextWindow": 1310720,
+    "contextWindow": 1048576,
     "maxOutputTokens": 943718,
     "modalities": [
       "text",
@@ -18268,7 +18268,7 @@
     "providerId": "openrouter",
     "name": "DeepSeek: DeepSeek V4 Flash Latest",
     "modelId": "~deepseek/deepseek-v4-flash-latest",
-    "contextWindow": 1310720,
+    "contextWindow": 1048576,
     "maxOutputTokens": 943718,
     "modalities": [
       "text",
@@ -19116,7 +19116,7 @@
     "name": "Meta: Muse Glimmer 30B",
     "modelId": "meta/muse-glimmer-30b",
     "contextWindow": 131072,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code",
@@ -19309,7 +19309,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro 0813",
     "modelId": "deepseek/deepseek-v4-pro-0813",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code"
@@ -19505,7 +19505,7 @@
     "providerId": "openrouter",
     "name": "Z.ai: GLM 5.3",
     "modelId": "z-ai/glm-5.3",
-    "contextWindow": 1310720,
+    "contextWindow": 1048576,
     "maxOutputTokens": 943717,
     "modalities": [
       "text",
@@ -19524,7 +19524,7 @@
     "providerId": "openrouter",
     "name": "Z.ai: GLM Latest",
     "modelId": "~z-ai/glm-latest",
-    "contextWindow": 1310720,
+    "contextWindow": 1048576,
     "maxOutputTokens": 131072,
     "modalities": [
       "text",
@@ -19940,7 +19940,7 @@
     "providerId": "openrouter",
     "name": "Z.ai: GLM 5.3 Flash",
     "modelId": "z-ai/glm-5.3-flash",
-    "contextWindow": 1310720,
+    "contextWindow": 1048576,
     "maxOutputTokens": 943717,
     "modalities": [
       "text",
@@ -20449,7 +20449,7 @@
     "providerId": "openrouter",
     "name": "Z.ai: GLM Flash Latest",
     "modelId": "~z-ai/glm-flash-latest",
-    "contextWindow": 1310720,
+    "contextWindow": 1048576,
     "maxOutputTokens": 943718,
     "modalities": [
       "text",
@@ -21182,7 +21182,7 @@
     "name": "DeepSeek: DeepSeek Pro Latest",
     "modelId": "~deepseek/deepseek-pro-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code"
@@ -21492,7 +21492,7 @@
     "providerId": "openrouter",
     "name": "Xiaomi: MiMo-V2.6-Flash",
     "modelId": "xiaomi/mimo-v2.6-flash",
-    "contextWindow": 1048576,
+    "contextWindow": 1050000,
     "maxOutputTokens": 131072,
     "modalities": [
       "text",
@@ -22143,5 +22143,104 @@
     "score": 92,
     "releasedAt": "2026-09-29",
     "lastVerifiedAt": "2026-09-29T12:08:39.620Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6.1-sol-pro",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6.1 Sol Pro",
+    "modelId": "openai/gpt-6.1-sol-pro",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-30",
+    "lastVerifiedAt": "2026-09-30T11:56:35.489Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6.1-sol-pro:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6.1 Sol Pro (batch)",
+    "modelId": "openai/gpt-6.1-sol-pro:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-30",
+    "lastVerifiedAt": "2026-09-30T11:56:35.489Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6.1-sol",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6.1 Sol",
+    "modelId": "openai/gpt-6.1-sol",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-30",
+    "lastVerifiedAt": "2026-09-30T11:56:35.489Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6.1-sol:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6.1 Sol (batch)",
+    "modelId": "openai/gpt-6.1-sol:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-09-30",
+    "lastVerifiedAt": "2026-09-30T11:56:35.489Z"
+  },
+  {
+    "id": "huggingface/prism-ml/Ternary-Bonsai-2-27B-gguf",
+    "providerId": "huggingface",
+    "name": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+    "modelId": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-09-30",
+    "lastVerifiedAt": "2026-09-30T11:56:36.340Z"
   }
 ]
