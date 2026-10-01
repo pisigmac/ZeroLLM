@@ -13974,7 +13974,7 @@
     "name": "MoonshotAI: Kimi K2 Thinking",
     "modelId": "moonshotai/kimi-k2-thinking",
     "contextWindow": 262144,
-    "maxOutputTokens": 98304,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -15532,7 +15532,7 @@
     "name": "Qwen: Qwen3 30B A3B",
     "modelId": "qwen/qwen3-30b-a3b",
     "contextWindow": 131072,
-    "maxOutputTokens": 8192,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -19193,7 +19193,7 @@
     "name": "NVIDIA: Nemotron 3.5 Lightning",
     "modelId": "nvidia/nemotron-3.5-lightning",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -19428,7 +19428,7 @@
     "name": "Qwen: Qwen3.8 27B",
     "modelId": "qwen/qwen3.8-27b",
     "contextWindow": 1000000,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
@@ -19506,7 +19506,7 @@
     "name": "Z.ai: GLM 5.3",
     "modelId": "z-ai/glm-5.3",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943717,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -19525,7 +19525,7 @@
     "name": "Z.ai: GLM Latest",
     "modelId": "~z-ai/glm-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -22242,5 +22242,24 @@
     "score": 91,
     "releasedAt": "2026-09-30",
     "lastVerifiedAt": "2026-09-30T11:56:36.340Z"
+  },
+  {
+    "id": "nvidia/nvidia/body-pose",
+    "providerId": "nvidia",
+    "name": "nvidia/Body Pose",
+    "modelId": "nvidia/body-pose",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-10-01",
+    "lastVerifiedAt": "2026-10-01T12:27:18.821Z"
   }
 ]
