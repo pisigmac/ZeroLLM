@@ -10983,7 +10983,7 @@
     "name": "Thinking Machines: Inkling",
     "modelId": "thinkingmachines/inkling",
     "contextWindow": 524288,
-    "maxOutputTokens": 471859,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code",
@@ -11575,7 +11575,7 @@
     "name": "NVIDIA: Nemotron 3 Ultra",
     "modelId": "nvidia/nemotron-3-ultra-550b-a55b",
     "contextWindow": 262144,
-    "maxOutputTokens": 182520,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -12228,7 +12228,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "modelId": "deepseek/deepseek-v4-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code"
@@ -12935,7 +12935,7 @@
     "name": "Qwen: Qwen3.5-35B-A3B",
     "modelId": "qwen/qwen3.5-35b-a3b",
     "contextWindow": 262144,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -13974,7 +13974,7 @@
     "name": "MoonshotAI: Kimi K2 Thinking",
     "modelId": "moonshotai/kimi-k2-thinking",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 98304,
     "modalities": [
       "text",
       "code"
@@ -15787,7 +15787,7 @@
     "name": "DeepSeek: DeepSeek V3 0324",
     "modelId": "deepseek/deepseek-chat-v3-0324",
     "contextWindow": 163840,
-    "maxOutputTokens": 147456,
+    "maxOutputTokens": 115200,
     "modalities": [
       "text",
       "code"
@@ -19193,7 +19193,7 @@
     "name": "NVIDIA: Nemotron 3.5 Lightning",
     "modelId": "nvidia/nemotron-3.5-lightning",
     "contextWindow": 262144,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -19506,7 +19506,7 @@
     "name": "Z.ai: GLM 5.3",
     "modelId": "z-ai/glm-5.3",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -19525,7 +19525,7 @@
     "name": "Z.ai: GLM Latest",
     "modelId": "~z-ai/glm-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -22261,5 +22261,44 @@
     "score": 96,
     "releasedAt": "2026-10-01",
     "lastVerifiedAt": "2026-10-01T12:27:18.821Z"
+  },
+  {
+    "id": "openrouter/apodex/apodex-1.1-mini:free",
+    "providerId": "openrouter",
+    "name": "Apodex: Apodex 1.1 Mini (free)",
+    "modelId": "apodex/apodex-1.1-mini:free",
+    "contextWindow": 262144,
+    "maxOutputTokens": 235929,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-10-02",
+    "lastVerifiedAt": "2026-10-02T11:53:50.977Z"
+  },
+  {
+    "id": "openrouter/unbiased/pareto-26.10-preview",
+    "providerId": "openrouter",
+    "name": "Pareto 26.10 Preview",
+    "modelId": "unbiased/pareto-26.10-preview",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-10-02",
+    "lastVerifiedAt": "2026-10-02T11:53:50.977Z"
   }
 ]
