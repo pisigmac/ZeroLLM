@@ -5029,7 +5029,7 @@
   {
     "id": "nvidia/nvidia/nemotron-3-super-120b-a12b",
     "providerId": "nvidia",
-    "name": "Nemotron 3 Super 120b A12b",
+    "name": "nvidia/Nemotron 3 Super 120b A12b",
     "modelId": "nvidia/nemotron-3-super-120b-a12b",
     "contextWindow": 128000,
     "maxOutputTokens": 4096,
@@ -13974,7 +13974,7 @@
     "name": "MoonshotAI: Kimi K2 Thinking",
     "modelId": "moonshotai/kimi-k2-thinking",
     "contextWindow": 262144,
-    "maxOutputTokens": 98304,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -14543,7 +14543,7 @@
     "name": "DeepSeek: DeepSeek V3.1 Terminus",
     "modelId": "deepseek/deepseek-v3.1-terminus",
     "contextWindow": 163840,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 147456,
     "modalities": [
       "text",
       "code"
@@ -14581,7 +14581,7 @@
     "name": "Qwen: Qwen3 Next 80B A3B Thinking",
     "modelId": "qwen/qwen3-next-80b-a3b-thinking",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -19193,7 +19193,7 @@
     "name": "NVIDIA: Nemotron 3.5 Lightning",
     "modelId": "nvidia/nemotron-3.5-lightning",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -20450,7 +20450,7 @@
     "name": "Z.ai: GLM Flash Latest",
     "modelId": "~z-ai/glm-flash-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
@@ -20593,7 +20593,7 @@
     "name": "inclusionAI: Ling 3.0 Flash Fin",
     "modelId": "inclusionai/ling-3.0-flash-fin",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -21182,7 +21182,7 @@
     "name": "DeepSeek: DeepSeek Pro Latest",
     "modelId": "~deepseek/deepseek-pro-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -22300,5 +22300,62 @@
     "score": 100,
     "releasedAt": "2026-10-02",
     "lastVerifiedAt": "2026-10-02T11:53:50.977Z"
+  },
+  {
+    "id": "openrouter/inclusionai/ling-3.1-flash",
+    "providerId": "openrouter",
+    "name": "inclusionAI: Ling 3.1 Flash",
+    "modelId": "inclusionai/ling-3.1-flash",
+    "contextWindow": 262144,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-10-03",
+    "lastVerifiedAt": "2026-10-03T11:06:40.904Z"
+  },
+  {
+    "id": "openrouter/nvidia/switchyard",
+    "providerId": "openrouter",
+    "name": "NVIDIA: Switchyard",
+    "modelId": "nvidia/switchyard",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-10-03",
+    "lastVerifiedAt": "2026-10-03T11:06:40.905Z"
+  },
+  {
+    "id": "huggingface/deepseek-ai/DeepSeek-V3.2",
+    "providerId": "huggingface",
+    "name": "deepseek-ai/DeepSeek-V3.2",
+    "modelId": "deepseek-ai/DeepSeek-V3.2",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-10-03",
+    "lastVerifiedAt": "2026-10-03T11:06:42.142Z"
   }
 ]
