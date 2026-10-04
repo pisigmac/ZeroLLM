@@ -5029,7 +5029,7 @@
   {
     "id": "nvidia/nvidia/nemotron-3-super-120b-a12b",
     "providerId": "nvidia",
-    "name": "nvidia/Nemotron 3 Super 120b A12b",
+    "name": "Nemotron 3 Super 120b A12b",
     "modelId": "nvidia/nemotron-3-super-120b-a12b",
     "contextWindow": 128000,
     "maxOutputTokens": 4096,
@@ -12228,7 +12228,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "modelId": "deepseek/deepseek-v4-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -15787,7 +15787,7 @@
     "name": "DeepSeek: DeepSeek V3 0324",
     "modelId": "deepseek/deepseek-chat-v3-0324",
     "contextWindow": 163840,
-    "maxOutputTokens": 115200,
+    "maxOutputTokens": 147456,
     "modalities": [
       "text",
       "code"
@@ -19309,7 +19309,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro 0813",
     "modelId": "deepseek/deepseek-v4-pro-0813",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -19525,7 +19525,7 @@
     "name": "Z.ai: GLM Latest",
     "modelId": "~z-ai/glm-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -21182,7 +21182,7 @@
     "name": "DeepSeek: DeepSeek Pro Latest",
     "modelId": "~deepseek/deepseek-pro-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code"
