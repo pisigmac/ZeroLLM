@@ -10983,7 +10983,7 @@
     "name": "Thinking Machines: Inkling",
     "modelId": "thinkingmachines/inkling",
     "contextWindow": 524288,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 471859,
     "modalities": [
       "text",
       "code",
@@ -12149,7 +12149,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "modelId": "qwen/qwen3.6-27b",
     "contextWindow": 262144,
-    "maxOutputTokens": 262140,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -12442,7 +12442,7 @@
     "name": "Z.ai: GLM 5.1",
     "modelId": "z-ai/glm-5.1",
     "contextWindow": 204800,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code"
@@ -12935,7 +12935,7 @@
     "name": "Qwen: Qwen3.5-35B-A3B",
     "modelId": "qwen/qwen3.5-35b-a3b",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -14987,7 +14987,7 @@
     "name": "Qwen: Qwen3 30B A3B Instruct 2507",
     "modelId": "qwen/qwen3-30b-a3b-instruct-2507",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 32000,
     "modalities": [
       "text",
       "code"
@@ -21182,7 +21182,7 @@
     "name": "DeepSeek: DeepSeek Pro Latest",
     "modelId": "~deepseek/deepseek-pro-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code"
@@ -22395,5 +22395,45 @@
     "score": 91,
     "releasedAt": "2026-10-06",
     "lastVerifiedAt": "2026-10-06T12:45:50.780Z"
+  },
+  {
+    "id": "openrouter/google/gemini-nano-banana-2.1",
+    "providerId": "openrouter",
+    "name": "Google: Nano Banana 2.1",
+    "modelId": "google/gemini-nano-banana-2.1",
+    "contextWindow": 65536,
+    "maxOutputTokens": 58982,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 94,
+    "releasedAt": "2026-10-07",
+    "lastVerifiedAt": "2026-10-07T12:39:57.857Z"
+  },
+  {
+    "id": "openrouter/mistralai/mistral-large-4-0",
+    "providerId": "openrouter",
+    "name": "Mistral: Mistral Large 4",
+    "modelId": "mistralai/mistral-large-4-0",
+    "contextWindow": 524288,
+    "maxOutputTokens": 262144,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-10-07",
+    "lastVerifiedAt": "2026-10-07T12:39:57.857Z"
   }
 ]
