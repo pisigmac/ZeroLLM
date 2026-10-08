@@ -11929,8 +11929,8 @@
     "providerId": "openrouter",
     "name": "Anthropic: Claude Haiku Latest",
     "modelId": "~anthropic/claude-haiku-latest",
-    "contextWindow": 200000,
-    "maxOutputTokens": 64000,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code",
@@ -11940,7 +11940,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 99,
+    "score": 100,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
   },
@@ -12737,7 +12737,7 @@
     "name": "NVIDIA: Nemotron 3 Super",
     "modelId": "nvidia/nemotron-3-super-120b-a12b",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -12955,7 +12955,7 @@
     "name": "Qwen: Qwen3.5-27B",
     "modelId": "qwen/qwen3.5-27b",
     "contextWindow": 262144,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 81920,
     "modalities": [
       "text",
       "code",
@@ -13797,7 +13797,7 @@
     "name": "DeepSeek: DeepSeek V3.2",
     "modelId": "deepseek/deepseek-v3.2",
     "contextWindow": 163840,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 147456,
     "modalities": [
       "text",
       "code"
@@ -14600,7 +14600,7 @@
     "name": "Qwen: Qwen3 Next 80B A3B Instruct",
     "modelId": "qwen/qwen3-next-80b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -19193,7 +19193,7 @@
     "name": "NVIDIA: Nemotron 3.5 Lightning",
     "modelId": "nvidia/nemotron-3.5-lightning",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -20450,7 +20450,7 @@
     "name": "Z.ai: GLM Flash Latest",
     "modelId": "~z-ai/glm-flash-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -21182,7 +21182,7 @@
     "name": "DeepSeek: DeepSeek Pro Latest",
     "modelId": "~deepseek/deepseek-pro-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code"
@@ -22435,5 +22435,86 @@
     "score": 99,
     "releasedAt": "2026-10-07",
     "lastVerifiedAt": "2026-10-07T12:39:57.857Z"
+  },
+  {
+    "id": "openrouter/stepfun/step-5-preview",
+    "providerId": "openrouter",
+    "name": "StepFun: Step 5 Preview",
+    "modelId": "stepfun/step-5-preview",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-10-08",
+    "lastVerifiedAt": "2026-10-08T12:49:29.322Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-haiku-5.5",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Haiku 5.5",
+    "modelId": "anthropic/claude-haiku-5.5",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-10-08",
+    "lastVerifiedAt": "2026-10-08T12:49:29.322Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-haiku-5.5:batch",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Haiku 5.5 (batch)",
+    "modelId": "anthropic/claude-haiku-5.5:batch",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-10-08",
+    "lastVerifiedAt": "2026-10-08T12:49:29.323Z"
+  },
+  {
+    "id": "anthropic/claude-haiku-5.5",
+    "providerId": "anthropic",
+    "name": "Claude Haiku 5.5",
+    "modelId": "claude-haiku-5.5",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 8192,
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "pdf"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": false,
+    "noCreditCard": false,
+    "score": 92,
+    "releasedAt": "2026-10-08",
+    "lastVerifiedAt": "2026-10-08T12:49:31.324Z"
   }
 ]
