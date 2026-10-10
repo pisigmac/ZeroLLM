@@ -12149,7 +12149,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "modelId": "qwen/qwen3.6-27b",
     "contextWindow": 262144,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 81920,
     "modalities": [
       "text",
       "code",
@@ -13974,7 +13974,7 @@
     "name": "MoonshotAI: Kimi K2 Thinking",
     "modelId": "moonshotai/kimi-k2-thinking",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 98304,
     "modalities": [
       "text",
       "code"
@@ -14189,7 +14189,7 @@
     "name": "Qwen: Qwen3 VL 8B Instruct",
     "modelId": "qwen/qwen3-vl-8b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -14289,7 +14289,7 @@
     "name": "Qwen: Qwen3 VL 30B A3B Thinking",
     "modelId": "qwen/qwen3-vl-30b-a3b-thinking",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -14349,7 +14349,7 @@
     "name": "Z.ai: GLM 4.6",
     "modelId": "z-ai/glm-4.6",
     "contextWindow": 204800,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -14581,7 +14581,7 @@
     "name": "Qwen: Qwen3 Next 80B A3B Thinking",
     "modelId": "qwen/qwen3-next-80b-a3b-thinking",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -15043,8 +15043,8 @@
     "providerId": "openrouter",
     "name": "Qwen: Qwen3 235B A22B Thinking 2507",
     "modelId": "qwen/qwen3-235b-a22b-thinking-2507",
-    "contextWindow": 131072,
-    "maxOutputTokens": 117964,
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -15531,7 +15531,7 @@
     "providerId": "openrouter",
     "name": "Qwen: Qwen3 30B A3B",
     "modelId": "qwen/qwen3-30b-a3b",
-    "contextWindow": 131072,
+    "contextWindow": 40960,
     "maxOutputTokens": 16384,
     "modalities": [
       "text",
@@ -15541,7 +15541,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 96,
+    "score": 91,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
   },
@@ -15569,7 +15569,7 @@
     "providerId": "openrouter",
     "name": "Qwen: Qwen3 14B",
     "modelId": "qwen/qwen3-14b",
-    "contextWindow": 131072,
+    "contextWindow": 40960,
     "maxOutputTokens": 16384,
     "modalities": [
       "text",
@@ -15579,7 +15579,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 96,
+    "score": 91,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
   },
@@ -19193,7 +19193,7 @@
     "name": "NVIDIA: Nemotron 3.5 Lightning",
     "modelId": "nvidia/nemotron-3.5-lightning",
     "contextWindow": 262144,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -19525,7 +19525,7 @@
     "name": "Z.ai: GLM Latest",
     "modelId": "~z-ai/glm-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -20450,7 +20450,7 @@
     "name": "Z.ai: GLM Flash Latest",
     "modelId": "~z-ai/glm-flash-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
@@ -21182,7 +21182,7 @@
     "name": "DeepSeek: DeepSeek Pro Latest",
     "modelId": "~deepseek/deepseek-pro-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
