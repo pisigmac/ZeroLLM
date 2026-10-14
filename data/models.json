@@ -12228,7 +12228,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "modelId": "deepseek/deepseek-v4-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 943717,
     "modalities": [
       "text",
       "code"
@@ -12442,7 +12442,7 @@
     "name": "Z.ai: GLM 5.1",
     "modelId": "z-ai/glm-5.1",
     "contextWindow": 204800,
-    "maxOutputTokens": 128000,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -12935,7 +12935,7 @@
     "name": "Qwen: Qwen3.5-35B-A3B",
     "modelId": "qwen/qwen3.5-35b-a3b",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -14071,7 +14071,7 @@
     "name": "MiniMax: MiniMax M2",
     "modelId": "minimax/minimax-m2",
     "contextWindow": 204800,
-    "maxOutputTokens": 176947,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -14891,7 +14891,7 @@
     "name": "OpenAI: gpt-oss-120b",
     "modelId": "openai/gpt-oss-120b",
     "contextWindow": 131072,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -19525,7 +19525,7 @@
     "name": "Z.ai: GLM Latest",
     "modelId": "~z-ai/glm-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -20907,7 +20907,7 @@
     "name": "DeepSeek: DeepSeek V4.1 Flash",
     "modelId": "deepseek/deepseek-v4.1-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -21104,7 +21104,7 @@
     "providerId": "openrouter",
     "name": "inclusionAI: Ling 3.0 Flash VL",
     "modelId": "inclusionai/ling-3.0-flash-vl",
-    "contextWindow": 262144,
+    "contextWindow": 131072,
     "maxOutputTokens": 32768,
     "modalities": [
       "text",
@@ -21201,7 +21201,7 @@
     "name": "DeepSeek: DeepSeek Flash Latest",
     "modelId": "~deepseek/deepseek-flash-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -22595,5 +22595,104 @@
     "score": 100,
     "releasedAt": "2026-10-13",
     "lastVerifiedAt": "2026-10-13T13:35:04.543Z"
+  },
+  {
+    "id": "openrouter/~unbiased/pareto-latest",
+    "providerId": "openrouter",
+    "name": "Pareto Latest",
+    "modelId": "~unbiased/pareto-latest",
+    "contextWindow": 262144,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-14T11:11:56.168Z"
+  },
+  {
+    "id": "openrouter/unbiased/pareto-26.9",
+    "providerId": "openrouter",
+    "name": "Pareto 26.9",
+    "modelId": "unbiased/pareto-26.9",
+    "contextWindow": 262144,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-14T11:11:56.168Z"
+  },
+  {
+    "id": "openrouter/liquid/lfm-2.5-24b-a2b",
+    "providerId": "openrouter",
+    "name": "LiquidAI: LFM2.5-24B-A2B",
+    "modelId": "liquid/lfm-2.5-24b-a2b",
+    "contextWindow": 128000,
+    "maxOutputTokens": 8192,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-14T11:11:56.168Z"
+  },
+  {
+    "id": "openrouter/google/gemini-4-argon",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 4 Argon",
+    "modelId": "google/gemini-4-argon",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-14T11:11:56.169Z"
+  },
+  {
+    "id": "openrouter/google/gemini-4-argon:batch",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 4 Argon (batch)",
+    "modelId": "google/gemini-4-argon:batch",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-10-14",
+    "lastVerifiedAt": "2026-10-14T11:11:56.169Z"
   }
 ]
