@@ -12110,7 +12110,7 @@
     "name": "Qwen: Qwen3.6 35B A3B",
     "modelId": "qwen/qwen3.6-35b-a3b",
     "contextWindow": 262144,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -12442,7 +12442,7 @@
     "name": "Z.ai: GLM 5.1",
     "modelId": "z-ai/glm-5.1",
     "contextWindow": 204800,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code"
@@ -13154,7 +13154,7 @@
     "name": "MiniMax: MiniMax M2.5",
     "modelId": "minimax/minimax-m2.5",
     "contextWindow": 204800,
-    "maxOutputTokens": 128000,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -13173,7 +13173,7 @@
     "name": "Z.ai: GLM 5",
     "modelId": "z-ai/glm-5",
     "contextWindow": 204800,
-    "maxOutputTokens": 128000,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -14891,7 +14891,7 @@
     "name": "OpenAI: gpt-oss-120b",
     "modelId": "openai/gpt-oss-120b",
     "contextWindow": 131072,
-    "maxOutputTokens": 117964,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code"
@@ -19941,7 +19941,7 @@
     "name": "Z.ai: GLM 5.3 Flash",
     "modelId": "z-ai/glm-5.3-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 943717,
     "modalities": [
       "text",
       "code",
@@ -22441,7 +22441,7 @@
     "providerId": "openrouter",
     "name": "StepFun: Step 5 Preview",
     "modelId": "stepfun/step-5-preview",
-    "contextWindow": 1000000,
+    "contextWindow": 1048576,
     "maxOutputTokens": 64000,
     "modalities": [
       "text",
@@ -22694,5 +22694,24 @@
     "score": 100,
     "releasedAt": "2026-10-14",
     "lastVerifiedAt": "2026-10-14T11:11:56.169Z"
+  },
+  {
+    "id": "nvidia/stepfun-ai/step-5-preview",
+    "providerId": "nvidia",
+    "name": "Step 5 Preview",
+    "modelId": "stepfun-ai/step-5-preview",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-10-15",
+    "lastVerifiedAt": "2026-10-15T10:52:13.563Z"
   }
 ]
