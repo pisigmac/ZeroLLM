@@ -13797,7 +13797,7 @@
     "name": "DeepSeek: DeepSeek V3.2",
     "modelId": "deepseek/deepseek-v3.2",
     "contextWindow": 163840,
-    "maxOutputTokens": 147456,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code"
@@ -15767,7 +15767,7 @@
     "name": "Meta: Llama 4 Scout",
     "modelId": "meta-llama/llama-4-scout",
     "contextWindow": 1310720,
-    "maxOutputTokens": 117964,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -16272,7 +16272,7 @@
     "name": "DeepSeek: DeepSeek V3",
     "modelId": "deepseek/deepseek-chat",
     "contextWindow": 163840,
-    "maxOutputTokens": 16000,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -21182,7 +21182,7 @@
     "name": "DeepSeek: DeepSeek Pro Latest",
     "modelId": "~deepseek/deepseek-pro-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code"
@@ -21201,7 +21201,7 @@
     "name": "DeepSeek: DeepSeek Flash Latest",
     "modelId": "~deepseek/deepseek-flash-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code",
@@ -21852,7 +21852,7 @@
     "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
     "modelId": "deepseek/deepseek-v4.1-flash:batch",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code",
@@ -22851,5 +22851,103 @@
     "score": 96,
     "releasedAt": "2026-10-16",
     "lastVerifiedAt": "2026-10-16T10:42:59.430Z"
+  },
+  {
+    "id": "openrouter/deepseek/deepseek-v4.1-flash-1017",
+    "providerId": "openrouter",
+    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+    "modelId": "deepseek/deepseek-v4.1-flash-1017",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 393216,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-10-17",
+    "lastVerifiedAt": "2026-10-17T10:09:13.168Z"
+  },
+  {
+    "id": "openrouter/elorian/glimpse",
+    "providerId": "openrouter",
+    "name": "Elorian: Glimpse",
+    "modelId": "elorian/glimpse",
+    "contextWindow": 262144,
+    "maxOutputTokens": 256000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-10-17",
+    "lastVerifiedAt": "2026-10-17T10:09:13.168Z"
+  },
+  {
+    "id": "openrouter/xingchen-agi/xing4.0-29b-a4b:free",
+    "providerId": "openrouter",
+    "name": "XingChen: Xing4.0 29B A4B (free)",
+    "modelId": "xingchen-agi/xing4.0-29b-a4b:free",
+    "contextWindow": 262144,
+    "maxOutputTokens": 235929,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-10-17",
+    "lastVerifiedAt": "2026-10-17T10:09:13.169Z"
+  },
+  {
+    "id": "openrouter/reflection/beam-1.0-501b-a23b",
+    "providerId": "openrouter",
+    "name": "Reflection: Beam 1.0 501B A23B",
+    "modelId": "reflection/beam-1.0-501b-a23b",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-10-17",
+    "lastVerifiedAt": "2026-10-17T10:09:13.169Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.7-plus:batch",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.7 Plus (batch)",
+    "modelId": "qwen/qwen3.7-plus:batch",
+    "contextWindow": 262144,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-10-17",
+    "lastVerifiedAt": "2026-10-17T10:09:13.172Z"
   }
 ]
