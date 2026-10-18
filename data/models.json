@@ -12935,7 +12935,7 @@
     "name": "Qwen: Qwen3.5-35B-A3B",
     "modelId": "qwen/qwen3.5-35b-a3b",
     "contextWindow": 262144,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -19309,7 +19309,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro 0813",
     "modelId": "deepseek/deepseek-v4-pro-0813",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code"
@@ -21201,7 +21201,7 @@
     "name": "DeepSeek: DeepSeek Flash Latest",
     "modelId": "~deepseek/deepseek-flash-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -22601,7 +22601,7 @@
     "providerId": "openrouter",
     "name": "Pareto Latest",
     "modelId": "~unbiased/pareto-latest",
-    "contextWindow": 262144,
+    "contextWindow": 1048576,
     "maxOutputTokens": 131072,
     "modalities": [
       "text",
@@ -22612,7 +22612,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 99,
+    "score": 100,
     "releasedAt": "2026-10-14",
     "lastVerifiedAt": "2026-10-14T11:11:56.168Z"
   },
@@ -22949,5 +22949,25 @@
     "score": 99,
     "releasedAt": "2026-10-17",
     "lastVerifiedAt": "2026-10-17T10:09:13.172Z"
+  },
+  {
+    "id": "openrouter/unbiased/pareto-26.10",
+    "providerId": "openrouter",
+    "name": "Pareto 26.10",
+    "modelId": "unbiased/pareto-26.10",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-10-18",
+    "lastVerifiedAt": "2026-10-18T10:24:25.479Z"
   }
 ]
