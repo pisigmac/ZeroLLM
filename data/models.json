@@ -11970,7 +11970,7 @@
     "name": "Google: Gemini Pro Latest",
     "modelId": "~google/gemini-pro-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -12955,7 +12955,7 @@
     "name": "Qwen: Qwen3.5-27B",
     "modelId": "qwen/qwen3.5-27b",
     "contextWindow": 262144,
-    "maxOutputTokens": 81920,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -15216,8 +15216,8 @@
     "providerId": "openrouter",
     "name": "Morph: Morph V3 Fast",
     "modelId": "morph/morph-v3-fast",
-    "contextWindow": 81920,
-    "maxOutputTokens": 38000,
+    "contextWindow": 262144,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -15226,7 +15226,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 91,
+    "score": 96,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:52:40.709Z"
   },
@@ -15746,7 +15746,7 @@
     "providerId": "openrouter",
     "name": "Meta: Llama 4 Maverick",
     "modelId": "meta-llama/llama-4-maverick",
-    "contextWindow": 1048576,
+    "contextWindow": 524288,
     "maxOutputTokens": 16384,
     "modalities": [
       "text",
@@ -15757,7 +15757,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 100,
+    "score": 99,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:52:40.710Z"
   },
@@ -16580,7 +16580,7 @@
     "name": "Meta: Llama 3.2 3B Instruct",
     "modelId": "meta-llama/llama-3.2-3b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 117964,
+    "maxOutputTokens": 72000,
     "modalities": [
       "text",
       "code"
@@ -19525,7 +19525,7 @@
     "name": "Z.ai: GLM Latest",
     "modelId": "~z-ai/glm-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -22661,7 +22661,7 @@
     "name": "Google: Gemini 4 Argon",
     "modelId": "google/gemini-4-argon",
     "contextWindow": 1048576,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -22969,5 +22969,25 @@
     "score": 100,
     "releasedAt": "2026-10-18",
     "lastVerifiedAt": "2026-10-18T10:24:25.479Z"
+  },
+  {
+    "id": "openrouter/minimax/minimax-m3.1-flash:free",
+    "providerId": "openrouter",
+    "name": "MiniMax: MiniMax M3.1 Flash (free)",
+    "modelId": "minimax/minimax-m3.1-flash:free",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 524288,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-10-19",
+    "lastVerifiedAt": "2026-10-19T12:08:56.108Z"
   }
 ]
