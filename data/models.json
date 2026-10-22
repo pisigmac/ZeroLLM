@@ -13134,7 +13134,7 @@
     "name": "Qwen: Qwen3.5 397B A17B",
     "modelId": "qwen/qwen3.5-397b-a17b",
     "contextWindow": 262144,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -19941,7 +19941,7 @@
     "name": "Z.ai: GLM 5.3 Flash",
     "modelId": "z-ai/glm-5.3-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943717,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -22917,7 +22917,7 @@
     "name": "Reflection: Beam 1.0 501B A23B",
     "modelId": "reflection/beam-1.0-501b-a23b",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -23122,5 +23122,24 @@
     "score": 96,
     "releasedAt": "2026-10-21",
     "lastVerifiedAt": "2026-10-21T11:10:56.271Z"
+  },
+  {
+    "id": "openrouter/recursive/flint-v1.0:free",
+    "providerId": "openrouter",
+    "name": "Recursive: Flint (free)",
+    "modelId": "recursive/flint-v1.0:free",
+    "contextWindow": 262144,
+    "maxOutputTokens": 235929,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-10-22",
+    "lastVerifiedAt": "2026-10-22T11:10:14.830Z"
   }
 ]
