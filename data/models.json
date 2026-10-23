@@ -12776,7 +12776,7 @@
     "name": "Qwen: Qwen3.5-9B",
     "modelId": "qwen/qwen3.5-9b",
     "contextWindow": 262144,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -19428,7 +19428,7 @@
     "name": "Qwen: Qwen3.8 27B",
     "modelId": "qwen/qwen3.8-27b",
     "contextWindow": 1000000,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -22049,7 +22049,7 @@
     "name": "TypeSafe: Jev Router",
     "modelId": "typesafe/jev-router",
     "contextWindow": 1000000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -23141,5 +23141,44 @@
     "score": 96,
     "releasedAt": "2026-10-22",
     "lastVerifiedAt": "2026-10-22T11:10:14.830Z"
+  },
+  {
+    "id": "openrouter/minimax/minimax-m3.1-flash",
+    "providerId": "openrouter",
+    "name": "MiniMax: MiniMax M3.1 Flash",
+    "modelId": "minimax/minimax-m3.1-flash",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 524288,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-10-23",
+    "lastVerifiedAt": "2026-10-23T11:01:10.404Z"
+  },
+  {
+    "id": "nvidia/minimaxai/minimax-m3.1-flash",
+    "providerId": "nvidia",
+    "name": "Minimax M3.1 Flash",
+    "modelId": "minimaxai/minimax-m3.1-flash",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-10-23",
+    "lastVerifiedAt": "2026-10-23T11:01:11.257Z"
   }
 ]
