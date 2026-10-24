@@ -13154,7 +13154,7 @@
     "name": "MiniMax: MiniMax M2.5",
     "modelId": "minimax/minimax-m2.5",
     "contextWindow": 204800,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -19525,7 +19525,7 @@
     "name": "Z.ai: GLM Latest",
     "modelId": "~z-ai/glm-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -19941,7 +19941,7 @@
     "name": "Z.ai: GLM 5.3 Flash",
     "modelId": "z-ai/glm-5.3-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 943717,
     "modalities": [
       "text",
       "code",
@@ -20450,7 +20450,7 @@
     "name": "Z.ai: GLM Flash Latest",
     "modelId": "~z-ai/glm-flash-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
@@ -23180,5 +23180,63 @@
     "score": 96,
     "releasedAt": "2026-10-23",
     "lastVerifiedAt": "2026-10-23T11:01:11.257Z"
+  },
+  {
+    "id": "openrouter/moonshotai/kimi-k3.1-pro",
+    "providerId": "openrouter",
+    "name": "MoonshotAI: Kimi K3.1 Pro",
+    "modelId": "moonshotai/kimi-k3.1-pro",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-10-24",
+    "lastVerifiedAt": "2026-10-24T10:17:48.262Z"
+  },
+  {
+    "id": "nvidia/nvidia/nemotron-3.5-bolt-e4b",
+    "providerId": "nvidia",
+    "name": "Nemotron 3.5 Bolt E4b",
+    "modelId": "nvidia/nemotron-3.5-bolt-e4b",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-10-24",
+    "lastVerifiedAt": "2026-10-24T10:17:49.330Z"
+  },
+  {
+    "id": "nvidia/nvidia/nemotron-3.5-parse",
+    "providerId": "nvidia",
+    "name": "nvidia/Nemotron 3.5 Parse",
+    "modelId": "nvidia/nemotron-3.5-parse",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-10-24",
+    "lastVerifiedAt": "2026-10-24T10:17:49.331Z"
   }
 ]
