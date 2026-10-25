@@ -16580,7 +16580,7 @@
     "name": "Meta: Llama 3.2 3B Instruct",
     "modelId": "meta-llama/llama-3.2-3b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 72000,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -18210,7 +18210,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "modelId": "deepseek/deepseek-v4-flash-0731",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -23238,5 +23238,24 @@
     "score": 96,
     "releasedAt": "2026-10-24",
     "lastVerifiedAt": "2026-10-24T10:17:49.331Z"
+  },
+  {
+    "id": "openrouter/liquid/lfm-2.5-2.6b",
+    "providerId": "openrouter",
+    "name": "LiquidAI: LFM2.5-2.6B",
+    "modelId": "liquid/lfm-2.5-2.6b",
+    "contextWindow": 128000,
+    "maxOutputTokens": 8192,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-10-25",
+    "lastVerifiedAt": "2026-10-25T10:44:08.575Z"
   }
 ]
