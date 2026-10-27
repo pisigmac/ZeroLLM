@@ -12228,7 +12228,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "modelId": "deepseek/deepseek-v4-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943717,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -12285,7 +12285,7 @@
     "name": "Xiaomi: MiMo-V2.5-Pro",
     "modelId": "xiaomi/mimo-v2.5-pro",
     "contextWindow": 1050000,
-    "maxOutputTokens": 945000,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -12304,7 +12304,7 @@
     "name": "Xiaomi: MiMo-V2.5",
     "modelId": "xiaomi/mimo-v2.5",
     "contextWindow": 1050000,
-    "maxOutputTokens": 945000,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -12442,7 +12442,7 @@
     "name": "Z.ai: GLM 5.1",
     "modelId": "z-ai/glm-5.1",
     "contextWindow": 204800,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code"
@@ -12955,7 +12955,7 @@
     "name": "Qwen: Qwen3.5-27B",
     "modelId": "qwen/qwen3.5-27b",
     "contextWindow": 262144,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 81920,
     "modalities": [
       "text",
       "code",
@@ -15846,7 +15846,7 @@
     "name": "Google: Gemma 3 4B",
     "modelId": "google/gemma-3-4b-it",
     "contextWindow": 131072,
-    "maxOutputTokens": 117964,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -18210,7 +18210,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "modelId": "deepseek/deepseek-v4-flash-0731",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -20450,7 +20450,7 @@
     "name": "Z.ai: GLM Flash Latest",
     "modelId": "~z-ai/glm-flash-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -20907,7 +20907,7 @@
     "name": "DeepSeek: DeepSeek V4.1 Flash",
     "modelId": "deepseek/deepseek-v4.1-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
@@ -23257,5 +23257,85 @@
     "score": 96,
     "releasedAt": "2026-10-25",
     "lastVerifiedAt": "2026-10-25T10:44:08.575Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6.1-terra-pro",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6.1 Terra Pro",
+    "modelId": "openai/gpt-6.1-terra-pro",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-10-27",
+    "lastVerifiedAt": "2026-10-27T11:36:36.691Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6.1-terra-pro:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6.1 Terra Pro (batch)",
+    "modelId": "openai/gpt-6.1-terra-pro:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-10-27",
+    "lastVerifiedAt": "2026-10-27T11:36:36.692Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6.1-terra",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6.1 Terra",
+    "modelId": "openai/gpt-6.1-terra",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-10-27",
+    "lastVerifiedAt": "2026-10-27T11:36:36.692Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6.1-terra:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6.1 Terra (batch)",
+    "modelId": "openai/gpt-6.1-terra:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-10-27",
+    "lastVerifiedAt": "2026-10-27T11:36:36.692Z"
   }
 ]
