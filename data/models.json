@@ -12736,8 +12736,8 @@
     "providerId": "openrouter",
     "name": "NVIDIA: Nemotron 3 Super",
     "modelId": "nvidia/nemotron-3-super-120b-a12b",
-    "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "contextWindow": 1048576,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code"
@@ -12746,7 +12746,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 96,
+    "score": 100,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
   },
@@ -14733,7 +14733,7 @@
     "name": "DeepSeek: DeepSeek V3.1",
     "modelId": "deepseek/deepseek-chat-v3.1",
     "contextWindow": 163840,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 147456,
     "modalities": [
       "text",
       "code"
@@ -16771,7 +16771,7 @@
     "name": "Meta: Llama 3.1 8B Instruct",
     "modelId": "meta-llama/llama-3.1-8b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -19941,7 +19941,7 @@
     "name": "Z.ai: GLM 5.3 Flash",
     "modelId": "z-ai/glm-5.3-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943717,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
@@ -20907,7 +20907,7 @@
     "name": "DeepSeek: DeepSeek V4.1 Flash",
     "modelId": "deepseek/deepseek-v4.1-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -22049,7 +22049,7 @@
     "name": "TypeSafe: Jev Router",
     "modelId": "typesafe/jev-router",
     "contextWindow": 1000000,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 64000,
     "modalities": [
       "text",
       "code",
@@ -22441,7 +22441,7 @@
     "providerId": "openrouter",
     "name": "StepFun: Step 5 Preview",
     "modelId": "stepfun/step-5-preview",
-    "contextWindow": 1048576,
+    "contextWindow": 1000000,
     "maxOutputTokens": 64000,
     "modalities": [
       "text",
@@ -22760,7 +22760,7 @@
     "name": "Meta: Muse Spark Open",
     "modelId": "meta/muse-spark-open",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
@@ -23357,5 +23357,44 @@
     "score": 99,
     "releasedAt": "2026-10-28",
     "lastVerifiedAt": "2026-10-28T12:07:30.712Z"
+  },
+  {
+    "id": "openrouter/particle-ai/particle-1",
+    "providerId": "openrouter",
+    "name": "Particle AI: Particle-1",
+    "modelId": "particle-ai/particle-1",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-10-29",
+    "lastVerifiedAt": "2026-10-29T12:18:31.359Z"
+  },
+  {
+    "id": "huggingface/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+    "providerId": "huggingface",
+    "name": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+    "modelId": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-10-29",
+    "lastVerifiedAt": "2026-10-29T12:18:32.201Z"
   }
 ]
