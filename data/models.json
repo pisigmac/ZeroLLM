@@ -11003,7 +11003,7 @@
     "name": "Auto Router (Beta)",
     "modelId": "openrouter/auto-beta",
     "contextWindow": 2000000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -12149,7 +12149,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "modelId": "qwen/qwen3.6-27b",
     "contextWindow": 262144,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 81920,
     "modalities": [
       "text",
       "code",
@@ -13797,7 +13797,7 @@
     "name": "DeepSeek: DeepSeek V3.2",
     "modelId": "deepseek/deepseek-v3.2",
     "contextWindow": 163840,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 147456,
     "modalities": [
       "text",
       "code"
@@ -19290,7 +19290,7 @@
     "name": "Qwen: Qwen3.8 2.4T A95B",
     "modelId": "qwen/qwen3.8-2.4t-a95b",
     "contextWindow": 1048576,
-    "maxOutputTokens": 909000,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -19428,7 +19428,7 @@
     "name": "Qwen: Qwen3.8 27B",
     "modelId": "qwen/qwen3.8-27b",
     "contextWindow": 1000000,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -19941,7 +19941,7 @@
     "name": "Z.ai: GLM 5.3 Flash",
     "modelId": "z-ai/glm-5.3-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943717,
     "modalities": [
       "text",
       "code",
@@ -22049,7 +22049,7 @@
     "name": "TypeSafe: Jev Router",
     "modelId": "typesafe/jev-router",
     "contextWindow": 1000000,
-    "maxOutputTokens": 64000,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -22441,7 +22441,7 @@
     "providerId": "openrouter",
     "name": "StepFun: Step 5 Preview",
     "modelId": "stepfun/step-5-preview",
-    "contextWindow": 1000000,
+    "contextWindow": 1048576,
     "maxOutputTokens": 64000,
     "modalities": [
       "text",
@@ -23396,5 +23396,43 @@
     "score": 91,
     "releasedAt": "2026-10-29",
     "lastVerifiedAt": "2026-10-29T12:18:32.201Z"
+  },
+  {
+    "id": "nvidia/mistralai/mistral-large-4-1t-a52b",
+    "providerId": "nvidia",
+    "name": "Mistral Large 4 1t A52b",
+    "modelId": "mistralai/mistral-large-4-1t-a52b",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-10-30",
+    "lastVerifiedAt": "2026-10-30T12:08:50.568Z"
+  },
+  {
+    "id": "huggingface/zai-org/GLM-5.3",
+    "providerId": "huggingface",
+    "name": "zai-org/GLM-5.3",
+    "modelId": "zai-org/GLM-5.3",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-10-30",
+    "lastVerifiedAt": "2026-10-30T12:08:50.671Z"
   }
 ]
