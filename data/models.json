@@ -12149,7 +12149,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "modelId": "qwen/qwen3.6-27b",
     "contextWindow": 262144,
-    "maxOutputTokens": 81920,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -12209,7 +12209,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "modelId": "deepseek/deepseek-v4-pro",
     "contextWindow": 1048576,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code"
@@ -13154,7 +13154,7 @@
     "name": "MiniMax: MiniMax M2.5",
     "modelId": "minimax/minimax-m2.5",
     "contextWindow": 204800,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -18269,7 +18269,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash Latest",
     "modelId": "~deepseek/deepseek-v4-flash-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -19941,7 +19941,7 @@
     "name": "Z.ai: GLM 5.3 Flash",
     "modelId": "z-ai/glm-5.3-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943717,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
