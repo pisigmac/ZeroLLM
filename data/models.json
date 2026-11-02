@@ -12461,7 +12461,7 @@
     "name": "Google: Gemma 4 26B A4B ",
     "modelId": "google/gemma-4-26b-a4b-it",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code",
@@ -16580,7 +16580,7 @@
     "name": "Meta: Llama 3.2 3B Instruct",
     "modelId": "meta-llama/llama-3.2-3b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 117964,
+    "maxOutputTokens": 72000,
     "modalities": [
       "text",
       "code"
@@ -19427,7 +19427,7 @@
     "providerId": "openrouter",
     "name": "Qwen: Qwen3.8 27B",
     "modelId": "qwen/qwen3.8-27b",
-    "contextWindow": 1000000,
+    "contextWindow": 1024000,
     "maxOutputTokens": 235929,
     "modalities": [
       "text",
@@ -22760,7 +22760,7 @@
     "name": "Meta: Muse Spark Open",
     "modelId": "meta/muse-spark-open",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -23434,5 +23434,44 @@
     "score": 91,
     "releasedAt": "2026-10-30",
     "lastVerifiedAt": "2026-10-30T12:08:50.671Z"
+  },
+  {
+    "id": "openrouter/z-ai/glm-5.3-flashx-legal",
+    "providerId": "openrouter",
+    "name": "Z.ai: GLM 5.3 FlashX Legal",
+    "modelId": "z-ai/glm-5.3-flashx-legal",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-02",
+    "lastVerifiedAt": "2026-11-02T14:46:38.591Z"
+  },
+  {
+    "id": "huggingface/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+    "providerId": "huggingface",
+    "name": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+    "modelId": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-11-02",
+    "lastVerifiedAt": "2026-11-02T14:46:40.255Z"
   }
 ]
