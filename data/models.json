@@ -14600,7 +14600,7 @@
     "name": "Qwen: Qwen3 Next 80B A3B Instruct",
     "modelId": "qwen/qwen3-next-80b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -16349,7 +16349,7 @@
     "name": "Meta: Llama 3.3 70B Instruct",
     "modelId": "meta-llama/llama-3.3-70b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code"
@@ -16752,7 +16752,7 @@
     "name": "Meta: Llama 3.1 70B Instruct",
     "modelId": "meta-llama/llama-3.1-70b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 8192,
     "modalities": [
       "text",
       "code"
