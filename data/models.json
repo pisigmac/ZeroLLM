@@ -12303,7 +12303,7 @@
     "providerId": "openrouter",
     "name": "Xiaomi: MiMo-V2.5",
     "modelId": "xiaomi/mimo-v2.5",
-    "contextWindow": 1050000,
+    "contextWindow": 1000000,
     "maxOutputTokens": 65536,
     "modalities": [
       "text",
@@ -15122,7 +15122,7 @@
     "name": "Qwen: Qwen3 235B A22B Instruct 2507",
     "modelId": "qwen/qwen3-235b-a22b-2507",
     "contextWindow": 262144,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -16349,7 +16349,7 @@
     "name": "Meta: Llama 3.3 70B Instruct",
     "modelId": "meta-llama/llama-3.3-70b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 128000,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -22780,7 +22780,7 @@
     "name": "NVIDIA: Nemotron 3.5 Super VL",
     "modelId": "nvidia/nemotron-3.5-super-vl",
     "contextWindow": 1048576,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -23473,5 +23473,104 @@
     "score": 91,
     "releasedAt": "2026-11-02",
     "lastVerifiedAt": "2026-11-02T14:46:40.255Z"
+  },
+  {
+    "id": "openrouter/tencent/hy4",
+    "providerId": "openrouter",
+    "name": "Tencent: Hy4",
+    "modelId": "tencent/hy4",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-04",
+    "lastVerifiedAt": "2026-11-04T13:47:15.201Z"
+  },
+  {
+    "id": "openrouter/stealth/crouton-alpha",
+    "providerId": "openrouter",
+    "name": "Crouton Alpha",
+    "modelId": "stealth/crouton-alpha",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-04",
+    "lastVerifiedAt": "2026-11-04T13:47:15.202Z"
+  },
+  {
+    "id": "openrouter/x-ai/grok-4.7:batch",
+    "providerId": "openrouter",
+    "name": "SpaceXAI: Grok 4.7 (batch)",
+    "modelId": "x-ai/grok-4.7:batch",
+    "contextWindow": 500000,
+    "maxOutputTokens": 450000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-11-04",
+    "lastVerifiedAt": "2026-11-04T13:47:15.204Z"
+  },
+  {
+    "id": "openrouter/x-ai/grok-4.6:batch",
+    "providerId": "openrouter",
+    "name": "SpaceXAI: Grok 4.6 (batch)",
+    "modelId": "x-ai/grok-4.6:batch",
+    "contextWindow": 500000,
+    "maxOutputTokens": 450000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-11-04",
+    "lastVerifiedAt": "2026-11-04T13:47:15.205Z"
+  },
+  {
+    "id": "huggingface/farbodtavakkoli/OTel-2.0-Decision-26B-A4B-4bit",
+    "providerId": "huggingface",
+    "name": "farbodtavakkoli/OTel-2.0-Decision-26B-A4B-4bit",
+    "modelId": "farbodtavakkoli/OTel-2.0-Decision-26B-A4B-4bit",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-11-04",
+    "lastVerifiedAt": "2026-11-04T13:47:16.955Z"
   }
 ]
