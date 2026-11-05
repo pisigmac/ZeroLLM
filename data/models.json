@@ -12639,7 +12639,7 @@
     "name": "MiniMax: MiniMax M2.7",
     "modelId": "minimax/minimax-m2.7",
     "contextWindow": 204800,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 176947,
     "modalities": [
       "text",
       "code"
@@ -14600,7 +14600,7 @@
     "name": "Qwen: Qwen3 Next 80B A3B Instruct",
     "modelId": "qwen/qwen3-next-80b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -15747,7 +15747,7 @@
     "name": "Meta: Llama 4 Maverick",
     "modelId": "meta-llama/llama-4-maverick",
     "contextWindow": 524288,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code",
@@ -16349,7 +16349,7 @@
     "name": "Meta: Llama 3.3 70B Instruct",
     "modelId": "meta-llama/llama-3.3-70b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code"
@@ -19941,7 +19941,7 @@
     "name": "Z.ai: GLM 5.3 Flash",
     "modelId": "z-ai/glm-5.3-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943717,
     "modalities": [
       "text",
       "code",
@@ -21006,7 +21006,7 @@
     "name": "Inference.net: Schematron V2 Small",
     "modelId": "inference-net/schematron-v2-small",
     "contextWindow": 128000,
-    "maxOutputTokens": 4096,
+    "maxOutputTokens": 8192,
     "modalities": [
       "text",
       "code"
@@ -21852,7 +21852,7 @@
     "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
     "modelId": "deepseek/deepseek-v4.1-flash:batch",
     "contextWindow": 1048576,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
@@ -23572,5 +23572,82 @@
     "score": 91,
     "releasedAt": "2026-11-04",
     "lastVerifiedAt": "2026-11-04T13:47:16.955Z"
+  },
+  {
+    "id": "openrouter/ricursiveai/ripple-65b-preview",
+    "providerId": "openrouter",
+    "name": "ricursiveAI/Ripple-65B-Preview",
+    "modelId": "ricursiveai/ripple-65b-preview",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-05",
+    "lastVerifiedAt": "2026-11-05T13:59:32.821Z"
+  },
+  {
+    "id": "openrouter/inclusionai/ling-3.0-tiny",
+    "providerId": "openrouter",
+    "name": "inclusionAI: Ling 3.0 Tiny",
+    "modelId": "inclusionai/ling-3.0-tiny",
+    "contextWindow": 262144,
+    "maxOutputTokens": 250000,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-11-05",
+    "lastVerifiedAt": "2026-11-05T13:59:32.824Z"
+  },
+  {
+    "id": "openrouter/openrouter/auto-code",
+    "providerId": "openrouter",
+    "name": "Auto Code",
+    "modelId": "openrouter/auto-code",
+    "contextWindow": 2000000,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-05",
+    "lastVerifiedAt": "2026-11-05T13:59:32.829Z"
+  },
+  {
+    "id": "nvidia/moonshotai/kimi-k3_1-pro",
+    "providerId": "nvidia",
+    "name": "moonshotai/Kimi K3_1 Pro",
+    "modelId": "moonshotai/kimi-k3_1-pro",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-11-05",
+    "lastVerifiedAt": "2026-11-05T13:59:34.077Z"
   }
 ]
