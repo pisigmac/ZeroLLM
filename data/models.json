@@ -12209,7 +12209,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "modelId": "deepseek/deepseek-v4-pro",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code"
@@ -12461,7 +12461,7 @@
     "name": "Google: Gemma 4 26B A4B ",
     "modelId": "google/gemma-4-26b-a4b-it",
     "contextWindow": 262144,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -12737,7 +12737,7 @@
     "name": "NVIDIA: Nemotron 3 Super",
     "modelId": "nvidia/nemotron-3-super-120b-a12b",
     "contextWindow": 1048576,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -16272,7 +16272,7 @@
     "name": "DeepSeek: DeepSeek V3",
     "modelId": "deepseek/deepseek-chat",
     "contextWindow": 163840,
-    "maxOutputTokens": 16000,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -16349,7 +16349,7 @@
     "name": "Meta: Llama 3.3 70B Instruct",
     "modelId": "meta-llama/llama-3.3-70b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 128000,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -19660,7 +19660,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
     "modelId": "deepseek/deepseek-v4-flash-vision-exp",
     "contextWindow": 1048576,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 943717,
     "modalities": [
       "text",
       "code",
@@ -22917,7 +22917,7 @@
     "name": "Reflection: Beam 1.0 501B A23B",
     "modelId": "reflection/beam-1.0-501b-a23b",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -23649,5 +23649,45 @@
     "score": 96,
     "releasedAt": "2026-11-05",
     "lastVerifiedAt": "2026-11-05T13:59:34.077Z"
+  },
+  {
+    "id": "openrouter/google/gemini-omni-1.2-flash",
+    "providerId": "openrouter",
+    "name": "Google: Gemini Omni 1.2 Flash",
+    "modelId": "google/gemini-omni-1.2-flash",
+    "contextWindow": 131072,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-11-06",
+    "lastVerifiedAt": "2026-11-06T13:45:11.895Z"
+  },
+  {
+    "id": "openrouter/google/gemini-omni-1.1-flash",
+    "providerId": "openrouter",
+    "name": "Google: Gemini Omni 1.1 Flash",
+    "modelId": "google/gemini-omni-1.1-flash",
+    "contextWindow": 131072,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-11-06",
+    "lastVerifiedAt": "2026-11-06T13:45:11.895Z"
   }
 ]
