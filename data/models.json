@@ -13154,7 +13154,7 @@
     "name": "MiniMax: MiniMax M2.5",
     "modelId": "minimax/minimax-m2.5",
     "contextWindow": 204800,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 58982,
     "modalities": [
       "text",
       "code"
@@ -17673,7 +17673,7 @@
     "name": "MiniMax: MiniMax M3 (batch)",
     "modelId": "minimax/minimax-m3:batch",
     "contextWindow": 524288,
-    "maxOutputTokens": 471859,
+    "maxOutputTokens": 512000,
     "modalities": [
       "text",
       "code",
@@ -20215,7 +20215,7 @@
     "name": "Meta: Muse Glimmer 30B (batch)",
     "modelId": "meta/muse-glimmer-30b:batch",
     "contextWindow": 131072,
-    "maxOutputTokens": 117964,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -20235,7 +20235,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
     "modelId": "deepseek/deepseek-v4-flash-0731:batch",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code"
@@ -20254,7 +20254,7 @@
     "name": "Thinking Machines: Inkling Small (batch)",
     "modelId": "thinkingmachines/inkling-small:batch",
     "contextWindow": 524288,
-    "maxOutputTokens": 471859,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code",
@@ -23576,7 +23576,7 @@
   {
     "id": "openrouter/ricursiveai/ripple-65b-preview",
     "providerId": "openrouter",
-    "name": "ricursiveAI/Ripple-65B-Preview",
+    "name": "Ricursive: Ripple 65B Preview",
     "modelId": "ricursiveai/ripple-65b-preview",
     "contextWindow": 1048576,
     "maxOutputTokens": 131072,
@@ -23689,5 +23689,82 @@
     "score": 99,
     "releasedAt": "2026-11-06",
     "lastVerifiedAt": "2026-11-06T13:45:11.895Z"
+  },
+  {
+    "id": "openrouter/liquid/lfm-3-1.7b",
+    "providerId": "openrouter",
+    "name": "LiquidAI: LFM3-1.7B",
+    "modelId": "liquid/lfm-3-1.7b",
+    "contextWindow": 262144,
+    "maxOutputTokens": 8192,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-11-07",
+    "lastVerifiedAt": "2026-11-07T12:28:06.689Z"
+  },
+  {
+    "id": "openrouter/liquid/lfm-3-1.7b:free",
+    "providerId": "openrouter",
+    "name": "LiquidAI: LFM3-1.7B (free)",
+    "modelId": "liquid/lfm-3-1.7b:free",
+    "contextWindow": 262144,
+    "maxOutputTokens": 8192,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-11-07",
+    "lastVerifiedAt": "2026-11-07T12:28:06.689Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.8-27b:batch",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.8 27B (batch)",
+    "modelId": "qwen/qwen3.8-27b:batch",
+    "contextWindow": 262144,
+    "maxOutputTokens": 235929,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-11-07",
+    "lastVerifiedAt": "2026-11-07T12:28:06.692Z"
+  },
+  {
+    "id": "huggingface/HuggingFaceTB/SmolLM2-135M",
+    "providerId": "huggingface",
+    "name": "HuggingFaceTB/SmolLM2-135M",
+    "modelId": "HuggingFaceTB/SmolLM2-135M",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-11-07",
+    "lastVerifiedAt": "2026-11-07T12:28:08.280Z"
   }
 ]
