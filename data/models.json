@@ -12639,7 +12639,7 @@
     "name": "MiniMax: MiniMax M2.7",
     "modelId": "minimax/minimax-m2.7",
     "contextWindow": 204800,
-    "maxOutputTokens": 176947,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -13134,7 +13134,7 @@
     "name": "Qwen: Qwen3.5 397B A17B",
     "modelId": "qwen/qwen3.5-397b-a17b",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 64000,
     "modalities": [
       "text",
       "code",
@@ -15256,7 +15256,7 @@
     "name": "Mistral: Mistral Small 3.2 24B",
     "modelId": "mistralai/mistral-small-3.2-24b-instruct",
     "contextWindow": 256000,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 26214,
     "modalities": [
       "text",
       "code",
@@ -16771,7 +16771,7 @@
     "name": "Meta: Llama 3.1 8B Instruct",
     "modelId": "meta-llama/llama-3.1-8b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 117964,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -20888,7 +20888,7 @@
     "name": "Z.ai: GLM 5.3 (batch)",
     "modelId": "z-ai/glm-5.3:batch",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -22760,7 +22760,7 @@
     "name": "Meta: Muse Spark Open",
     "modelId": "meta/muse-spark-open",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
@@ -23824,5 +23824,25 @@
     "score": 91,
     "releasedAt": "2026-11-08",
     "lastVerifiedAt": "2026-11-08T12:45:59.773Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen3.8-max-0902:batch",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen3.8 Max (0902) (batch)",
+    "modelId": "qwen/qwen3.8-max-0902:batch",
+    "contextWindow": 262144,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-11-09",
+    "lastVerifiedAt": "2026-11-09T15:12:23.178Z"
   }
 ]
