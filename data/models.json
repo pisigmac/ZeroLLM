@@ -11003,7 +11003,7 @@
     "name": "Auto Router (Beta)",
     "modelId": "openrouter/auto-beta",
     "contextWindow": 2000000,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 64000,
     "modalities": [
       "text",
       "code",
@@ -12284,7 +12284,7 @@
     "providerId": "openrouter",
     "name": "Xiaomi: MiMo-V2.5-Pro",
     "modelId": "xiaomi/mimo-v2.5-pro",
-    "contextWindow": 1050000,
+    "contextWindow": 1024000,
     "maxOutputTokens": 235929,
     "modalities": [
       "text",
@@ -12461,7 +12461,7 @@
     "name": "Google: Gemma 4 26B A4B ",
     "modelId": "google/gemma-4-26b-a4b-it",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code",
@@ -12638,8 +12638,8 @@
     "providerId": "openrouter",
     "name": "MiniMax: MiniMax M2.7",
     "modelId": "minimax/minimax-m2.7",
-    "contextWindow": 204800,
-    "maxOutputTokens": 131072,
+    "contextWindow": 196608,
+    "maxOutputTokens": 176947,
     "modalities": [
       "text",
       "code"
@@ -13153,7 +13153,7 @@
     "providerId": "openrouter",
     "name": "MiniMax: MiniMax M2.5",
     "modelId": "minimax/minimax-m2.5",
-    "contextWindow": 204800,
+    "contextWindow": 200000,
     "maxOutputTokens": 58982,
     "modalities": [
       "text",
@@ -15570,7 +15570,7 @@
     "name": "Qwen: Qwen3 14B",
     "modelId": "qwen/qwen3-14b",
     "contextWindow": 40960,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 36864,
     "modalities": [
       "text",
       "code"
@@ -16349,7 +16349,7 @@
     "name": "Meta: Llama 3.3 70B Instruct",
     "modelId": "meta-llama/llama-3.3-70b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 115200,
     "modalities": [
       "text",
       "code"
@@ -19427,7 +19427,7 @@
     "providerId": "openrouter",
     "name": "Qwen: Qwen3.8 27B",
     "modelId": "qwen/qwen3.8-27b",
-    "contextWindow": 1024000,
+    "contextWindow": 1048575,
     "maxOutputTokens": 235929,
     "modalities": [
       "text",
@@ -20176,7 +20176,7 @@
     "name": "Z.ai: GLM 5.3 Flash (batch)",
     "modelId": "z-ai/glm-5.3-flash:batch",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -20274,7 +20274,7 @@
     "name": "MoonshotAI: Kimi K3 (batch)",
     "modelId": "moonshotai/kimi-k3:batch",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -21852,7 +21852,7 @@
     "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
     "modelId": "deepseek/deepseek-v4.1-flash:batch",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
@@ -22049,7 +22049,7 @@
     "name": "TypeSafe: Jev Router",
     "modelId": "typesafe/jev-router",
     "contextWindow": 1000000,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 64000,
     "modalities": [
       "text",
       "code",
@@ -22441,7 +22441,7 @@
     "providerId": "openrouter",
     "name": "StepFun: Step 5 Preview",
     "modelId": "stepfun/step-5-preview",
-    "contextWindow": 1048576,
+    "contextWindow": 1000000,
     "maxOutputTokens": 64000,
     "modalities": [
       "text",
@@ -23617,7 +23617,7 @@
     "name": "Auto Code",
     "modelId": "openrouter/auto-code",
     "contextWindow": 2000000,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 64000,
     "modalities": [
       "text",
       "code",
@@ -23844,5 +23844,167 @@
     "score": 99,
     "releasedAt": "2026-11-09",
     "lastVerifiedAt": "2026-11-09T15:12:23.178Z"
+  },
+  {
+    "id": "openrouter/nex-agi/nex-n2.6",
+    "providerId": "openrouter",
+    "name": "Nex AGI: Nex-N2.6",
+    "modelId": "nex-agi/nex-n2.6",
+    "contextWindow": 262144,
+    "maxOutputTokens": 235929,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-11-10",
+    "lastVerifiedAt": "2026-11-10T14:20:30.229Z"
+  },
+  {
+    "id": "openrouter/thinkingmachines/inkling-2-small:free",
+    "providerId": "openrouter",
+    "name": "Thinking Machines: Inkling 2 Small (free)",
+    "modelId": "thinkingmachines/inkling-2-small:free",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-10",
+    "lastVerifiedAt": "2026-11-10T14:20:30.229Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-fable-5.2",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Fable 5.2",
+    "modelId": "anthropic/claude-fable-5.2",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-10",
+    "lastVerifiedAt": "2026-11-10T14:20:30.229Z"
+  },
+  {
+    "id": "openrouter/anthropic/claude-fable-5.2:batch",
+    "providerId": "openrouter",
+    "name": "Anthropic: Claude Fable 5.2 (batch)",
+    "modelId": "anthropic/claude-fable-5.2:batch",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-10",
+    "lastVerifiedAt": "2026-11-10T14:20:30.229Z"
+  },
+  {
+    "id": "openrouter/meta/muse-ember",
+    "providerId": "openrouter",
+    "name": "Meta: Muse Ember",
+    "modelId": "meta/muse-ember",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-10",
+    "lastVerifiedAt": "2026-11-10T14:20:30.229Z"
+  },
+  {
+    "id": "huggingface/trl-internal-testing/tiny-Qwen3ForCausalLM",
+    "providerId": "huggingface",
+    "name": "trl-internal-testing/tiny-Qwen3ForCausalLM",
+    "modelId": "trl-internal-testing/tiny-Qwen3ForCausalLM",
+    "contextWindow": 32768,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 91,
+    "releasedAt": "2026-11-10",
+    "lastVerifiedAt": "2026-11-10T14:20:31.228Z"
+  },
+  {
+    "id": "anthropic/claude-fable-5.2",
+    "providerId": "anthropic",
+    "name": "Claude Fable 5.2",
+    "modelId": "claude-fable-5.2",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "pdf"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": false,
+    "noCreditCard": false,
+    "score": 92,
+    "releasedAt": "2026-11-10",
+    "lastVerifiedAt": "2026-11-10T14:20:32.004Z"
+  },
+  {
+    "id": "anthropic/claude-mythos-5.2",
+    "providerId": "anthropic",
+    "name": "Claude Mythos 5.2",
+    "modelId": "claude-mythos-5.2",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "pdf",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": false,
+    "noCreditCard": false,
+    "score": 95,
+    "releasedAt": "2026-11-10",
+    "lastVerifiedAt": "2026-11-10T14:20:32.005Z"
   }
 ]
