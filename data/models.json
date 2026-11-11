@@ -12228,7 +12228,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "modelId": "deepseek/deepseek-v4-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943717,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code"
@@ -12736,7 +12736,7 @@
     "providerId": "openrouter",
     "name": "NVIDIA: Nemotron 3 Super",
     "modelId": "nvidia/nemotron-3-super-120b-a12b",
-    "contextWindow": 1048576,
+    "contextWindow": 262144,
     "maxOutputTokens": 16384,
     "modalities": [
       "text",
@@ -12746,7 +12746,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 100,
+    "score": 96,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
   },
@@ -13154,7 +13154,7 @@
     "name": "MiniMax: MiniMax M2.5",
     "modelId": "minimax/minimax-m2.5",
     "contextWindow": 200000,
-    "maxOutputTokens": 58982,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code"
@@ -22760,7 +22760,7 @@
     "name": "Meta: Muse Spark Open",
     "modelId": "meta/muse-spark-open",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code",
@@ -24006,5 +24006,121 @@
     "score": 95,
     "releasedAt": "2026-11-10",
     "lastVerifiedAt": "2026-11-10T14:20:32.005Z"
+  },
+  {
+    "id": "openrouter/baidu/ernie-5.5-flash-preview:free",
+    "providerId": "openrouter",
+    "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
+    "modelId": "baidu/ernie-5.5-flash-preview:free",
+    "contextWindow": 1024000,
+    "maxOutputTokens": 921600,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-11",
+    "lastVerifiedAt": "2026-11-11T13:34:16.596Z"
+  },
+  {
+    "id": "openrouter/baidu/ernie-light-dt-1.0-intl",
+    "providerId": "openrouter",
+    "name": "Baidu: ERNIE-Light-DT-1.0",
+    "modelId": "baidu/ernie-light-dt-1.0-intl",
+    "contextWindow": 1024000,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-11",
+    "lastVerifiedAt": "2026-11-11T13:34:16.596Z"
+  },
+  {
+    "id": "openrouter/google/gemini-4-carbon",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 4 Carbon",
+    "modelId": "google/gemini-4-carbon",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-11",
+    "lastVerifiedAt": "2026-11-11T13:34:16.596Z"
+  },
+  {
+    "id": "openrouter/google/gemini-4-carbon:batch",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 4 Carbon (batch)",
+    "modelId": "google/gemini-4-carbon:batch",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-11",
+    "lastVerifiedAt": "2026-11-11T13:34:16.596Z"
+  },
+  {
+    "id": "openrouter/kt/midm-k-3.0-pro",
+    "providerId": "openrouter",
+    "name": "KT: Mi:dm K 3.0 Pro",
+    "modelId": "kt/midm-k-3.0-pro",
+    "contextWindow": 261795,
+    "maxOutputTokens": 235615,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-11-11",
+    "lastVerifiedAt": "2026-11-11T13:34:16.597Z"
+  },
+  {
+    "id": "openrouter/motif-technologies/motif-3",
+    "providerId": "openrouter",
+    "name": "Motif Technologies: Motif 3",
+    "modelId": "motif-technologies/motif-3",
+    "contextWindow": 262144,
+    "maxOutputTokens": 235929,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-11-11",
+    "lastVerifiedAt": "2026-11-11T13:34:16.597Z"
   }
 ]
