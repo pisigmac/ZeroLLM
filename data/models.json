@@ -12776,7 +12776,7 @@
     "name": "Qwen: Qwen3.5-9B",
     "modelId": "qwen/qwen3.5-9b",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 40960,
     "modalities": [
       "text",
       "code",
@@ -15570,7 +15570,7 @@
     "name": "Qwen: Qwen3 14B",
     "modelId": "qwen/qwen3-14b",
     "contextWindow": 40960,
-    "maxOutputTokens": 36864,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -20176,7 +20176,7 @@
     "name": "Z.ai: GLM 5.3 Flash (batch)",
     "modelId": "z-ai/glm-5.3-flash:batch",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
@@ -22858,7 +22858,7 @@
     "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
     "modelId": "deepseek/deepseek-v4.1-flash-1017",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code",
@@ -23773,7 +23773,7 @@
     "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
     "modelId": "deepseek/deepseek-v4.1-flash-1017:batch",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code",
@@ -24122,5 +24122,25 @@
     "score": 96,
     "releasedAt": "2026-11-11",
     "lastVerifiedAt": "2026-11-11T13:34:16.597Z"
+  },
+  {
+    "id": "openrouter/moonshotai/kimi-k3.1-pro:batch",
+    "providerId": "openrouter",
+    "name": "MoonshotAI: Kimi K3.1 Pro (batch)",
+    "modelId": "moonshotai/kimi-k3.1-pro:batch",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-12",
+    "lastVerifiedAt": "2026-11-12T14:38:29.501Z"
   }
 ]
