@@ -12010,7 +12010,7 @@
     "name": "Google: Gemini Flash Latest",
     "modelId": "~google/gemini-flash-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -12209,7 +12209,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "modelId": "deepseek/deepseek-v4-pro",
     "contextWindow": 1048576,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code"
@@ -12285,7 +12285,7 @@
     "name": "Xiaomi: MiMo-V2.5-Pro",
     "modelId": "xiaomi/mimo-v2.5-pro",
     "contextWindow": 1024000,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -12461,7 +12461,7 @@
     "name": "Google: Gemma 4 26B A4B ",
     "modelId": "google/gemma-4-26b-a4b-it",
     "contextWindow": 262144,
-    "maxOutputTokens": 128000,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -13153,8 +13153,8 @@
     "providerId": "openrouter",
     "name": "MiniMax: MiniMax M2.5",
     "modelId": "minimax/minimax-m2.5",
-    "contextWindow": 200000,
-    "maxOutputTokens": 128000,
+    "contextWindow": 198000,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -13269,7 +13269,7 @@
     "name": "MoonshotAI: Kimi K2.5",
     "modelId": "moonshotai/kimi-k2.5",
     "contextWindow": 262144,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -20907,7 +20907,7 @@
     "name": "DeepSeek: DeepSeek V4.1 Flash",
     "modelId": "deepseek/deepseek-v4.1-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code",
@@ -22760,7 +22760,7 @@
     "name": "Meta: Muse Spark Open",
     "modelId": "meta/muse-spark-open",
     "contextWindow": 1048576,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -22858,7 +22858,7 @@
     "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
     "modelId": "deepseek/deepseek-v4.1-flash-1017",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -24142,5 +24142,85 @@
     "score": 100,
     "releasedAt": "2026-11-12",
     "lastVerifiedAt": "2026-11-12T14:38:29.501Z"
+  },
+  {
+    "id": "openrouter/google/gemini-4-hydrogen",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 4 Hydrogen",
+    "modelId": "google/gemini-4-hydrogen",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-13",
+    "lastVerifiedAt": "2026-11-13T13:56:05.992Z"
+  },
+  {
+    "id": "openrouter/google/gemini-4-hydrogen:batch",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 4 Hydrogen (batch)",
+    "modelId": "google/gemini-4-hydrogen:batch",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-13",
+    "lastVerifiedAt": "2026-11-13T13:56:05.992Z"
+  },
+  {
+    "id": "openrouter/thinkingmachines/inkling-2-small",
+    "providerId": "openrouter",
+    "name": "Thinking Machines: Inkling 2 Small",
+    "modelId": "thinkingmachines/inkling-2-small",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-13",
+    "lastVerifiedAt": "2026-11-13T13:56:05.992Z"
+  },
+  {
+    "id": "openrouter/particle-ai/particle-1:free",
+    "providerId": "openrouter",
+    "name": "Particle AI: Particle-1 (free)",
+    "modelId": "particle-ai/particle-1:free",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-13",
+    "lastVerifiedAt": "2026-11-13T13:56:05.993Z"
   }
 ]
