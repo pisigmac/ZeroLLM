@@ -16272,7 +16272,7 @@
     "name": "DeepSeek: DeepSeek V3",
     "modelId": "deepseek/deepseek-chat",
     "contextWindow": 163840,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 16000,
     "modalities": [
       "text",
       "code"
@@ -16580,7 +16580,7 @@
     "name": "Meta: Llama 3.2 3B Instruct",
     "modelId": "meta-llama/llama-3.2-3b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 117964,
+    "maxOutputTokens": 72000,
     "modalities": [
       "text",
       "code"
@@ -19427,7 +19427,7 @@
     "providerId": "openrouter",
     "name": "Qwen: Qwen3.8 27B",
     "modelId": "qwen/qwen3.8-27b",
-    "contextWindow": 1048575,
+    "contextWindow": 1024000,
     "maxOutputTokens": 235929,
     "modalities": [
       "text",
@@ -24222,5 +24222,25 @@
     "score": 100,
     "releasedAt": "2026-11-13",
     "lastVerifiedAt": "2026-11-13T13:56:05.993Z"
+  },
+  {
+    "id": "openrouter/inclusionai/ling-3.2-flash:free",
+    "providerId": "openrouter",
+    "name": "inclusionAI: Ling 3.2 Flash (free)",
+    "modelId": "inclusionai/ling-3.2-flash:free",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 262144,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-14",
+    "lastVerifiedAt": "2026-11-14T12:58:13.317Z"
   }
 ]
