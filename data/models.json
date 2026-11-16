@@ -13134,7 +13134,7 @@
     "name": "Qwen: Qwen3.5 397B A17B",
     "modelId": "qwen/qwen3.5-397b-a17b",
     "contextWindow": 262144,
-    "maxOutputTokens": 64000,
+    "maxOutputTokens": 81920,
     "modalities": [
       "text",
       "code",
@@ -13154,7 +13154,7 @@
     "name": "MiniMax: MiniMax M2.5",
     "modelId": "minimax/minimax-m2.5",
     "contextWindow": 198000,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 176947,
     "modalities": [
       "text",
       "code"
@@ -14910,7 +14910,7 @@
     "name": "OpenAI: gpt-oss-20b",
     "modelId": "openai/gpt-oss-20b",
     "contextWindow": 131072,
-    "maxOutputTokens": 117964,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code"
@@ -18210,7 +18210,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "modelId": "deepseek/deepseek-v4-flash-0731",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code"
@@ -20888,7 +20888,7 @@
     "name": "Z.ai: GLM 5.3 (batch)",
     "modelId": "z-ai/glm-5.3:batch",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -21201,7 +21201,7 @@
     "name": "DeepSeek: DeepSeek Flash Latest",
     "modelId": "~deepseek/deepseek-flash-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -24242,5 +24242,45 @@
     "score": 100,
     "releasedAt": "2026-11-14",
     "lastVerifiedAt": "2026-11-14T12:58:13.317Z"
+  },
+  {
+    "id": "openrouter/tencent/hy4-flash",
+    "providerId": "openrouter",
+    "name": "Tencent: Hy4 flash",
+    "modelId": "tencent/hy4-flash",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-16",
+    "lastVerifiedAt": "2026-11-16T14:48:18.434Z"
+  },
+  {
+    "id": "openrouter/qwen/qwen4-max",
+    "providerId": "openrouter",
+    "name": "Qwen: Qwen4 Max",
+    "modelId": "qwen/qwen4-max",
+    "contextWindow": 1000000,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-16",
+    "lastVerifiedAt": "2026-11-16T14:48:18.435Z"
   }
 ]
