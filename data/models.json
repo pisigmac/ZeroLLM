@@ -11575,7 +11575,7 @@
     "name": "NVIDIA: Nemotron 3 Ultra",
     "modelId": "nvidia/nemotron-3-ultra-550b-a55b",
     "contextWindow": 262144,
-    "maxOutputTokens": 182520,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code"
@@ -14910,7 +14910,7 @@
     "name": "OpenAI: gpt-oss-20b",
     "modelId": "openai/gpt-oss-20b",
     "contextWindow": 131072,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -19116,7 +19116,7 @@
     "name": "Meta: Muse Glimmer 30B",
     "modelId": "meta/muse-glimmer-30b",
     "contextWindow": 131072,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code",
@@ -19192,7 +19192,7 @@
     "providerId": "openrouter",
     "name": "NVIDIA: Nemotron 3.5 Lightning",
     "modelId": "nvidia/nemotron-3.5-lightning",
-    "contextWindow": 262144,
+    "contextWindow": 1048576,
     "maxOutputTokens": 235929,
     "modalities": [
       "text",
@@ -19202,7 +19202,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 96,
+    "score": 100,
     "releasedAt": "2026-08-12",
     "lastVerifiedAt": "2026-08-12T07:21:12.103Z"
   },
@@ -19941,7 +19941,7 @@
     "name": "Z.ai: GLM 5.3 Flash",
     "modelId": "z-ai/glm-5.3-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943717,
     "modalities": [
       "text",
       "code",
@@ -20176,7 +20176,7 @@
     "name": "Z.ai: GLM 5.3 Flash (batch)",
     "modelId": "z-ai/glm-5.3-flash:batch",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -20888,7 +20888,7 @@
     "name": "Z.ai: GLM 5.3 (batch)",
     "modelId": "z-ai/glm-5.3:batch",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -20907,7 +20907,7 @@
     "name": "DeepSeek: DeepSeek V4.1 Flash",
     "modelId": "deepseek/deepseek-v4.1-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -22858,7 +22858,7 @@
     "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
     "modelId": "deepseek/deepseek-v4.1-flash-1017",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
