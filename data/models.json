@@ -5409,7 +5409,7 @@
   {
     "id": "nvidia/openai/gpt-oss-20b",
     "providerId": "nvidia",
-    "name": "Gpt Oss 20b",
+    "name": "openai/Gpt Oss 20b",
     "modelId": "openai/gpt-oss-20b",
     "contextWindow": 128000,
     "maxOutputTokens": 4096,
@@ -12284,8 +12284,8 @@
     "providerId": "openrouter",
     "name": "Xiaomi: MiMo-V2.5-Pro",
     "modelId": "xiaomi/mimo-v2.5-pro",
-    "contextWindow": 1024000,
-    "maxOutputTokens": 131072,
+    "contextWindow": 262144,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -12294,7 +12294,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 100,
+    "score": 96,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
   },
@@ -12955,7 +12955,7 @@
     "name": "Qwen: Qwen3.5-27B",
     "modelId": "qwen/qwen3.5-27b",
     "contextWindow": 262144,
-    "maxOutputTokens": 81920,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code",
@@ -14600,7 +14600,7 @@
     "name": "Qwen: Qwen3 Next 80B A3B Instruct",
     "modelId": "qwen/qwen3-next-80b-a3b-instruct",
     "contextWindow": 262144,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code"
@@ -15256,7 +15256,7 @@
     "name": "Mistral: Mistral Small 3.2 24B",
     "modelId": "mistralai/mistral-small-3.2-24b-instruct",
     "contextWindow": 256000,
-    "maxOutputTokens": 26214,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -15375,7 +15375,7 @@
     "name": "DeepSeek: R1 0528",
     "modelId": "deepseek/deepseek-r1-0528",
     "contextWindow": 163840,
-    "maxOutputTokens": 32768,
+    "maxOutputTokens": 32000,
     "modalities": [
       "text",
       "code"
@@ -20907,7 +20907,7 @@
     "name": "DeepSeek: DeepSeek V4.1 Flash",
     "modelId": "deepseek/deepseek-v4.1-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code",
@@ -21590,7 +21590,7 @@
   {
     "id": "nvidia/deepseek-ai/deepseek-v4.1-flash",
     "providerId": "nvidia",
-    "name": "Deepseek V4.1 Flash",
+    "name": "deepseek-ai/Deepseek V4.1 Flash",
     "modelId": "deepseek-ai/deepseek-v4.1-flash",
     "contextWindow": 128000,
     "maxOutputTokens": 4096,
@@ -24282,5 +24282,184 @@
     "score": 100,
     "releasedAt": "2026-11-16",
     "lastVerifiedAt": "2026-11-16T14:48:18.435Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6.2-astra-pro",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6.2 Astra Pro",
+    "modelId": "openai/gpt-6.2-astra-pro",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-18",
+    "lastVerifiedAt": "2026-11-18T15:06:32.769Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6.2-astra-pro:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6.2 Astra Pro (batch)",
+    "modelId": "openai/gpt-6.2-astra-pro:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-18",
+    "lastVerifiedAt": "2026-11-18T15:06:32.769Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6.2-astra",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6.2 Astra",
+    "modelId": "openai/gpt-6.2-astra",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-18",
+    "lastVerifiedAt": "2026-11-18T15:06:32.769Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6.2-astra:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6.2 Astra (batch)",
+    "modelId": "openai/gpt-6.2-astra:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-18",
+    "lastVerifiedAt": "2026-11-18T15:06:32.769Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6.2-sol-pro",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6.2 Sol Pro",
+    "modelId": "openai/gpt-6.2-sol-pro",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-18",
+    "lastVerifiedAt": "2026-11-18T15:06:32.769Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6.2-sol-pro:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6.2 Sol Pro (batch)",
+    "modelId": "openai/gpt-6.2-sol-pro:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-18",
+    "lastVerifiedAt": "2026-11-18T15:06:32.769Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6.2-sol",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6.2 Sol",
+    "modelId": "openai/gpt-6.2-sol",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-18",
+    "lastVerifiedAt": "2026-11-18T15:06:32.769Z"
+  },
+  {
+    "id": "openrouter/openai/gpt-6.2-sol:batch",
+    "providerId": "openrouter",
+    "name": "OpenAI: GPT-6.2 Sol (batch)",
+    "modelId": "openai/gpt-6.2-sol:batch",
+    "contextWindow": 1050000,
+    "maxOutputTokens": 128000,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-18",
+    "lastVerifiedAt": "2026-11-18T15:06:32.769Z"
+  },
+  {
+    "id": "nvidia/moonshotai/kimi-k3.1-pro",
+    "providerId": "nvidia",
+    "name": "Kimi K3.1 Pro",
+    "modelId": "moonshotai/kimi-k3.1-pro",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-11-18",
+    "lastVerifiedAt": "2026-11-18T15:06:33.507Z"
   }
 ]
