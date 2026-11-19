@@ -12442,7 +12442,7 @@
     "name": "Z.ai: GLM 5.1",
     "modelId": "z-ai/glm-5.1",
     "contextWindow": 204800,
-    "maxOutputTokens": 182476,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -12776,7 +12776,7 @@
     "name": "Qwen: Qwen3.5-9B",
     "modelId": "qwen/qwen3.5-9b",
     "contextWindow": 262144,
-    "maxOutputTokens": 40960,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -15943,7 +15943,7 @@
     "name": "Google: Gemma 3 27B",
     "modelId": "google/gemma-3-27b-it",
     "contextWindow": 131072,
-    "maxOutputTokens": 117964,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -18210,7 +18210,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "modelId": "deepseek/deepseek-v4-flash-0731",
     "contextWindow": 1048576,
-    "maxOutputTokens": 384000,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -18269,7 +18269,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash Latest",
     "modelId": "~deepseek/deepseek-v4-flash-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -22858,7 +22858,7 @@
     "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
     "modelId": "deepseek/deepseek-v4.1-flash-1017",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code",
@@ -24461,5 +24461,45 @@
     "score": 96,
     "releasedAt": "2026-11-18",
     "lastVerifiedAt": "2026-11-18T15:06:33.507Z"
+  },
+  {
+    "id": "openrouter/google/gemini-4-neon",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 4 Neon",
+    "modelId": "google/gemini-4-neon",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-19",
+    "lastVerifiedAt": "2026-11-19T15:16:01.761Z"
+  },
+  {
+    "id": "openrouter/google/gemini-4-neon:batch",
+    "providerId": "openrouter",
+    "name": "Google: Gemini 4 Neon (batch)",
+    "modelId": "google/gemini-4-neon:batch",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 943718,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-19",
+    "lastVerifiedAt": "2026-11-19T15:16:01.762Z"
   }
 ]
