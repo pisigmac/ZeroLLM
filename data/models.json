@@ -11003,7 +11003,7 @@
     "name": "Auto Router (Beta)",
     "modelId": "openrouter/auto-beta",
     "contextWindow": 2000000,
-    "maxOutputTokens": 64000,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code",
@@ -11218,7 +11218,7 @@
   {
     "id": "openrouter/x-ai/grok-4.5",
     "providerId": "openrouter",
-    "name": "SpaceXAI: Grok 4.5",
+    "name": "SpaceXSI: Grok 4.5",
     "modelId": "x-ai/grok-4.5",
     "contextWindow": 500000,
     "maxOutputTokens": 450000,
@@ -11849,7 +11849,7 @@
   {
     "id": "openrouter/x-ai/grok-4.3",
     "providerId": "openrouter",
-    "name": "SpaceXAI: Grok 4.3",
+    "name": "SpaceXSI: Grok 4.3",
     "modelId": "x-ai/grok-4.3",
     "contextWindow": 1000000,
     "maxOutputTokens": 900000,
@@ -12557,7 +12557,7 @@
   {
     "id": "openrouter/x-ai/grok-4.20-multi-agent",
     "providerId": "openrouter",
-    "name": "SpaceXAI: Grok 4.20 Multi-Agent",
+    "name": "SpaceXSI: Grok 4.20 Multi-Agent",
     "modelId": "x-ai/grok-4.20-multi-agent",
     "contextWindow": 2000000,
     "maxOutputTokens": 1800000,
@@ -12577,7 +12577,7 @@
   {
     "id": "openrouter/x-ai/grok-4.20",
     "providerId": "openrouter",
-    "name": "SpaceXAI: Grok 4.20",
+    "name": "SpaceXSI: Grok 4.20",
     "modelId": "x-ai/grok-4.20",
     "contextWindow": 2000000,
     "maxOutputTokens": 1800000,
@@ -14891,7 +14891,7 @@
     "name": "OpenAI: gpt-oss-120b",
     "modelId": "openai/gpt-oss-120b",
     "contextWindow": 131072,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -16580,7 +16580,7 @@
     "name": "Meta: Llama 3.2 3B Instruct",
     "modelId": "meta-llama/llama-3.2-3b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 72000,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -19325,7 +19325,7 @@
   {
     "id": "openrouter/x-ai/grok-4.6",
     "providerId": "openrouter",
-    "name": "SpaceXAI: Grok 4.6",
+    "name": "SpaceXSI: Grok 4.6",
     "modelId": "x-ai/grok-4.6",
     "contextWindow": 500000,
     "maxOutputTokens": 450000,
@@ -19941,7 +19941,7 @@
     "name": "Z.ai: GLM 5.3 Flash",
     "modelId": "z-ai/glm-5.3-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943717,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
@@ -20176,7 +20176,7 @@
     "name": "Z.ai: GLM 5.3 Flash (batch)",
     "modelId": "z-ai/glm-5.3-flash:batch",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 943717,
     "modalities": [
       "text",
       "code",
@@ -20629,7 +20629,7 @@
   {
     "id": "openrouter/x-ai/grok-4.3:batch",
     "providerId": "openrouter",
-    "name": "SpaceXAI: Grok 4.3 (batch)",
+    "name": "SpaceXSI: Grok 4.3 (batch)",
     "modelId": "x-ai/grok-4.3:batch",
     "contextWindow": 1000000,
     "maxOutputTokens": 900000,
@@ -20888,7 +20888,7 @@
     "name": "Z.ai: GLM 5.3 (batch)",
     "modelId": "z-ai/glm-5.3:batch",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 943717,
     "modalities": [
       "text",
       "code"
@@ -20907,7 +20907,7 @@
     "name": "DeepSeek: DeepSeek V4.1 Flash",
     "modelId": "deepseek/deepseek-v4.1-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -21530,7 +21530,7 @@
   {
     "id": "openrouter/x-ai/grok-4.7",
     "providerId": "openrouter",
-    "name": "SpaceXAI: Grok 4.7",
+    "name": "SpaceXSI: Grok 4.7",
     "modelId": "x-ai/grok-4.7",
     "contextWindow": 500000,
     "maxOutputTokens": 450000,
@@ -21852,7 +21852,7 @@
     "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
     "modelId": "deepseek/deepseek-v4.1-flash:batch",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 384000,
     "modalities": [
       "text",
       "code",
@@ -22049,7 +22049,7 @@
     "name": "TypeSafe: Jev Router",
     "modelId": "typesafe/jev-router",
     "contextWindow": 1000000,
-    "maxOutputTokens": 64000,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code",
@@ -22917,7 +22917,7 @@
     "name": "Reflection: Beam 1.0 501B A23B",
     "modelId": "reflection/beam-1.0-501b-a23b",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -23517,7 +23517,7 @@
   {
     "id": "openrouter/x-ai/grok-4.7:batch",
     "providerId": "openrouter",
-    "name": "SpaceXAI: Grok 4.7 (batch)",
+    "name": "SpaceXSI: Grok 4.7 (batch)",
     "modelId": "x-ai/grok-4.7:batch",
     "contextWindow": 500000,
     "maxOutputTokens": 450000,
@@ -23537,7 +23537,7 @@
   {
     "id": "openrouter/x-ai/grok-4.6:batch",
     "providerId": "openrouter",
-    "name": "SpaceXAI: Grok 4.6 (batch)",
+    "name": "SpaceXSI: Grok 4.6 (batch)",
     "modelId": "x-ai/grok-4.6:batch",
     "contextWindow": 500000,
     "maxOutputTokens": 450000,
@@ -23617,7 +23617,7 @@
     "name": "Auto Code",
     "modelId": "openrouter/auto-code",
     "contextWindow": 2000000,
-    "maxOutputTokens": 64000,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code",
@@ -24501,5 +24501,44 @@
     "score": 100,
     "releasedAt": "2026-11-19",
     "lastVerifiedAt": "2026-11-19T15:16:01.762Z"
+  },
+  {
+    "id": "openrouter/mistralai/pixtral-large-2502",
+    "providerId": "openrouter",
+    "name": "Mistral: Pixtral Large 2502",
+    "modelId": "mistralai/pixtral-large-2502",
+    "contextWindow": 128000,
+    "maxOutputTokens": 102400,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-11-20",
+    "lastVerifiedAt": "2026-11-20T14:54:06.497Z"
+  },
+  {
+    "id": "nvidia/fastino/gliner2-pii",
+    "providerId": "nvidia",
+    "name": "Gliner2 Pii",
+    "modelId": "fastino/gliner2-pii",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-11-20",
+    "lastVerifiedAt": "2026-11-20T14:54:07.285Z"
   }
 ]
