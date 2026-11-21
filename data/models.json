@@ -12639,7 +12639,7 @@
     "name": "MiniMax: MiniMax M2.7",
     "modelId": "minimax/minimax-m2.7",
     "contextWindow": 196608,
-    "maxOutputTokens": 176947,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -13154,7 +13154,7 @@
     "name": "MiniMax: MiniMax M2.5",
     "modelId": "minimax/minimax-m2.5",
     "contextWindow": 198000,
-    "maxOutputTokens": 176947,
+    "maxOutputTokens": 32768,
     "modalities": [
       "text",
       "code"
@@ -15787,7 +15787,7 @@
     "name": "DeepSeek: DeepSeek V3 0324",
     "modelId": "deepseek/deepseek-chat-v3-0324",
     "contextWindow": 163840,
-    "maxOutputTokens": 115200,
+    "maxOutputTokens": 147456,
     "modalities": [
       "text",
       "code"
@@ -15943,7 +15943,7 @@
     "name": "Google: Gemma 3 27B",
     "modelId": "google/gemma-3-27b-it",
     "contextWindow": 131072,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code",
@@ -19290,7 +19290,7 @@
     "name": "Qwen: Qwen3.8 2.4T A95B",
     "modelId": "qwen/qwen3.8-2.4t-a95b",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 65536,
     "modalities": [
       "text",
       "code"
@@ -19660,7 +19660,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
     "modelId": "deepseek/deepseek-v4-flash-vision-exp",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943717,
+    "maxOutputTokens": 262144,
     "modalities": [
       "text",
       "code",
@@ -20907,7 +20907,7 @@
     "name": "DeepSeek: DeepSeek V4.1 Flash",
     "modelId": "deepseek/deepseek-v4.1-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code",
@@ -21492,7 +21492,7 @@
     "providerId": "openrouter",
     "name": "Xiaomi: MiMo-V2.6-Flash",
     "modelId": "xiaomi/mimo-v2.6-flash",
-    "contextWindow": 1050000,
+    "contextWindow": 1048576,
     "maxOutputTokens": 131072,
     "modalities": [
       "text",
@@ -21512,7 +21512,7 @@
     "providerId": "openrouter",
     "name": "Xiaomi: MiMo-V2.6-Pro",
     "modelId": "xiaomi/mimo-v2.6-pro",
-    "contextWindow": 1050000,
+    "contextWindow": 1048576,
     "maxOutputTokens": 131072,
     "modalities": [
       "text",
@@ -22780,7 +22780,7 @@
     "name": "NVIDIA: Nemotron 3.5 Super VL",
     "modelId": "nvidia/nemotron-3.5-super-vl",
     "contextWindow": 1048576,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -24540,5 +24540,45 @@
     "score": 96,
     "releasedAt": "2026-11-20",
     "lastVerifiedAt": "2026-11-20T14:54:07.285Z"
+  },
+  {
+    "id": "openrouter/thinkingmachines/inkling-2-mini",
+    "providerId": "openrouter",
+    "name": "Thinking Machines: Inkling 2 Mini",
+    "modelId": "thinkingmachines/inkling-2-mini",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 65536,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-21",
+    "lastVerifiedAt": "2026-11-21T14:13:15.323Z"
+  },
+  {
+    "id": "openrouter/radixark/daisyrose-27b",
+    "providerId": "openrouter",
+    "name": "RadixArk: DaisyRose 27B",
+    "modelId": "radixark/daisyrose-27b",
+    "contextWindow": 262144,
+    "maxOutputTokens": 235929,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-11-21",
+    "lastVerifiedAt": "2026-11-21T14:13:15.323Z"
   }
 ]
