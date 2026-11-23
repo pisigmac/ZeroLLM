@@ -14910,7 +14910,7 @@
     "name": "OpenAI: gpt-oss-20b",
     "modelId": "openai/gpt-oss-20b",
     "contextWindow": 131072,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -15943,7 +15943,7 @@
     "name": "Google: Gemma 3 27B",
     "modelId": "google/gemma-3-27b-it",
     "contextWindow": 131072,
-    "maxOutputTokens": 117964,
+    "maxOutputTokens": 16384,
     "modalities": [
       "text",
       "code",
@@ -18269,7 +18269,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash Latest",
     "modelId": "~deepseek/deepseek-v4-flash-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -21201,7 +21201,7 @@
     "name": "DeepSeek: DeepSeek Flash Latest",
     "modelId": "~deepseek/deepseek-flash-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code",
@@ -22306,7 +22306,7 @@
     "providerId": "openrouter",
     "name": "inclusionAI: Ling 3.1 Flash",
     "modelId": "inclusionai/ling-3.1-flash",
-    "contextWindow": 1000000,
+    "contextWindow": 1048576,
     "maxOutputTokens": 262144,
     "modalities": [
       "text",
@@ -24580,5 +24580,25 @@
     "score": 99,
     "releasedAt": "2026-11-21",
     "lastVerifiedAt": "2026-11-21T14:13:15.323Z"
+  },
+  {
+    "id": "zhipu/glm-5.4",
+    "providerId": "zhipu",
+    "name": "GLM 5.4",
+    "modelId": "glm-5.4",
+    "contextWindow": 128000,
+    "maxOutputTokens": 16384,
+    "modalities": [
+      "text",
+      "code",
+      "reasoning"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-11-23",
+    "lastVerifiedAt": "2026-11-23T17:24:50.490Z"
   }
 ]
