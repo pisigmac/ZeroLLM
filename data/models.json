@@ -10982,7 +10982,7 @@
     "providerId": "openrouter",
     "name": "Thinking Machines: Inkling",
     "modelId": "thinkingmachines/inkling",
-    "contextWindow": 524288,
+    "contextWindow": 1048576,
     "maxOutputTokens": 471859,
     "modalities": [
       "text",
@@ -10993,7 +10993,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 99,
+    "score": 100,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:52:40.707Z"
   },
@@ -11299,7 +11299,7 @@
     "name": "Tencent: Hy3",
     "modelId": "tencent/hy3",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 128000,
     "modalities": [
       "text",
       "code"
@@ -11633,7 +11633,7 @@
     "providerId": "openrouter",
     "name": "StepFun: Step 3.7 Flash",
     "modelId": "stepfun/step-3.7-flash",
-    "contextWindow": 262144,
+    "contextWindow": 256000,
     "maxOutputTokens": 230400,
     "modalities": [
       "text",
@@ -16771,7 +16771,7 @@
     "name": "Meta: Llama 3.1 8B Instruct",
     "modelId": "meta-llama/llama-3.1-8b-instruct",
     "contextWindow": 131072,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -18269,7 +18269,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash Latest",
     "modelId": "~deepseek/deepseek-v4-flash-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code"
@@ -19941,7 +19941,7 @@
     "name": "Z.ai: GLM 5.3 Flash",
     "modelId": "z-ai/glm-5.3-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943717,
     "modalities": [
       "text",
       "code",
@@ -24600,5 +24600,24 @@
     "score": 99,
     "releasedAt": "2026-11-23",
     "lastVerifiedAt": "2026-11-23T17:24:50.490Z"
+  },
+  {
+    "id": "nvidia/nvidia/nemotron-transcribe",
+    "providerId": "nvidia",
+    "name": "nvidia/Nemotron Transcribe",
+    "modelId": "nvidia/nemotron-transcribe",
+    "contextWindow": 128000,
+    "maxOutputTokens": 4096,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-11-24",
+    "lastVerifiedAt": "2026-11-24T16:58:02.405Z"
   }
 ]
