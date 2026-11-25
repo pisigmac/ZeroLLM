@@ -13153,8 +13153,8 @@
     "providerId": "openrouter",
     "name": "MiniMax: MiniMax M2.5",
     "modelId": "minimax/minimax-m2.5",
-    "contextWindow": 198000,
-    "maxOutputTokens": 32768,
+    "contextWindow": 65536,
+    "maxOutputTokens": 58982,
     "modalities": [
       "text",
       "code"
@@ -13163,7 +13163,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 96,
+    "score": 91,
     "releasedAt": "2026-07-27",
     "lastVerifiedAt": "2026-07-27T06:52:40.708Z"
   },
@@ -13383,7 +13383,7 @@
     "providerId": "openrouter",
     "name": "Z.ai: GLM 4.7 Flash",
     "modelId": "z-ai/glm-4.7-flash",
-    "contextWindow": 200000,
+    "contextWindow": 131072,
     "maxOutputTokens": 117964,
     "modalities": [
       "text",
@@ -15025,7 +15025,7 @@
     "name": "Z.ai: GLM 4.5 Air",
     "modelId": "z-ai/glm-4.5-air",
     "contextWindow": 131072,
-    "maxOutputTokens": 98304,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code"
@@ -19660,7 +19660,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
     "modelId": "deepseek/deepseek-v4-flash-vision-exp",
     "contextWindow": 1048576,
-    "maxOutputTokens": 262144,
+    "maxOutputTokens": 393216,
     "modalities": [
       "text",
       "code",
@@ -19941,7 +19941,7 @@
     "name": "Z.ai: GLM 5.3 Flash",
     "modelId": "z-ai/glm-5.3-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943717,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -21201,7 +21201,7 @@
     "name": "DeepSeek: DeepSeek Flash Latest",
     "modelId": "~deepseek/deepseek-flash-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -24619,5 +24619,63 @@
     "score": 96,
     "releasedAt": "2026-11-24",
     "lastVerifiedAt": "2026-11-24T16:58:02.405Z"
+  },
+  {
+    "id": "openrouter/upstage/solar-mini-4-5",
+    "providerId": "openrouter",
+    "name": "Upstage: Solar Mini 4.5 (Preview)",
+    "modelId": "upstage/solar-mini-4-5",
+    "contextWindow": 524288,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-11-25",
+    "lastVerifiedAt": "2026-11-25T16:47:54.555Z"
+  },
+  {
+    "id": "openrouter/upstage/solar-pro-4-contributor",
+    "providerId": "openrouter",
+    "name": "Upstage: Solar Pro 4 Contributor",
+    "modelId": "upstage/solar-pro-4-contributor",
+    "contextWindow": 524288,
+    "maxOutputTokens": 131072,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-11-25",
+    "lastVerifiedAt": "2026-11-25T16:47:54.555Z"
+  },
+  {
+    "id": "openrouter/xiaomi/mimo-v2.6-flash-mopd",
+    "providerId": "openrouter",
+    "name": "Xiaomi: MiMo-V2.6-Flash-MOPD",
+    "modelId": "xiaomi/mimo-v2.6-flash-mopd",
+    "contextWindow": 1048576,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 100,
+    "releasedAt": "2026-11-25",
+    "lastVerifiedAt": "2026-11-25T16:47:54.555Z"
   }
 ]
