@@ -13134,7 +13134,7 @@
     "name": "Qwen: Qwen3.5 397B A17B",
     "modelId": "qwen/qwen3.5-397b-a17b",
     "contextWindow": 262144,
-    "maxOutputTokens": 81920,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -15025,7 +15025,7 @@
     "name": "Z.ai: GLM 4.5 Air",
     "modelId": "z-ai/glm-4.5-air",
     "contextWindow": 131072,
-    "maxOutputTokens": 117964,
+    "maxOutputTokens": 98304,
     "modalities": [
       "text",
       "code"
@@ -15943,7 +15943,7 @@
     "name": "Google: Gemma 3 27B",
     "modelId": "google/gemma-3-27b-it",
     "contextWindow": 131072,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code",
@@ -19428,7 +19428,7 @@
     "name": "Qwen: Qwen3.8 27B",
     "modelId": "qwen/qwen3.8-27b",
     "contextWindow": 1024000,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 235929,
     "modalities": [
       "text",
       "code",
@@ -19941,7 +19941,7 @@
     "name": "Z.ai: GLM 5.3 Flash",
     "modelId": "z-ai/glm-5.3-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 943717,
     "modalities": [
       "text",
       "code",
@@ -21182,7 +21182,7 @@
     "name": "DeepSeek: DeepSeek Pro Latest",
     "modelId": "~deepseek/deepseek-pro-latest",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -22601,8 +22601,8 @@
     "providerId": "openrouter",
     "name": "Pareto Latest",
     "modelId": "~unbiased/pareto-latest",
-    "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "contextWindow": 262144,
+    "maxOutputTokens": 4096,
     "modalities": [
       "text",
       "code",
@@ -22612,7 +22612,7 @@
     "verified": true,
     "freeTier": true,
     "noCreditCard": true,
-    "score": 100,
+    "score": 99,
     "releasedAt": "2026-10-14",
     "lastVerifiedAt": "2026-10-14T11:11:56.168Z"
   },
@@ -22917,7 +22917,7 @@
     "name": "Reflection: Beam 1.0 501B A23B",
     "modelId": "reflection/beam-1.0-501b-a23b",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code"
@@ -23364,7 +23364,7 @@
     "name": "Particle AI: Particle-1",
     "modelId": "particle-ai/particle-1",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -24209,7 +24209,7 @@
     "name": "Particle AI: Particle-1 (free)",
     "modelId": "particle-ai/particle-1:free",
     "contextWindow": 1048576,
-    "maxOutputTokens": 131072,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -24677,5 +24677,44 @@
     "score": 100,
     "releasedAt": "2026-11-25",
     "lastVerifiedAt": "2026-11-25T16:47:54.555Z"
+  },
+  {
+    "id": "openrouter/inclusionai/lingsante-3.1-air-vl",
+    "providerId": "openrouter",
+    "name": "inclusionAI: LingSante 3.1 Air VL",
+    "modelId": "inclusionai/lingsante-3.1-air-vl",
+    "contextWindow": 131072,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code",
+      "image"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 99,
+    "releasedAt": "2026-11-26",
+    "lastVerifiedAt": "2026-11-26T16:23:59.460Z"
+  },
+  {
+    "id": "openrouter/tngtech/deepseek-r1t2-chimera",
+    "providerId": "openrouter",
+    "name": "TNG: DeepSeek R1T2 Chimera",
+    "modelId": "tngtech/deepseek-r1t2-chimera",
+    "contextWindow": 131072,
+    "maxOutputTokens": 32768,
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "status": "online",
+    "verified": true,
+    "freeTier": true,
+    "noCreditCard": true,
+    "score": 96,
+    "releasedAt": "2026-11-26",
+    "lastVerifiedAt": "2026-11-26T16:23:59.468Z"
   }
 ]
