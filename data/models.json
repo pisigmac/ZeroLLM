@@ -12776,7 +12776,7 @@
     "name": "Qwen: Qwen3.5-9B",
     "modelId": "qwen/qwen3.5-9b",
     "contextWindow": 262144,
-    "maxOutputTokens": 235929,
+    "maxOutputTokens": 40960,
     "modalities": [
       "text",
       "code",
@@ -15375,7 +15375,7 @@
     "name": "DeepSeek: R1 0528",
     "modelId": "deepseek/deepseek-r1-0528",
     "contextWindow": 163840,
-    "maxOutputTokens": 32000,
+    "maxOutputTokens": 147456,
     "modalities": [
       "text",
       "code"
@@ -15846,7 +15846,7 @@
     "name": "Google: Gemma 3 4B",
     "modelId": "google/gemma-3-4b-it",
     "contextWindow": 131072,
-    "maxOutputTokens": 16384,
+    "maxOutputTokens": 117964,
     "modalities": [
       "text",
       "code",
@@ -19290,7 +19290,7 @@
     "name": "Qwen: Qwen3.8 2.4T A95B",
     "modelId": "qwen/qwen3.8-2.4t-a95b",
     "contextWindow": 1000000,
-    "maxOutputTokens": 65536,
+    "maxOutputTokens": 900000,
     "modalities": [
       "text",
       "code"
@@ -20907,7 +20907,7 @@
     "name": "DeepSeek: DeepSeek V4.1 Flash",
     "modelId": "deepseek/deepseek-v4.1-flash",
     "contextWindow": 1048576,
-    "maxOutputTokens": 393216,
+    "maxOutputTokens": 943718,
     "modalities": [
       "text",
       "code",
@@ -22780,7 +22780,7 @@
     "name": "NVIDIA: Nemotron 3.5 Super VL",
     "modelId": "nvidia/nemotron-3.5-super-vl",
     "contextWindow": 1048576,
-    "maxOutputTokens": 943718,
+    "maxOutputTokens": 131072,
     "modalities": [
       "text",
       "code",
